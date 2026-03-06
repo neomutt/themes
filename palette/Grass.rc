@@ -1,0 +1,88 @@
+# Grass – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Grass
+#
+# Base palette
+# bg:  #13773d
+# fg:  #fff0a5
+# grey:#959595
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color229 color29
+color error color203 color29
+color message color19 color29
+color indicator color29 color178
+color tree color246 color29
+
+########################################
+# Status Bar
+########################################
+
+color status color229 color246
+
+########################################
+# Index View
+########################################
+
+color index color229 color29
+color index_number color246 color29
+color index_author color19 color29
+color index_subject color229 color29
+color index_date color178 color29
+color index_flags color203 color29
+
+color index color203 color29 "~D"
+color index color178 color29 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color229 color29
+color header color19 color29 "^From:"
+color header color19 color29 "^To:"
+color header color178 color29 "^Subject:"
+color header color178 color29 "^Date:"
+color header color87 color29 "^Reply-To:"
+color header color87 color29 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color229 color29 ".*"
+color quoted0 color34 color29
+color quoted1 color87 color29
+color signature color246 color29
+color body color19 color29 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color29 color178
+
+########################################
+# Compose
+########################################
+
+color compose_header color19 color29
+color compose_security_encrypt color203 color29
+color compose_security_sign color34 color29
+color compose_security_both color87 color29
+
+########################################
+# Diff / Patch
+########################################
+
+color body color29 color34 "^\\+.*"
+color body color29 color203 "^-.*"
+color body color29 color178 "^@@.*"
+
+# vim: ft=neomuttrc

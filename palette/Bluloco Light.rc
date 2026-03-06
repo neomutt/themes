@@ -1,0 +1,88 @@
+# Bluloco Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Bluloco Light
+#
+# Base palette
+# bg:  #f9f9f9
+# fg:  #373a41
+# grey:#676a77
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color237 color15
+color error color161 color15
+color message color26 color15
+color indicator color15 color179
+color tree color242 color15
+
+########################################
+# Status Bar
+########################################
+
+color status color237 color242
+
+########################################
+# Index View
+########################################
+
+color index color237 color15
+color index_number color242 color15
+color index_author color26 color15
+color index_subject color237 color15
+color index_date color166 color15
+color index_flags color204 color15
+
+color index color161 color15 "~D"
+color index color179 color15 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color237 color15
+color header color26 color15 "^From:"
+color header color26 color15 "^To:"
+color header color166 color15 "^Subject:"
+color header color166 color15 "^Date:"
+color header color67 color15 "^Reply-To:"
+color header color67 color15 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color237 color15 ".*"
+color quoted0 color71 color15
+color quoted1 color67 color15
+color signature color242 color15
+color body color32 color15 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color15 color166
+
+########################################
+# Compose
+########################################
+
+color compose_header color26 color15
+color compose_security_encrypt color204 color15
+color compose_security_sign color71 color15
+color compose_security_both color67 color15
+
+########################################
+# Diff / Patch
+########################################
+
+color body color15 color71 "^\\+.*"
+color body color15 color161 "^-.*"
+color body color15 color166 "^@@.*"
+
+# vim: ft=neomuttrc

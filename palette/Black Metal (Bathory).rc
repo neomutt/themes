@@ -1,0 +1,88 @@
+# Black Metal (Bathory) – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Black Metal (Bathory)
+#
+# Base palette
+# bg:  #000000
+# fg:  #c1c1c1
+# grey:#404040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color7 color0
+color error color66 color0
+color message color102 color0
+color indicator color0 color173
+color tree color238 color0
+
+########################################
+# Status Bar
+########################################
+
+color status color7 color238
+
+########################################
+# Index View
+########################################
+
+color index color7 color0
+color index_number color238 color0
+color index_author color102 color0
+color index_subject color7 color0
+color index_date color173 color0
+color index_flags color66 color0
+
+color index color66 color0 "~D"
+color index color173 color0 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color7 color0
+color header color102 color0 "^From:"
+color header color102 color0 "^To:"
+color header color173 color0 "^Subject:"
+color header color173 color0 "^Date:"
+color header color248 color0 "^Reply-To:"
+color header color248 color0 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color7 color0 ".*"
+color quoted0 color222 color0
+color quoted1 color248 color0
+color signature color238 color0
+color body color102 color0 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color0 color173
+
+########################################
+# Compose
+########################################
+
+color compose_header color102 color0
+color compose_security_encrypt color66 color0
+color compose_security_sign color222 color0
+color compose_security_both color248 color0
+
+########################################
+# Diff / Patch
+########################################
+
+color body color0 color222 "^\\+.*"
+color body color0 color66 "^-.*"
+color body color0 color173 "^@@.*"
+
+# vim: ft=neomuttrc

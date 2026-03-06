@@ -1,0 +1,88 @@
+# Kanagawa Dragon – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawa Dragon
+#
+# Base palette
+# bg:  #181616
+# fg:  #c5c9c5
+# grey:#a6a69c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color251 color233
+color error color173 color233
+color message color109 color233
+color indicator color233 color180
+color tree color247 color233
+
+########################################
+# Status Bar
+########################################
+
+color status color251 color247
+
+########################################
+# Index View
+########################################
+
+color index color251 color233
+color index_number color247 color233
+color index_author color109 color233
+color index_subject color251 color233
+color index_date color180 color233
+color index_flags color168 color233
+
+color index color173 color233 "~D"
+color index color180 color233 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color251 color233
+color header color109 color233 "^From:"
+color header color109 color233 "^To:"
+color header color180 color233 "^Subject:"
+color header color180 color233 "^Date:"
+color header color109 color233 "^Reply-To:"
+color header color109 color233 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color251 color233 ".*"
+color quoted0 color108 color233
+color quoted1 color109 color233
+color signature color247 color233
+color body color110 color233 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color233 color180
+
+########################################
+# Compose
+########################################
+
+color compose_header color109 color233
+color compose_security_encrypt color168 color233
+color compose_security_sign color108 color233
+color compose_security_both color109 color233
+
+########################################
+# Diff / Patch
+########################################
+
+color body color233 color108 "^\\+.*"
+color body color233 color173 "^-.*"
+color body color233 color180 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# GitLab Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: GitLab Light
+#
+# Base palette
+# bg:  #fafaff
+# fg:  #303030
+# grey:#303030
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color236 color15
+color error color124 color15
+color message color26 color15
+color indicator color15 color130
+color tree color236 color15
+
+########################################
+# Status Bar
+########################################
+
+color status color236 color236
+
+########################################
+# Index View
+########################################
+
+color index color236 color15
+color index_number color236 color15
+color index_author color26 color15
+color index_subject color236 color15
+color index_date color130 color15
+color index_flags color124 color15
+
+color index color124 color15 "~D"
+color index color130 color15 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color236 color15
+color header color26 color15 "^From:"
+color header color26 color15 "^To:"
+color header color130 color15 "^Subject:"
+color header color130 color15 "^Date:"
+color header color6 color15 "^Reply-To:"
+color header color6 color15 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color236 color15 ".*"
+color quoted0 color29 color15
+color quoted1 color6 color15
+color signature color236 color15
+color body color26 color15 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color15 color130
+
+########################################
+# Compose
+########################################
+
+color compose_header color26 color15
+color compose_security_encrypt color124 color15
+color compose_security_sign color29 color15
+color compose_security_both color6 color15
+
+########################################
+# Diff / Patch
+########################################
+
+color body color15 color29 "^\\+.*"
+color body color15 color124 "^-.*"
+color body color15 color130 "^@@.*"
+
+# vim: ft=neomuttrc

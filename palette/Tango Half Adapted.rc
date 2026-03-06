@@ -1,0 +1,88 @@
+# Tango Half Adapted – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tango Half Adapted
+#
+# Base palette
+# bg:  #ffffff
+# fg:  #000000
+# grey:#797d76
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color0 color15
+color error color9 color15
+color message color33 color15
+color indicator color15 color184
+color tree color243 color15
+
+########################################
+# Status Bar
+########################################
+
+color status color0 color243
+
+########################################
+# Index View
+########################################
+
+color index color0 color15
+color index_number color243 color15
+color index_author color33 color15
+color index_subject color0 color15
+color index_date color178 color15
+color index_flags color9 color15
+
+color index color9 color15 "~D"
+color index color184 color15 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color0 color15
+color header color33 color15 "^From:"
+color header color33 color15 "^To:"
+color header color178 color15 "^Subject:"
+color header color178 color15 "^Date:"
+color header color44 color15 "^Reply-To:"
+color header color44 color15 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color0 color15 ".*"
+color quoted0 color76 color15
+color quoted1 color44 color15
+color signature color243 color15
+color body color111 color15 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color15 color178
+
+########################################
+# Compose
+########################################
+
+color compose_header color33 color15
+color compose_security_encrypt color9 color15
+color compose_security_sign color76 color15
+color compose_security_both color44 color15
+
+########################################
+# Diff / Patch
+########################################
+
+color body color15 color76 "^\\+.*"
+color body color15 color9 "^-.*"
+color body color15 color178 "^@@.*"
+
+# vim: ft=neomuttrc

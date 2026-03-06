@@ -1,0 +1,88 @@
+# IRIX Terminal – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: IRIX Terminal
+#
+# Base palette
+# bg:  #000043
+# fg:  #f2f2f2
+# grey:#ffff44
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color255 color17
+color error color9 color17
+color message color12 color17
+color indicator color17 color227
+color tree color227 color17
+
+########################################
+# Status Bar
+########################################
+
+color status color255 color227
+
+########################################
+# Index View
+########################################
+
+color index color255 color17
+color index_number color227 color17
+color index_author color12 color17
+color index_subject color255 color17
+color index_date color227 color17
+color index_flags color227 color17
+
+color index color9 color17 "~D"
+color index color227 color17 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color255 color17
+color header color12 color17 "^From:"
+color header color12 color17 "^To:"
+color header color227 color17 "^Subject:"
+color header color227 color17 "^Date:"
+color header color227 color17 "^Reply-To:"
+color header color227 color17 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color255 color17 ".*"
+color quoted0 color227 color17
+color quoted1 color227 color17
+color signature color227 color17
+color body color227 color17 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color17 color227
+
+########################################
+# Compose
+########################################
+
+color compose_header color12 color17
+color compose_security_encrypt color227 color17
+color compose_security_sign color227 color17
+color compose_security_both color227 color17
+
+########################################
+# Diff / Patch
+########################################
+
+color body color17 color227 "^\\+.*"
+color body color17 color9 "^-.*"
+color body color17 color227 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# ENCOM – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: ENCOM
+#
+# Base palette
+# bg:  #000000
+# fg:  #00a595
+# grey:#555555
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color36 color0
+color error color124 color0
+color message color33 color0
+color indicator color0 color11
+color tree color240 color0
+
+########################################
+# Status Bar
+########################################
+
+color status color36 color240
+
+########################################
+# Index View
+########################################
+
+color index color36 color0
+color index_number color240 color0
+color index_author color33 color0
+color index_subject color36 color0
+color index_date color220 color0
+color index_flags color9 color0
+
+color index color124 color0 "~D"
+color index color11 color0 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color36 color0
+color header color33 color0 "^From:"
+color header color33 color0 "^To:"
+color header color220 color0 "^Subject:"
+color header color220 color0 "^Date:"
+color header color44 color0 "^Reply-To:"
+color header color44 color0 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color36 color0 ".*"
+color quoted0 color10 color0
+color quoted1 color44 color0
+color signature color240 color0
+color body color12 color0 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color0 color220
+
+########################################
+# Compose
+########################################
+
+color compose_header color33 color0
+color compose_security_encrypt color9 color0
+color compose_security_sign color10 color0
+color compose_security_both color44 color0
+
+########################################
+# Diff / Patch
+########################################
+
+color body color0 color10 "^\\+.*"
+color body color0 color124 "^-.*"
+color body color0 color220 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Cyberdyne – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Cyberdyne
+#
+# Base palette
+# bg:  #151144
+# fg:  #00ff92
+# grey:#484848
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color48 color17
+color error color209 color17
+color message color26 color17
+color indicator color17 color230
+color tree color238 color17
+
+########################################
+# Status Bar
+########################################
+
+color status color48 color238
+
+########################################
+# Index View
+########################################
+
+color index color48 color17
+color index_number color238 color17
+color index_author color26 color17
+color index_subject color48 color17
+color index_date color178 color17
+color index_flags color223 color17
+
+color index color209 color17 "~D"
+color index color230 color17 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color48 color17
+color header color26 color17 "^From:"
+color header color26 color17 "^To:"
+color header color178 color17 "^Subject:"
+color header color178 color17 "^Date:"
+color header color255 color17 "^Reply-To:"
+color header color255 color17 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color48 color17 ".*"
+color quoted0 color193 color17
+color quoted1 color255 color17
+color signature color238 color17
+color body color153 color17 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color17 color178
+
+########################################
+# Compose
+########################################
+
+color compose_header color26 color17
+color compose_security_encrypt color223 color17
+color compose_security_sign color193 color17
+color compose_security_both color255 color17
+
+########################################
+# Diff / Patch
+########################################
+
+color body color17 color193 "^\\+.*"
+color body color17 color209 "^-.*"
+color body color17 color178 "^@@.*"
+
+# vim: ft=neomuttrc

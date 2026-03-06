@@ -1,0 +1,88 @@
+# The Hulk – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: The Hulk
+#
+# Base palette
+# bg:  #1b1d1e
+# fg:  #b5b5b5
+# grey:#505354
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color249 color234
+color error color34 color234
+color message color12 color234
+color indicator color234 color82
+color tree color239 color234
+
+########################################
+# Status Bar
+########################################
+
+color status color249 color239
+
+########################################
+# Index View
+########################################
+
+color index color249 color234
+color index_number color239 color234
+color index_author color12 color234
+color index_subject color249 color234
+color index_date color77 color234
+color index_flags color118 color234
+
+color index color34 color234 "~D"
+color index color82 color234 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color249 color234
+color header color12 color234 "^From:"
+color header color12 color234 "^To:"
+color header color77 color234 "^Subject:"
+color header color77 color234 "^Date:"
+color header color67 color234 "^Reply-To:"
+color header color67 color234 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color249 color234 ".*"
+color quoted0 color84 color234
+color quoted1 color67 color234
+color signature color239 color234
+color body color60 color234 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color234 color77
+
+########################################
+# Compose
+########################################
+
+color compose_header color12 color234
+color compose_security_encrypt color118 color234
+color compose_security_sign color84 color234
+color compose_security_both color67 color234
+
+########################################
+# Diff / Patch
+########################################
+
+color body color234 color84 "^\\+.*"
+color body color234 color34 "^-.*"
+color body color234 color77 "^@@.*"
+
+# vim: ft=neomuttrc

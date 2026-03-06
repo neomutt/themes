@@ -1,0 +1,88 @@
+# Fairyfloss – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Fairyfloss
+#
+# Base palette
+# bg:  #5a5475
+# fg:  #f8f8f2
+# grey:#6090cb
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color255 color60
+color error color197 color60
+color message color158 color60
+color indicator color60 color220
+color tree color68 color60
+
+########################################
+# Status Bar
+########################################
+
+color status color255 color68
+
+########################################
+# Index View
+########################################
+
+color index color255 color60
+color index_number color68 color60
+color index_author color158 color60
+color index_subject color255 color60
+color index_date color178 color60
+color index_flags color210 color60
+
+color index color197 color60 "~D"
+color index color220 color60 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color255 color60
+color header color158 color60 "^From:"
+color header color158 color60 "^To:"
+color header color178 color60 "^Subject:"
+color header color178 color60 "^Date:"
+color header color183 color60 "^Reply-To:"
+color header color183 color60 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color255 color60 ".*"
+color quoted0 color158 color60
+color quoted1 color183 color60
+color signature color68 color60
+color body color158 color60 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color60 color178
+
+########################################
+# Compose
+########################################
+
+color compose_header color158 color60
+color compose_security_encrypt color210 color60
+color compose_security_sign color158 color60
+color compose_security_both color183 color60
+
+########################################
+# Diff / Patch
+########################################
+
+color body color60 color158 "^\\+.*"
+color body color60 color197 "^-.*"
+color body color60 color178 "^@@.*"
+
+# vim: ft=neomuttrc

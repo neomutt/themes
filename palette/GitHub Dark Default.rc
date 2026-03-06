@@ -1,0 +1,88 @@
+# GitHub Dark Default – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: GitHub Dark Default
+#
+# Base palette
+# bg:  #0d1117
+# fg:  #e6edf3
+# grey:#6e7681
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color255 color233
+color error color209 color233
+color message color75 color233
+color indicator color233 color179
+color tree color243 color233
+
+########################################
+# Status Bar
+########################################
+
+color status color255 color243
+
+########################################
+# Index View
+########################################
+
+color index color255 color233
+color index_number color243 color233
+color index_author color75 color233
+color index_subject color255 color233
+color index_date color172 color233
+color index_flags color216 color233
+
+color index color209 color233 "~D"
+color index color179 color233 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color255 color233
+color header color75 color233 "^From:"
+color header color75 color233 "^To:"
+color header color172 color233 "^Subject:"
+color header color172 color233 "^Date:"
+color header color80 color233 "^Reply-To:"
+color header color80 color233 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color255 color233 ".*"
+color quoted0 color77 color233
+color quoted1 color80 color233
+color signature color243 color233
+color body color111 color233 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color233 color172
+
+########################################
+# Compose
+########################################
+
+color compose_header color75 color233
+color compose_security_encrypt color216 color233
+color compose_security_sign color77 color233
+color compose_security_both color80 color233
+
+########################################
+# Diff / Patch
+########################################
+
+color body color233 color77 "^\\+.*"
+color body color233 color209 "^-.*"
+color body color233 color172 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Catppuccin Frappe – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Catppuccin Frappe
+#
+# Base palette
+# bg:  #303446
+# fg:  #c6d0f5
+# grey:#626880
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color189 color237
+color error color174 color237
+color message color111 color237
+color indicator color237 color179
+color tree color60 color237
+
+########################################
+# Status Bar
+########################################
+
+color status color189 color60
+
+########################################
+# Index View
+########################################
+
+color index color189 color237
+color index_number color60 color237
+color index_author color111 color237
+color index_subject color189 color237
+color index_date color186 color237
+color index_flags color167 color237
+
+color index color174 color237 "~D"
+color index color179 color237 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color189 color237
+color header color111 color237 "^From:"
+color header color111 color237 "^To:"
+color header color186 color237 "^Subject:"
+color header color186 color237 "^Date:"
+color header color73 color237 "^Reply-To:"
+color header color73 color237 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color189 color237 ".*"
+color quoted0 color113 color237
+color quoted1 color73 color237
+color signature color60 color237
+color body color111 color237 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color237 color186
+
+########################################
+# Compose
+########################################
+
+color compose_header color111 color237
+color compose_security_encrypt color167 color237
+color compose_security_sign color113 color237
+color compose_security_both color73 color237
+
+########################################
+# Diff / Patch
+########################################
+
+color body color237 color113 "^\\+.*"
+color body color237 color174 "^-.*"
+color body color237 color186 "^@@.*"
+
+# vim: ft=neomuttrc

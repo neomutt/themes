@@ -1,0 +1,88 @@
+# No Clown Fiesta – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: No Clown Fiesta
+#
+# Base palette
+# bg:  #101010
+# fg:  #e0e1e4
+# grey:#727272
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color254 color233
+color error color131 color233
+color message color153 color233
+color indicator color233 color216
+color tree color243 color233
+
+########################################
+# Status Bar
+########################################
+
+color status color254 color243
+
+########################################
+# Index View
+########################################
+
+color index color254 color233
+color index_number color243 color233
+color index_author color153 color233
+color index_subject color254 color233
+color index_date color216 color233
+color index_flags color103 color233
+
+color index color131 color233 "~D"
+color index color216 color233 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color254 color233
+color header color153 color233 "^From:"
+color header color153 color233 "^To:"
+color header color216 color233 "^Subject:"
+color header color216 color233 "^Date:"
+color header color109 color233 "^Reply-To:"
+color header color109 color233 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color254 color233 ".*"
+color quoted0 color107 color233
+color quoted1 color109 color233
+color signature color243 color233
+color body color153 color233 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color233 color216
+
+########################################
+# Compose
+########################################
+
+color compose_header color153 color233
+color compose_security_encrypt color103 color233
+color compose_security_sign color107 color233
+color compose_security_both color109 color233
+
+########################################
+# Diff / Patch
+########################################
+
+color body color233 color107 "^\\+.*"
+color body color233 color131 "^-.*"
+color body color233 color216 "^@@.*"
+
+# vim: ft=neomuttrc

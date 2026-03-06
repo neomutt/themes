@@ -1,0 +1,88 @@
+# Django Reborn Again – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Django Reborn Again
+#
+# Base palette
+# bg:  #051f14
+# fg:  #dadedc
+# grey:#4c4c4c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color253 color233
+color error color202 color233
+color message color237 color233
+color indicator color233 color228
+color tree color239 color233
+
+########################################
+# Status Bar
+########################################
+
+color status color253 color239
+
+########################################
+# Index View
+########################################
+
+color index color253 color233
+color index_number color239 color233
+color index_author color237 color233
+color index_subject color253 color233
+color index_date color221 color233
+color index_flags color209 color233
+
+color index color202 color233 "~D"
+color index color228 color233 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color253 color233
+color header color237 color233 "^From:"
+color header color237 color233 "^To:"
+color header color221 color233 "^Subject:"
+color header color221 color233 "^Date:"
+color header color194 color233 "^Reply-To:"
+color header color194 color233 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color253 color233 ".*"
+color quoted0 color77 color233
+color quoted1 color194 color233
+color signature color239 color233
+color body color65 color233 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color233 color221
+
+########################################
+# Compose
+########################################
+
+color compose_header color237 color233
+color compose_security_encrypt color209 color233
+color compose_security_sign color77 color233
+color compose_security_both color194 color233
+
+########################################
+# Diff / Patch
+########################################
+
+color body color233 color77 "^\\+.*"
+color body color233 color202 "^-.*"
+color body color233 color221 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Crayon Pony Fish – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Crayon Pony Fish
+#
+# Base palette
+# bg:  #150707
+# fg:  #68525a
+# grey:#4a383b
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color59 color232
+color error color88 color232
+color message color103 color232
+color indicator color232 color166
+color tree color237 color232
+
+########################################
+# Status Bar
+########################################
+
+color status color59 color237
+
+########################################
+# Index View
+########################################
+
+color index color59 color232
+color index_number color237 color232
+color index_author color103 color232
+color index_subject color59 color232
+color index_date color130 color232
+color index_flags color161 color232
+
+color index color88 color232 "~D"
+color index color166 color232 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color59 color232
+color header color103 color232 "^From:"
+color header color103 color232 "^To:"
+color header color130 color232 "^Subject:"
+color header color130 color232 "^Date:"
+color header color223 color232 "^Reply-To:"
+color header color223 color232 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color59 color232 ".*"
+color quoted0 color119 color232
+color quoted1 color223 color232
+color signature color237 color232
+color body color189 color232 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color232 color130
+
+########################################
+# Compose
+########################################
+
+color compose_header color103 color232
+color compose_security_encrypt color161 color232
+color compose_security_sign color119 color232
+color compose_security_both color223 color232
+
+########################################
+# Diff / Patch
+########################################
+
+color body color232 color119 "^\\+.*"
+color body color232 color88 "^-.*"
+color body color232 color130 "^@@.*"
+
+# vim: ft=neomuttrc

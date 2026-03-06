@@ -1,0 +1,88 @@
+# Synthwave Everything – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Synthwave Everything
+#
+# Base palette
+# bg:  #2a2139
+# fg:  #f0eff1
+# grey:#fefefe
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color255 color236
+color error color209 color236
+color message color67 color236
+color indicator color236 color227
+color tree color15 color236
+
+########################################
+# Status Bar
+########################################
+
+color status color255 color15
+
+########################################
+# Index View
+########################################
+
+color index color255 color236
+color index_number color15 color236
+color index_author color67 color236
+color index_subject color255 color236
+color index_date color221 color236
+color index_flags color208 color236
+
+color index color209 color236 "~D"
+color index color227 color236 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color255 color236
+color header color67 color236 "^From:"
+color header color67 color236 "^To:"
+color header color221 color236 "^Subject:"
+color header color221 color236 "^Date:"
+color header color199 color236 "^Reply-To:"
+color header color199 color236 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color255 color236 ".*"
+color quoted0 color85 color236
+color quoted1 color199 color236
+color signature color15 color236
+color body color87 color236 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color236 color221
+
+########################################
+# Compose
+########################################
+
+color compose_header color67 color236
+color compose_security_encrypt color208 color236
+color compose_security_sign color85 color236
+color compose_security_both color199 color236
+
+########################################
+# Diff / Patch
+########################################
+
+color body color236 color85 "^\\+.*"
+color body color236 color209 "^-.*"
+color body color236 color221 "^@@.*"
+
+# vim: ft=neomuttrc

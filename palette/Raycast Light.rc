@@ -1,0 +1,88 @@
+# Raycast Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Raycast Light
+#
+# Base palette
+# bg:  #ffffff
+# fg:  #000000
+# grey:#000000
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color0 color15
+color error color124 color15
+color message color33 color15
+color indicator color15 color214
+color tree color0 color15
+
+########################################
+# Status Bar
+########################################
+
+color status color0 color0
+
+########################################
+# Index View
+########################################
+
+color index color0 color15
+color index_number color0 color15
+color index_author color33 color15
+color index_subject color0 color15
+color index_date color214 color15
+color index_flags color124 color15
+
+color index color124 color15 "~D"
+color index color214 color15 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color0 color15
+color header color33 color15 "^From:"
+color header color33 color15 "^To:"
+color header color214 color15 "^Subject:"
+color header color214 color15 "^Date:"
+color header color73 color15 "^Reply-To:"
+color header color73 color15 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color0 color15 ".*"
+color quoted0 color23 color15
+color quoted1 color73 color15
+color signature color0 color15
+color body color33 color15 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color15 color214
+
+########################################
+# Compose
+########################################
+
+color compose_header color33 color15
+color compose_security_encrypt color124 color15
+color compose_security_sign color23 color15
+color compose_security_both color73 color15
+
+########################################
+# Diff / Patch
+########################################
+
+color body color15 color23 "^\\+.*"
+color body color15 color124 "^-.*"
+color body color15 color214 "^@@.*"
+
+# vim: ft=neomuttrc

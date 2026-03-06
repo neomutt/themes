@@ -1,0 +1,88 @@
+# Toy Chest – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Toy Chest
+#
+# Base palette
+# bg:  #24364b
+# fg:  #31d07b
+# grey:#336889
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color78 color237
+color error color124 color237
+color message color60 color237
+color indicator color237 color185
+color tree color60 color237
+
+########################################
+# Status Bar
+########################################
+
+color status color78 color60
+
+########################################
+# Index View
+########################################
+
+color index color78 color237
+color index_number color60 color237
+color index_author color60 color237
+color index_subject color78 color237
+color index_date color172 color237
+color index_flags color167 color237
+
+color index color124 color237 "~D"
+color index color185 color237 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color78 color237
+color header color60 color237 "^From:"
+color header color60 color237 "^To:"
+color header color172 color237 "^Subject:"
+color header color172 color237 "^Date:"
+color header color73 color237 "^Reply-To:"
+color header color73 color237 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color78 color237 ".*"
+color quoted0 color78 color237
+color quoted1 color73 color237
+color signature color60 color237
+color body color74 color237 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color237 color172
+
+########################################
+# Compose
+########################################
+
+color compose_header color60 color237
+color compose_security_encrypt color167 color237
+color compose_security_sign color78 color237
+color compose_security_both color73 color237
+
+########################################
+# Diff / Patch
+########################################
+
+color body color237 color78 "^\\+.*"
+color body color237 color124 "^-.*"
+color body color237 color172 "^@@.*"
+
+# vim: ft=neomuttrc

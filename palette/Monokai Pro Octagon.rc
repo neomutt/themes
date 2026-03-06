@@ -1,0 +1,88 @@
+# Monokai Pro Octagon – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Monokai Pro Octagon
+#
+# Base palette
+# bg:  #282a3a
+# fg:  #eaf2f1
+# grey:#696d77
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color255 color236
+color error color204 color236
+color message color209 color236
+color indicator color236 color221
+color tree color242 color236
+
+########################################
+# Status Bar
+########################################
+
+color status color255 color242
+
+########################################
+# Index View
+########################################
+
+color index color255 color236
+color index_number color242 color236
+color index_author color209 color236
+color index_subject color255 color236
+color index_date color221 color236
+color index_flags color204 color236
+
+color index color204 color236 "~D"
+color index color221 color236 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color255 color236
+color header color209 color236 "^From:"
+color header color209 color236 "^To:"
+color header color221 color236 "^Subject:"
+color header color221 color236 "^Date:"
+color header color151 color236 "^Reply-To:"
+color header color151 color236 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color255 color236 ".*"
+color quoted0 color149 color236
+color quoted1 color151 color236
+color signature color242 color236
+color body color209 color236 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color236 color221
+
+########################################
+# Compose
+########################################
+
+color compose_header color209 color236
+color compose_security_encrypt color204 color236
+color compose_security_sign color149 color236
+color compose_security_both color151 color236
+
+########################################
+# Diff / Patch
+########################################
+
+color body color236 color149 "^\\+.*"
+color body color236 color204 "^-.*"
+color body color236 color221 "^@@.*"
+
+# vim: ft=neomuttrc

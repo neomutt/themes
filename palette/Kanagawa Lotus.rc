@@ -1,0 +1,88 @@
+# Kanagawa Lotus – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawa Lotus
+#
+# Base palette
+# bg:  #f2ecbc
+# fg:  #545464
+# grey:#8a8980
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color240 color229
+color error color167 color229
+color message color60 color229
+color indicator color229 color95
+color tree color102 color229
+
+########################################
+# Status Bar
+########################################
+
+color status color240 color102
+
+########################################
+# Index View
+########################################
+
+color index color240 color229
+color index_number color102 color229
+color index_author color60 color229
+color index_subject color240 color229
+color index_date color95 color229
+color index_flags color167 color229
+
+color index color167 color229 "~D"
+color index color95 color229 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color240 color229
+color header color60 color229 "^From:"
+color header color60 color229 "^To:"
+color header color95 color229 "^Subject:"
+color header color95 color229 "^Date:"
+color header color66 color229 "^Reply-To:"
+color header color66 color229 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color240 color229 ".*"
+color quoted0 color65 color229
+color quoted1 color66 color229
+color signature color102 color229
+color body color67 color229 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color229 color95
+
+########################################
+# Compose
+########################################
+
+color compose_header color60 color229
+color compose_security_encrypt color167 color229
+color compose_security_sign color65 color229
+color compose_security_both color66 color229
+
+########################################
+# Diff / Patch
+########################################
+
+color body color229 color65 "^\\+.*"
+color body color229 color167 "^-.*"
+color body color229 color95 "^@@.*"
+
+# vim: ft=neomuttrc

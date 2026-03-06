@@ -1,0 +1,88 @@
+# Tomorrow Night – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tomorrow Night
+#
+# Base palette
+# bg:  #1d1f21
+# fg:  #c5c8c6
+# grey:#4c4c4c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color251 color234
+color error color167 color234
+color message color109 color234
+color indicator color234 color222
+color tree color239 color234
+
+########################################
+# Status Bar
+########################################
+
+color status color251 color239
+
+########################################
+# Index View
+########################################
+
+color index color251 color234
+color index_number color239 color234
+color index_author color109 color234
+color index_subject color251 color234
+color index_date color222 color234
+color index_flags color167 color234
+
+color index color167 color234 "~D"
+color index color222 color234 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color251 color234
+color header color109 color234 "^From:"
+color header color109 color234 "^To:"
+color header color222 color234 "^Subject:"
+color header color222 color234 "^Date:"
+color header color109 color234 "^Reply-To:"
+color header color109 color234 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color251 color234 ".*"
+color quoted0 color143 color234
+color quoted1 color109 color234
+color signature color239 color234
+color body color109 color234 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color234 color222
+
+########################################
+# Compose
+########################################
+
+color compose_header color109 color234
+color compose_security_encrypt color167 color234
+color compose_security_sign color143 color234
+color compose_security_both color109 color234
+
+########################################
+# Diff / Patch
+########################################
+
+color body color234 color143 "^\\+.*"
+color body color234 color167 "^-.*"
+color body color234 color222 "^@@.*"
+
+# vim: ft=neomuttrc

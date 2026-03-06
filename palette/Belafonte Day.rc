@@ -1,0 +1,88 @@
+# Belafonte Day – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Belafonte Day
+#
+# Base palette
+# bg:  #d5ccba
+# fg:  #45373c
+# grey:#5e5252
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color237 color187
+color error color124 color187
+color message color60 color187
+color indicator color187 color173
+color tree color240 color187
+
+########################################
+# Status Bar
+########################################
+
+color status color237 color240
+
+########################################
+# Index View
+########################################
+
+color index color237 color187
+color index_number color240 color187
+color index_author color60 color187
+color index_subject color237 color187
+color index_date color173 color187
+color index_flags color124 color187
+
+color index color124 color187 "~D"
+color index color173 color187 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color237 color187
+color header color60 color187 "^From:"
+color header color60 color187 "^To:"
+color header color173 color187 "^Subject:"
+color header color173 color187 "^Date:"
+color header color247 color187 "^Reply-To:"
+color header color247 color187 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color237 color187 ".*"
+color quoted0 color101 color187
+color quoted1 color247 color187
+color signature color240 color187
+color body color60 color187 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color187 color173
+
+########################################
+# Compose
+########################################
+
+color compose_header color60 color187
+color compose_security_encrypt color124 color187
+color compose_security_sign color101 color187
+color compose_security_both color247 color187
+
+########################################
+# Diff / Patch
+########################################
+
+color body color187 color101 "^\\+.*"
+color body color187 color124 "^-.*"
+color body color187 color173 "^@@.*"
+
+# vim: ft=neomuttrc

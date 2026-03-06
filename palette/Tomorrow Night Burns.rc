@@ -1,0 +1,88 @@
+# Tomorrow Night Burns – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tomorrow Night Burns
+#
+# Base palette
+# bg:  #151515
+# fg:  #a1b0b8
+# grey:#5d6f71
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color145 color233
+color error color89 color233
+color message color203 color233
+color indicator color233 color167
+color tree color242 color233
+
+########################################
+# Status Bar
+########################################
+
+color status color145 color242
+
+########################################
+# Index View
+########################################
+
+color index color145 color233
+color index_number color242 color233
+color index_author color203 color233
+color index_subject color145 color233
+color index_date color167 color233
+color index_flags color89 color233
+
+color index color89 color233 "~D"
+color index color167 color233 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color145 color233
+color header color203 color233 "^From:"
+color header color203 color233 "^To:"
+color header color167 color233 "^Subject:"
+color header color167 color233 "^Date:"
+color header color138 color233 "^Reply-To:"
+color header color138 color233 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color145 color233 ".*"
+color quoted0 color131 color233
+color quoted1 color138 color233
+color signature color242 color233
+color body color203 color233 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color233 color167
+
+########################################
+# Compose
+########################################
+
+color compose_header color203 color233
+color compose_security_encrypt color89 color233
+color compose_security_sign color131 color233
+color compose_security_both color138 color233
+
+########################################
+# Diff / Patch
+########################################
+
+color body color233 color131 "^\\+.*"
+color body color233 color89 "^-.*"
+color body color233 color167 "^@@.*"
+
+# vim: ft=neomuttrc

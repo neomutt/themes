@@ -1,0 +1,88 @@
+# Spacegray Eighties – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Spacegray Eighties
+#
+# Base palette
+# bg:  #222222
+# fg:  #bdbaae
+# grey:#555555
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color249 color235
+color error color203 color235
+color message color67 color235
+color indicator color235 color221
+color tree color240 color235
+
+########################################
+# Status Bar
+########################################
+
+color status color249 color240
+
+########################################
+# Index View
+########################################
+
+color index color249 color235
+color index_number color240 color235
+color index_author color67 color235
+color index_subject color249 color235
+color index_date color215 color235
+color index_flags color203 color235
+
+color index color203 color235 "~D"
+color index color221 color235 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color249 color235
+color header color67 color235 "^From:"
+color header color67 color235 "^To:"
+color header color215 color235 "^Subject:"
+color header color215 color235 "^Date:"
+color header color116 color235 "^Reply-To:"
+color header color116 color235 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color249 color235 ".*"
+color quoted0 color114 color235
+color quoted1 color116 color235
+color signature color240 color235
+color body color68 color235 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color235 color215
+
+########################################
+# Compose
+########################################
+
+color compose_header color67 color235
+color compose_security_encrypt color203 color235
+color compose_security_sign color114 color235
+color compose_security_both color116 color235
+
+########################################
+# Diff / Patch
+########################################
+
+color body color235 color114 "^\\+.*"
+color body color235 color203 "^-.*"
+color body color235 color215 "^@@.*"
+
+# vim: ft=neomuttrc

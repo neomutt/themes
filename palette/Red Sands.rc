@@ -1,0 +1,88 @@
+# Red Sands – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Red Sands
+#
+# Base palette
+# bg:  #7a251e
+# fg:  #d7c9a7
+# grey:#6e6e6e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color187 color1
+color error color202 color1
+color message color27 color1
+color indicator color1 color178
+color tree color242 color1
+
+########################################
+# Status Bar
+########################################
+
+color status color187 color242
+
+########################################
+# Index View
+########################################
+
+color index color187 color1
+color index_number color242 color1
+color index_author color27 color1
+color index_subject color187 color1
+color index_date color178 color1
+color index_flags color160 color1
+
+color index color202 color1 "~D"
+color index color178 color1 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color187 color1
+color header color27 color1 "^From:"
+color header color27 color1 "^To:"
+color header color178 color1 "^Subject:"
+color header color178 color1 "^Date:"
+color header color87 color1 "^Reply-To:"
+color header color87 color1 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color187 color1 ".*"
+color quoted0 color34 color1
+color quoted1 color87 color1
+color signature color242 color1
+color body color25 color1 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color1 color178
+
+########################################
+# Compose
+########################################
+
+color compose_header color27 color1
+color compose_security_encrypt color160 color1
+color compose_security_sign color34 color1
+color compose_security_both color87 color1
+
+########################################
+# Diff / Patch
+########################################
+
+color body color1 color34 "^\\+.*"
+color body color1 color202 "^-.*"
+color body color1 color178 "^@@.*"
+
+# vim: ft=neomuttrc

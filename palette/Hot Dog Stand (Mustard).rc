@@ -1,0 +1,88 @@
+# Hot Dog Stand (Mustard) – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Hot Dog Stand (Mustard)
+#
+# Base palette
+# bg:  #ffff54
+# fg:  #000000
+# grey:#000000
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color0 color227
+color error color166 color227
+color message color0 color227
+color indicator color227 color166
+color tree color0 color227
+
+########################################
+# Status Bar
+########################################
+
+color status color0 color0
+
+########################################
+# Index View
+########################################
+
+color index color0 color227
+color index_number color0 color227
+color index_author color0 color227
+color index_subject color0 color227
+color index_date color166 color227
+color index_flags color166 color227
+
+color index color166 color227 "~D"
+color index color166 color227 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color0 color227
+color header color0 color227 "^From:"
+color header color0 color227 "^To:"
+color header color166 color227 "^Subject:"
+color header color166 color227 "^Date:"
+color header color0 color227 "^Reply-To:"
+color header color0 color227 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color0 color227 ".*"
+color quoted0 color166 color227
+color quoted1 color0 color227
+color signature color0 color227
+color body color0 color227 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color227 color166
+
+########################################
+# Compose
+########################################
+
+color compose_header color0 color227
+color compose_security_encrypt color166 color227
+color compose_security_sign color166 color227
+color compose_security_both color0 color227
+
+########################################
+# Diff / Patch
+########################################
+
+color body color227 color166 "^\\+.*"
+color body color227 color166 "^-.*"
+color body color227 color166 "^@@.*"
+
+# vim: ft=neomuttrc

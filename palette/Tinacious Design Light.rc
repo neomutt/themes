@@ -1,0 +1,88 @@
+# Tinacious Design Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tinacious Design Light
+#
+# Base palette
+# bg:  #f8f8ff
+# fg:  #1d1d26
+# grey:#636667
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color234 color15
+color error color204 color15
+color message color45 color15
+color indicator color15 color179
+color tree color241 color15
+
+########################################
+# Status Bar
+########################################
+
+color status color234 color241
+
+########################################
+# Index View
+########################################
+
+color index color234 color15
+color index_number color241 color15
+color index_author color45 color15
+color index_subject color234 color15
+color index_date color179 color15
+color index_flags color198 color15
+
+color index color204 color15 "~D"
+color index color179 color15 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color234 color15
+color header color45 color15 "^From:"
+color header color45 color15 "^To:"
+color header color179 color15 "^Subject:"
+color header color179 color15 "^Date:"
+color header color44 color15 "^Reply-To:"
+color header color44 color15 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color234 color15 ".*"
+color quoted0 color41 color15
+color quoted1 color44 color15
+color signature color241 color15
+color body color45 color15 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color15 color179
+
+########################################
+# Compose
+########################################
+
+color compose_header color45 color15
+color compose_security_encrypt color198 color15
+color compose_security_sign color41 color15
+color compose_security_both color44 color15
+
+########################################
+# Diff / Patch
+########################################
+
+color body color15 color41 "^\\+.*"
+color body color15 color204 "^-.*"
+color body color15 color179 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Royal – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Royal
+#
+# Base palette
+# bg:  #100815
+# fg:  #514968
+# grey:#3e3a4a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color240 color233
+color error color89 color233
+color message color67 color233
+color indicator color233 color221
+color tree color238 color233
+
+########################################
+# Status Bar
+########################################
+
+color status color240 color238
+
+########################################
+# Index View
+########################################
+
+color index color240 color233
+color index_number color238 color233
+color index_author color67 color233
+color index_subject color240 color233
+color index_date color142 color233
+color index_flags color167 color233
+
+color index color89 color233 "~D"
+color index color221 color233 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color240 color233
+color header color67 color233 "^From:"
+color header color67 color233 "^To:"
+color header color142 color233 "^Subject:"
+color header color142 color233 "^Date:"
+color header color152 color233 "^Reply-To:"
+color header color152 color233 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color240 color233 ".*"
+color quoted0 color41 color233
+color quoted1 color152 color233
+color signature color238 color233
+color body color111 color233 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color233 color142
+
+########################################
+# Compose
+########################################
+
+color compose_header color67 color233
+color compose_security_encrypt color167 color233
+color compose_security_sign color41 color233
+color compose_security_both color152 color233
+
+########################################
+# Diff / Patch
+########################################
+
+color body color233 color41 "^\\+.*"
+color body color233 color89 "^-.*"
+color body color233 color142 "^@@.*"
+
+# vim: ft=neomuttrc

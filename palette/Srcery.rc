@@ -1,0 +1,88 @@
+# Srcery – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Srcery
+#
+# Base palette
+# bg:  #1c1b19
+# fg:  #fce8c3
+# grey:#918175
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color223 color234
+color error color9 color234
+color message color31 color234
+color indicator color234 color221
+color tree color8 color234
+
+########################################
+# Status Bar
+########################################
+
+color status color223 color8
+
+########################################
+# Index View
+########################################
+
+color index color223 color234
+color index_number color8 color234
+color index_author color31 color234
+color index_subject color223 color234
+color index_date color214 color234
+color index_flags color203 color234
+
+color index color9 color234 "~D"
+color index color221 color234 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color223 color234
+color header color31 color234 "^From:"
+color header color31 color234 "^To:"
+color header color214 color234 "^Subject:"
+color header color214 color234 "^Date:"
+color header color44 color234 "^Reply-To:"
+color header color44 color234 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color223 color234 ".*"
+color quoted0 color107 color234
+color quoted1 color44 color234
+color signature color8 color234
+color body color74 color234 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color234 color214
+
+########################################
+# Compose
+########################################
+
+color compose_header color31 color234
+color compose_security_encrypt color203 color234
+color compose_security_sign color107 color234
+color compose_security_both color44 color234
+
+########################################
+# Diff / Patch
+########################################
+
+color body color234 color107 "^\\+.*"
+color body color234 color9 "^-.*"
+color body color234 color214 "^@@.*"
+
+# vim: ft=neomuttrc

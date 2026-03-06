@@ -1,0 +1,88 @@
+# Kanagawabones – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawabones
+#
+# Base palette
+# bg:  #1f1f28
+# fg:  #ddd8bb
+# grey:#49495e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color187 color235
+color error color168 color235
+color message color110 color235
+color indicator color235 color222
+color tree color239 color235
+
+########################################
+# Status Bar
+########################################
+
+color status color187 color239
+
+########################################
+# Index View
+########################################
+
+color index color187 color235
+color index_number color239 color235
+color index_author color110 color235
+color index_subject color187 color235
+color index_date color180 color235
+color index_flags color210 color235
+
+color index color168 color235 "~D"
+color index color222 color235 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color187 color235
+color header color110 color235 "^From:"
+color header color110 color235 "^To:"
+color header color180 color235 "^Subject:"
+color header color180 color235 "^Date:"
+color header color110 color235 "^Reply-To:"
+color header color110 color235 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color187 color235 ".*"
+color quoted0 color149 color235
+color quoted1 color110 color235
+color signature color239 color235
+color body color110 color235 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color235 color180
+
+########################################
+# Compose
+########################################
+
+color compose_header color110 color235
+color compose_security_encrypt color210 color235
+color compose_security_sign color149 color235
+color compose_security_both color110 color235
+
+########################################
+# Diff / Patch
+########################################
+
+color body color235 color149 "^\\+.*"
+color body color235 color168 "^-.*"
+color body color235 color180 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# HaX0R R3D – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: HaX0R R3D
+#
+# Base palette
+# bg:  #200101
+# fg:  #b10e0e
+# grey:#554040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color124 color232
+color error color124 color232
+color message color124 color232
+color indicator color232 color9
+color tree color238 color232
+
+########################################
+# Status Bar
+########################################
+
+color status color124 color238
+
+########################################
+# Index View
+########################################
+
+color index color124 color232
+color index_number color238 color232
+color index_author color124 color232
+color index_subject color124 color232
+color index_date color124 color232
+color index_flags color9 color232
+
+color index color124 color232 "~D"
+color index color9 color232 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color124 color232
+color header color124 color232 "^From:"
+color header color124 color232 "^To:"
+color header color124 color232 "^Subject:"
+color header color124 color232 "^Date:"
+color header color9 color232 "^Reply-To:"
+color header color9 color232 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color124 color232 ".*"
+color quoted0 color9 color232
+color quoted1 color9 color232
+color signature color238 color232
+color body color9 color232 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color232 color124
+
+########################################
+# Compose
+########################################
+
+color compose_header color124 color232
+color compose_security_encrypt color9 color232
+color compose_security_sign color9 color232
+color compose_security_both color9 color232
+
+########################################
+# Diff / Patch
+########################################
+
+color body color232 color9 "^\\+.*"
+color body color232 color124 "^-.*"
+color body color232 color124 "^@@.*"
+
+# vim: ft=neomuttrc

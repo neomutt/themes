@@ -1,0 +1,88 @@
+# Galaxy – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Galaxy
+#
+# Base palette
+# bg:  #1d2837
+# fg:  #ffffff
+# grey:#555555
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color15 color235
+color error color203 color235
+color message color75 color235
+color indicator color235 color227
+color tree color240 color235
+
+########################################
+# Status Bar
+########################################
+
+color status color15 color240
+
+########################################
+# Index View
+########################################
+
+color index color15 color235
+color index_number color240 color235
+color index_author color75 color235
+color index_subject color15 color235
+color index_date color11 color235
+color index_flags color210 color235
+
+color index color203 color235 "~D"
+color index color227 color235 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color15 color235
+color header color75 color235 "^From:"
+color header color75 color235 "^To:"
+color header color11 color235 "^Subject:"
+color header color11 color235 "^Date:"
+color header color67 color235 "^Reply-To:"
+color header color67 color235 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color15 color235 ".*"
+color quoted0 color72 color235
+color quoted1 color67 color235
+color signature color240 color235
+color body color75 color235 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color235 color11
+
+########################################
+# Compose
+########################################
+
+color compose_header color75 color235
+color compose_security_encrypt color210 color235
+color compose_security_sign color72 color235
+color compose_security_both color67 color235
+
+########################################
+# Diff / Patch
+########################################
+
+color body color235 color72 "^\\+.*"
+color body color235 color203 "^-.*"
+color body color235 color11 "^@@.*"
+
+# vim: ft=neomuttrc

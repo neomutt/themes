@@ -1,0 +1,88 @@
+# Gruvbox Light Hard – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Gruvbox Light Hard
+#
+# Base palette
+# bg:  #f9f5d7
+# fg:  #3c3836
+# grey:#928374
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color237 color230
+color error color160 color230
+color message color66 color230
+color indicator color230 color136
+color tree color8 color230
+
+########################################
+# Status Bar
+########################################
+
+color status color237 color8
+
+########################################
+# Index View
+########################################
+
+color index color237 color230
+color index_number color8 color230
+color index_author color66 color230
+color index_subject color237 color230
+color index_date color172 color230
+color index_flags color124 color230
+
+color index color160 color230 "~D"
+color index color136 color230 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color237 color230
+color header color66 color230 "^From:"
+color header color66 color230 "^To:"
+color header color172 color230 "^Subject:"
+color header color172 color230 "^Date:"
+color header color65 color230 "^Reply-To:"
+color header color65 color230 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color237 color230 ".*"
+color quoted0 color3 color230
+color quoted1 color65 color230
+color signature color8 color230
+color body color24 color230 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color230 color172
+
+########################################
+# Compose
+########################################
+
+color compose_header color66 color230
+color compose_security_encrypt color124 color230
+color compose_security_sign color3 color230
+color compose_security_both color65 color230
+
+########################################
+# Diff / Patch
+########################################
+
+color body color230 color3 "^\\+.*"
+color body color230 color160 "^-.*"
+color body color230 color172 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Atelier Sulphurpool – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Atelier Sulphurpool
+#
+# Base palette
+# bg:  #202746
+# fg:  #979db4
+# grey:#6b7394
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color247 color236
+color error color166 color236
+color message color68 color236
+color indicator color236 color60
+color tree color60 color236
+
+########################################
+# Status Bar
+########################################
+
+color status color247 color60
+
+########################################
+# Index View
+########################################
+
+color index color247 color236
+color index_number color60 color236
+color index_author color68 color236
+color index_subject color247 color236
+color index_date color137 color236
+color index_flags color166 color236
+
+color index color166 color236 "~D"
+color index color60 color236 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color247 color236
+color header color68 color236 "^From:"
+color header color68 color236 "^To:"
+color header color137 color236 "^Subject:"
+color header color137 color236 "^Date:"
+color header color132 color236 "^Reply-To:"
+color header color132 color236 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color247 color236 ".*"
+color quoted0 color60 color236
+color quoted1 color132 color236
+color signature color60 color236
+color body color103 color236 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color236 color137
+
+########################################
+# Compose
+########################################
+
+color compose_header color68 color236
+color compose_security_encrypt color166 color236
+color compose_security_sign color60 color236
+color compose_security_both color132 color236
+
+########################################
+# Diff / Patch
+########################################
+
+color body color236 color60 "^\\+.*"
+color body color236 color166 "^-.*"
+color body color236 color137 "^@@.*"
+
+# vim: ft=neomuttrc

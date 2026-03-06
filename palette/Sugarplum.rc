@@ -1,0 +1,88 @@
+# Sugarplum – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Sugarplum
+#
+# Base palette
+# bg:  #111147
+# fg:  #db7ddd
+# grey:#44447a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal color176 color17
+color error color74 color17
+color message color176 color17
+color indicator color17 color50
+color tree color60 color17
+
+########################################
+# Status Bar
+########################################
+
+color status color176 color60
+
+########################################
+# Index View
+########################################
+
+color index color176 color17
+color index_number color60 color17
+color index_author color176 color17
+color index_subject color176 color17
+color index_date color30 color17
+color index_flags color74 color17
+
+color index color74 color17 "~D"
+color index color50 color17 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault color176 color17
+color header color176 color17 "^From:"
+color header color176 color17 "^To:"
+color header color30 color17 "^Subject:"
+color header color30 color17 "^Date:"
+color header color15 color17 "^Reply-To:"
+color header color15 color17 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body color176 color17 ".*"
+color quoted0 color79 color17
+color quoted1 color15 color17
+color signature color60 color17
+color body color207 color17 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search color17 color30
+
+########################################
+# Compose
+########################################
+
+color compose_header color176 color17
+color compose_security_encrypt color74 color17
+color compose_security_sign color79 color17
+color compose_security_both color15 color17
+
+########################################
+# Diff / Patch
+########################################
+
+color body color17 color79 "^\\+.*"
+color body color17 color74 "^-.*"
+color body color17 color30 "^@@.*"
+
+# vim: ft=neomuttrc
