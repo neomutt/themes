@@ -8,8 +8,6 @@
 # fg:  #cacecd
 # grey:#3f3f3f
 
-set color_directcolor = yes
-
 ########################################
 # Global Defaults
 ########################################

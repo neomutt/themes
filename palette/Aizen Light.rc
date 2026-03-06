@@ -8,8 +8,6 @@
 # fg:  #4a4d66
 # grey:#adb2bc
 
-set color_directcolor = yes
-
 ########################################
 # Global Defaults
 ########################################

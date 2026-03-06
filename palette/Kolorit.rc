@@ -8,8 +8,6 @@
 # fg:  #efecec
 # grey:#504d51
 
-set color_directcolor = yes
-
 ########################################
 # Global Defaults
 ########################################

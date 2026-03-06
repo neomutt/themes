@@ -8,8 +8,6 @@
 # fg:  #d7c9a7
 # grey:#6e6e6e
 
-set color_directcolor = yes
-
 ########################################
 # Global Defaults
 ########################################

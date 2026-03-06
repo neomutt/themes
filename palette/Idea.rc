@@ -8,8 +8,6 @@
 # fg:  #adadad
 # grey:#ffffff
 
-set color_directcolor = yes
-
 ########################################
 # Global Defaults
 ########################################

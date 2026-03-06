@@ -8,8 +8,6 @@
 # fg:  #bababa
 # grey:#4c4c4c
 
-set color_directcolor = yes
-
 ########################################
 # Global Defaults
 ########################################
