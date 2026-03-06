@@ -1,0 +1,88 @@
+# Iceberg Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Iceberg Light
+#
+# Base palette
+# bg:  #e8e9ec
+# fg:  #33374c
+# grey:#8389a3
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #33374c #e8e9ec
+color error         #cc517a #e8e9ec
+color message       #2d539e #e8e9ec
+color indicator     #e8e9ec #b6662d
+color tree          #8389a3 #e8e9ec
+
+########################################
+# Status Bar
+########################################
+
+color status        #33374c #8389a3
+
+########################################
+# Index View
+########################################
+
+color index         #33374c #e8e9ec
+color index_number  #8389a3 #e8e9ec
+color index_author  #2d539e #e8e9ec
+color index_subject #33374c #e8e9ec
+color index_date    #c57339 #e8e9ec
+color index_flags   #cc3768 #e8e9ec
+
+color index #cc517a #e8e9ec "~D"
+color index #b6662d #e8e9ec "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #33374c #e8e9ec
+color header #2d539e #e8e9ec "^From:"
+color header #2d539e #e8e9ec "^To:"
+color header #c57339 #e8e9ec "^Subject:"
+color header #c57339 #e8e9ec "^Date:"
+color header #327698 #e8e9ec "^Reply-To:"
+color header #327698 #e8e9ec "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #33374c #e8e9ec ".*"
+color quoted0       #598030 #e8e9ec
+color quoted1       #327698 #e8e9ec
+color signature     #8389a3 #e8e9ec
+color body #22478e #e8e9ec "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #e8e9ec #c57339
+
+########################################
+# Compose
+########################################
+
+color compose_header #2d539e #e8e9ec
+color compose_security_encrypt #cc3768 #e8e9ec
+color compose_security_sign #598030 #e8e9ec
+color compose_security_both #327698 #e8e9ec
+
+########################################
+# Diff / Patch
+########################################
+
+color body #e8e9ec #598030 "^\\+.*"
+color body #e8e9ec #cc517a "^-.*"
+color body #e8e9ec #c57339 "^@@.*"
+
+# vim: ft=neomuttrc

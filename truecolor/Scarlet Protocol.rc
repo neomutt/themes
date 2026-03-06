@@ -1,0 +1,88 @@
+# Scarlet Protocol – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Scarlet Protocol
+#
+# Base palette
+# bg:  #1c153d
+# fg:  #e41951
+# grey:#686868
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e41951 #1c153d
+color error         #ff0051 #1c153d
+color message       #0271b6 #1c153d
+color indicator     #1c153d #fffc67
+color tree          #686868 #1c153d
+
+########################################
+# Status Bar
+########################################
+
+color status        #e41951 #686868
+
+########################################
+# Index View
+########################################
+
+color index         #e41951 #1c153d
+color index_number  #686868 #1c153d
+color index_author  #0271b6 #1c153d
+color index_subject #e41951 #1c153d
+color index_date    #faf945 #1c153d
+color index_flags   #ff6e67 #1c153d
+
+color index #ff0051 #1c153d "~D"
+color index #fffc67 #1c153d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e41951 #1c153d
+color header #0271b6 #1c153d "^From:"
+color header #0271b6 #1c153d "^To:"
+color header #faf945 #1c153d "^Subject:"
+color header #faf945 #1c153d "^Date:"
+color header #60fdff #1c153d "^Reply-To:"
+color header #60fdff #1c153d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e41951 #1c153d ".*"
+color quoted0       #5ffa68 #1c153d
+color quoted1       #60fdff #1c153d
+color signature     #686868 #1c153d
+color body #6871ff #1c153d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1c153d #faf945
+
+########################################
+# Compose
+########################################
+
+color compose_header #0271b6 #1c153d
+color compose_security_encrypt #ff6e67 #1c153d
+color compose_security_sign #5ffa68 #1c153d
+color compose_security_both #60fdff #1c153d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1c153d #5ffa68 "^\\+.*"
+color body #1c153d #ff0051 "^-.*"
+color body #1c153d #faf945 "^@@.*"
+
+# vim: ft=neomuttrc

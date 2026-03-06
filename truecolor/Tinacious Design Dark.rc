@@ -1,0 +1,88 @@
+# Tinacious Design Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tinacious Design Dark
+#
+# Base palette
+# bg:  #1d1d26
+# fg:  #cbcbf0
+# grey:#636667
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cbcbf0 #1d1d26
+color error         #ff3399 #1d1d26
+color message       #00cbff #1d1d26
+color indicator     #1d1d26 #ffd479
+color tree          #636667 #1d1d26
+
+########################################
+# Status Bar
+########################################
+
+color status        #cbcbf0 #636667
+
+########################################
+# Index View
+########################################
+
+color index         #cbcbf0 #1d1d26
+color index_number  #636667 #1d1d26
+color index_author  #00cbff #1d1d26
+color index_subject #cbcbf0 #1d1d26
+color index_date    #ffcc66 #1d1d26
+color index_flags   #ff2f92 #1d1d26
+
+color index #ff3399 #1d1d26 "~D"
+color index #ffd479 #1d1d26 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cbcbf0 #1d1d26
+color header #00cbff #1d1d26 "^From:"
+color header #00cbff #1d1d26 "^To:"
+color header #ffcc66 #1d1d26 "^Subject:"
+color header #ffcc66 #1d1d26 "^Date:"
+color header #00d5d4 #1d1d26 "^Reply-To:"
+color header #00d5d4 #1d1d26 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cbcbf0 #1d1d26 ".*"
+color quoted0       #00d364 #1d1d26
+color quoted1       #00d5d4 #1d1d26
+color signature     #636667 #1d1d26
+color body #00cbff #1d1d26 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1d1d26 #ffcc66
+
+########################################
+# Compose
+########################################
+
+color compose_header #00cbff #1d1d26
+color compose_security_encrypt #ff2f92 #1d1d26
+color compose_security_sign #00d364 #1d1d26
+color compose_security_both #00d5d4 #1d1d26
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1d1d26 #00d364 "^\\+.*"
+color body #1d1d26 #ff3399 "^-.*"
+color body #1d1d26 #ffcc66 "^@@.*"
+
+# vim: ft=neomuttrc

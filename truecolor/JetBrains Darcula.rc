@@ -1,0 +1,88 @@
+# JetBrains Darcula – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: JetBrains Darcula
+#
+# Base palette
+# bg:  #202020
+# fg:  #adadad
+# grey:#555555
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #adadad #202020
+color error         #fa5355 #202020
+color message       #4581eb #202020
+color indicator     #202020 #ffff00
+color tree          #555555 #202020
+
+########################################
+# Status Bar
+########################################
+
+color status        #adadad #555555
+
+########################################
+# Index View
+########################################
+
+color index         #adadad #202020
+color index_number  #555555 #202020
+color index_author  #4581eb #202020
+color index_subject #adadad #202020
+color index_date    #c2c300 #202020
+color index_flags   #fb7172 #202020
+
+color index #fa5355 #202020 "~D"
+color index #ffff00 #202020 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #adadad #202020
+color header #4581eb #202020 "^From:"
+color header #4581eb #202020 "^To:"
+color header #c2c300 #202020 "^Subject:"
+color header #c2c300 #202020 "^Date:"
+color header #60d3d1 #202020 "^Reply-To:"
+color header #60d3d1 #202020 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #adadad #202020 ".*"
+color quoted0       #67ff4f #202020
+color quoted1       #60d3d1 #202020
+color signature     #555555 #202020
+color body #6d9df1 #202020 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #202020 #c2c300
+
+########################################
+# Compose
+########################################
+
+color compose_header #4581eb #202020
+color compose_security_encrypt #fb7172 #202020
+color compose_security_sign #67ff4f #202020
+color compose_security_both #60d3d1 #202020
+
+########################################
+# Diff / Patch
+########################################
+
+color body #202020 #67ff4f "^\\+.*"
+color body #202020 #fa5355 "^-.*"
+color body #202020 #c2c300 "^@@.*"
+
+# vim: ft=neomuttrc

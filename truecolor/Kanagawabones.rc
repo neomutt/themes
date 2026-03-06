@@ -1,0 +1,88 @@
+# Kanagawabones – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawabones
+#
+# Base palette
+# bg:  #1f1f28
+# fg:  #ddd8bb
+# grey:#49495e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ddd8bb #1f1f28
+color error         #e46a78 #1f1f28
+color message       #7eb3c9 #1f1f28
+color indicator     #1f1f28 #f1c982
+color tree          #49495e #1f1f28
+
+########################################
+# Status Bar
+########################################
+
+color status        #ddd8bb #49495e
+
+########################################
+# Index View
+########################################
+
+color index         #ddd8bb #1f1f28
+color index_number  #49495e #1f1f28
+color index_author  #7eb3c9 #1f1f28
+color index_subject #ddd8bb #1f1f28
+color index_date    #e5c283 #1f1f28
+color index_flags   #ec818c #1f1f28
+
+color index #e46a78 #1f1f28 "~D"
+color index #f1c982 #1f1f28 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ddd8bb #1f1f28
+color header #7eb3c9 #1f1f28 "^From:"
+color header #7eb3c9 #1f1f28 "^To:"
+color header #e5c283 #1f1f28 "^Subject:"
+color header #e5c283 #1f1f28 "^Date:"
+color header #7bc2df #1f1f28 "^Reply-To:"
+color header #7bc2df #1f1f28 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ddd8bb #1f1f28 ".*"
+color quoted0       #9ec967 #1f1f28
+color quoted1       #7bc2df #1f1f28
+color signature     #49495e #1f1f28
+color body #7bc2df #1f1f28 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1f1f28 #e5c283
+
+########################################
+# Compose
+########################################
+
+color compose_header #7eb3c9 #1f1f28
+color compose_security_encrypt #ec818c #1f1f28
+color compose_security_sign #9ec967 #1f1f28
+color compose_security_both #7bc2df #1f1f28
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1f1f28 #9ec967 "^\\+.*"
+color body #1f1f28 #e46a78 "^-.*"
+color body #1f1f28 #e5c283 "^@@.*"
+
+# vim: ft=neomuttrc

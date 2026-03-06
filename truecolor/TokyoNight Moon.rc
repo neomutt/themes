@@ -1,0 +1,88 @@
+# TokyoNight Moon – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: TokyoNight Moon
+#
+# Base palette
+# bg:  #222436
+# fg:  #c8d3f5
+# grey:#444a73
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c8d3f5 #222436
+color error         #ff757f #222436
+color message       #82aaff #222436
+color indicator     #222436 #ffc777
+color tree          #444a73 #222436
+
+########################################
+# Status Bar
+########################################
+
+color status        #c8d3f5 #444a73
+
+########################################
+# Index View
+########################################
+
+color index         #c8d3f5 #222436
+color index_number  #444a73 #222436
+color index_author  #82aaff #222436
+color index_subject #c8d3f5 #222436
+color index_date    #ffc777 #222436
+color index_flags   #ff757f #222436
+
+color index #ff757f #222436 "~D"
+color index #ffc777 #222436 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c8d3f5 #222436
+color header #82aaff #222436 "^From:"
+color header #82aaff #222436 "^To:"
+color header #ffc777 #222436 "^Subject:"
+color header #ffc777 #222436 "^Date:"
+color header #86e1fc #222436 "^Reply-To:"
+color header #86e1fc #222436 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c8d3f5 #222436 ".*"
+color quoted0       #c3e88d #222436
+color quoted1       #86e1fc #222436
+color signature     #444a73 #222436
+color body #82aaff #222436 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #222436 #ffc777
+
+########################################
+# Compose
+########################################
+
+color compose_header #82aaff #222436
+color compose_security_encrypt #ff757f #222436
+color compose_security_sign #c3e88d #222436
+color compose_security_both #86e1fc #222436
+
+########################################
+# Diff / Patch
+########################################
+
+color body #222436 #c3e88d "^\\+.*"
+color body #222436 #ff757f "^-.*"
+color body #222436 #ffc777 "^@@.*"
+
+# vim: ft=neomuttrc

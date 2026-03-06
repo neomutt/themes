@@ -1,0 +1,88 @@
+# The Hulk – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: The Hulk
+#
+# Base palette
+# bg:  #1b1d1e
+# fg:  #b5b5b5
+# grey:#505354
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #b5b5b5 #1b1d1e
+color error         #269d1b #1b1d1e
+color message       #2525f5 #1b1d1e
+color indicator     #1b1d1e #3afe16
+color tree          #505354 #1b1d1e
+
+########################################
+# Status Bar
+########################################
+
+color status        #b5b5b5 #505354
+
+########################################
+# Index View
+########################################
+
+color index         #b5b5b5 #1b1d1e
+color index_number  #505354 #1b1d1e
+color index_author  #2525f5 #1b1d1e
+color index_subject #b5b5b5 #1b1d1e
+color index_date    #63e457 #1b1d1e
+color index_flags   #8dff2a #1b1d1e
+
+color index #269d1b #1b1d1e "~D"
+color index #3afe16 #1b1d1e "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #b5b5b5 #1b1d1e
+color header #2525f5 #1b1d1e "^From:"
+color header #2525f5 #1b1d1e "^To:"
+color header #63e457 #1b1d1e "^Subject:"
+color header #63e457 #1b1d1e "^Date:"
+color header #4085a6 #1b1d1e "^Reply-To:"
+color header #4085a6 #1b1d1e "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #b5b5b5 #1b1d1e ".*"
+color quoted0       #48ff77 #1b1d1e
+color quoted1       #4085a6 #1b1d1e
+color signature     #505354 #1b1d1e
+color body #506b95 #1b1d1e "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1b1d1e #63e457
+
+########################################
+# Compose
+########################################
+
+color compose_header #2525f5 #1b1d1e
+color compose_security_encrypt #8dff2a #1b1d1e
+color compose_security_sign #48ff77 #1b1d1e
+color compose_security_both #4085a6 #1b1d1e
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1b1d1e #48ff77 "^\\+.*"
+color body #1b1d1e #269d1b "^-.*"
+color body #1b1d1e #63e457 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Night Lion V2 – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Night Lion V2
+#
+# Base palette
+# bg:  #171717
+# fg:  #bbbbbb
+# grey:#555555
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #bbbbbb #171717
+color error         #bb0000 #171717
+color message       #64d0f0 #171717
+color indicator     #171717 #ffff55
+color tree          #555555 #171717
+
+########################################
+# Status Bar
+########################################
+
+color status        #bbbbbb #555555
+
+########################################
+# Index View
+########################################
+
+color index         #bbbbbb #171717
+color index_number  #555555 #171717
+color index_author  #64d0f0 #171717
+color index_subject #bbbbbb #171717
+color index_date    #f3f167 #171717
+color index_flags   #ff5555 #171717
+
+color index #bb0000 #171717 "~D"
+color index #ffff55 #171717 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #bbbbbb #171717
+color header #64d0f0 #171717 "^From:"
+color header #64d0f0 #171717 "^To:"
+color header #f3f167 #171717 "^Subject:"
+color header #f3f167 #171717 "^Date:"
+color header #00ccd8 #171717 "^Reply-To:"
+color header #00ccd8 #171717 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #bbbbbb #171717 ".*"
+color quoted0       #7df71d #171717
+color quoted1       #00ccd8 #171717
+color signature     #555555 #171717
+color body #62cbe8 #171717 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #171717 #f3f167
+
+########################################
+# Compose
+########################################
+
+color compose_header #64d0f0 #171717
+color compose_security_encrypt #ff5555 #171717
+color compose_security_sign #7df71d #171717
+color compose_security_both #00ccd8 #171717
+
+########################################
+# Diff / Patch
+########################################
+
+color body #171717 #7df71d "^\\+.*"
+color body #171717 #bb0000 "^-.*"
+color body #171717 #f3f167 "^@@.*"
+
+# vim: ft=neomuttrc

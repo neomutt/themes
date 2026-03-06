@@ -1,0 +1,88 @@
+# Guezwhoz – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Guezwhoz
+#
+# Base palette
+# bg:  #1d1d1d
+# fg:  #d9d9d9
+# grey:#808080
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d9d9d9 #1d1d1d
+color error         #e85181 #1d1d1d
+color message       #5aa0d6 #1d1d1d
+color indicator     #1d1d1d #d1ed85
+color tree          #808080 #1d1d1d
+
+########################################
+# Status Bar
+########################################
+
+color status        #d9d9d9 #808080
+
+########################################
+# Index View
+########################################
+
+color index         #d9d9d9 #1d1d1d
+color index_number  #808080 #1d1d1d
+color index_author  #5aa0d6 #1d1d1d
+color index_subject #d9d9d9 #1d1d1d
+color index_date    #b7d074 #1d1d1d
+color index_flags   #e85181 #1d1d1d
+
+color index #e85181 #1d1d1d "~D"
+color index #d1ed85 #1d1d1d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d9d9d9 #1d1d1d
+color header #5aa0d6 #1d1d1d "^From:"
+color header #5aa0d6 #1d1d1d "^To:"
+color header #b7d074 #1d1d1d "^Subject:"
+color header #b7d074 #1d1d1d "^Date:"
+color header #61ede4 #1d1d1d "^Reply-To:"
+color header #61ede4 #1d1d1d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d9d9d9 #1d1d1d ".*"
+color quoted0       #afd7af #1d1d1d
+color quoted1       #61ede4 #1d1d1d
+color signature     #808080 #1d1d1d
+color body #64b2ed #1d1d1d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1d1d1d #b7d074
+
+########################################
+# Compose
+########################################
+
+color compose_header #5aa0d6 #1d1d1d
+color compose_security_encrypt #e85181 #1d1d1d
+color compose_security_sign #afd7af #1d1d1d
+color compose_security_both #61ede4 #1d1d1d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1d1d1d #afd7af "^\\+.*"
+color body #1d1d1d #e85181 "^-.*"
+color body #1d1d1d #b7d074 "^@@.*"
+
+# vim: ft=neomuttrc

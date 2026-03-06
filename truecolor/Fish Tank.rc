@@ -1,0 +1,88 @@
+# Fish Tank – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Fish Tank
+#
+# Base palette
+# bg:  #232537
+# fg:  #ecf0fe
+# grey:#6c5b30
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ecf0fe #232537
+color error         #c6004a #232537
+color message       #525fb8 #232537
+color indicator     #232537 #fee6a9
+color tree          #6c5b30 #232537
+
+########################################
+# Status Bar
+########################################
+
+color status        #ecf0fe #6c5b30
+
+########################################
+# Index View
+########################################
+
+color index         #ecf0fe #232537
+color index_number  #6c5b30 #232537
+color index_author  #525fb8 #232537
+color index_subject #ecf0fe #232537
+color index_date    #fecd5e #232537
+color index_flags   #da4b8a #232537
+
+color index #c6004a #232537 "~D"
+color index #fee6a9 #232537 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ecf0fe #232537
+color header #525fb8 #232537 "^From:"
+color header #525fb8 #232537 "^To:"
+color header #fecd5e #232537 "^Subject:"
+color header #fecd5e #232537 "^Date:"
+color header #a5bd86 #232537 "^Reply-To:"
+color header #a5bd86 #232537 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ecf0fe #232537 ".*"
+color quoted0       #dbffa9 #232537
+color quoted1       #a5bd86 #232537
+color signature     #6c5b30 #232537
+color body #b2befa #232537 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #232537 #fecd5e
+
+########################################
+# Compose
+########################################
+
+color compose_header #525fb8 #232537
+color compose_security_encrypt #da4b8a #232537
+color compose_security_sign #dbffa9 #232537
+color compose_security_both #a5bd86 #232537
+
+########################################
+# Diff / Patch
+########################################
+
+color body #232537 #dbffa9 "^\\+.*"
+color body #232537 #c6004a "^-.*"
+color body #232537 #fecd5e "^@@.*"
+
+# vim: ft=neomuttrc

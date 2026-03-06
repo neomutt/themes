@@ -1,0 +1,88 @@
+# Seafoam Pastel – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Seafoam Pastel
+#
+# Base palette
+# bg:  #243435
+# fg:  #d4e7d4
+# grey:#8a8a8a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d4e7d4 #243435
+color error         #825d4d #243435
+color message       #4d7b82 #243435
+color indicator     #243435 #fae79d
+color tree          #8a8a8a #243435
+
+########################################
+# Status Bar
+########################################
+
+color status        #d4e7d4 #8a8a8a
+
+########################################
+# Index View
+########################################
+
+color index         #d4e7d4 #243435
+color index_number  #8a8a8a #243435
+color index_author  #4d7b82 #243435
+color index_subject #d4e7d4 #243435
+color index_date    #ada16d #243435
+color index_flags   #cf937a #243435
+
+color index #825d4d #243435 "~D"
+color index #fae79d #243435 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d4e7d4 #243435
+color header #4d7b82 #243435 "^From:"
+color header #4d7b82 #243435 "^To:"
+color header #ada16d #243435 "^Subject:"
+color header #ada16d #243435 "^Date:"
+color header #ade0e0 #243435 "^Reply-To:"
+color header #ade0e0 #243435 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d4e7d4 #243435 ".*"
+color quoted0       #98d9aa #243435
+color quoted1       #ade0e0 #243435
+color signature     #8a8a8a #243435
+color body #7ac3cf #243435 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #243435 #ada16d
+
+########################################
+# Compose
+########################################
+
+color compose_header #4d7b82 #243435
+color compose_security_encrypt #cf937a #243435
+color compose_security_sign #98d9aa #243435
+color compose_security_both #ade0e0 #243435
+
+########################################
+# Diff / Patch
+########################################
+
+color body #243435 #98d9aa "^\\+.*"
+color body #243435 #825d4d "^-.*"
+color body #243435 #ada16d "^@@.*"
+
+# vim: ft=neomuttrc

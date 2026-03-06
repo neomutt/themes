@@ -1,0 +1,88 @@
+# Django Smooth – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Django Smooth
+#
+# Base palette
+# bg:  #245032
+# fg:  #f8f8f8
+# grey:#727272
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f8f8f8 #245032
+color error         #fd6209 #245032
+color message       #989898 #245032
+color indicator     #245032 #ffff94
+color tree          #727272 #245032
+
+########################################
+# Status Bar
+########################################
+
+color status        #f8f8f8 #727272
+
+########################################
+# Index View
+########################################
+
+color index         #f8f8f8 #245032
+color index_number  #727272 #245032
+color index_author  #989898 #245032
+color index_subject #f8f8f8 #245032
+color index_date    #ffe862 #245032
+color index_flags   #ff943b #245032
+
+color index #fd6209 #245032 "~D"
+color index #ffff94 #245032 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f8f8f8 #245032
+color header #989898 #245032 "^From:"
+color header #989898 #245032 "^To:"
+color header #ffe862 #245032 "^Subject:"
+color header #ffe862 #245032 "^Date:"
+color header #cfffd1 #245032 "^Reply-To:"
+color header #cfffd1 #245032 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f8f8f8 #245032 ".*"
+color quoted0       #73da70 #245032
+color quoted1       #cfffd1 #245032
+color signature     #727272 #245032
+color body #cacaca #245032 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #245032 #ffe862
+
+########################################
+# Compose
+########################################
+
+color compose_header #989898 #245032
+color compose_security_encrypt #ff943b #245032
+color compose_security_sign #73da70 #245032
+color compose_security_both #cfffd1 #245032
+
+########################################
+# Diff / Patch
+########################################
+
+color body #245032 #73da70 "^\\+.*"
+color body #245032 #fd6209 "^-.*"
+color body #245032 #ffe862 "^@@.*"
+
+# vim: ft=neomuttrc

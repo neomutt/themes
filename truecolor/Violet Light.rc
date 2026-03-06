@@ -1,0 +1,88 @@
+# Violet Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Violet Light
+#
+# Base palette
+# bg:  #fcf4dc
+# fg:  #536870
+# grey:#45484b
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #536870 #fcf4dc
+color error         #c94c22 #fcf4dc
+color message       #2e8bce #fcf4dc
+color indicator     #fcf4dc #a57705
+color tree          #45484b #fcf4dc
+
+########################################
+# Status Bar
+########################################
+
+color status        #536870 #45484b
+
+########################################
+# Index View
+########################################
+
+color index         #536870 #fcf4dc
+color index_number  #45484b #fcf4dc
+color index_author  #2e8bce #fcf4dc
+color index_subject #536870 #fcf4dc
+color index_date    #b4881d #fcf4dc
+color index_flags   #bd3613 #fcf4dc
+
+color index #c94c22 #fcf4dc "~D"
+color index #a57705 #fcf4dc "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #536870 #fcf4dc
+color header #2e8bce #fcf4dc "^From:"
+color header #2e8bce #fcf4dc "^To:"
+color header #b4881d #fcf4dc "^Subject:"
+color header #b4881d #fcf4dc "^Date:"
+color header #259286 #fcf4dc "^Reply-To:"
+color header #259286 #fcf4dc "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #536870 #fcf4dc ".*"
+color quoted0       #738a04 #fcf4dc
+color quoted1       #259286 #fcf4dc
+color signature     #45484b #fcf4dc
+color body #2176c7 #fcf4dc "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #fcf4dc #b4881d
+
+########################################
+# Compose
+########################################
+
+color compose_header #2e8bce #fcf4dc
+color compose_security_encrypt #bd3613 #fcf4dc
+color compose_security_sign #738a04 #fcf4dc
+color compose_security_both #259286 #fcf4dc
+
+########################################
+# Diff / Patch
+########################################
+
+color body #fcf4dc #738a04 "^\\+.*"
+color body #fcf4dc #c94c22 "^-.*"
+color body #fcf4dc #b4881d "^@@.*"
+
+# vim: ft=neomuttrc

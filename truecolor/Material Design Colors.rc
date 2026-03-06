@@ -1,0 +1,88 @@
+# Material Design Colors – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Material Design Colors
+#
+# Base palette
+# bg:  #1d262a
+# fg:  #e7ebed
+# grey:#a1b0b8
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e7ebed #1d262a
+color error         #fc3841 #1d262a
+color message       #37b6ff #1d262a
+color indicator     #1d262a #fee16c
+color tree          #a1b0b8 #1d262a
+
+########################################
+# Status Bar
+########################################
+
+color status        #e7ebed #a1b0b8
+
+########################################
+# Index View
+########################################
+
+color index         #e7ebed #1d262a
+color index_number  #a1b0b8 #1d262a
+color index_author  #37b6ff #1d262a
+color index_subject #e7ebed #1d262a
+color index_date    #fed032 #1d262a
+color index_flags   #fc746d #1d262a
+
+color index #fc3841 #1d262a "~D"
+color index #fee16c #1d262a "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e7ebed #1d262a
+color header #37b6ff #1d262a "^From:"
+color header #37b6ff #1d262a "^To:"
+color header #fed032 #1d262a "^Subject:"
+color header #fed032 #1d262a "^Date:"
+color header #9affe6 #1d262a "^Reply-To:"
+color header #9affe6 #1d262a "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e7ebed #1d262a ".*"
+color quoted0       #adf7be #1d262a
+color quoted1       #9affe6 #1d262a
+color signature     #a1b0b8 #1d262a
+color body #70cfff #1d262a "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1d262a #fed032
+
+########################################
+# Compose
+########################################
+
+color compose_header #37b6ff #1d262a
+color compose_security_encrypt #fc746d #1d262a
+color compose_security_sign #adf7be #1d262a
+color compose_security_both #9affe6 #1d262a
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1d262a #adf7be "^\\+.*"
+color body #1d262a #fc3841 "^-.*"
+color body #1d262a #fed032 "^@@.*"
+
+# vim: ft=neomuttrc

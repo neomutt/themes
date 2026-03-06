@@ -1,0 +1,88 @@
+# Kanso Ink – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanso Ink
+#
+# Base palette
+# bg:  #14171d
+# fg:  #c5c9c7
+# grey:#a4a7a4
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c5c9c7 #14171d
+color error         #c4746e #14171d
+color message       #8ba4b0 #14171d
+color indicator     #14171d #e6c384
+color tree          #a4a7a4 #14171d
+
+########################################
+# Status Bar
+########################################
+
+color status        #c5c9c7 #a4a7a4
+
+########################################
+# Index View
+########################################
+
+color index         #c5c9c7 #14171d
+color index_number  #a4a7a4 #14171d
+color index_author  #8ba4b0 #14171d
+color index_subject #c5c9c7 #14171d
+color index_date    #c4b28a #14171d
+color index_flags   #e46876 #14171d
+
+color index #c4746e #14171d "~D"
+color index #e6c384 #14171d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c5c9c7 #14171d
+color header #8ba4b0 #14171d "^From:"
+color header #8ba4b0 #14171d "^To:"
+color header #c4b28a #14171d "^Subject:"
+color header #c4b28a #14171d "^Date:"
+color header #7aa89f #14171d "^Reply-To:"
+color header #7aa89f #14171d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c5c9c7 #14171d ".*"
+color quoted0       #87a987 #14171d
+color quoted1       #7aa89f #14171d
+color signature     #a4a7a4 #14171d
+color body #7fb4ca #14171d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #14171d #c4b28a
+
+########################################
+# Compose
+########################################
+
+color compose_header #8ba4b0 #14171d
+color compose_security_encrypt #e46876 #14171d
+color compose_security_sign #87a987 #14171d
+color compose_security_both #7aa89f #14171d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #14171d #87a987 "^\\+.*"
+color body #14171d #c4746e "^-.*"
+color body #14171d #c4b28a "^@@.*"
+
+# vim: ft=neomuttrc

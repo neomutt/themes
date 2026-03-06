@@ -1,0 +1,88 @@
+# Solarized Darcula – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Solarized Darcula
+#
+# Base palette
+# bg:  #3d3f41
+# fg:  #d2d8d9
+# grey:#65696a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d2d8d9 #3d3f41
+color error         #f24840 #3d3f41
+color message       #2075c7 #3d3f41
+color indicator     #3d3f41 #b68800
+color tree          #65696a #3d3f41
+
+########################################
+# Status Bar
+########################################
+
+color status        #d2d8d9 #65696a
+
+########################################
+# Index View
+########################################
+
+color index         #d2d8d9 #3d3f41
+color index_number  #65696a #3d3f41
+color index_author  #2075c7 #3d3f41
+color index_subject #d2d8d9 #3d3f41
+color index_date    #b68800 #3d3f41
+color index_flags   #f24840 #3d3f41
+
+color index #f24840 #3d3f41 "~D"
+color index #b68800 #3d3f41 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d2d8d9 #3d3f41
+color header #2075c7 #3d3f41 "^From:"
+color header #2075c7 #3d3f41 "^To:"
+color header #b68800 #3d3f41 "^Subject:"
+color header #b68800 #3d3f41 "^Date:"
+color header #15968d #3d3f41 "^Reply-To:"
+color header #15968d #3d3f41 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d2d8d9 #3d3f41 ".*"
+color quoted0       #629655 #3d3f41
+color quoted1       #15968d #3d3f41
+color signature     #65696a #3d3f41
+color body #2075c7 #3d3f41 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #3d3f41 #b68800
+
+########################################
+# Compose
+########################################
+
+color compose_header #2075c7 #3d3f41
+color compose_security_encrypt #f24840 #3d3f41
+color compose_security_sign #629655 #3d3f41
+color compose_security_both #15968d #3d3f41
+
+########################################
+# Diff / Patch
+########################################
+
+color body #3d3f41 #629655 "^\\+.*"
+color body #3d3f41 #f24840 "^-.*"
+color body #3d3f41 #b68800 "^@@.*"
+
+# vim: ft=neomuttrc

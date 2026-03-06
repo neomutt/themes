@@ -1,0 +1,88 @@
+# Selenized Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Selenized Dark
+#
+# Base palette
+# bg:  #103c48
+# fg:  #adbcbc
+# grey:#72898f
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #adbcbc #103c48
+color error         #fa5750 #103c48
+color message       #4695f7 #103c48
+color indicator     #103c48 #ebc13d
+color tree          #72898f #103c48
+
+########################################
+# Status Bar
+########################################
+
+color status        #adbcbc #72898f
+
+########################################
+# Index View
+########################################
+
+color index         #adbcbc #103c48
+color index_number  #72898f #103c48
+color index_author  #4695f7 #103c48
+color index_subject #adbcbc #103c48
+color index_date    #dbb32d #103c48
+color index_flags   #ff665c #103c48
+
+color index #fa5750 #103c48 "~D"
+color index #ebc13d #103c48 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #adbcbc #103c48
+color header #4695f7 #103c48 "^From:"
+color header #4695f7 #103c48 "^To:"
+color header #dbb32d #103c48 "^Subject:"
+color header #dbb32d #103c48 "^Date:"
+color header #53d6c7 #103c48 "^Reply-To:"
+color header #53d6c7 #103c48 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #adbcbc #103c48 ".*"
+color quoted0       #84c747 #103c48
+color quoted1       #53d6c7 #103c48
+color signature     #72898f #103c48
+color body #58a3ff #103c48 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #103c48 #dbb32d
+
+########################################
+# Compose
+########################################
+
+color compose_header #4695f7 #103c48
+color compose_security_encrypt #ff665c #103c48
+color compose_security_sign #84c747 #103c48
+color compose_security_both #53d6c7 #103c48
+
+########################################
+# Diff / Patch
+########################################
+
+color body #103c48 #84c747 "^\\+.*"
+color body #103c48 #fa5750 "^-.*"
+color body #103c48 #dbb32d "^@@.*"
+
+# vim: ft=neomuttrc

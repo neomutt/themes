@@ -1,0 +1,88 @@
+# TokyoNight Storm – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: TokyoNight Storm
+#
+# Base palette
+# bg:  #24283b
+# fg:  #c0caf5
+# grey:#4e5575
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c0caf5 #24283b
+color error         #f7768e #24283b
+color message       #7aa2f7 #24283b
+color indicator     #24283b #e0af68
+color tree          #4e5575 #24283b
+
+########################################
+# Status Bar
+########################################
+
+color status        #c0caf5 #4e5575
+
+########################################
+# Index View
+########################################
+
+color index         #c0caf5 #24283b
+color index_number  #4e5575 #24283b
+color index_author  #7aa2f7 #24283b
+color index_subject #c0caf5 #24283b
+color index_date    #e0af68 #24283b
+color index_flags   #f7768e #24283b
+
+color index #f7768e #24283b "~D"
+color index #e0af68 #24283b "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c0caf5 #24283b
+color header #7aa2f7 #24283b "^From:"
+color header #7aa2f7 #24283b "^To:"
+color header #e0af68 #24283b "^Subject:"
+color header #e0af68 #24283b "^Date:"
+color header #7dcfff #24283b "^Reply-To:"
+color header #7dcfff #24283b "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c0caf5 #24283b ".*"
+color quoted0       #9ece6a #24283b
+color quoted1       #7dcfff #24283b
+color signature     #4e5575 #24283b
+color body #7aa2f7 #24283b "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #24283b #e0af68
+
+########################################
+# Compose
+########################################
+
+color compose_header #7aa2f7 #24283b
+color compose_security_encrypt #f7768e #24283b
+color compose_security_sign #9ece6a #24283b
+color compose_security_both #7dcfff #24283b
+
+########################################
+# Diff / Patch
+########################################
+
+color body #24283b #9ece6a "^\\+.*"
+color body #24283b #f7768e "^-.*"
+color body #24283b #e0af68 "^@@.*"
+
+# vim: ft=neomuttrc

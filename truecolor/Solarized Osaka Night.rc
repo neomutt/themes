@@ -1,0 +1,88 @@
+# Solarized Osaka Night – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Solarized Osaka Night
+#
+# Base palette
+# bg:  #1a1b26
+# fg:  #c0caf5
+# grey:#414868
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c0caf5 #1a1b26
+color error         #f7768e #1a1b26
+color message       #7aa2f7 #1a1b26
+color indicator     #1a1b26 #e0af68
+color tree          #414868 #1a1b26
+
+########################################
+# Status Bar
+########################################
+
+color status        #c0caf5 #414868
+
+########################################
+# Index View
+########################################
+
+color index         #c0caf5 #1a1b26
+color index_number  #414868 #1a1b26
+color index_author  #7aa2f7 #1a1b26
+color index_subject #c0caf5 #1a1b26
+color index_date    #e0af68 #1a1b26
+color index_flags   #f7768e #1a1b26
+
+color index #f7768e #1a1b26 "~D"
+color index #e0af68 #1a1b26 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c0caf5 #1a1b26
+color header #7aa2f7 #1a1b26 "^From:"
+color header #7aa2f7 #1a1b26 "^To:"
+color header #e0af68 #1a1b26 "^Subject:"
+color header #e0af68 #1a1b26 "^Date:"
+color header #7dcfff #1a1b26 "^Reply-To:"
+color header #7dcfff #1a1b26 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c0caf5 #1a1b26 ".*"
+color quoted0       #9ece6a #1a1b26
+color quoted1       #7dcfff #1a1b26
+color signature     #414868 #1a1b26
+color body #7aa2f7 #1a1b26 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1a1b26 #e0af68
+
+########################################
+# Compose
+########################################
+
+color compose_header #7aa2f7 #1a1b26
+color compose_security_encrypt #f7768e #1a1b26
+color compose_security_sign #9ece6a #1a1b26
+color compose_security_both #7dcfff #1a1b26
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1a1b26 #9ece6a "^\\+.*"
+color body #1a1b26 #f7768e "^-.*"
+color body #1a1b26 #e0af68 "^@@.*"
+
+# vim: ft=neomuttrc

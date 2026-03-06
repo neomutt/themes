@@ -1,0 +1,88 @@
+# Konsolas – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Konsolas
+#
+# Base palette
+# bg:  #060606
+# fg:  #c8c1c1
+# grey:#7b716e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c8c1c1 #060606
+color error         #aa1717 #060606
+color message       #2323a5 #060606
+color indicator     #060606 #ffff55
+color tree          #7b716e #060606
+
+########################################
+# Status Bar
+########################################
+
+color status        #c8c1c1 #7b716e
+
+########################################
+# Index View
+########################################
+
+color index         #c8c1c1 #060606
+color index_number  #7b716e #060606
+color index_author  #2323a5 #060606
+color index_subject #c8c1c1 #060606
+color index_date    #ebae1f #060606
+color index_flags   #ff4141 #060606
+
+color index #aa1717 #060606 "~D"
+color index #ffff55 #060606 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c8c1c1 #060606
+color header #2323a5 #060606 "^From:"
+color header #2323a5 #060606 "^To:"
+color header #ebae1f #060606 "^Subject:"
+color header #ebae1f #060606 "^Date:"
+color header #69ffff #060606 "^Reply-To:"
+color header #69ffff #060606 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c8c1c1 #060606 ".*"
+color quoted0       #5fff5f #060606
+color quoted1       #69ffff #060606
+color signature     #7b716e #060606
+color body #4b4bff #060606 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #060606 #ebae1f
+
+########################################
+# Compose
+########################################
+
+color compose_header #2323a5 #060606
+color compose_security_encrypt #ff4141 #060606
+color compose_security_sign #5fff5f #060606
+color compose_security_both #69ffff #060606
+
+########################################
+# Diff / Patch
+########################################
+
+color body #060606 #5fff5f "^\\+.*"
+color body #060606 #aa1717 "^-.*"
+color body #060606 #ebae1f "^@@.*"
+
+# vim: ft=neomuttrc

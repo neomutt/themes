@@ -1,0 +1,88 @@
+# Everforest Light Med – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Everforest Light Med
+#
+# Base palette
+# bg:  #efebd4
+# fg:  #5c6a72
+# grey:#a6b0a0
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #5c6a72 #efebd4
+color error         #e67e80 #efebd4
+color message       #7fbbb3 #efebd4
+color indicator     #efebd4 #dfa000
+color tree          #a6b0a0 #efebd4
+
+########################################
+# Status Bar
+########################################
+
+color status        #5c6a72 #a6b0a0
+
+########################################
+# Index View
+########################################
+
+color index         #5c6a72 #efebd4
+color index_number  #a6b0a0 #efebd4
+color index_author  #7fbbb3 #efebd4
+color index_subject #5c6a72 #efebd4
+color index_date    #c1a266 #efebd4
+color index_flags   #f85552 #efebd4
+
+color index #e67e80 #efebd4 "~D"
+color index #dfa000 #efebd4 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #5c6a72 #efebd4
+color header #7fbbb3 #efebd4 "^From:"
+color header #7fbbb3 #efebd4 "^To:"
+color header #c1a266 #efebd4 "^Subject:"
+color header #c1a266 #efebd4 "^Date:"
+color header #35a77c #efebd4 "^Reply-To:"
+color header #35a77c #efebd4 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #5c6a72 #efebd4 ".*"
+color quoted0       #8da101 #efebd4
+color quoted1       #35a77c #efebd4
+color signature     #a6b0a0 #efebd4
+color body #3a94c5 #efebd4 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #efebd4 #c1a266
+
+########################################
+# Compose
+########################################
+
+color compose_header #7fbbb3 #efebd4
+color compose_security_encrypt #f85552 #efebd4
+color compose_security_sign #8da101 #efebd4
+color compose_security_both #35a77c #efebd4
+
+########################################
+# Diff / Patch
+########################################
+
+color body #efebd4 #8da101 "^\\+.*"
+color body #efebd4 #e67e80 "^-.*"
+color body #efebd4 #c1a266 "^@@.*"
+
+# vim: ft=neomuttrc

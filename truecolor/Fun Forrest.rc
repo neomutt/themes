@@ -1,0 +1,88 @@
+# Fun Forrest – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Fun Forrest
+#
+# Base palette
+# bg:  #251200
+# fg:  #dec165
+# grey:#7f6a55
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #dec165 #251200
+color error         #d6262b #251200
+color message       #4699a3 #251200
+color indicator     #251200 #ffcb1b
+color tree          #7f6a55 #251200
+
+########################################
+# Status Bar
+########################################
+
+color status        #dec165 #7f6a55
+
+########################################
+# Index View
+########################################
+
+color index         #dec165 #251200
+color index_number  #7f6a55 #251200
+color index_author  #4699a3 #251200
+color index_subject #dec165 #251200
+color index_date    #be8a13 #251200
+color index_flags   #e55a1c #251200
+
+color index #d6262b #251200 "~D"
+color index #ffcb1b #251200 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #dec165 #251200
+color header #4699a3 #251200 "^From:"
+color header #4699a3 #251200 "^To:"
+color header #be8a13 #251200 "^Subject:"
+color header #be8a13 #251200 "^Date:"
+color header #e6a96b #251200 "^Reply-To:"
+color header #e6a96b #251200 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #dec165 #251200 ".*"
+color quoted0       #bfc65a #251200
+color quoted1       #e6a96b #251200
+color signature     #7f6a55 #251200
+color body #7cc9cf #251200 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #251200 #be8a13
+
+########################################
+# Compose
+########################################
+
+color compose_header #4699a3 #251200
+color compose_security_encrypt #e55a1c #251200
+color compose_security_sign #bfc65a #251200
+color compose_security_both #e6a96b #251200
+
+########################################
+# Diff / Patch
+########################################
+
+color body #251200 #bfc65a "^\\+.*"
+color body #251200 #d6262b "^-.*"
+color body #251200 #be8a13 "^@@.*"
+
+# vim: ft=neomuttrc

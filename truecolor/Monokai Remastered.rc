@@ -1,0 +1,88 @@
+# Monokai Remastered – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Monokai Remastered
+#
+# Base palette
+# bg:  #0c0c0c
+# fg:  #d9d9d9
+# grey:#625e4c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d9d9d9 #0c0c0c
+color error         #f4005f #0c0c0c
+color message       #9d65ff #0c0c0c
+color indicator     #0c0c0c #e0d561
+color tree          #625e4c #0c0c0c
+
+########################################
+# Status Bar
+########################################
+
+color status        #d9d9d9 #625e4c
+
+########################################
+# Index View
+########################################
+
+color index         #d9d9d9 #0c0c0c
+color index_number  #625e4c #0c0c0c
+color index_author  #9d65ff #0c0c0c
+color index_subject #d9d9d9 #0c0c0c
+color index_date    #fd971f #0c0c0c
+color index_flags   #f4005f #0c0c0c
+
+color index #f4005f #0c0c0c "~D"
+color index #e0d561 #0c0c0c "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d9d9d9 #0c0c0c
+color header #9d65ff #0c0c0c "^From:"
+color header #9d65ff #0c0c0c "^To:"
+color header #fd971f #0c0c0c "^Subject:"
+color header #fd971f #0c0c0c "^Date:"
+color header #58d1eb #0c0c0c "^Reply-To:"
+color header #58d1eb #0c0c0c "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d9d9d9 #0c0c0c ".*"
+color quoted0       #98e024 #0c0c0c
+color quoted1       #58d1eb #0c0c0c
+color signature     #625e4c #0c0c0c
+color body #9d65ff #0c0c0c "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0c0c0c #fd971f
+
+########################################
+# Compose
+########################################
+
+color compose_header #9d65ff #0c0c0c
+color compose_security_encrypt #f4005f #0c0c0c
+color compose_security_sign #98e024 #0c0c0c
+color compose_security_both #58d1eb #0c0c0c
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0c0c0c #98e024 "^\\+.*"
+color body #0c0c0c #f4005f "^-.*"
+color body #0c0c0c #fd971f "^@@.*"
+
+# vim: ft=neomuttrc

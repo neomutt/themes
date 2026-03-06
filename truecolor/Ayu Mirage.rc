@@ -1,0 +1,88 @@
+# Ayu Mirage – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Ayu Mirage
+#
+# Base palette
+# bg:  #1f2430
+# fg:  #cccac2
+# grey:#686868
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cccac2 #1f2430
+color error         #ed8274 #1f2430
+color message       #6dcbfa #1f2430
+color indicator     #1f2430 #ffd173
+color tree          #686868 #1f2430
+
+########################################
+# Status Bar
+########################################
+
+color status        #cccac2 #686868
+
+########################################
+# Index View
+########################################
+
+color index         #cccac2 #1f2430
+color index_number  #686868 #1f2430
+color index_author  #6dcbfa #1f2430
+color index_subject #cccac2 #1f2430
+color index_date    #facc6e #1f2430
+color index_flags   #f28779 #1f2430
+
+color index #ed8274 #1f2430 "~D"
+color index #ffd173 #1f2430 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cccac2 #1f2430
+color header #6dcbfa #1f2430 "^From:"
+color header #6dcbfa #1f2430 "^To:"
+color header #facc6e #1f2430 "^Subject:"
+color header #facc6e #1f2430 "^Date:"
+color header #95e6cb #1f2430 "^Reply-To:"
+color header #95e6cb #1f2430 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cccac2 #1f2430 ".*"
+color quoted0       #d5ff80 #1f2430
+color quoted1       #95e6cb #1f2430
+color signature     #686868 #1f2430
+color body #73d0ff #1f2430 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1f2430 #facc6e
+
+########################################
+# Compose
+########################################
+
+color compose_header #6dcbfa #1f2430
+color compose_security_encrypt #f28779 #1f2430
+color compose_security_sign #d5ff80 #1f2430
+color compose_security_both #95e6cb #1f2430
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1f2430 #d5ff80 "^\\+.*"
+color body #1f2430 #ed8274 "^-.*"
+color body #1f2430 #facc6e "^@@.*"
+
+# vim: ft=neomuttrc

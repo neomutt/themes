@@ -1,0 +1,88 @@
+# Squirrelsong Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Squirrelsong Dark
+#
+# Base palette
+# bg:  #372920
+# fg:  #b19b89
+# grey:#704f39
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #b19b89 #372920
+color error         #ba4138 #372920
+color message       #4395c6 #372920
+color indicator     #372920 #e8c23f
+color tree          #704f39 #372920
+
+########################################
+# Status Bar
+########################################
+
+color status        #b19b89 #704f39
+
+########################################
+# Index View
+########################################
+
+color index         #b19b89 #372920
+color index_number  #704f39 #372920
+color index_author  #4395c6 #372920
+color index_subject #b19b89 #372920
+color index_date    #d4b139 #372920
+color index_flags   #df4d43 #372920
+
+color index #ba4138 #372920 "~D"
+color index #e8c23f #372920 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #b19b89 #372920
+color header #4395c6 #372920 "^From:"
+color header #4395c6 #372920 "^To:"
+color header #d4b139 #372920 "^Subject:"
+color header #d4b139 #372920 "^Date:"
+color header #60aca9 #372920 "^Reply-To:"
+color header #60aca9 #372920 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #b19b89 #372920 ".*"
+color quoted0       #659a4c #372920
+color quoted1       #60aca9 #372920
+color signature     #704f39 #372920
+color body #4ca4db #372920 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #372920 #d4b139
+
+########################################
+# Compose
+########################################
+
+color compose_header #4395c6 #372920
+color compose_security_encrypt #df4d43 #372920
+color compose_security_sign #659a4c #372920
+color compose_security_both #60aca9 #372920
+
+########################################
+# Diff / Patch
+########################################
+
+color body #372920 #659a4c "^\\+.*"
+color body #372920 #ba4138 "^-.*"
+color body #372920 #d4b139 "^@@.*"
+
+# vim: ft=neomuttrc

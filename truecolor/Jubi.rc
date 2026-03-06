@@ -1,0 +1,88 @@
+# Jubi – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Jubi
+#
+# Base palette
+# bg:  #262b33
+# fg:  #c3d3de
+# grey:#a874ce
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c3d3de #262b33
+color error         #cf7b98 #262b33
+color message       #576ea6 #262b33
+color indicator     #262b33 #87e9ea
+color tree          #a874ce #262b33
+
+########################################
+# Status Bar
+########################################
+
+color status        #c3d3de #a874ce
+
+########################################
+# Index View
+########################################
+
+color index         #c3d3de #262b33
+color index_number  #a874ce #262b33
+color index_author  #576ea6 #262b33
+color index_subject #c3d3de #262b33
+color index_date    #6ebfc0 #262b33
+color index_flags   #de90ab #262b33
+
+color index #cf7b98 #262b33 "~D"
+color index #87e9ea #262b33 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c3d3de #262b33
+color header #576ea6 #262b33 "^From:"
+color header #576ea6 #262b33 "^To:"
+color header #6ebfc0 #262b33 "^Subject:"
+color header #6ebfc0 #262b33 "^Date:"
+color header #b7c9ef #262b33 "^Reply-To:"
+color header #b7c9ef #262b33 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c3d3de #262b33 ".*"
+color quoted0       #bcdd61 #262b33
+color quoted1       #b7c9ef #262b33
+color signature     #a874ce #262b33
+color body #8c9fcd #262b33 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #262b33 #6ebfc0
+
+########################################
+# Compose
+########################################
+
+color compose_header #576ea6 #262b33
+color compose_security_encrypt #de90ab #262b33
+color compose_security_sign #bcdd61 #262b33
+color compose_security_both #b7c9ef #262b33
+
+########################################
+# Diff / Patch
+########################################
+
+color body #262b33 #bcdd61 "^\\+.*"
+color body #262b33 #cf7b98 "^-.*"
+color body #262b33 #6ebfc0 "^@@.*"
+
+# vim: ft=neomuttrc

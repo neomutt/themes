@@ -1,0 +1,88 @@
+# HaX0R R3D – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: HaX0R R3D
+#
+# Base palette
+# bg:  #200101
+# fg:  #b10e0e
+# grey:#554040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #b10e0e #200101
+color error         #b00d0d #200101
+color message       #b00d0d #200101
+color indicator     #200101 #ff1010
+color tree          #554040 #200101
+
+########################################
+# Status Bar
+########################################
+
+color status        #b10e0e #554040
+
+########################################
+# Index View
+########################################
+
+color index         #b10e0e #200101
+color index_number  #554040 #200101
+color index_author  #b00d0d #200101
+color index_subject #b10e0e #200101
+color index_date    #b00d0d #200101
+color index_flags   #ff1111 #200101
+
+color index #b00d0d #200101 "~D"
+color index #ff1010 #200101 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #b10e0e #200101
+color header #b00d0d #200101 "^From:"
+color header #b00d0d #200101 "^To:"
+color header #b00d0d #200101 "^Subject:"
+color header #b00d0d #200101 "^Date:"
+color header #ff1010 #200101 "^Reply-To:"
+color header #ff1010 #200101 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #b10e0e #200101 ".*"
+color quoted0       #ff1010 #200101
+color quoted1       #ff1010 #200101
+color signature     #554040 #200101
+color body #ff1010 #200101 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #200101 #b00d0d
+
+########################################
+# Compose
+########################################
+
+color compose_header #b00d0d #200101
+color compose_security_encrypt #ff1111 #200101
+color compose_security_sign #ff1010 #200101
+color compose_security_both #ff1010 #200101
+
+########################################
+# Diff / Patch
+########################################
+
+color body #200101 #ff1010 "^\\+.*"
+color body #200101 #b00d0d "^-.*"
+color body #200101 #b00d0d "^@@.*"
+
+# vim: ft=neomuttrc

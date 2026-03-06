@@ -1,0 +1,88 @@
+# GitHub Dark Colorblind – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: GitHub Dark Colorblind
+#
+# Base palette
+# bg:  #0d1117
+# fg:  #c9d1d9
+# grey:#6e7681
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c9d1d9 #0d1117
+color error         #ec8e2c #0d1117
+color message       #58a6ff #0d1117
+color indicator     #0d1117 #e3b341
+color tree          #6e7681 #0d1117
+
+########################################
+# Status Bar
+########################################
+
+color status        #c9d1d9 #6e7681
+
+########################################
+# Index View
+########################################
+
+color index         #c9d1d9 #0d1117
+color index_number  #6e7681 #0d1117
+color index_author  #58a6ff #0d1117
+color index_subject #c9d1d9 #0d1117
+color index_date    #d29922 #0d1117
+color index_flags   #fdac54 #0d1117
+
+color index #ec8e2c #0d1117 "~D"
+color index #e3b341 #0d1117 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c9d1d9 #0d1117
+color header #58a6ff #0d1117 "^From:"
+color header #58a6ff #0d1117 "^To:"
+color header #d29922 #0d1117 "^Subject:"
+color header #d29922 #0d1117 "^Date:"
+color header #56d4dd #0d1117 "^Reply-To:"
+color header #56d4dd #0d1117 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c9d1d9 #0d1117 ".*"
+color quoted0       #79c0ff #0d1117
+color quoted1       #56d4dd #0d1117
+color signature     #6e7681 #0d1117
+color body #79c0ff #0d1117 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0d1117 #d29922
+
+########################################
+# Compose
+########################################
+
+color compose_header #58a6ff #0d1117
+color compose_security_encrypt #fdac54 #0d1117
+color compose_security_sign #79c0ff #0d1117
+color compose_security_both #56d4dd #0d1117
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0d1117 #79c0ff "^\\+.*"
+color body #0d1117 #ec8e2c "^-.*"
+color body #0d1117 #d29922 "^@@.*"
+
+# vim: ft=neomuttrc

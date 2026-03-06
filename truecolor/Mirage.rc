@@ -1,0 +1,88 @@
+# Mirage – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Mirage
+#
+# Base palette
+# bg:  #1b2738
+# fg:  #a6b2c0
+# grey:#575656
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #a6b2c0 #1b2738
+color error         #ff9999 #1b2738
+color message       #7fb5ff #1b2738
+color indicator     #1b2738 #ffd700
+color tree          #575656 #1b2738
+
+########################################
+# Status Bar
+########################################
+
+color status        #a6b2c0 #575656
+
+########################################
+# Index View
+########################################
+
+color index         #a6b2c0 #1b2738
+color index_number  #575656 #1b2738
+color index_author  #7fb5ff #1b2738
+color index_subject #a6b2c0 #1b2738
+color index_date    #ffd700 #1b2738
+color index_flags   #ff9999 #1b2738
+
+color index #ff9999 #1b2738 "~D"
+color index #ffd700 #1b2738 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #a6b2c0 #1b2738
+color header #7fb5ff #1b2738 "^From:"
+color header #7fb5ff #1b2738 "^To:"
+color header #ffd700 #1b2738 "^Subject:"
+color header #ffd700 #1b2738 "^Date:"
+color header #85cc95 #1b2738 "^Reply-To:"
+color header #85cc95 #1b2738 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #a6b2c0 #1b2738 ".*"
+color quoted0       #85cc95 #1b2738
+color quoted1       #85cc95 #1b2738
+color signature     #575656 #1b2738
+color body #7fb5ff #1b2738 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1b2738 #ffd700
+
+########################################
+# Compose
+########################################
+
+color compose_header #7fb5ff #1b2738
+color compose_security_encrypt #ff9999 #1b2738
+color compose_security_sign #85cc95 #1b2738
+color compose_security_both #85cc95 #1b2738
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1b2738 #85cc95 "^\\+.*"
+color body #1b2738 #ff9999 "^-.*"
+color body #1b2738 #ffd700 "^@@.*"
+
+# vim: ft=neomuttrc

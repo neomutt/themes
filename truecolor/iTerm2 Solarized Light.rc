@@ -1,0 +1,88 @@
+# iTerm2 Solarized Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: iTerm2 Solarized Light
+#
+# Base palette
+# bg:  #fdf6e3
+# fg:  #657b83
+# grey:#002b36
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #657b83 #fdf6e3
+color error         #dc322f #fdf6e3
+color message       #268bd2 #fdf6e3
+color indicator     #fdf6e3 #657b83
+color tree          #002b36 #fdf6e3
+
+########################################
+# Status Bar
+########################################
+
+color status        #657b83 #002b36
+
+########################################
+# Index View
+########################################
+
+color index         #657b83 #fdf6e3
+color index_number  #002b36 #fdf6e3
+color index_author  #268bd2 #fdf6e3
+color index_subject #657b83 #fdf6e3
+color index_date    #b58900 #fdf6e3
+color index_flags   #cb4b16 #fdf6e3
+
+color index #dc322f #fdf6e3 "~D"
+color index #657b83 #fdf6e3 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #657b83 #fdf6e3
+color header #268bd2 #fdf6e3 "^From:"
+color header #268bd2 #fdf6e3 "^To:"
+color header #b58900 #fdf6e3 "^Subject:"
+color header #b58900 #fdf6e3 "^Date:"
+color header #93a1a1 #fdf6e3 "^Reply-To:"
+color header #93a1a1 #fdf6e3 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #657b83 #fdf6e3 ".*"
+color quoted0       #586e75 #fdf6e3
+color quoted1       #93a1a1 #fdf6e3
+color signature     #002b36 #fdf6e3
+color body #839496 #fdf6e3 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #fdf6e3 #b58900
+
+########################################
+# Compose
+########################################
+
+color compose_header #268bd2 #fdf6e3
+color compose_security_encrypt #cb4b16 #fdf6e3
+color compose_security_sign #586e75 #fdf6e3
+color compose_security_both #93a1a1 #fdf6e3
+
+########################################
+# Diff / Patch
+########################################
+
+color body #fdf6e3 #586e75 "^\\+.*"
+color body #fdf6e3 #dc322f "^-.*"
+color body #fdf6e3 #b58900 "^@@.*"
+
+# vim: ft=neomuttrc

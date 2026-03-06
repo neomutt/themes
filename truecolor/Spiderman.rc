@@ -1,0 +1,88 @@
+# Spiderman – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Spiderman
+#
+# Base palette
+# bg:  #1b1d1e
+# fg:  #e3e3e3
+# grey:#505354
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e3e3e3 #1b1d1e
+color error         #e60813 #1b1d1e
+color message       #2c3fff #1b1d1e
+color indicator     #1b1d1e #fe3a35
+color tree          #505354 #1b1d1e
+
+########################################
+# Status Bar
+########################################
+
+color status        #e3e3e3 #505354
+
+########################################
+# Index View
+########################################
+
+color index         #e3e3e3 #1b1d1e
+color index_number  #505354 #1b1d1e
+color index_author  #2c3fff #1b1d1e
+color index_subject #e3e3e3 #1b1d1e
+color index_date    #e24756 #1b1d1e
+color index_flags   #ff0325 #1b1d1e
+
+color index #e60813 #1b1d1e "~D"
+color index #fe3a35 #1b1d1e "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e3e3e3 #1b1d1e
+color header #2c3fff #1b1d1e "^From:"
+color header #2c3fff #1b1d1e "^To:"
+color header #e24756 #1b1d1e "^Subject:"
+color header #e24756 #1b1d1e "^Date:"
+color header #6184ff #1b1d1e "^Reply-To:"
+color header #6184ff #1b1d1e "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e3e3e3 #1b1d1e ".*"
+color quoted0       #ff3338 #1b1d1e
+color quoted1       #6184ff #1b1d1e
+color signature     #505354 #1b1d1e
+color body #1d50ff #1b1d1e "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1b1d1e #e24756
+
+########################################
+# Compose
+########################################
+
+color compose_header #2c3fff #1b1d1e
+color compose_security_encrypt #ff0325 #1b1d1e
+color compose_security_sign #ff3338 #1b1d1e
+color compose_security_both #6184ff #1b1d1e
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1b1d1e #ff3338 "^\\+.*"
+color body #1b1d1e #e60813 "^-.*"
+color body #1b1d1e #e24756 "^@@.*"
+
+# vim: ft=neomuttrc

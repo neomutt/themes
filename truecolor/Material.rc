@@ -1,0 +1,88 @@
+# Material – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Material
+#
+# Base palette
+# bg:  #eaeaea
+# fg:  #232322
+# grey:#424242
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #232322 #eaeaea
+color error         #b7141f #eaeaea
+color message       #134eb2 #eaeaea
+color indicator     #eaeaea #bfaa00
+color tree          #424242 #eaeaea
+
+########################################
+# Status Bar
+########################################
+
+color status        #232322 #424242
+
+########################################
+# Index View
+########################################
+
+color index         #232322 #eaeaea
+color index_number  #424242 #eaeaea
+color index_author  #134eb2 #eaeaea
+color index_subject #232322 #eaeaea
+color index_date    #f6981e #eaeaea
+color index_flags   #e83b3f #eaeaea
+
+color index #b7141f #eaeaea "~D"
+color index #bfaa00 #eaeaea "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #232322 #eaeaea
+color header #134eb2 #eaeaea "^From:"
+color header #134eb2 #eaeaea "^To:"
+color header #f6981e #eaeaea "^Subject:"
+color header #f6981e #eaeaea "^Date:"
+color header #26bbd1 #eaeaea "^Reply-To:"
+color header #26bbd1 #eaeaea "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #232322 #eaeaea ".*"
+color quoted0       #7aba3a #eaeaea
+color quoted1       #26bbd1 #eaeaea
+color signature     #424242 #eaeaea
+color body #54a4f3 #eaeaea "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #eaeaea #f6981e
+
+########################################
+# Compose
+########################################
+
+color compose_header #134eb2 #eaeaea
+color compose_security_encrypt #e83b3f #eaeaea
+color compose_security_sign #7aba3a #eaeaea
+color compose_security_both #26bbd1 #eaeaea
+
+########################################
+# Diff / Patch
+########################################
+
+color body #eaeaea #7aba3a "^\\+.*"
+color body #eaeaea #b7141f "^-.*"
+color body #eaeaea #f6981e "^@@.*"
+
+# vim: ft=neomuttrc

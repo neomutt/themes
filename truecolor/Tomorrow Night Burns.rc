@@ -1,0 +1,88 @@
+# Tomorrow Night Burns – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tomorrow Night Burns
+#
+# Base palette
+# bg:  #151515
+# fg:  #a1b0b8
+# grey:#5d6f71
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #a1b0b8 #151515
+color error         #832e31 #151515
+color message       #fc595f #151515
+color indicator     #151515 #d2494e
+color tree          #5d6f71 #151515
+
+########################################
+# Status Bar
+########################################
+
+color status        #a1b0b8 #5d6f71
+
+########################################
+# Index View
+########################################
+
+color index         #a1b0b8 #151515
+color index_number  #5d6f71 #151515
+color index_author  #fc595f #151515
+color index_subject #a1b0b8 #151515
+color index_date    #d3494e #151515
+color index_flags   #832e31 #151515
+
+color index #832e31 #151515 "~D"
+color index #d2494e #151515 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #a1b0b8 #151515
+color header #fc595f #151515 "^From:"
+color header #fc595f #151515 "^To:"
+color header #d3494e #151515 "^Subject:"
+color header #d3494e #151515 "^Date:"
+color header #ba8586 #151515 "^Reply-To:"
+color header #ba8586 #151515 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #a1b0b8 #151515 ".*"
+color quoted0       #a63c40 #151515
+color quoted1       #ba8586 #151515
+color signature     #5d6f71 #151515
+color body #fc595f #151515 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #151515 #d3494e
+
+########################################
+# Compose
+########################################
+
+color compose_header #fc595f #151515
+color compose_security_encrypt #832e31 #151515
+color compose_security_sign #a63c40 #151515
+color compose_security_both #ba8586 #151515
+
+########################################
+# Diff / Patch
+########################################
+
+color body #151515 #a63c40 "^\\+.*"
+color body #151515 #832e31 "^-.*"
+color body #151515 #d3494e "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Atelier Sulphurpool – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Atelier Sulphurpool
+#
+# Base palette
+# bg:  #202746
+# fg:  #979db4
+# grey:#6b7394
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #979db4 #202746
+color error         #c94922 #202746
+color message       #3d8fd1 #202746
+color indicator     #202746 #5e6687
+color tree          #6b7394 #202746
+
+########################################
+# Status Bar
+########################################
+
+color status        #979db4 #6b7394
+
+########################################
+# Index View
+########################################
+
+color index         #979db4 #202746
+color index_number  #6b7394 #202746
+color index_author  #3d8fd1 #202746
+color index_subject #979db4 #202746
+color index_date    #c08b30 #202746
+color index_flags   #c76b29 #202746
+
+color index #c94922 #202746 "~D"
+color index #5e6687 #202746 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #979db4 #202746
+color header #3d8fd1 #202746 "^From:"
+color header #3d8fd1 #202746 "^To:"
+color header #c08b30 #202746 "^Subject:"
+color header #c08b30 #202746 "^Date:"
+color header #9c637a #202746 "^Reply-To:"
+color header #9c637a #202746 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #979db4 #202746 ".*"
+color quoted0       #4f587c #202746
+color quoted1       #9c637a #202746
+color signature     #6b7394 #202746
+color body #898ea4 #202746 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #202746 #c08b30
+
+########################################
+# Compose
+########################################
+
+color compose_header #3d8fd1 #202746
+color compose_security_encrypt #c76b29 #202746
+color compose_security_sign #4f587c #202746
+color compose_security_both #9c637a #202746
+
+########################################
+# Diff / Patch
+########################################
+
+color body #202746 #4f587c "^\\+.*"
+color body #202746 #c94922 "^-.*"
+color body #202746 #c08b30 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Belafonte Day – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Belafonte Day
+#
+# Base palette
+# bg:  #d5ccba
+# fg:  #45373c
+# grey:#5e5252
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #45373c #d5ccba
+color error         #be100e #d5ccba
+color message       #426a79 #d5ccba
+color indicator     #d5ccba #d08b30
+color tree          #5e5252 #d5ccba
+
+########################################
+# Status Bar
+########################################
+
+color status        #45373c #5e5252
+
+########################################
+# Index View
+########################################
+
+color index         #45373c #d5ccba
+color index_number  #5e5252 #d5ccba
+color index_author  #426a79 #d5ccba
+color index_subject #45373c #d5ccba
+color index_date    #d08b30 #d5ccba
+color index_flags   #be100e #d5ccba
+
+color index #be100e #d5ccba "~D"
+color index #d08b30 #d5ccba "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #45373c #d5ccba
+color header #426a79 #d5ccba "^From:"
+color header #426a79 #d5ccba "^To:"
+color header #d08b30 #d5ccba "^Subject:"
+color header #d08b30 #d5ccba "^Date:"
+color header #989a9c #d5ccba "^Reply-To:"
+color header #989a9c #d5ccba "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #45373c #d5ccba ".*"
+color quoted0       #858162 #d5ccba
+color quoted1       #989a9c #d5ccba
+color signature     #5e5252 #d5ccba
+color body #426a79 #d5ccba "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #d5ccba #d08b30
+
+########################################
+# Compose
+########################################
+
+color compose_header #426a79 #d5ccba
+color compose_security_encrypt #be100e #d5ccba
+color compose_security_sign #858162 #d5ccba
+color compose_security_both #989a9c #d5ccba
+
+########################################
+# Diff / Patch
+########################################
+
+color body #d5ccba #858162 "^\\+.*"
+color body #d5ccba #be100e "^-.*"
+color body #d5ccba #d08b30 "^@@.*"
+
+# vim: ft=neomuttrc

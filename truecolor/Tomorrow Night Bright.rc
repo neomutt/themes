@@ -1,0 +1,88 @@
+# Tomorrow Night Bright – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tomorrow Night Bright
+#
+# Base palette
+# bg:  #000000
+# fg:  #eaeaea
+# grey:#404040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #eaeaea #000000
+color error         #d54e53 #000000
+color message       #7aa6da #000000
+color indicator     #000000 #e7c547
+color tree          #404040 #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #eaeaea #404040
+
+########################################
+# Index View
+########################################
+
+color index         #eaeaea #000000
+color index_number  #404040 #000000
+color index_author  #7aa6da #000000
+color index_subject #eaeaea #000000
+color index_date    #e7c547 #000000
+color index_flags   #d54e53 #000000
+
+color index #d54e53 #000000 "~D"
+color index #e7c547 #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #eaeaea #000000
+color header #7aa6da #000000 "^From:"
+color header #7aa6da #000000 "^To:"
+color header #e7c547 #000000 "^Subject:"
+color header #e7c547 #000000 "^Date:"
+color header #70c0b1 #000000 "^Reply-To:"
+color header #70c0b1 #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #eaeaea #000000 ".*"
+color quoted0       #b9ca4a #000000
+color quoted1       #70c0b1 #000000
+color signature     #404040 #000000
+color body #7aa6da #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #e7c547
+
+########################################
+# Compose
+########################################
+
+color compose_header #7aa6da #000000
+color compose_security_encrypt #d54e53 #000000
+color compose_security_sign #b9ca4a #000000
+color compose_security_both #70c0b1 #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #b9ca4a "^\\+.*"
+color body #000000 #d54e53 "^-.*"
+color body #000000 #e7c547 "^@@.*"
+
+# vim: ft=neomuttrc

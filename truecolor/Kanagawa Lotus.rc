@@ -1,0 +1,88 @@
+# Kanagawa Lotus – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawa Lotus
+#
+# Base palette
+# bg:  #f2ecbc
+# fg:  #545464
+# grey:#8a8980
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #545464 #f2ecbc
+color error         #c84053 #f2ecbc
+color message       #4d699b #f2ecbc
+color indicator     #f2ecbc #836f4a
+color tree          #8a8980 #f2ecbc
+
+########################################
+# Status Bar
+########################################
+
+color status        #545464 #8a8980
+
+########################################
+# Index View
+########################################
+
+color index         #545464 #f2ecbc
+color index_number  #8a8980 #f2ecbc
+color index_author  #4d699b #f2ecbc
+color index_subject #545464 #f2ecbc
+color index_date    #77713f #f2ecbc
+color index_flags   #d7474b #f2ecbc
+
+color index #c84053 #f2ecbc "~D"
+color index #836f4a #f2ecbc "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #545464 #f2ecbc
+color header #4d699b #f2ecbc "^From:"
+color header #4d699b #f2ecbc "^To:"
+color header #77713f #f2ecbc "^Subject:"
+color header #77713f #f2ecbc "^Date:"
+color header #5e857a #f2ecbc "^Reply-To:"
+color header #5e857a #f2ecbc "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #545464 #f2ecbc ".*"
+color quoted0       #6e915f #f2ecbc
+color quoted1       #5e857a #f2ecbc
+color signature     #8a8980 #f2ecbc
+color body #6693bf #f2ecbc "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f2ecbc #77713f
+
+########################################
+# Compose
+########################################
+
+color compose_header #4d699b #f2ecbc
+color compose_security_encrypt #d7474b #f2ecbc
+color compose_security_sign #6e915f #f2ecbc
+color compose_security_both #5e857a #f2ecbc
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f2ecbc #6e915f "^\\+.*"
+color body #f2ecbc #c84053 "^-.*"
+color body #f2ecbc #77713f "^@@.*"
+
+# vim: ft=neomuttrc

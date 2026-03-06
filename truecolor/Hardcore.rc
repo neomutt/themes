@@ -1,0 +1,88 @@
+# Hardcore – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Hardcore
+#
+# Base palette
+# bg:  #121212
+# fg:  #a0a0a0
+# grey:#505354
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #a0a0a0 #121212
+color error         #f92672 #121212
+color message       #66d9ef #121212
+color indicator     #121212 #e6db74
+color tree          #505354 #121212
+
+########################################
+# Status Bar
+########################################
+
+color status        #a0a0a0 #505354
+
+########################################
+# Index View
+########################################
+
+color index         #a0a0a0 #121212
+color index_number  #505354 #121212
+color index_author  #66d9ef #121212
+color index_subject #a0a0a0 #121212
+color index_date    #fd971f #121212
+color index_flags   #ff669d #121212
+
+color index #f92672 #121212 "~D"
+color index #e6db74 #121212 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #a0a0a0 #121212
+color header #66d9ef #121212 "^From:"
+color header #66d9ef #121212 "^To:"
+color header #fd971f #121212 "^Subject:"
+color header #fd971f #121212 "^Date:"
+color header #a3babf #121212 "^Reply-To:"
+color header #a3babf #121212 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #a0a0a0 #121212 ".*"
+color quoted0       #beed5f #121212
+color quoted1       #a3babf #121212
+color signature     #505354 #121212
+color body #66d9ef #121212 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #121212 #fd971f
+
+########################################
+# Compose
+########################################
+
+color compose_header #66d9ef #121212
+color compose_security_encrypt #ff669d #121212
+color compose_security_sign #beed5f #121212
+color compose_security_both #a3babf #121212
+
+########################################
+# Diff / Patch
+########################################
+
+color body #121212 #beed5f "^\\+.*"
+color body #121212 #f92672 "^-.*"
+color body #121212 #fd971f "^@@.*"
+
+# vim: ft=neomuttrc

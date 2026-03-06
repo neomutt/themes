@@ -1,0 +1,88 @@
+# Jackie Brown – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Jackie Brown
+#
+# Base palette
+# bg:  #2c1d16
+# fg:  #ffcc2f
+# grey:#666666
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffcc2f #2c1d16
+color error         #ef5734 #2c1d16
+color message       #246eb2 #2c1d16
+color indicator     #2c1d16 #e5e500
+color tree          #666666 #2c1d16
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffcc2f #666666
+
+########################################
+# Index View
+########################################
+
+color index         #ffcc2f #2c1d16
+color index_number  #666666 #2c1d16
+color index_author  #246eb2 #2c1d16
+color index_subject #ffcc2f #2c1d16
+color index_date    #bebf00 #2c1d16
+color index_flags   #e50000 #2c1d16
+
+color index #ef5734 #2c1d16 "~D"
+color index #e5e500 #2c1d16 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffcc2f #2c1d16
+color header #246eb2 #2c1d16 "^From:"
+color header #246eb2 #2c1d16 "^To:"
+color header #bebf00 #2c1d16 "^Subject:"
+color header #bebf00 #2c1d16 "^Date:"
+color header #00e5e5 #2c1d16 "^Reply-To:"
+color header #00e5e5 #2c1d16 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffcc2f #2c1d16 ".*"
+color quoted0       #86a93e #2c1d16
+color quoted1       #00e5e5 #2c1d16
+color signature     #666666 #2c1d16
+color body #0000ff #2c1d16 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #2c1d16 #bebf00
+
+########################################
+# Compose
+########################################
+
+color compose_header #246eb2 #2c1d16
+color compose_security_encrypt #e50000 #2c1d16
+color compose_security_sign #86a93e #2c1d16
+color compose_security_both #00e5e5 #2c1d16
+
+########################################
+# Diff / Patch
+########################################
+
+color body #2c1d16 #86a93e "^\\+.*"
+color body #2c1d16 #ef5734 "^-.*"
+color body #2c1d16 #bebf00 "^@@.*"
+
+# vim: ft=neomuttrc

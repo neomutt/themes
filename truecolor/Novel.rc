@@ -1,0 +1,88 @@
+# Novel – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Novel
+#
+# Base palette
+# bg:  #dfdbc3
+# fg:  #3b2322
+# grey:#808080
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #3b2322 #dfdbc3
+color error         #cc0000 #dfdbc3
+color message       #0000cc #dfdbc3
+color indicator     #dfdbc3 #d06b00
+color tree          #808080 #dfdbc3
+
+########################################
+# Status Bar
+########################################
+
+color status        #3b2322 #808080
+
+########################################
+# Index View
+########################################
+
+color index         #3b2322 #dfdbc3
+color index_number  #808080 #dfdbc3
+color index_author  #0000cc #dfdbc3
+color index_subject #3b2322 #dfdbc3
+color index_date    #d06b00 #dfdbc3
+color index_flags   #cc0000 #dfdbc3
+
+color index #cc0000 #dfdbc3 "~D"
+color index #d06b00 #dfdbc3 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #3b2322 #dfdbc3
+color header #0000cc #dfdbc3 "^From:"
+color header #0000cc #dfdbc3 "^To:"
+color header #d06b00 #dfdbc3 "^Subject:"
+color header #d06b00 #dfdbc3 "^Date:"
+color header #0087cc #dfdbc3 "^Reply-To:"
+color header #0087cc #dfdbc3 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #3b2322 #dfdbc3 ".*"
+color quoted0       #009600 #dfdbc3
+color quoted1       #0087cc #dfdbc3
+color signature     #808080 #dfdbc3
+color body #0000cc #dfdbc3 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #dfdbc3 #d06b00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0000cc #dfdbc3
+color compose_security_encrypt #cc0000 #dfdbc3
+color compose_security_sign #009600 #dfdbc3
+color compose_security_both #0087cc #dfdbc3
+
+########################################
+# Diff / Patch
+########################################
+
+color body #dfdbc3 #009600 "^\\+.*"
+color body #dfdbc3 #cc0000 "^-.*"
+color body #dfdbc3 #d06b00 "^@@.*"
+
+# vim: ft=neomuttrc

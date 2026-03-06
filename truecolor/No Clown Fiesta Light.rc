@@ -1,0 +1,88 @@
+# No Clown Fiesta Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: No Clown Fiesta Light
+#
+# Base palette
+# bg:  #e1e1e1
+# fg:  #151515
+# grey:#2b2b2b
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #151515 #e1e1e1
+color error         #874e42 #e1e1e1
+color message       #8ba1bf #e1e1e1
+color indicator     #e1e1e1 #b89058
+color tree          #2b2b2b #e1e1e1
+
+########################################
+# Status Bar
+########################################
+
+color status        #151515 #2b2b2b
+
+########################################
+# Index View
+########################################
+
+color index         #151515 #e1e1e1
+color index_number  #2b2b2b #e1e1e1
+color index_author  #8ba1bf #e1e1e1
+color index_subject #151515 #e1e1e1
+color index_date    #b89058 #e1e1e1
+color index_flags   #637786 #e1e1e1
+
+color index #874e42 #e1e1e1 "~D"
+color index #b89058 #e1e1e1 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #151515 #e1e1e1
+color header #8ba1bf #e1e1e1 "^From:"
+color header #8ba1bf #e1e1e1 "^To:"
+color header #b89058 #e1e1e1 "^Subject:"
+color header #b89058 #e1e1e1 "^Date:"
+color header #99ab93 #e1e1e1 "^Reply-To:"
+color header #99ab93 #e1e1e1 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #151515 #e1e1e1 ".*"
+color quoted0       #677940 #e1e1e1
+color quoted1       #99ab93 #e1e1e1
+color signature     #2b2b2b #e1e1e1
+color body #93a2ab #e1e1e1 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #e1e1e1 #b89058
+
+########################################
+# Compose
+########################################
+
+color compose_header #8ba1bf #e1e1e1
+color compose_security_encrypt #637786 #e1e1e1
+color compose_security_sign #677940 #e1e1e1
+color compose_security_both #99ab93 #e1e1e1
+
+########################################
+# Diff / Patch
+########################################
+
+color body #e1e1e1 #677940 "^\\+.*"
+color body #e1e1e1 #874e42 "^-.*"
+color body #e1e1e1 #b89058 "^@@.*"
+
+# vim: ft=neomuttrc

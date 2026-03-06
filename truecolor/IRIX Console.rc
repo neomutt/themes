@@ -1,0 +1,88 @@
+# IRIX Console – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: IRIX Console
+#
+# Base palette
+# bg:  #0c0c0c
+# fg:  #f2f2f2
+# grey:#767676
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f2f2f2 #0c0c0c
+color error         #d42426 #0c0c0c
+color message       #0739e2 #0c0c0c
+color indicator     #0c0c0c #f9f2a7
+color tree          #767676 #0c0c0c
+
+########################################
+# Status Bar
+########################################
+
+color status        #f2f2f2 #767676
+
+########################################
+# Index View
+########################################
+
+color index         #f2f2f2 #0c0c0c
+color index_number  #767676 #0c0c0c
+color index_author  #0739e2 #0c0c0c
+color index_subject #f2f2f2 #0c0c0c
+color index_date    #c29d28 #0c0c0c
+color index_flags   #f34f59 #0c0c0c
+
+color index #d42426 #0c0c0c "~D"
+color index #f9f2a7 #0c0c0c "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f2f2f2 #0c0c0c
+color header #0739e2 #0c0c0c "^From:"
+color header #0739e2 #0c0c0c "^To:"
+color header #c29d28 #0c0c0c "^Subject:"
+color header #c29d28 #0c0c0c "^Date:"
+color header #6ed7d7 #0c0c0c "^Reply-To:"
+color header #6ed7d7 #0c0c0c "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f2f2f2 #0c0c0c ".*"
+color quoted0       #45c731 #0c0c0c
+color quoted1       #6ed7d7 #0c0c0c
+color signature     #767676 #0c0c0c
+color body #4079ff #0c0c0c "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0c0c0c #c29d28
+
+########################################
+# Compose
+########################################
+
+color compose_header #0739e2 #0c0c0c
+color compose_security_encrypt #f34f59 #0c0c0c
+color compose_security_sign #45c731 #0c0c0c
+color compose_security_both #6ed7d7 #0c0c0c
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0c0c0c #45c731 "^\\+.*"
+color body #0c0c0c #d42426 "^-.*"
+color body #0c0c0c #c29d28 "^@@.*"
+
+# vim: ft=neomuttrc

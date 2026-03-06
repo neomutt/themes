@@ -1,0 +1,88 @@
+# owl – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: owl
+#
+# Base palette
+# bg:  #2f2b2c
+# fg:  #dedede
+# grey:#5d595b
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #dedede #2f2b2c
+color error         #5a5a5a #2f2b2c
+color message       #656565 #2f2b2c
+color indicator     #2f2b2c #cacaca
+color tree          #5d595b #2f2b2c
+
+########################################
+# Status Bar
+########################################
+
+color status        #dedede #5d595b
+
+########################################
+# Index View
+########################################
+
+color index         #dedede #2f2b2c
+color index_number  #5d595b #2f2b2c
+color index_author  #656565 #2f2b2c
+color index_subject #dedede #2f2b2c
+color index_date    #cacaca #2f2b2c
+color index_flags   #da5b2c #2f2b2c
+
+color index #5a5a5a #2f2b2c "~D"
+color index #cacaca #2f2b2c "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #dedede #2f2b2c
+color header #656565 #2f2b2c "^From:"
+color header #656565 #2f2b2c "^To:"
+color header #cacaca #2f2b2c "^Subject:"
+color header #cacaca #2f2b2c "^Date:"
+color header #7f7f7f #2f2b2c "^Reply-To:"
+color header #7f7f7f #2f2b2c "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #dedede #2f2b2c ".*"
+color quoted0       #989898 #2f2b2c
+color quoted1       #7f7f7f #2f2b2c
+color signature     #5d595b #2f2b2c
+color body #656565 #2f2b2c "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #2f2b2c #cacaca
+
+########################################
+# Compose
+########################################
+
+color compose_header #656565 #2f2b2c
+color compose_security_encrypt #da5b2c #2f2b2c
+color compose_security_sign #989898 #2f2b2c
+color compose_security_both #7f7f7f #2f2b2c
+
+########################################
+# Diff / Patch
+########################################
+
+color body #2f2b2c #989898 "^\\+.*"
+color body #2f2b2c #5a5a5a "^-.*"
+color body #2f2b2c #cacaca "^@@.*"
+
+# vim: ft=neomuttrc

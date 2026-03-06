@@ -1,0 +1,88 @@
+# Birds Of Paradise – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Birds Of Paradise
+#
+# Base palette
+# bg:  #2a1f1d
+# fg:  #e0dbb7
+# grey:#9b6c4a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e0dbb7 #2a1f1d
+color error         #be2d26 #2a1f1d
+color message       #5a86ad #2a1f1d
+color indicator     #2a1f1d #d0d150
+color tree          #9b6c4a #2a1f1d
+
+########################################
+# Status Bar
+########################################
+
+color status        #e0dbb7 #9b6c4a
+
+########################################
+# Index View
+########################################
+
+color index         #e0dbb7 #2a1f1d
+color index_number  #9b6c4a #2a1f1d
+color index_author  #5a86ad #2a1f1d
+color index_subject #e0dbb7 #2a1f1d
+color index_date    #e99d2a #2a1f1d
+color index_flags   #e84627 #2a1f1d
+
+color index #be2d26 #2a1f1d "~D"
+color index #d0d150 #2a1f1d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e0dbb7 #2a1f1d
+color header #5a86ad #2a1f1d "^From:"
+color header #5a86ad #2a1f1d "^To:"
+color header #e99d2a #2a1f1d "^Subject:"
+color header #e99d2a #2a1f1d "^Date:"
+color header #93cfd7 #2a1f1d "^Reply-To:"
+color header #93cfd7 #2a1f1d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e0dbb7 #2a1f1d ".*"
+color quoted0       #95d8ba #2a1f1d
+color quoted1       #93cfd7 #2a1f1d
+color signature     #9b6c4a #2a1f1d
+color body #b8d3ed #2a1f1d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #2a1f1d #e99d2a
+
+########################################
+# Compose
+########################################
+
+color compose_header #5a86ad #2a1f1d
+color compose_security_encrypt #e84627 #2a1f1d
+color compose_security_sign #95d8ba #2a1f1d
+color compose_security_both #93cfd7 #2a1f1d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #2a1f1d #95d8ba "^\\+.*"
+color body #2a1f1d #be2d26 "^-.*"
+color body #2a1f1d #e99d2a "^@@.*"
+
+# vim: ft=neomuttrc

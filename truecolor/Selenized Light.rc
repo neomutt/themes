@@ -1,0 +1,88 @@
+# Selenized Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Selenized Light
+#
+# Base palette
+# bg:  #fbf3db
+# fg:  #53676d
+# grey:#909995
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #53676d #fbf3db
+color error         #d2212d #fbf3db
+color message       #0072d4 #fbf3db
+color indicator     #fbf3db #a78300
+color tree          #909995 #fbf3db
+
+########################################
+# Status Bar
+########################################
+
+color status        #53676d #909995
+
+########################################
+# Index View
+########################################
+
+color index         #53676d #fbf3db
+color index_number  #909995 #fbf3db
+color index_author  #0072d4 #fbf3db
+color index_subject #53676d #fbf3db
+color index_date    #ad8900 #fbf3db
+color index_flags   #cc1729 #fbf3db
+
+color index #d2212d #fbf3db "~D"
+color index #a78300 #fbf3db "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #53676d #fbf3db
+color header #0072d4 #fbf3db "^From:"
+color header #0072d4 #fbf3db "^To:"
+color header #ad8900 #fbf3db "^Subject:"
+color header #ad8900 #fbf3db "^Date:"
+color header #00978a #fbf3db "^Reply-To:"
+color header #00978a #fbf3db "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #53676d #fbf3db ".*"
+color quoted0       #428b00 #fbf3db
+color quoted1       #00978a #fbf3db
+color signature     #909995 #fbf3db
+color body #006dce #fbf3db "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #fbf3db #ad8900
+
+########################################
+# Compose
+########################################
+
+color compose_header #0072d4 #fbf3db
+color compose_security_encrypt #cc1729 #fbf3db
+color compose_security_sign #428b00 #fbf3db
+color compose_security_both #00978a #fbf3db
+
+########################################
+# Diff / Patch
+########################################
+
+color body #fbf3db #428b00 "^\\+.*"
+color body #fbf3db #d2212d "^-.*"
+color body #fbf3db #ad8900 "^@@.*"
+
+# vim: ft=neomuttrc

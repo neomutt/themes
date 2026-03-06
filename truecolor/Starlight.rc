@@ -1,0 +1,88 @@
+# Starlight – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Starlight
+#
+# Base palette
+# bg:  #242424
+# fg:  #ffffff
+# grey:#616161
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #242424
+color error         #f62b5a #242424
+color message       #24acd4 #242424
+color indicator     #242424 #e9e836
+color tree          #616161 #242424
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #616161
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #242424
+color index_number  #616161 #242424
+color index_author  #24acd4 #242424
+color index_subject #ffffff #242424
+color index_date    #e3c401 #242424
+color index_flags   #ff4d51 #242424
+
+color index #f62b5a #242424 "~D"
+color index #e9e836 #242424 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #242424
+color header #24acd4 #242424 "^From:"
+color header #24acd4 #242424 "^To:"
+color header #e3c401 #242424 "^Subject:"
+color header #e3c401 #242424 "^Date:"
+color header #24dfc4 #242424 "^Reply-To:"
+color header #24dfc4 #242424 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #242424 ".*"
+color quoted0       #35d450 #242424
+color quoted1       #24dfc4 #242424
+color signature     #616161 #242424
+color body #5dc5f8 #242424 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #242424 #e3c401
+
+########################################
+# Compose
+########################################
+
+color compose_header #24acd4 #242424
+color compose_security_encrypt #ff4d51 #242424
+color compose_security_sign #35d450 #242424
+color compose_security_both #24dfc4 #242424
+
+########################################
+# Diff / Patch
+########################################
+
+color body #242424 #35d450 "^\\+.*"
+color body #242424 #f62b5a "^-.*"
+color body #242424 #e3c401 "^@@.*"
+
+# vim: ft=neomuttrc

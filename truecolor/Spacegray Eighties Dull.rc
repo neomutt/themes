@@ -1,0 +1,88 @@
+# Spacegray Eighties Dull – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Spacegray Eighties Dull
+#
+# Base palette
+# bg:  #222222
+# fg:  #c9c6bc
+# grey:#555555
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c9c6bc #222222
+color error         #b24a56 #222222
+color message       #7c8fa5 #222222
+color indicator     #222222 #fec254
+color tree          #555555 #222222
+
+########################################
+# Status Bar
+########################################
+
+color status        #c9c6bc #555555
+
+########################################
+# Index View
+########################################
+
+color index         #c9c6bc #222222
+color index_number  #555555 #222222
+color index_author  #7c8fa5 #222222
+color index_subject #c9c6bc #222222
+color index_date    #c6735a #222222
+color index_flags   #ec5f67 #222222
+
+color index #b24a56 #222222 "~D"
+color index #fec254 #222222 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c9c6bc #222222
+color header #7c8fa5 #222222 "^From:"
+color header #7c8fa5 #222222 "^To:"
+color header #c6735a #222222 "^Subject:"
+color header #c6735a #222222 "^Date:"
+color header #58c2c1 #222222 "^Reply-To:"
+color header #58c2c1 #222222 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c9c6bc #222222 ".*"
+color quoted0       #89e986 #222222
+color quoted1       #58c2c1 #222222
+color signature     #555555 #222222
+color body #5486c0 #222222 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #222222 #c6735a
+
+########################################
+# Compose
+########################################
+
+color compose_header #7c8fa5 #222222
+color compose_security_encrypt #ec5f67 #222222
+color compose_security_sign #89e986 #222222
+color compose_security_both #58c2c1 #222222
+
+########################################
+# Diff / Patch
+########################################
+
+color body #222222 #89e986 "^\\+.*"
+color body #222222 #b24a56 "^-.*"
+color body #222222 #c6735a "^@@.*"
+
+# vim: ft=neomuttrc

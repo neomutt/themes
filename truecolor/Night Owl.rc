@@ -1,0 +1,88 @@
+# Night Owl – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Night Owl
+#
+# Base palette
+# bg:  #011627
+# fg:  #d6deeb
+# grey:#575656
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d6deeb #011627
+color error         #ef5350 #011627
+color message       #82aaff #011627
+color indicator     #011627 #ffeb95
+color tree          #575656 #011627
+
+########################################
+# Status Bar
+########################################
+
+color status        #d6deeb #575656
+
+########################################
+# Index View
+########################################
+
+color index         #d6deeb #011627
+color index_number  #575656 #011627
+color index_author  #82aaff #011627
+color index_subject #d6deeb #011627
+color index_date    #addb67 #011627
+color index_flags   #ef5350 #011627
+
+color index #ef5350 #011627 "~D"
+color index #ffeb95 #011627 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d6deeb #011627
+color header #82aaff #011627 "^From:"
+color header #82aaff #011627 "^To:"
+color header #addb67 #011627 "^Subject:"
+color header #addb67 #011627 "^Date:"
+color header #7fdbca #011627 "^Reply-To:"
+color header #7fdbca #011627 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d6deeb #011627 ".*"
+color quoted0       #22da6e #011627
+color quoted1       #7fdbca #011627
+color signature     #575656 #011627
+color body #82aaff #011627 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #011627 #addb67
+
+########################################
+# Compose
+########################################
+
+color compose_header #82aaff #011627
+color compose_security_encrypt #ef5350 #011627
+color compose_security_sign #22da6e #011627
+color compose_security_both #7fdbca #011627
+
+########################################
+# Diff / Patch
+########################################
+
+color body #011627 #22da6e "^\\+.*"
+color body #011627 #ef5350 "^-.*"
+color body #011627 #addb67 "^@@.*"
+
+# vim: ft=neomuttrc

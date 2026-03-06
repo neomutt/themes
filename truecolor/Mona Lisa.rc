@@ -1,0 +1,88 @@
+# Mona Lisa – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Mona Lisa
+#
+# Base palette
+# bg:  #120b0d
+# fg:  #f7d66a
+# grey:#874228
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f7d66a #120b0d
+color error         #9b291c #120b0d
+color message       #515c5d #120b0d
+color indicator     #120b0d #ff9566
+color tree          #874228 #120b0d
+
+########################################
+# Status Bar
+########################################
+
+color status        #f7d66a #874228
+
+########################################
+# Index View
+########################################
+
+color index         #f7d66a #120b0d
+color index_number  #874228 #120b0d
+color index_author  #515c5d #120b0d
+color index_subject #f7d66a #120b0d
+color index_date    #c36e28 #120b0d
+color index_flags   #ff4331 #120b0d
+
+color index #9b291c #120b0d "~D"
+color index #ff9566 #120b0d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f7d66a #120b0d
+color header #515c5d #120b0d "^From:"
+color header #515c5d #120b0d "^To:"
+color header #c36e28 #120b0d "^Subject:"
+color header #c36e28 #120b0d "^Date:"
+color header #8acd8f #120b0d "^Reply-To:"
+color header #8acd8f #120b0d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f7d66a #120b0d ".*"
+color quoted0       #b4b264 #120b0d
+color quoted1       #8acd8f #120b0d
+color signature     #874228 #120b0d
+color body #9eb2b4 #120b0d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #120b0d #c36e28
+
+########################################
+# Compose
+########################################
+
+color compose_header #515c5d #120b0d
+color compose_security_encrypt #ff4331 #120b0d
+color compose_security_sign #b4b264 #120b0d
+color compose_security_both #8acd8f #120b0d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #120b0d #b4b264 "^\\+.*"
+color body #120b0d #9b291c "^-.*"
+color body #120b0d #c36e28 "^@@.*"
+
+# vim: ft=neomuttrc

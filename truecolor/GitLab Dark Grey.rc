@@ -1,0 +1,88 @@
+# GitLab Dark Grey – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: GitLab Dark Grey
+#
+# Base palette
+# bg:  #222222
+# fg:  #ffffff
+# grey:#666666
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #222222
+color error         #f57f6c #222222
+color message       #7fb6ed #222222
+color indicator     #222222 #e9be74
+color tree          #666666 #222222
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #666666
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #222222
+color index_number  #666666 #222222
+color index_author  #7fb6ed #222222
+color index_subject #ffffff #222222
+color index_date    #d99530 #222222
+color index_flags   #fcb5aa #222222
+
+color index #f57f6c #222222 "~D"
+color index #e9be74 #222222 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #222222
+color header #7fb6ed #222222 "^From:"
+color header #7fb6ed #222222 "^To:"
+color header #d99530 #222222 "^Subject:"
+color header #d99530 #222222 "^Date:"
+color header #5edee3 #222222 "^Reply-To:"
+color header #5edee3 #222222 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #222222 ".*"
+color quoted0       #91d4a8 #222222
+color quoted1       #5edee3 #222222
+color signature     #666666 #222222
+color body #498dd1 #222222 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #222222 #d99530
+
+########################################
+# Compose
+########################################
+
+color compose_header #7fb6ed #222222
+color compose_security_encrypt #fcb5aa #222222
+color compose_security_sign #91d4a8 #222222
+color compose_security_both #5edee3 #222222
+
+########################################
+# Diff / Patch
+########################################
+
+color body #222222 #91d4a8 "^\\+.*"
+color body #222222 #f57f6c "^-.*"
+color body #222222 #d99530 "^@@.*"
+
+# vim: ft=neomuttrc

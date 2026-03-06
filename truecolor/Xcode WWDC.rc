@@ -1,0 +1,88 @@
+# Xcode WWDC – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Xcode WWDC
+#
+# Base palette
+# bg:  #292c36
+# fg:  #e7e8eb
+# grey:#7f869e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e7e8eb #292c36
+color error         #bb383a #292c36
+color message       #8884c5 #292c36
+color indicator     #292c36 #d28e5d
+color tree          #7f869e #292c36
+
+########################################
+# Status Bar
+########################################
+
+color status        #e7e8eb #7f869e
+
+########################################
+# Index View
+########################################
+
+color index         #e7e8eb #292c36
+color index_number  #7f869e #292c36
+color index_author  #8884c5 #292c36
+color index_subject #e7e8eb #292c36
+color index_date    #d28e5d #292c36
+color index_flags   #bb383a #292c36
+
+color index #bb383a #292c36 "~D"
+color index #d28e5d #292c36 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e7e8eb #292c36
+color header #8884c5 #292c36 "^From:"
+color header #8884c5 #292c36 "^To:"
+color header #d28e5d #292c36 "^Subject:"
+color header #d28e5d #292c36 "^Date:"
+color header #00aba4 #292c36 "^Reply-To:"
+color header #00aba4 #292c36 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e7e8eb #292c36 ".*"
+color quoted0       #94c66e #292c36
+color quoted1       #00aba4 #292c36
+color signature     #7f869e #292c36
+color body #8884c5 #292c36 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #292c36 #d28e5d
+
+########################################
+# Compose
+########################################
+
+color compose_header #8884c5 #292c36
+color compose_security_encrypt #bb383a #292c36
+color compose_security_sign #94c66e #292c36
+color compose_security_both #00aba4 #292c36
+
+########################################
+# Diff / Patch
+########################################
+
+color body #292c36 #94c66e "^\\+.*"
+color body #292c36 #bb383a "^-.*"
+color body #292c36 #d28e5d "^@@.*"
+
+# vim: ft=neomuttrc

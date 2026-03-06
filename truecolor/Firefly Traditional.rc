@@ -1,0 +1,88 @@
+# Firefly Traditional – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Firefly Traditional
+#
+# Base palette
+# bg:  #000000
+# fg:  #f5f5f5
+# grey:#828282
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f5f5f5 #000000
+color error         #c23720 #000000
+color message       #5a63ff #000000
+color indicator     #000000 #ecec16
+color tree          #828282 #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #f5f5f5 #828282
+
+########################################
+# Index View
+########################################
+
+color index         #f5f5f5 #000000
+color index_number  #828282 #000000
+color index_author  #5a63ff #000000
+color index_subject #f5f5f5 #000000
+color index_date    #afad24 #000000
+color index_flags   #ff3b1e #000000
+
+color index #c23720 #000000 "~D"
+color index #ecec16 #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f5f5f5 #000000
+color header #5a63ff #000000 "^From:"
+color header #5a63ff #000000 "^To:"
+color header #afad24 #000000 "^Subject:"
+color header #afad24 #000000 "^Date:"
+color header #29f0f0 #000000 "^Reply-To:"
+color header #29f0f0 #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f5f5f5 #000000 ".*"
+color quoted0       #2ee720 #000000
+color quoted1       #29f0f0 #000000
+color signature     #828282 #000000
+color body #838dff #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #afad24
+
+########################################
+# Compose
+########################################
+
+color compose_header #5a63ff #000000
+color compose_security_encrypt #ff3b1e #000000
+color compose_security_sign #2ee720 #000000
+color compose_security_both #29f0f0 #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #2ee720 "^\\+.*"
+color body #000000 #c23720 "^-.*"
+color body #000000 #afad24 "^@@.*"
+
+# vim: ft=neomuttrc

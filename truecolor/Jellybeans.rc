@@ -1,0 +1,88 @@
+# Jellybeans – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Jellybeans
+#
+# Base palette
+# bg:  #121212
+# fg:  #dedede
+# grey:#bdbdbd
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #dedede #121212
+color error         #e27373 #121212
+color message       #97bedc #121212
+color indicator     #121212 #ffdca0
+color tree          #bdbdbd #121212
+
+########################################
+# Status Bar
+########################################
+
+color status        #dedede #bdbdbd
+
+########################################
+# Index View
+########################################
+
+color index         #dedede #121212
+color index_number  #bdbdbd #121212
+color index_author  #97bedc #121212
+color index_subject #dedede #121212
+color index_date    #ffba7b #121212
+color index_flags   #ffa1a1 #121212
+
+color index #e27373 #121212 "~D"
+color index #ffdca0 #121212 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #dedede #121212
+color header #97bedc #121212 "^From:"
+color header #97bedc #121212 "^To:"
+color header #ffba7b #121212 "^Subject:"
+color header #ffba7b #121212 "^Date:"
+color header #1ab2a8 #121212 "^Reply-To:"
+color header #1ab2a8 #121212 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #dedede #121212 ".*"
+color quoted0       #bddeab #121212
+color quoted1       #1ab2a8 #121212
+color signature     #bdbdbd #121212
+color body #b1d8f6 #121212 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #121212 #ffba7b
+
+########################################
+# Compose
+########################################
+
+color compose_header #97bedc #121212
+color compose_security_encrypt #ffa1a1 #121212
+color compose_security_sign #bddeab #121212
+color compose_security_both #1ab2a8 #121212
+
+########################################
+# Diff / Patch
+########################################
+
+color body #121212 #bddeab "^\\+.*"
+color body #121212 #e27373 "^-.*"
+color body #121212 #ffba7b "^@@.*"
+
+# vim: ft=neomuttrc

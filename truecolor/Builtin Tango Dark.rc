@@ -1,0 +1,88 @@
+# Builtin Tango Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Builtin Tango Dark
+#
+# Base palette
+# bg:  #000000
+# fg:  #ffffff
+# grey:#555753
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #000000
+color error         #cc0000 #000000
+color message       #3465a4 #000000
+color indicator     #000000 #fce94f
+color tree          #555753 #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #555753
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #000000
+color index_number  #555753 #000000
+color index_author  #3465a4 #000000
+color index_subject #ffffff #000000
+color index_date    #c4a000 #000000
+color index_flags   #ef2929 #000000
+
+color index #cc0000 #000000 "~D"
+color index #fce94f #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #000000
+color header #3465a4 #000000 "^From:"
+color header #3465a4 #000000 "^To:"
+color header #c4a000 #000000 "^Subject:"
+color header #c4a000 #000000 "^Date:"
+color header #34e2e2 #000000 "^Reply-To:"
+color header #34e2e2 #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #000000 ".*"
+color quoted0       #8ae234 #000000
+color quoted1       #34e2e2 #000000
+color signature     #555753 #000000
+color body #729fcf #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #c4a000
+
+########################################
+# Compose
+########################################
+
+color compose_header #3465a4 #000000
+color compose_security_encrypt #ef2929 #000000
+color compose_security_sign #8ae234 #000000
+color compose_security_both #34e2e2 #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #8ae234 "^\\+.*"
+color body #000000 #cc0000 "^-.*"
+color body #000000 #c4a000 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Rose Pine Dawn – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Rose Pine Dawn
+#
+# Base palette
+# bg:  #faf4ed
+# fg:  #575279
+# grey:#9893a5
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #575279 #faf4ed
+color error         #b4637a #faf4ed
+color message       #56949f #faf4ed
+color indicator     #faf4ed #ea9d34
+color tree          #9893a5 #faf4ed
+
+########################################
+# Status Bar
+########################################
+
+color status        #575279 #9893a5
+
+########################################
+# Index View
+########################################
+
+color index         #575279 #faf4ed
+color index_number  #9893a5 #faf4ed
+color index_author  #56949f #faf4ed
+color index_subject #575279 #faf4ed
+color index_date    #ea9d34 #faf4ed
+color index_flags   #b4637a #faf4ed
+
+color index #b4637a #faf4ed "~D"
+color index #ea9d34 #faf4ed "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #575279 #faf4ed
+color header #56949f #faf4ed "^From:"
+color header #56949f #faf4ed "^To:"
+color header #ea9d34 #faf4ed "^Subject:"
+color header #ea9d34 #faf4ed "^Date:"
+color header #d7827e #faf4ed "^Reply-To:"
+color header #d7827e #faf4ed "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #575279 #faf4ed ".*"
+color quoted0       #286983 #faf4ed
+color quoted1       #d7827e #faf4ed
+color signature     #9893a5 #faf4ed
+color body #56949f #faf4ed "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #faf4ed #ea9d34
+
+########################################
+# Compose
+########################################
+
+color compose_header #56949f #faf4ed
+color compose_security_encrypt #b4637a #faf4ed
+color compose_security_sign #286983 #faf4ed
+color compose_security_both #d7827e #faf4ed
+
+########################################
+# Diff / Patch
+########################################
+
+color body #faf4ed #286983 "^\\+.*"
+color body #faf4ed #b4637a "^-.*"
+color body #faf4ed #ea9d34 "^@@.*"
+
+# vim: ft=neomuttrc

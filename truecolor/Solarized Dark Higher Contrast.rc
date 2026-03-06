@@ -1,0 +1,88 @@
+# Solarized Dark Higher Contrast – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Solarized Dark Higher Contrast
+#
+# Base palette
+# bg:  #001e27
+# fg:  #9cc2c3
+# grey:#006488
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #9cc2c3 #001e27
+color error         #d11c24 #001e27
+color message       #2176c7 #001e27
+color indicator     #001e27 #b27e28
+color tree          #006488 #001e27
+
+########################################
+# Status Bar
+########################################
+
+color status        #9cc2c3 #006488
+
+########################################
+# Index View
+########################################
+
+color index         #9cc2c3 #001e27
+color index_number  #006488 #001e27
+color index_author  #2176c7 #001e27
+color index_subject #9cc2c3 #001e27
+color index_date    #a57706 #001e27
+color index_flags   #f5163b #001e27
+
+color index #d11c24 #001e27 "~D"
+color index #b27e28 #001e27 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #9cc2c3 #001e27
+color header #2176c7 #001e27 "^From:"
+color header #2176c7 #001e27 "^To:"
+color header #a57706 #001e27 "^Subject:"
+color header #a57706 #001e27 "^Date:"
+color header #00b39e #001e27 "^Reply-To:"
+color header #00b39e #001e27 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #9cc2c3 #001e27 ".*"
+color quoted0       #51ef84 #001e27
+color quoted1       #00b39e #001e27
+color signature     #006488 #001e27
+color body #178ec8 #001e27 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #001e27 #a57706
+
+########################################
+# Compose
+########################################
+
+color compose_header #2176c7 #001e27
+color compose_security_encrypt #f5163b #001e27
+color compose_security_sign #51ef84 #001e27
+color compose_security_both #00b39e #001e27
+
+########################################
+# Diff / Patch
+########################################
+
+color body #001e27 #51ef84 "^\\+.*"
+color body #001e27 #d11c24 "^-.*"
+color body #001e27 #a57706 "^@@.*"
+
+# vim: ft=neomuttrc

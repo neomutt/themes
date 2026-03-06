@@ -1,0 +1,88 @@
+# GitHub Light Colorblind – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: GitHub Light Colorblind
+#
+# Base palette
+# bg:  #ffffff
+# fg:  #24292f
+# grey:#57606a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #24292f #ffffff
+color error         #b35900 #ffffff
+color message       #0969da #ffffff
+color indicator     #ffffff #633c01
+color tree          #57606a #ffffff
+
+########################################
+# Status Bar
+########################################
+
+color status        #24292f #57606a
+
+########################################
+# Index View
+########################################
+
+color index         #24292f #ffffff
+color index_number  #57606a #ffffff
+color index_author  #0969da #ffffff
+color index_subject #24292f #ffffff
+color index_date    #4d2d00 #ffffff
+color index_flags   #8a4600 #ffffff
+
+color index #b35900 #ffffff "~D"
+color index #633c01 #ffffff "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #24292f #ffffff
+color header #0969da #ffffff "^From:"
+color header #0969da #ffffff "^To:"
+color header #4d2d00 #ffffff "^Subject:"
+color header #4d2d00 #ffffff "^Date:"
+color header #3192aa #ffffff "^Reply-To:"
+color header #3192aa #ffffff "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #24292f #ffffff ".*"
+color quoted0       #0969da #ffffff
+color quoted1       #3192aa #ffffff
+color signature     #57606a #ffffff
+color body #218bff #ffffff "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #ffffff #4d2d00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0969da #ffffff
+color compose_security_encrypt #8a4600 #ffffff
+color compose_security_sign #0969da #ffffff
+color compose_security_both #3192aa #ffffff
+
+########################################
+# Diff / Patch
+########################################
+
+color body #ffffff #0969da "^\\+.*"
+color body #ffffff #b35900 "^-.*"
+color body #ffffff #4d2d00 "^@@.*"
+
+# vim: ft=neomuttrc

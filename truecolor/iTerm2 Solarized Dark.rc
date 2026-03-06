@@ -1,0 +1,88 @@
+# iTerm2 Solarized Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: iTerm2 Solarized Dark
+#
+# Base palette
+# bg:  #002b36
+# fg:  #839496
+# grey:#335e69
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #839496 #002b36
+color error         #dc322f #002b36
+color message       #268bd2 #002b36
+color indicator     #002b36 #657b83
+color tree          #335e69 #002b36
+
+########################################
+# Status Bar
+########################################
+
+color status        #839496 #335e69
+
+########################################
+# Index View
+########################################
+
+color index         #839496 #002b36
+color index_number  #335e69 #002b36
+color index_author  #268bd2 #002b36
+color index_subject #839496 #002b36
+color index_date    #b58900 #002b36
+color index_flags   #cb4b16 #002b36
+
+color index #dc322f #002b36 "~D"
+color index #657b83 #002b36 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #839496 #002b36
+color header #268bd2 #002b36 "^From:"
+color header #268bd2 #002b36 "^To:"
+color header #b58900 #002b36 "^Subject:"
+color header #b58900 #002b36 "^Date:"
+color header #93a1a1 #002b36 "^Reply-To:"
+color header #93a1a1 #002b36 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #839496 #002b36 ".*"
+color quoted0       #586e75 #002b36
+color quoted1       #93a1a1 #002b36
+color signature     #335e69 #002b36
+color body #839496 #002b36 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #002b36 #b58900
+
+########################################
+# Compose
+########################################
+
+color compose_header #268bd2 #002b36
+color compose_security_encrypt #cb4b16 #002b36
+color compose_security_sign #586e75 #002b36
+color compose_security_both #93a1a1 #002b36
+
+########################################
+# Diff / Patch
+########################################
+
+color body #002b36 #586e75 "^\\+.*"
+color body #002b36 #dc322f "^-.*"
+color body #002b36 #b58900 "^@@.*"
+
+# vim: ft=neomuttrc

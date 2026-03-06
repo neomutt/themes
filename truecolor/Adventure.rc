@@ -1,0 +1,88 @@
+# Adventure – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Adventure
+#
+# Base palette
+# bg:  #040404
+# fg:  #feffff
+# grey:#685656
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #feffff #040404
+color error         #d84a33 #040404
+color message       #417ab3 #040404
+color indicator     #040404 #ffb670
+color tree          #685656 #040404
+
+########################################
+# Status Bar
+########################################
+
+color status        #feffff #685656
+
+########################################
+# Index View
+########################################
+
+color index         #feffff #040404
+color index_number  #685656 #040404
+color index_author  #417ab3 #040404
+color index_subject #feffff #040404
+color index_date    #eebb6e #040404
+color index_flags   #d76b42 #040404
+
+color index #d84a33 #040404 "~D"
+color index #ffb670 #040404 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #feffff #040404
+color header #417ab3 #040404 "^From:"
+color header #417ab3 #040404 "^To:"
+color header #eebb6e #040404 "^Subject:"
+color header #eebb6e #040404 "^Date:"
+color header #bdcfe5 #040404 "^Reply-To:"
+color header #bdcfe5 #040404 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #feffff #040404 ".*"
+color quoted0       #99b52c #040404
+color quoted1       #bdcfe5 #040404
+color signature     #685656 #040404
+color body #97d7ef #040404 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #040404 #eebb6e
+
+########################################
+# Compose
+########################################
+
+color compose_header #417ab3 #040404
+color compose_security_encrypt #d76b42 #040404
+color compose_security_sign #99b52c #040404
+color compose_security_both #bdcfe5 #040404
+
+########################################
+# Diff / Patch
+########################################
+
+color body #040404 #99b52c "^\\+.*"
+color body #040404 #d84a33 "^-.*"
+color body #040404 #eebb6e "^@@.*"
+
+# vim: ft=neomuttrc

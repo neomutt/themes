@@ -1,0 +1,88 @@
+# Material Darker – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Material Darker
+#
+# Base palette
+# bg:  #212121
+# fg:  #eeffff
+# grey:#545454
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #eeffff #212121
+color error         #ff5370 #212121
+color message       #82aaff #212121
+color indicator     #212121 #ffcb6b
+color tree          #545454 #212121
+
+########################################
+# Status Bar
+########################################
+
+color status        #eeffff #545454
+
+########################################
+# Index View
+########################################
+
+color index         #eeffff #212121
+color index_number  #545454 #212121
+color index_author  #82aaff #212121
+color index_subject #eeffff #212121
+color index_date    #ffcb6b #212121
+color index_flags   #ff5370 #212121
+
+color index #ff5370 #212121 "~D"
+color index #ffcb6b #212121 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #eeffff #212121
+color header #82aaff #212121 "^From:"
+color header #82aaff #212121 "^To:"
+color header #ffcb6b #212121 "^Subject:"
+color header #ffcb6b #212121 "^Date:"
+color header #89ddff #212121 "^Reply-To:"
+color header #89ddff #212121 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #eeffff #212121 ".*"
+color quoted0       #c3e88d #212121
+color quoted1       #89ddff #212121
+color signature     #545454 #212121
+color body #82aaff #212121 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #212121 #ffcb6b
+
+########################################
+# Compose
+########################################
+
+color compose_header #82aaff #212121
+color compose_security_encrypt #ff5370 #212121
+color compose_security_sign #c3e88d #212121
+color compose_security_both #89ddff #212121
+
+########################################
+# Diff / Patch
+########################################
+
+color body #212121 #c3e88d "^\\+.*"
+color body #212121 #ff5370 "^-.*"
+color body #212121 #ffcb6b "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Kitty Low Contrast – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kitty Low Contrast
+#
+# Base palette
+# bg:  #333333
+# fg:  #ffffff
+# grey:#767676
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #333333
+color error         #cc0403 #333333
+color message       #0d73cc #333333
+color indicator     #333333 #fffd00
+color tree          #767676 #333333
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #767676
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #333333
+color index_number  #767676 #333333
+color index_author  #0d73cc #333333
+color index_subject #ffffff #333333
+color index_date    #cecb00 #333333
+color index_flags   #f2201f #333333
+
+color index #cc0403 #333333 "~D"
+color index #fffd00 #333333 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #333333
+color header #0d73cc #333333 "^From:"
+color header #0d73cc #333333 "^To:"
+color header #cecb00 #333333 "^Subject:"
+color header #cecb00 #333333 "^Date:"
+color header #14ffff #333333 "^Reply-To:"
+color header #14ffff #333333 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #333333 ".*"
+color quoted0       #23fd00 #333333
+color quoted1       #14ffff #333333
+color signature     #767676 #333333
+color body #1a8fff #333333 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #333333 #cecb00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0d73cc #333333
+color compose_security_encrypt #f2201f #333333
+color compose_security_sign #23fd00 #333333
+color compose_security_both #14ffff #333333
+
+########################################
+# Diff / Patch
+########################################
+
+color body #333333 #23fd00 "^\\+.*"
+color body #333333 #cc0403 "^-.*"
+color body #333333 #cecb00 "^@@.*"
+
+# vim: ft=neomuttrc

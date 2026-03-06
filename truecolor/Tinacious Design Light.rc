@@ -1,0 +1,88 @@
+# Tinacious Design Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tinacious Design Light
+#
+# Base palette
+# bg:  #f8f8ff
+# fg:  #1d1d26
+# grey:#636667
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #1d1d26 #f8f8ff
+color error         #ff3399 #f8f8ff
+color message       #00cbff #f8f8ff
+color indicator     #f8f8ff #d9ae53
+color tree          #636667 #f8f8ff
+
+########################################
+# Status Bar
+########################################
+
+color status        #1d1d26 #636667
+
+########################################
+# Index View
+########################################
+
+color index         #1d1d26 #f8f8ff
+color index_number  #636667 #f8f8ff
+color index_author  #00cbff #f8f8ff
+color index_subject #1d1d26 #f8f8ff
+color index_date    #e5b24d #f8f8ff
+color index_flags   #ff2f92 #f8f8ff
+
+color index #ff3399 #f8f8ff "~D"
+color index #d9ae53 #f8f8ff "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #1d1d26 #f8f8ff
+color header #00cbff #f8f8ff "^From:"
+color header #00cbff #f8f8ff "^To:"
+color header #e5b24d #f8f8ff "^Subject:"
+color header #e5b24d #f8f8ff "^Date:"
+color header #00c8c7 #f8f8ff "^Reply-To:"
+color header #00c8c7 #f8f8ff "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #1d1d26 #f8f8ff ".*"
+color quoted0       #00d364 #f8f8ff
+color quoted1       #00c8c7 #f8f8ff
+color signature     #636667 #f8f8ff
+color body #00cbff #f8f8ff "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f8f8ff #e5b24d
+
+########################################
+# Compose
+########################################
+
+color compose_header #00cbff #f8f8ff
+color compose_security_encrypt #ff2f92 #f8f8ff
+color compose_security_sign #00d364 #f8f8ff
+color compose_security_both #00c8c7 #f8f8ff
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f8f8ff #00d364 "^\\+.*"
+color body #f8f8ff #ff3399 "^-.*"
+color body #f8f8ff #e5b24d "^@@.*"
+
+# vim: ft=neomuttrc

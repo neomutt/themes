@@ -1,0 +1,88 @@
+# No Clown Fiesta – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: No Clown Fiesta
+#
+# Base palette
+# bg:  #101010
+# fg:  #e0e1e4
+# grey:#727272
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e0e1e4 #101010
+color error         #b46958 #101010
+color message       #bad7ff #101010
+color indicator     #101010 #f4bf75
+color tree          #727272 #101010
+
+########################################
+# Status Bar
+########################################
+
+color status        #e0e1e4 #727272
+
+########################################
+# Index View
+########################################
+
+color index         #e0e1e4 #101010
+color index_number  #727272 #101010
+color index_author  #bad7ff #101010
+color index_subject #e0e1e4 #101010
+color index_date    #f4bf75 #101010
+color index_flags   #7e97ab #101010
+
+color index #b46958 #101010 "~D"
+color index #f4bf75 #101010 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e0e1e4 #101010
+color header #bad7ff #101010 "^From:"
+color header #bad7ff #101010 "^To:"
+color header #f4bf75 #101010 "^Subject:"
+color header #f4bf75 #101010 "^Date:"
+color header #88afa2 #101010 "^Reply-To:"
+color header #88afa2 #101010 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e0e1e4 #101010 ".*"
+color quoted0       #90a959 #101010
+color quoted1       #88afa2 #101010
+color signature     #727272 #101010
+color body #bad7ff #101010 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #101010 #f4bf75
+
+########################################
+# Compose
+########################################
+
+color compose_header #bad7ff #101010
+color compose_security_encrypt #7e97ab #101010
+color compose_security_sign #90a959 #101010
+color compose_security_both #88afa2 #101010
+
+########################################
+# Diff / Patch
+########################################
+
+color body #101010 #90a959 "^\\+.*"
+color body #101010 #b46958 "^-.*"
+color body #101010 #f4bf75 "^@@.*"
+
+# vim: ft=neomuttrc

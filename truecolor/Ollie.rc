@@ -1,0 +1,88 @@
+# Ollie – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Ollie
+#
+# Base palette
+# bg:  #222125
+# fg:  #8a8dae
+# grey:#684432
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #8a8dae #222125
+color error         #ac2e31 #222125
+color message       #2d57ac #222125
+color indicator     #222125 #ff5e1e
+color tree          #684432 #222125
+
+########################################
+# Status Bar
+########################################
+
+color status        #8a8dae #684432
+
+########################################
+# Index View
+########################################
+
+color index         #8a8dae #222125
+color index_number  #684432 #222125
+color index_author  #2d57ac #222125
+color index_subject #8a8dae #222125
+color index_date    #ac4300 #222125
+color index_flags   #ff3d48 #222125
+
+color index #ac2e31 #222125 "~D"
+color index #ff5e1e #222125 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #8a8dae #222125
+color header #2d57ac #222125 "^From:"
+color header #2d57ac #222125 "^To:"
+color header #ac4300 #222125 "^Subject:"
+color header #ac4300 #222125 "^Date:"
+color header #1ffaff #222125 "^Reply-To:"
+color header #1ffaff #222125 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #8a8dae #222125 ".*"
+color quoted0       #3bff99 #222125
+color quoted1       #1ffaff #222125
+color signature     #684432 #222125
+color body #4488ff #222125 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #222125 #ac4300
+
+########################################
+# Compose
+########################################
+
+color compose_header #2d57ac #222125
+color compose_security_encrypt #ff3d48 #222125
+color compose_security_sign #3bff99 #222125
+color compose_security_both #1ffaff #222125
+
+########################################
+# Diff / Patch
+########################################
+
+color body #222125 #3bff99 "^\\+.*"
+color body #222125 #ac2e31 "^-.*"
+color body #222125 #ac4300 "^@@.*"
+
+# vim: ft=neomuttrc

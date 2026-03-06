@@ -1,0 +1,88 @@
+# Sundried – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Sundried
+#
+# Base palette
+# bg:  #1a1818
+# fg:  #c9c9c9
+# grey:#4d4e48
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c9c9c9 #1a1818
+color error         #a7463d #1a1818
+color message       #485b98 #1a1818
+color indicator     #1a1818 #fc6a21
+color tree          #4d4e48 #1a1818
+
+########################################
+# Status Bar
+########################################
+
+color status        #c9c9c9 #4d4e48
+
+########################################
+# Index View
+########################################
+
+color index         #c9c9c9 #1a1818
+color index_number  #4d4e48 #1a1818
+color index_author  #485b98 #1a1818
+color index_subject #c9c9c9 #1a1818
+color index_date    #9d602a #1a1818
+color index_flags   #aa000c #1a1818
+
+color index #a7463d #1a1818 "~D"
+color index #fc6a21 #1a1818 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c9c9c9 #1a1818
+color header #485b98 #1a1818 "^From:"
+color header #485b98 #1a1818 "^To:"
+color header #9d602a #1a1818 "^Subject:"
+color header #9d602a #1a1818 "^Date:"
+color header #fad484 #1a1818 "^Reply-To:"
+color header #fad484 #1a1818 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c9c9c9 #1a1818 ".*"
+color quoted0       #128c21 #1a1818
+color quoted1       #fad484 #1a1818
+color signature     #4d4e48 #1a1818
+color body #7999f7 #1a1818 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1a1818 #9d602a
+
+########################################
+# Compose
+########################################
+
+color compose_header #485b98 #1a1818
+color compose_security_encrypt #aa000c #1a1818
+color compose_security_sign #128c21 #1a1818
+color compose_security_both #fad484 #1a1818
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1a1818 #128c21 "^\\+.*"
+color body #1a1818 #a7463d "^-.*"
+color body #1a1818 #9d602a "^@@.*"
+
+# vim: ft=neomuttrc

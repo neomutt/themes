@@ -1,0 +1,88 @@
+# C64 – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: C64
+#
+# Base palette
+# bg:  #40318d
+# fg:  #7869c4
+# grey:#000000
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #7869c4 #40318d
+color error         #a2524c #40318d
+color message       #6657b3 #40318d
+color indicator     #40318d #bfce72
+color tree          #000000 #40318d
+
+########################################
+# Status Bar
+########################################
+
+color status        #7869c4 #000000
+
+########################################
+# Index View
+########################################
+
+color index         #7869c4 #40318d
+color index_number  #000000 #40318d
+color index_author  #6657b3 #40318d
+color index_subject #7869c4 #40318d
+color index_date    #bfce72 #40318d
+color index_flags   #a2524c #40318d
+
+color index #a2524c #40318d "~D"
+color index #bfce72 #40318d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #7869c4 #40318d
+color header #6657b3 #40318d "^From:"
+color header #6657b3 #40318d "^To:"
+color header #bfce72 #40318d "^Subject:"
+color header #bfce72 #40318d "^Date:"
+color header #67b6bd #40318d "^Reply-To:"
+color header #67b6bd #40318d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #7869c4 #40318d ".*"
+color quoted0       #55a049 #40318d
+color quoted1       #67b6bd #40318d
+color signature     #000000 #40318d
+color body #6657b3 #40318d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #40318d #bfce72
+
+########################################
+# Compose
+########################################
+
+color compose_header #6657b3 #40318d
+color compose_security_encrypt #a2524c #40318d
+color compose_security_sign #55a049 #40318d
+color compose_security_both #67b6bd #40318d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #40318d #55a049 "^\\+.*"
+color body #40318d #a2524c "^-.*"
+color body #40318d #bfce72 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Batman – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Batman
+#
+# Base palette
+# bg:  #1b1d1e
+# fg:  #6f6f6f
+# grey:#505354
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #6f6f6f #1b1d1e
+color error         #e6dc44 #1b1d1e
+color message       #737174 #1b1d1e
+color indicator     #1b1d1e #feed6c
+color tree          #505354 #1b1d1e
+
+########################################
+# Status Bar
+########################################
+
+color status        #6f6f6f #505354
+
+########################################
+# Index View
+########################################
+
+color index         #6f6f6f #1b1d1e
+color index_number  #505354 #1b1d1e
+color index_author  #737174 #1b1d1e
+color index_subject #6f6f6f #1b1d1e
+color index_date    #f4fd22 #1b1d1e
+color index_flags   #fff78e #1b1d1e
+
+color index #e6dc44 #1b1d1e "~D"
+color index #feed6c #1b1d1e "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #6f6f6f #1b1d1e
+color header #737174 #1b1d1e "^From:"
+color header #737174 #1b1d1e "^To:"
+color header #f4fd22 #1b1d1e "^Subject:"
+color header #f4fd22 #1b1d1e "^Date:"
+color header #a3a3a6 #1b1d1e "^Reply-To:"
+color header #a3a3a6 #1b1d1e "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #6f6f6f #1b1d1e ".*"
+color quoted0       #fff27d #1b1d1e
+color quoted1       #a3a3a6 #1b1d1e
+color signature     #505354 #1b1d1e
+color body #919495 #1b1d1e "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1b1d1e #f4fd22
+
+########################################
+# Compose
+########################################
+
+color compose_header #737174 #1b1d1e
+color compose_security_encrypt #fff78e #1b1d1e
+color compose_security_sign #fff27d #1b1d1e
+color compose_security_both #a3a3a6 #1b1d1e
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1b1d1e #fff27d "^\\+.*"
+color body #1b1d1e #e6dc44 "^-.*"
+color body #1b1d1e #f4fd22 "^@@.*"
+
+# vim: ft=neomuttrc

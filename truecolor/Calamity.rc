@@ -1,0 +1,88 @@
+# Calamity – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Calamity
+#
+# Base palette
+# bg:  #2f2833
+# fg:  #d5ced9
+# grey:#7e6c88
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d5ced9 #2f2833
+color error         #fc644d #2f2833
+color message       #3b79c7 #2f2833
+color indicator     #2f2833 #e9d7a5
+color tree          #7e6c88 #2f2833
+
+########################################
+# Status Bar
+########################################
+
+color status        #d5ced9 #7e6c88
+
+########################################
+# Index View
+########################################
+
+color index         #d5ced9 #2f2833
+color index_number  #7e6c88 #2f2833
+color index_author  #3b79c7 #2f2833
+color index_subject #d5ced9 #2f2833
+color index_date    #e9d7a5 #2f2833
+color index_flags   #fc644d #2f2833
+
+color index #fc644d #2f2833 "~D"
+color index #e9d7a5 #2f2833 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d5ced9 #2f2833
+color header #3b79c7 #2f2833 "^From:"
+color header #3b79c7 #2f2833 "^To:"
+color header #e9d7a5 #2f2833 "^Subject:"
+color header #e9d7a5 #2f2833 "^Date:"
+color header #74d3de #2f2833 "^Reply-To:"
+color header #74d3de #2f2833 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d5ced9 #2f2833 ".*"
+color quoted0       #a5f69c #2f2833
+color quoted1       #74d3de #2f2833
+color signature     #7e6c88 #2f2833
+color body #3b79c7 #2f2833 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #2f2833 #e9d7a5
+
+########################################
+# Compose
+########################################
+
+color compose_header #3b79c7 #2f2833
+color compose_security_encrypt #fc644d #2f2833
+color compose_security_sign #a5f69c #2f2833
+color compose_security_both #74d3de #2f2833
+
+########################################
+# Diff / Patch
+########################################
+
+color body #2f2833 #a5f69c "^\\+.*"
+color body #2f2833 #fc644d "^-.*"
+color body #2f2833 #e9d7a5 "^@@.*"
+
+# vim: ft=neomuttrc

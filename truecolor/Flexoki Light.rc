@@ -1,0 +1,88 @@
+# Flexoki Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Flexoki Light
+#
+# Base palette
+# bg:  #fffcf0
+# fg:  #100f0f
+# grey:#b7b5ac
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #100f0f #fffcf0
+color error         #af3029 #fffcf0
+color message       #205ea6 #fffcf0
+color indicator     #fffcf0 #d0a215
+color tree          #b7b5ac #fffcf0
+
+########################################
+# Status Bar
+########################################
+
+color status        #100f0f #b7b5ac
+
+########################################
+# Index View
+########################################
+
+color index         #100f0f #fffcf0
+color index_number  #b7b5ac #fffcf0
+color index_author  #205ea6 #fffcf0
+color index_subject #100f0f #fffcf0
+color index_date    #ad8301 #fffcf0
+color index_flags   #d14d41 #fffcf0
+
+color index #af3029 #fffcf0 "~D"
+color index #d0a215 #fffcf0 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #100f0f #fffcf0
+color header #205ea6 #fffcf0 "^From:"
+color header #205ea6 #fffcf0 "^To:"
+color header #ad8301 #fffcf0 "^Subject:"
+color header #ad8301 #fffcf0 "^Date:"
+color header #3aa99f #fffcf0 "^Reply-To:"
+color header #3aa99f #fffcf0 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #100f0f #fffcf0 ".*"
+color quoted0       #879a39 #fffcf0
+color quoted1       #3aa99f #fffcf0
+color signature     #b7b5ac #fffcf0
+color body #4385be #fffcf0 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #fffcf0 #ad8301
+
+########################################
+# Compose
+########################################
+
+color compose_header #205ea6 #fffcf0
+color compose_security_encrypt #d14d41 #fffcf0
+color compose_security_sign #879a39 #fffcf0
+color compose_security_both #3aa99f #fffcf0
+
+########################################
+# Diff / Patch
+########################################
+
+color body #fffcf0 #879a39 "^\\+.*"
+color body #fffcf0 #af3029 "^-.*"
+color body #fffcf0 #ad8301 "^@@.*"
+
+# vim: ft=neomuttrc

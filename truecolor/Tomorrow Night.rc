@@ -1,0 +1,88 @@
+# Tomorrow Night – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tomorrow Night
+#
+# Base palette
+# bg:  #1d1f21
+# fg:  #c5c8c6
+# grey:#4c4c4c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c5c8c6 #1d1f21
+color error         #cc6666 #1d1f21
+color message       #81a2be #1d1f21
+color indicator     #1d1f21 #f0c674
+color tree          #4c4c4c #1d1f21
+
+########################################
+# Status Bar
+########################################
+
+color status        #c5c8c6 #4c4c4c
+
+########################################
+# Index View
+########################################
+
+color index         #c5c8c6 #1d1f21
+color index_number  #4c4c4c #1d1f21
+color index_author  #81a2be #1d1f21
+color index_subject #c5c8c6 #1d1f21
+color index_date    #f0c674 #1d1f21
+color index_flags   #cc6666 #1d1f21
+
+color index #cc6666 #1d1f21 "~D"
+color index #f0c674 #1d1f21 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c5c8c6 #1d1f21
+color header #81a2be #1d1f21 "^From:"
+color header #81a2be #1d1f21 "^To:"
+color header #f0c674 #1d1f21 "^Subject:"
+color header #f0c674 #1d1f21 "^Date:"
+color header #8abeb7 #1d1f21 "^Reply-To:"
+color header #8abeb7 #1d1f21 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c5c8c6 #1d1f21 ".*"
+color quoted0       #b5bd68 #1d1f21
+color quoted1       #8abeb7 #1d1f21
+color signature     #4c4c4c #1d1f21
+color body #81a2be #1d1f21 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1d1f21 #f0c674
+
+########################################
+# Compose
+########################################
+
+color compose_header #81a2be #1d1f21
+color compose_security_encrypt #cc6666 #1d1f21
+color compose_security_sign #b5bd68 #1d1f21
+color compose_security_both #8abeb7 #1d1f21
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1d1f21 #b5bd68 "^\\+.*"
+color body #1d1f21 #cc6666 "^-.*"
+color body #1d1f21 #f0c674 "^@@.*"
+
+# vim: ft=neomuttrc

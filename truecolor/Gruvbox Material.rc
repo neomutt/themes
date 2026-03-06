@@ -1,0 +1,88 @@
+# Gruvbox Material – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Gruvbox Material
+#
+# Base palette
+# bg:  #1d2021
+# fg:  #d4be98
+# grey:#4c4c4c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d4be98 #1d2021
+color error         #ea6926 #1d2021
+color message       #6da3ec #1d2021
+color indicator     #1d2021 #eecf75
+color tree          #4c4c4c #1d2021
+
+########################################
+# Status Bar
+########################################
+
+color status        #d4be98 #4c4c4c
+
+########################################
+# Index View
+########################################
+
+color index         #d4be98 #1d2021
+color index_number  #4c4c4c #1d2021
+color index_author  #6da3ec #1d2021
+color index_subject #d4be98 #1d2021
+color index_date    #eecf75 #1d2021
+color index_flags   #d3573b #1d2021
+
+color index #ea6926 #1d2021 "~D"
+color index #eecf75 #1d2021 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d4be98 #1d2021
+color header #6da3ec #1d2021 "^From:"
+color header #6da3ec #1d2021 "^To:"
+color header #eecf75 #1d2021 "^Subject:"
+color header #eecf75 #1d2021 "^Date:"
+color header #92a5df #1d2021 "^Reply-To:"
+color header #92a5df #1d2021 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d4be98 #1d2021 ".*"
+color quoted0       #c1d041 #1d2021
+color quoted1       #92a5df #1d2021
+color signature     #4c4c4c #1d2021
+color body #2c86ff #1d2021 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1d2021 #eecf75
+
+########################################
+# Compose
+########################################
+
+color compose_header #6da3ec #1d2021
+color compose_security_encrypt #d3573b #1d2021
+color compose_security_sign #c1d041 #1d2021
+color compose_security_both #92a5df #1d2021
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1d2021 #c1d041 "^\\+.*"
+color body #1d2021 #ea6926 "^-.*"
+color body #1d2021 #eecf75 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Kanagawa Wave – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawa Wave
+#
+# Base palette
+# bg:  #1f1f28
+# fg:  #dcd7ba
+# grey:#727169
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #dcd7ba #1f1f28
+color error         #c34043 #1f1f28
+color message       #7e9cd8 #1f1f28
+color indicator     #1f1f28 #e6c384
+color tree          #727169 #1f1f28
+
+########################################
+# Status Bar
+########################################
+
+color status        #dcd7ba #727169
+
+########################################
+# Index View
+########################################
+
+color index         #dcd7ba #1f1f28
+color index_number  #727169 #1f1f28
+color index_author  #7e9cd8 #1f1f28
+color index_subject #dcd7ba #1f1f28
+color index_date    #c0a36e #1f1f28
+color index_flags   #e82424 #1f1f28
+
+color index #c34043 #1f1f28 "~D"
+color index #e6c384 #1f1f28 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #dcd7ba #1f1f28
+color header #7e9cd8 #1f1f28 "^From:"
+color header #7e9cd8 #1f1f28 "^To:"
+color header #c0a36e #1f1f28 "^Subject:"
+color header #c0a36e #1f1f28 "^Date:"
+color header #7aa89f #1f1f28 "^Reply-To:"
+color header #7aa89f #1f1f28 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #dcd7ba #1f1f28 ".*"
+color quoted0       #98bb6c #1f1f28
+color quoted1       #7aa89f #1f1f28
+color signature     #727169 #1f1f28
+color body #7fb4ca #1f1f28 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1f1f28 #c0a36e
+
+########################################
+# Compose
+########################################
+
+color compose_header #7e9cd8 #1f1f28
+color compose_security_encrypt #e82424 #1f1f28
+color compose_security_sign #98bb6c #1f1f28
+color compose_security_both #7aa89f #1f1f28
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1f1f28 #98bb6c "^\\+.*"
+color body #1f1f28 #c34043 "^-.*"
+color body #1f1f28 #c0a36e "^@@.*"
+
+# vim: ft=neomuttrc

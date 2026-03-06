@@ -1,0 +1,88 @@
+# Popping And Locking – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Popping And Locking
+#
+# Base palette
+# bg:  #181921
+# fg:  #ebdbb2
+# grey:#928374
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ebdbb2 #181921
+color error         #cc241d #181921
+color message       #458588 #181921
+color indicator     #181921 #fabd2f
+color tree          #928374 #181921
+
+########################################
+# Status Bar
+########################################
+
+color status        #ebdbb2 #928374
+
+########################################
+# Index View
+########################################
+
+color index         #ebdbb2 #181921
+color index_number  #928374 #181921
+color index_author  #458588 #181921
+color index_subject #ebdbb2 #181921
+color index_date    #d79921 #181921
+color index_flags   #f42c3e #181921
+
+color index #cc241d #181921 "~D"
+color index #fabd2f #181921 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ebdbb2 #181921
+color header #458588 #181921 "^From:"
+color header #458588 #181921 "^To:"
+color header #d79921 #181921 "^Subject:"
+color header #d79921 #181921 "^Date:"
+color header #7ec16e #181921 "^Reply-To:"
+color header #7ec16e #181921 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ebdbb2 #181921 ".*"
+color quoted0       #b8bb26 #181921
+color quoted1       #7ec16e #181921
+color signature     #928374 #181921
+color body #99c6ca #181921 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #181921 #d79921
+
+########################################
+# Compose
+########################################
+
+color compose_header #458588 #181921
+color compose_security_encrypt #f42c3e #181921
+color compose_security_sign #b8bb26 #181921
+color compose_security_both #7ec16e #181921
+
+########################################
+# Diff / Patch
+########################################
+
+color body #181921 #b8bb26 "^\\+.*"
+color body #181921 #cc241d "^-.*"
+color body #181921 #d79921 "^@@.*"
+
+# vim: ft=neomuttrc

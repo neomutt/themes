@@ -1,0 +1,88 @@
+# Adventure Time – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Adventure Time
+#
+# Base palette
+# bg:  #1f1d45
+# fg:  #f8dcc0
+# grey:#4e7cbf
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f8dcc0 #1f1d45
+color error         #bd0013 #1f1d45
+color message       #0f4ac6 #1f1d45
+color indicator     #1f1d45 #efc11a
+color tree          #4e7cbf #1f1d45
+
+########################################
+# Status Bar
+########################################
+
+color status        #f8dcc0 #4e7cbf
+
+########################################
+# Index View
+########################################
+
+color index         #f8dcc0 #1f1d45
+color index_number  #4e7cbf #1f1d45
+color index_author  #0f4ac6 #1f1d45
+color index_subject #f8dcc0 #1f1d45
+color index_date    #e7741e #1f1d45
+color index_flags   #fc5f5a #1f1d45
+
+color index #bd0013 #1f1d45 "~D"
+color index #efc11a #1f1d45 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f8dcc0 #1f1d45
+color header #0f4ac6 #1f1d45 "^From:"
+color header #0f4ac6 #1f1d45 "^To:"
+color header #e7741e #1f1d45 "^Subject:"
+color header #e7741e #1f1d45 "^Date:"
+color header #c8faf4 #1f1d45 "^Reply-To:"
+color header #c8faf4 #1f1d45 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f8dcc0 #1f1d45 ".*"
+color quoted0       #9eff6e #1f1d45
+color quoted1       #c8faf4 #1f1d45
+color signature     #4e7cbf #1f1d45
+color body #1997c6 #1f1d45 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1f1d45 #e7741e
+
+########################################
+# Compose
+########################################
+
+color compose_header #0f4ac6 #1f1d45
+color compose_security_encrypt #fc5f5a #1f1d45
+color compose_security_sign #9eff6e #1f1d45
+color compose_security_both #c8faf4 #1f1d45
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1f1d45 #9eff6e "^\\+.*"
+color body #1f1d45 #bd0013 "^-.*"
+color body #1f1d45 #e7741e "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Aura – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Aura
+#
+# Base palette
+# bg:  #15141b
+# fg:  #edecee
+# grey:#4d4d4d
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #edecee #15141b
+color error         #ff6767 #15141b
+color message       #a277ff #15141b
+color indicator     #15141b #ffca85
+color tree          #4d4d4d #15141b
+
+########################################
+# Status Bar
+########################################
+
+color status        #edecee #4d4d4d
+
+########################################
+# Index View
+########################################
+
+color index         #edecee #15141b
+color index_number  #4d4d4d #15141b
+color index_author  #a277ff #15141b
+color index_subject #edecee #15141b
+color index_date    #ffca85 #15141b
+color index_flags   #ffca85 #15141b
+
+color index #ff6767 #15141b "~D"
+color index #ffca85 #15141b "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #edecee #15141b
+color header #a277ff #15141b "^From:"
+color header #a277ff #15141b "^To:"
+color header #ffca85 #15141b "^Subject:"
+color header #ffca85 #15141b "^Date:"
+color header #61ffca #15141b "^Reply-To:"
+color header #61ffca #15141b "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #edecee #15141b ".*"
+color quoted0       #a277ff #15141b
+color quoted1       #61ffca #15141b
+color signature     #4d4d4d #15141b
+color body #a277ff #15141b "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #15141b #ffca85
+
+########################################
+# Compose
+########################################
+
+color compose_header #a277ff #15141b
+color compose_security_encrypt #ffca85 #15141b
+color compose_security_sign #a277ff #15141b
+color compose_security_both #61ffca #15141b
+
+########################################
+# Diff / Patch
+########################################
+
+color body #15141b #a277ff "^\\+.*"
+color body #15141b #ff6767 "^-.*"
+color body #15141b #ffca85 "^@@.*"
+
+# vim: ft=neomuttrc

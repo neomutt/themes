@@ -1,0 +1,88 @@
+# Rose Pine – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Rose Pine
+#
+# Base palette
+# bg:  #191724
+# fg:  #e0def4
+# grey:#6e6a86
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e0def4 #191724
+color error         #eb6f92 #191724
+color message       #9ccfd8 #191724
+color indicator     #191724 #f6c177
+color tree          #6e6a86 #191724
+
+########################################
+# Status Bar
+########################################
+
+color status        #e0def4 #6e6a86
+
+########################################
+# Index View
+########################################
+
+color index         #e0def4 #191724
+color index_number  #6e6a86 #191724
+color index_author  #9ccfd8 #191724
+color index_subject #e0def4 #191724
+color index_date    #f6c177 #191724
+color index_flags   #eb6f92 #191724
+
+color index #eb6f92 #191724 "~D"
+color index #f6c177 #191724 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e0def4 #191724
+color header #9ccfd8 #191724 "^From:"
+color header #9ccfd8 #191724 "^To:"
+color header #f6c177 #191724 "^Subject:"
+color header #f6c177 #191724 "^Date:"
+color header #ebbcba #191724 "^Reply-To:"
+color header #ebbcba #191724 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e0def4 #191724 ".*"
+color quoted0       #31748f #191724
+color quoted1       #ebbcba #191724
+color signature     #6e6a86 #191724
+color body #9ccfd8 #191724 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #191724 #f6c177
+
+########################################
+# Compose
+########################################
+
+color compose_header #9ccfd8 #191724
+color compose_security_encrypt #eb6f92 #191724
+color compose_security_sign #31748f #191724
+color compose_security_both #ebbcba #191724
+
+########################################
+# Diff / Patch
+########################################
+
+color body #191724 #31748f "^\\+.*"
+color body #191724 #eb6f92 "^-.*"
+color body #191724 #f6c177 "^@@.*"
+
+# vim: ft=neomuttrc

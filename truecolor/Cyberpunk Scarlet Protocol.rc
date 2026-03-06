@@ -1,0 +1,88 @@
+# Cyberpunk Scarlet Protocol – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Cyberpunk Scarlet Protocol
+#
+# Base palette
+# bg:  #101116
+# fg:  #e41951
+# grey:#686868
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e41951 #101116
+color error         #ff0051 #101116
+color message       #0271b6 #101116
+color indicator     #101116 #fffc67
+color tree          #686868 #101116
+
+########################################
+# Status Bar
+########################################
+
+color status        #e41951 #686868
+
+########################################
+# Index View
+########################################
+
+color index         #e41951 #101116
+color index_number  #686868 #101116
+color index_author  #0271b6 #101116
+color index_subject #e41951 #101116
+color index_date    #faf945 #101116
+color index_flags   #ff6e67 #101116
+
+color index #ff0051 #101116 "~D"
+color index #fffc67 #101116 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e41951 #101116
+color header #0271b6 #101116 "^From:"
+color header #0271b6 #101116 "^To:"
+color header #faf945 #101116 "^Subject:"
+color header #faf945 #101116 "^Date:"
+color header #60fdff #101116 "^Reply-To:"
+color header #60fdff #101116 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e41951 #101116 ".*"
+color quoted0       #60fa68 #101116
+color quoted1       #60fdff #101116
+color signature     #686868 #101116
+color body #6871ff #101116 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #101116 #faf945
+
+########################################
+# Compose
+########################################
+
+color compose_header #0271b6 #101116
+color compose_security_encrypt #ff6e67 #101116
+color compose_security_sign #60fa68 #101116
+color compose_security_both #60fdff #101116
+
+########################################
+# Diff / Patch
+########################################
+
+color body #101116 #60fa68 "^\\+.*"
+color body #101116 #ff0051 "^-.*"
+color body #101116 #faf945 "^@@.*"
+
+# vim: ft=neomuttrc

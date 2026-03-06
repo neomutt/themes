@@ -1,0 +1,88 @@
+# Challenger Deep – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Challenger Deep
+#
+# Base palette
+# bg:  #1e1c31
+# fg:  #cbe1e7
+# grey:#565575
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cbe1e7 #1e1c31
+color error         #ff5458 #1e1c31
+color message       #65b2ff #1e1c31
+color indicator     #1e1c31 #ffe9aa
+color tree          #565575 #1e1c31
+
+########################################
+# Status Bar
+########################################
+
+color status        #cbe1e7 #565575
+
+########################################
+# Index View
+########################################
+
+color index         #cbe1e7 #1e1c31
+color index_number  #565575 #1e1c31
+color index_author  #65b2ff #1e1c31
+color index_subject #cbe1e7 #1e1c31
+color index_date    #ffb378 #1e1c31
+color index_flags   #ff8080 #1e1c31
+
+color index #ff5458 #1e1c31 "~D"
+color index #ffe9aa #1e1c31 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cbe1e7 #1e1c31
+color header #65b2ff #1e1c31 "^From:"
+color header #65b2ff #1e1c31 "^To:"
+color header #ffb378 #1e1c31 "^Subject:"
+color header #ffb378 #1e1c31 "^Date:"
+color header #aaffe4 #1e1c31 "^Reply-To:"
+color header #aaffe4 #1e1c31 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cbe1e7 #1e1c31 ".*"
+color quoted0       #95ffa4 #1e1c31
+color quoted1       #aaffe4 #1e1c31
+color signature     #565575 #1e1c31
+color body #91ddff #1e1c31 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1e1c31 #ffb378
+
+########################################
+# Compose
+########################################
+
+color compose_header #65b2ff #1e1c31
+color compose_security_encrypt #ff8080 #1e1c31
+color compose_security_sign #95ffa4 #1e1c31
+color compose_security_both #aaffe4 #1e1c31
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1e1c31 #95ffa4 "^\\+.*"
+color body #1e1c31 #ff5458 "^-.*"
+color body #1e1c31 #ffb378 "^@@.*"
+
+# vim: ft=neomuttrc

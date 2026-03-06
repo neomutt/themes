@@ -1,0 +1,88 @@
+# Hot Dog Stand – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Hot Dog Stand
+#
+# Base palette
+# bg:  #ea3323
+# fg:  #ffffff
+# grey:#000000
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #ea3323
+color error         #ffff54 #ea3323
+color message       #000000 #ea3323
+color indicator     #ea3323 #ffff54
+color tree          #000000 #ea3323
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #000000
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #ea3323
+color index_number  #000000 #ea3323
+color index_author  #000000 #ea3323
+color index_subject #ffffff #ea3323
+color index_date    #ffff54 #ea3323
+color index_flags   #ffff54 #ea3323
+
+color index #ffff54 #ea3323 "~D"
+color index #ffff54 #ea3323 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #ea3323
+color header #000000 #ea3323 "^From:"
+color header #000000 #ea3323 "^To:"
+color header #ffff54 #ea3323 "^Subject:"
+color header #ffff54 #ea3323 "^Date:"
+color header #ffffff #ea3323 "^Reply-To:"
+color header #ffffff #ea3323 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #ea3323 ".*"
+color quoted0       #ffff54 #ea3323
+color quoted1       #ffffff #ea3323
+color signature     #000000 #ea3323
+color body #000000 #ea3323 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #ea3323 #ffff54
+
+########################################
+# Compose
+########################################
+
+color compose_header #000000 #ea3323
+color compose_security_encrypt #ffff54 #ea3323
+color compose_security_sign #ffff54 #ea3323
+color compose_security_both #ffffff #ea3323
+
+########################################
+# Diff / Patch
+########################################
+
+color body #ea3323 #ffff54 "^\\+.*"
+color body #ea3323 #ffff54 "^-.*"
+color body #ea3323 #ffff54 "^@@.*"
+
+# vim: ft=neomuttrc

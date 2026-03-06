@@ -1,0 +1,88 @@
+# Catppuccin Frappe – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Catppuccin Frappe
+#
+# Base palette
+# bg:  #303446
+# fg:  #c6d0f5
+# grey:#626880
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c6d0f5 #303446
+color error         #e78284 #303446
+color message       #8caaee #303446
+color indicator     #303446 #d9ba73
+color tree          #626880 #303446
+
+########################################
+# Status Bar
+########################################
+
+color status        #c6d0f5 #626880
+
+########################################
+# Index View
+########################################
+
+color index         #c6d0f5 #303446
+color index_number  #626880 #303446
+color index_author  #8caaee #303446
+color index_subject #c6d0f5 #303446
+color index_date    #e5c890 #303446
+color index_flags   #e67172 #303446
+
+color index #e78284 #303446 "~D"
+color index #d9ba73 #303446 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c6d0f5 #303446
+color header #8caaee #303446 "^From:"
+color header #8caaee #303446 "^To:"
+color header #e5c890 #303446 "^Subject:"
+color header #e5c890 #303446 "^Date:"
+color header #5abfb5 #303446 "^Reply-To:"
+color header #5abfb5 #303446 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c6d0f5 #303446 ".*"
+color quoted0       #8ec772 #303446
+color quoted1       #5abfb5 #303446
+color signature     #626880 #303446
+color body #7b9ef0 #303446 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #303446 #e5c890
+
+########################################
+# Compose
+########################################
+
+color compose_header #8caaee #303446
+color compose_security_encrypt #e67172 #303446
+color compose_security_sign #8ec772 #303446
+color compose_security_both #5abfb5 #303446
+
+########################################
+# Diff / Patch
+########################################
+
+color body #303446 #8ec772 "^\\+.*"
+color body #303446 #e78284 "^-.*"
+color body #303446 #e5c890 "^@@.*"
+
+# vim: ft=neomuttrc

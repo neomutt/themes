@@ -1,0 +1,88 @@
+# Vercel – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Vercel
+#
+# Base palette
+# bg:  #101010
+# fg:  #fafafa
+# grey:#a8a8a8
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #fafafa #101010
+color error         #fc0036 #101010
+color message       #006aff #101010
+color indicator     #101010 #ffae00
+color tree          #a8a8a8 #101010
+
+########################################
+# Status Bar
+########################################
+
+color status        #fafafa #a8a8a8
+
+########################################
+# Index View
+########################################
+
+color index         #fafafa #101010
+color index_number  #a8a8a8 #101010
+color index_author  #006aff #101010
+color index_subject #fafafa #101010
+color index_date    #ffae00 #101010
+color index_flags   #ff8080 #101010
+
+color index #fc0036 #101010 "~D"
+color index #ffae00 #101010 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #fafafa #101010
+color header #006aff #101010 "^From:"
+color header #006aff #101010 "^To:"
+color header #ffae00 #101010 "^Subject:"
+color header #ffae00 #101010 "^Date:"
+color header #00e4c4 #101010 "^Reply-To:"
+color header #00e4c4 #101010 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #fafafa #101010 ".*"
+color quoted0       #4be15d #101010
+color quoted1       #00e4c4 #101010
+color signature     #a8a8a8 #101010
+color body #49aeff #101010 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #101010 #ffae00
+
+########################################
+# Compose
+########################################
+
+color compose_header #006aff #101010
+color compose_security_encrypt #ff8080 #101010
+color compose_security_sign #4be15d #101010
+color compose_security_both #00e4c4 #101010
+
+########################################
+# Diff / Patch
+########################################
+
+color body #101010 #4be15d "^\\+.*"
+color body #101010 #fc0036 "^-.*"
+color body #101010 #ffae00 "^@@.*"
+
+# vim: ft=neomuttrc

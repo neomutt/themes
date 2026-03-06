@@ -1,0 +1,88 @@
+# Duckbones – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Duckbones
+#
+# Base palette
+# bg:  #0e101a
+# fg:  #ebefc0
+# grey:#444860
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ebefc0 #0e101a
+color error         #e03600 #0e101a
+color message       #00a3cb #0e101a
+color indicator     #0e101a #f6a100
+color tree          #444860 #0e101a
+
+########################################
+# Status Bar
+########################################
+
+color status        #ebefc0 #444860
+
+########################################
+# Index View
+########################################
+
+color index         #ebefc0 #0e101a
+color index_number  #444860 #0e101a
+color index_author  #00a3cb #0e101a
+color index_subject #ebefc0 #0e101a
+color index_date    #e39500 #0e101a
+color index_flags   #ff4821 #0e101a
+
+color index #e03600 #0e101a "~D"
+color index #f6a100 #0e101a "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ebefc0 #0e101a
+color header #00a3cb #0e101a "^From:"
+color header #00a3cb #0e101a "^To:"
+color header #e39500 #0e101a "^Subject:"
+color header #e39500 #0e101a "^Date:"
+color header #00b4e0 #0e101a "^Reply-To:"
+color header #00b4e0 #0e101a "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ebefc0 #0e101a ".*"
+color quoted0       #58db9e #0e101a
+color quoted1       #00b4e0 #0e101a
+color signature     #444860 #0e101a
+color body #00b4e0 #0e101a "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0e101a #e39500
+
+########################################
+# Compose
+########################################
+
+color compose_header #00a3cb #0e101a
+color compose_security_encrypt #ff4821 #0e101a
+color compose_security_sign #58db9e #0e101a
+color compose_security_both #00b4e0 #0e101a
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0e101a #58db9e "^\\+.*"
+color body #0e101a #e03600 "^-.*"
+color body #0e101a #e39500 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Ryuuko – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Ryuuko
+#
+# Base palette
+# bg:  #2c3941
+# fg:  #ececec
+# grey:#5d7079
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ececec #2c3941
+color error         #865f5b #2c3941
+color message       #6a8e95 #2c3941
+color indicator     #2c3941 #b1a990
+color tree          #5d7079 #2c3941
+
+########################################
+# Status Bar
+########################################
+
+color status        #ececec #5d7079
+
+########################################
+# Index View
+########################################
+
+color index         #ececec #2c3941
+color index_number  #5d7079 #2c3941
+color index_author  #6a8e95 #2c3941
+color index_subject #ececec #2c3941
+color index_date    #b1a990 #2c3941
+color index_flags   #865f5b #2c3941
+
+color index #865f5b #2c3941 "~D"
+color index #b1a990 #2c3941 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ececec #2c3941
+color header #6a8e95 #2c3941 "^From:"
+color header #6a8e95 #2c3941 "^To:"
+color header #b1a990 #2c3941 "^Subject:"
+color header #b1a990 #2c3941 "^Date:"
+color header #88b2ac #2c3941 "^Reply-To:"
+color header #88b2ac #2c3941 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ececec #2c3941 ".*"
+color quoted0       #66907d #2c3941
+color quoted1       #88b2ac #2c3941
+color signature     #5d7079 #2c3941
+color body #6a8e95 #2c3941 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #2c3941 #b1a990
+
+########################################
+# Compose
+########################################
+
+color compose_header #6a8e95 #2c3941
+color compose_security_encrypt #865f5b #2c3941
+color compose_security_sign #66907d #2c3941
+color compose_security_both #88b2ac #2c3941
+
+########################################
+# Diff / Patch
+########################################
+
+color body #2c3941 #66907d "^\\+.*"
+color body #2c3941 #865f5b "^-.*"
+color body #2c3941 #b1a990 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Firewatch – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Firewatch
+#
+# Base palette
+# bg:  #1e2027
+# fg:  #9ba2b2
+# grey:#585f6d
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #9ba2b2 #1e2027
+color error         #d95360 #1e2027
+color message       #4d89c4 #1e2027
+color indicator     #1e2027 #dfb563
+color tree          #585f6d #1e2027
+
+########################################
+# Status Bar
+########################################
+
+color status        #9ba2b2 #585f6d
+
+########################################
+# Index View
+########################################
+
+color index         #9ba2b2 #1e2027
+color index_number  #585f6d #1e2027
+color index_author  #4d89c4 #1e2027
+color index_subject #9ba2b2 #1e2027
+color index_date    #dfb563 #1e2027
+color index_flags   #d95360 #1e2027
+
+color index #d95360 #1e2027 "~D"
+color index #dfb563 #1e2027 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #9ba2b2 #1e2027
+color header #4d89c4 #1e2027 "^From:"
+color header #4d89c4 #1e2027 "^To:"
+color header #dfb563 #1e2027 "^Subject:"
+color header #dfb563 #1e2027 "^Date:"
+color header #44a8b6 #1e2027 "^Reply-To:"
+color header #44a8b6 #1e2027 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #9ba2b2 #1e2027 ".*"
+color quoted0       #5ab977 #1e2027
+color quoted1       #44a8b6 #1e2027
+color signature     #585f6d #1e2027
+color body #4c89c5 #1e2027 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1e2027 #dfb563
+
+########################################
+# Compose
+########################################
+
+color compose_header #4d89c4 #1e2027
+color compose_security_encrypt #d95360 #1e2027
+color compose_security_sign #5ab977 #1e2027
+color compose_security_both #44a8b6 #1e2027
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1e2027 #5ab977 "^\\+.*"
+color body #1e2027 #d95360 "^-.*"
+color body #1e2027 #dfb563 "^@@.*"
+
+# vim: ft=neomuttrc

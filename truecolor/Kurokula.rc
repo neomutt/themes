@@ -1,0 +1,88 @@
+# Kurokula – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kurokula
+#
+# Base palette
+# bg:  #141515
+# fg:  #e0cfc2
+# grey:#515151
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e0cfc2 #141515
+color error         #c35a52 #141515
+color message       #5c91dd #141515
+color indicator     #141515 #fff700
+color tree          #515151 #141515
+
+########################################
+# Status Bar
+########################################
+
+color status        #e0cfc2 #515151
+
+########################################
+# Index View
+########################################
+
+color index         #e0cfc2 #141515
+color index_number  #515151 #141515
+color index_author  #5c91dd #141515
+color index_subject #e0cfc2 #141515
+color index_date    #e1b917 #141515
+color index_flags   #ffc34c #141515
+
+color index #c35a52 #141515 "~D"
+color index #fff700 #141515 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e0cfc2 #141515
+color header #5c91dd #141515 "^From:"
+color header #5c91dd #141515 "^To:"
+color header #e1b917 #141515 "^Subject:"
+color header #e1b917 #141515 "^Date:"
+color header #ffcdb6 #141515 "^Reply-To:"
+color header #ffcdb6 #141515 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e0cfc2 #141515 ".*"
+color quoted0       #afffa5 #141515
+color quoted1       #ffcdb6 #141515
+color signature     #515151 #141515
+color body #90dbff #141515 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #141515 #e1b917
+
+########################################
+# Compose
+########################################
+
+color compose_header #5c91dd #141515
+color compose_security_encrypt #ffc34c #141515
+color compose_security_sign #afffa5 #141515
+color compose_security_both #ffcdb6 #141515
+
+########################################
+# Diff / Patch
+########################################
+
+color body #141515 #afffa5 "^\\+.*"
+color body #141515 #c35a52 "^-.*"
+color body #141515 #e1b917 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Black Metal (Venom) – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Black Metal (Venom)
+#
+# Base palette
+# bg:  #000000
+# fg:  #c1c1c1
+# grey:#404040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c1c1c1 #000000
+color error         #5f8787 #000000
+color message       #888888 #000000
+color indicator     #000000 #79241f
+color tree          #404040 #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #c1c1c1 #404040
+
+########################################
+# Index View
+########################################
+
+color index         #c1c1c1 #000000
+color index_number  #404040 #000000
+color index_author  #888888 #000000
+color index_subject #c1c1c1 #000000
+color index_date    #79241f #000000
+color index_flags   #5f8787 #000000
+
+color index #5f8787 #000000 "~D"
+color index #79241f #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c1c1c1 #000000
+color header #888888 #000000 "^From:"
+color header #888888 #000000 "^To:"
+color header #79241f #000000 "^Subject:"
+color header #79241f #000000 "^Date:"
+color header #aaaaaa #000000 "^Reply-To:"
+color header #aaaaaa #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c1c1c1 #000000 ".*"
+color quoted0       #f8f7f2 #000000
+color quoted1       #aaaaaa #000000
+color signature     #404040 #000000
+color body #888888 #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #79241f
+
+########################################
+# Compose
+########################################
+
+color compose_header #888888 #000000
+color compose_security_encrypt #5f8787 #000000
+color compose_security_sign #f8f7f2 #000000
+color compose_security_both #aaaaaa #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #f8f7f2 "^\\+.*"
+color body #000000 #5f8787 "^-.*"
+color body #000000 #79241f "^@@.*"
+
+# vim: ft=neomuttrc

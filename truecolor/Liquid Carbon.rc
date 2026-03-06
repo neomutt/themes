@@ -1,0 +1,88 @@
+# Liquid Carbon – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Liquid Carbon
+#
+# Base palette
+# bg:  #303030
+# fg:  #afc2c2
+# grey:#595959
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #afc2c2 #303030
+color error         #ff3030 #303030
+color message       #0099cc #303030
+color indicator     #303030 #ccac00
+color tree          #595959 #303030
+
+########################################
+# Status Bar
+########################################
+
+color status        #afc2c2 #595959
+
+########################################
+# Index View
+########################################
+
+color index         #afc2c2 #303030
+color index_number  #595959 #303030
+color index_author  #0099cc #303030
+color index_subject #afc2c2 #303030
+color index_date    #ccac00 #303030
+color index_flags   #ff3030 #303030
+
+color index #ff3030 #303030 "~D"
+color index #ccac00 #303030 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #afc2c2 #303030
+color header #0099cc #303030 "^From:"
+color header #0099cc #303030 "^To:"
+color header #ccac00 #303030 "^Subject:"
+color header #ccac00 #303030 "^Date:"
+color header #7ac4cc #303030 "^Reply-To:"
+color header #7ac4cc #303030 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #afc2c2 #303030 ".*"
+color quoted0       #559a70 #303030
+color quoted1       #7ac4cc #303030
+color signature     #595959 #303030
+color body #0099cc #303030 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #303030 #ccac00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0099cc #303030
+color compose_security_encrypt #ff3030 #303030
+color compose_security_sign #559a70 #303030
+color compose_security_both #7ac4cc #303030
+
+########################################
+# Diff / Patch
+########################################
+
+color body #303030 #559a70 "^\\+.*"
+color body #303030 #ff3030 "^-.*"
+color body #303030 #ccac00 "^@@.*"
+
+# vim: ft=neomuttrc

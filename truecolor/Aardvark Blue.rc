@@ -1,0 +1,88 @@
+# Aardvark Blue – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Aardvark Blue
+#
+# Base palette
+# bg:  #102040
+# fg:  #dddddd
+# grey:#525252
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #dddddd #102040
+color error         #aa342e #102040
+color message       #1370d3 #102040
+color indicator     #102040 #ffe763
+color tree          #525252 #102040
+
+########################################
+# Status Bar
+########################################
+
+color status        #dddddd #525252
+
+########################################
+# Index View
+########################################
+
+color index         #dddddd #102040
+color index_number  #525252 #102040
+color index_author  #1370d3 #102040
+color index_subject #dddddd #102040
+color index_date    #dbba00 #102040
+color index_flags   #f05b50 #102040
+
+color index #aa342e #102040 "~D"
+color index #ffe763 #102040 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #dddddd #102040
+color header #1370d3 #102040 "^From:"
+color header #1370d3 #102040 "^To:"
+color header #dbba00 #102040 "^Subject:"
+color header #dbba00 #102040 "^Date:"
+color header #60b6cb #102040 "^Reply-To:"
+color header #60b6cb #102040 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #dddddd #102040 ".*"
+color quoted0       #95dc55 #102040
+color quoted1       #60b6cb #102040
+color signature     #525252 #102040
+color body #60a4ec #102040 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #102040 #dbba00
+
+########################################
+# Compose
+########################################
+
+color compose_header #1370d3 #102040
+color compose_security_encrypt #f05b50 #102040
+color compose_security_sign #95dc55 #102040
+color compose_security_both #60b6cb #102040
+
+########################################
+# Diff / Patch
+########################################
+
+color body #102040 #95dc55 "^\\+.*"
+color body #102040 #aa342e "^-.*"
+color body #102040 #dbba00 "^@@.*"
+
+# vim: ft=neomuttrc

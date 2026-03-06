@@ -1,0 +1,88 @@
+# Farmhouse Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Farmhouse Light
+#
+# Base palette
+# bg:  #e8e4e1
+# fg:  #1d2027
+# grey:#394047
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #1d2027 #e8e4e1
+color error         #8d0003 #e8e4e1
+color message       #092ccd #e8e4e1
+color indicator     #e8e4e1 #ea9a00
+color tree          #394047 #e8e4e1
+
+########################################
+# Status Bar
+########################################
+
+color status        #1d2027 #394047
+
+########################################
+# Index View
+########################################
+
+color index         #1d2027 #e8e4e1
+color index_number  #394047 #e8e4e1
+color index_author  #092ccd #e8e4e1
+color index_subject #1d2027 #e8e4e1
+color index_date    #a95600 #e8e4e1
+color index_flags   #eb0009 #e8e4e1
+
+color index #8d0003 #e8e4e1 "~D"
+color index #ea9a00 #e8e4e1 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #1d2027 #e8e4e1
+color header #092ccd #e8e4e1 "^From:"
+color header #092ccd #e8e4e1 "^To:"
+color header #a95600 #e8e4e1 "^Subject:"
+color header #a95600 #e8e4e1 "^Date:"
+color header #00c649 #e8e4e1 "^Reply-To:"
+color header #00c649 #e8e4e1 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #1d2027 #e8e4e1 ".*"
+color quoted0       #7ac100 #e8e4e1
+color quoted1       #00c649 #e8e4e1
+color signature     #394047 #e8e4e1
+color body #006efe #e8e4e1 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #e8e4e1 #a95600
+
+########################################
+# Compose
+########################################
+
+color compose_header #092ccd #e8e4e1
+color compose_security_encrypt #eb0009 #e8e4e1
+color compose_security_sign #7ac100 #e8e4e1
+color compose_security_both #00c649 #e8e4e1
+
+########################################
+# Diff / Patch
+########################################
+
+color body #e8e4e1 #7ac100 "^\\+.*"
+color body #e8e4e1 #8d0003 "^-.*"
+color body #e8e4e1 #a95600 "^@@.*"
+
+# vim: ft=neomuttrc

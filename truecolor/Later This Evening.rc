@@ -1,0 +1,88 @@
+# Later This Evening – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Later This Evening
+#
+# Base palette
+# bg:  #222222
+# fg:  #959595
+# grey:#525454
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #959595 #222222
+color error         #d45a60 #222222
+color message       #a0bad6 #222222
+color indicator     #222222 #e5be39
+color tree          #525454 #222222
+
+########################################
+# Status Bar
+########################################
+
+color status        #959595 #525454
+
+########################################
+# Index View
+########################################
+
+color index         #959595 #222222
+color index_number  #525454 #222222
+color index_author  #a0bad6 #222222
+color index_subject #959595 #222222
+color index_date    #e5d289 #222222
+color index_flags   #d3232f #222222
+
+color index #d45a60 #222222 "~D"
+color index #e5be39 #222222 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #959595 #222222
+color header #a0bad6 #222222 "^From:"
+color header #a0bad6 #222222 "^To:"
+color header #e5d289 #222222 "^Subject:"
+color header #e5d289 #222222 "^Date:"
+color header #5fc0ae #222222 "^Reply-To:"
+color header #5fc0ae #222222 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #959595 #222222 ".*"
+color quoted0       #aabb39 #222222
+color quoted1       #5fc0ae #222222
+color signature     #525454 #222222
+color body #6699d6 #222222 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #222222 #e5d289
+
+########################################
+# Compose
+########################################
+
+color compose_header #a0bad6 #222222
+color compose_security_encrypt #d3232f #222222
+color compose_security_sign #aabb39 #222222
+color compose_security_both #5fc0ae #222222
+
+########################################
+# Diff / Patch
+########################################
+
+color body #222222 #aabb39 "^\\+.*"
+color body #222222 #d45a60 "^-.*"
+color body #222222 #e5d289 "^@@.*"
+
+# vim: ft=neomuttrc

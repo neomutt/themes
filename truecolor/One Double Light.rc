@@ -1,0 +1,88 @@
+# One Double Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: One Double Light
+#
+# Base palette
+# bg:  #fafafa
+# fg:  #383a43
+# grey:#0e131f
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #383a43 #fafafa
+color error         #f74840 #fafafa
+color message       #0087c1 #fafafa
+color indicator     #fafafa #ec9900
+color tree          #0e131f #fafafa
+
+########################################
+# Status Bar
+########################################
+
+color status        #383a43 #0e131f
+
+########################################
+# Index View
+########################################
+
+color index         #383a43 #fafafa
+color index_number  #0e131f #fafafa
+color index_author  #0087c1 #fafafa
+color index_subject #383a43 #fafafa
+color index_date    #cc8100 #fafafa
+color index_flags   #ff3711 #fafafa
+
+color index #f74840 #fafafa "~D"
+color index #ec9900 #fafafa "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #383a43 #fafafa
+color header #0087c1 #fafafa "^From:"
+color header #0087c1 #fafafa "^To:"
+color header #cc8100 #fafafa "^Subject:"
+color header #cc8100 #fafafa "^Date:"
+color header #00b4dd #fafafa "^Reply-To:"
+color header #00b4dd #fafafa "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #383a43 #fafafa ".*"
+color quoted0       #00b90e #fafafa
+color quoted1       #00b4dd #fafafa
+color signature     #0e131f #fafafa
+color body #1065de #fafafa "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #fafafa #cc8100
+
+########################################
+# Compose
+########################################
+
+color compose_header #0087c1 #fafafa
+color compose_security_encrypt #ff3711 #fafafa
+color compose_security_sign #00b90e #fafafa
+color compose_security_both #00b4dd #fafafa
+
+########################################
+# Diff / Patch
+########################################
+
+color body #fafafa #00b90e "^\\+.*"
+color body #fafafa #f74840 "^-.*"
+color body #fafafa #cc8100 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Aizen Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Aizen Dark
+#
+# Base palette
+# bg:  #1a1a1a
+# fg:  #d0d6f0
+# grey:#444444
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d0d6f0 #1a1a1a
+color error         #f08898 #1a1a1a
+color message       #84b4f8 #1a1a1a
+color indicator     #1a1a1a #f5dea4
+color tree          #444444 #1a1a1a
+
+########################################
+# Status Bar
+########################################
+
+color status        #d0d6f0 #444444
+
+########################################
+# Index View
+########################################
+
+color index         #d0d6f0 #1a1a1a
+color index_number  #444444 #1a1a1a
+color index_author  #84b4f8 #1a1a1a
+color index_subject #d0d6f0 #1a1a1a
+color index_date    #f5dea4 #1a1a1a
+color index_flags   #f08898 #1a1a1a
+
+color index #f08898 #1a1a1a "~D"
+color index #f5dea4 #1a1a1a "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d0d6f0 #1a1a1a
+color header #84b4f8 #1a1a1a "^From:"
+color header #84b4f8 #1a1a1a "^To:"
+color header #f5dea4 #1a1a1a "^Subject:"
+color header #f5dea4 #1a1a1a "^Date:"
+color header #90dcd0 #1a1a1a "^Reply-To:"
+color header #90dcd0 #1a1a1a "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d0d6f0 #1a1a1a ".*"
+color quoted0       #a4e09c #1a1a1a
+color quoted1       #90dcd0 #1a1a1a
+color signature     #444444 #1a1a1a
+color body #84b4f8 #1a1a1a "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1a1a1a #f5dea4
+
+########################################
+# Compose
+########################################
+
+color compose_header #84b4f8 #1a1a1a
+color compose_security_encrypt #f08898 #1a1a1a
+color compose_security_sign #a4e09c #1a1a1a
+color compose_security_both #90dcd0 #1a1a1a
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1a1a1a #a4e09c "^\\+.*"
+color body #1a1a1a #f08898 "^-.*"
+color body #1a1a1a #f5dea4 "^@@.*"
+
+# vim: ft=neomuttrc

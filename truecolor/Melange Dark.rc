@@ -1,0 +1,88 @@
+# Melange Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Melange Dark
+#
+# Base palette
+# bg:  #292522
+# fg:  #ece1d7
+# grey:#867462
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ece1d7 #292522
+color error         #bd8183 #292522
+color message       #7f91b2 #292522
+color indicator     #292522 #ebc06d
+color tree          #867462 #292522
+
+########################################
+# Status Bar
+########################################
+
+color status        #ece1d7 #867462
+
+########################################
+# Index View
+########################################
+
+color index         #ece1d7 #292522
+color index_number  #867462 #292522
+color index_author  #7f91b2 #292522
+color index_subject #ece1d7 #292522
+color index_date    #e49b5d #292522
+color index_flags   #d47766 #292522
+
+color index #bd8183 #292522 "~D"
+color index #ebc06d #292522 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ece1d7 #292522
+color header #7f91b2 #292522 "^From:"
+color header #7f91b2 #292522 "^To:"
+color header #e49b5d #292522 "^Subject:"
+color header #e49b5d #292522 "^Date:"
+color header #89b3b6 #292522 "^Reply-To:"
+color header #89b3b6 #292522 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ece1d7 #292522 ".*"
+color quoted0       #85b695 #292522
+color quoted1       #89b3b6 #292522
+color signature     #867462 #292522
+color body #a3a9ce #292522 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #292522 #e49b5d
+
+########################################
+# Compose
+########################################
+
+color compose_header #7f91b2 #292522
+color compose_security_encrypt #d47766 #292522
+color compose_security_sign #85b695 #292522
+color compose_security_both #89b3b6 #292522
+
+########################################
+# Diff / Patch
+########################################
+
+color body #292522 #85b695 "^\\+.*"
+color body #292522 #bd8183 "^-.*"
+color body #292522 #e49b5d "^@@.*"
+
+# vim: ft=neomuttrc

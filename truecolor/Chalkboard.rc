@@ -1,0 +1,88 @@
+# Chalkboard – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Chalkboard
+#
+# Base palette
+# bg:  #29262f
+# fg:  #d9e6f2
+# grey:#585858
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d9e6f2 #29262f
+color error         #c37372 #29262f
+color message       #7372c3 #29262f
+color indicator     #29262f #dadbaa
+color tree          #585858 #29262f
+
+########################################
+# Status Bar
+########################################
+
+color status        #d9e6f2 #585858
+
+########################################
+# Index View
+########################################
+
+color index         #d9e6f2 #29262f
+color index_number  #585858 #29262f
+color index_author  #7372c3 #29262f
+color index_subject #d9e6f2 #29262f
+color index_date    #c2c372 #29262f
+color index_flags   #dbaaaa #29262f
+
+color index #c37372 #29262f "~D"
+color index #dadbaa #29262f "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d9e6f2 #29262f
+color header #7372c3 #29262f "^From:"
+color header #7372c3 #29262f "^To:"
+color header #c2c372 #29262f "^Subject:"
+color header #c2c372 #29262f "^Date:"
+color header #aadadb #29262f "^Reply-To:"
+color header #aadadb #29262f "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d9e6f2 #29262f ".*"
+color quoted0       #aadbaa #29262f
+color quoted1       #aadadb #29262f
+color signature     #585858 #29262f
+color body #aaaadb #29262f "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #29262f #c2c372
+
+########################################
+# Compose
+########################################
+
+color compose_header #7372c3 #29262f
+color compose_security_encrypt #dbaaaa #29262f
+color compose_security_sign #aadbaa #29262f
+color compose_security_both #aadadb #29262f
+
+########################################
+# Diff / Patch
+########################################
+
+color body #29262f #aadbaa "^\\+.*"
+color body #29262f #c37372 "^-.*"
+color body #29262f #c2c372 "^@@.*"
+
+# vim: ft=neomuttrc

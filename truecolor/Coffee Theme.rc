@@ -1,0 +1,88 @@
+# Coffee Theme – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Coffee Theme
+#
+# Base palette
+# bg:  #f5deb3
+# fg:  #000000
+# grey:#686868
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #000000 #f5deb3
+color error         #c91b00 #f5deb3
+color message       #0225c7 #f5deb3
+color indicator     #f5deb3 #b2af1b
+color tree          #686868 #f5deb3
+
+########################################
+# Status Bar
+########################################
+
+color status        #000000 #686868
+
+########################################
+# Index View
+########################################
+
+color index         #000000 #f5deb3
+color index_number  #686868 #f5deb3
+color index_author  #0225c7 #f5deb3
+color index_subject #000000 #f5deb3
+color index_date    #adaa00 #f5deb3
+color index_flags   #ff6e67 #f5deb3
+
+color index #c91b00 #f5deb3 "~D"
+color index #b2af1b #f5deb3 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #000000 #f5deb3
+color header #0225c7 #f5deb3 "^From:"
+color header #0225c7 #f5deb3 "^To:"
+color header #adaa00 #f5deb3 "^Subject:"
+color header #adaa00 #f5deb3 "^Date:"
+color header #20bdbf #f5deb3 "^Reply-To:"
+color header #20bdbf #f5deb3 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #000000 #f5deb3 ".*"
+color quoted0       #1fba28 #f5deb3
+color quoted1       #20bdbf #f5deb3
+color signature     #686868 #f5deb3
+color body #6871ff #f5deb3 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f5deb3 #adaa00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0225c7 #f5deb3
+color compose_security_encrypt #ff6e67 #f5deb3
+color compose_security_sign #1fba28 #f5deb3
+color compose_security_both #20bdbf #f5deb3
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f5deb3 #1fba28 "^\\+.*"
+color body #f5deb3 #c91b00 "^-.*"
+color body #f5deb3 #adaa00 "^@@.*"
+
+# vim: ft=neomuttrc

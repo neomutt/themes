@@ -1,0 +1,88 @@
+# Liquid Carbon Transparent – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Liquid Carbon Transparent
+#
+# Base palette
+# bg:  #000000
+# fg:  #afc2c2
+# grey:#404040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #afc2c2 #000000
+color error         #ff3030 #000000
+color message       #0099cc #000000
+color indicator     #000000 #ccac00
+color tree          #404040 #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #afc2c2 #404040
+
+########################################
+# Index View
+########################################
+
+color index         #afc2c2 #000000
+color index_number  #404040 #000000
+color index_author  #0099cc #000000
+color index_subject #afc2c2 #000000
+color index_date    #ccac00 #000000
+color index_flags   #ff3030 #000000
+
+color index #ff3030 #000000 "~D"
+color index #ccac00 #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #afc2c2 #000000
+color header #0099cc #000000 "^From:"
+color header #0099cc #000000 "^To:"
+color header #ccac00 #000000 "^Subject:"
+color header #ccac00 #000000 "^Date:"
+color header #7ac4cc #000000 "^Reply-To:"
+color header #7ac4cc #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #afc2c2 #000000 ".*"
+color quoted0       #559a70 #000000
+color quoted1       #7ac4cc #000000
+color signature     #404040 #000000
+color body #0099cc #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #ccac00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0099cc #000000
+color compose_security_encrypt #ff3030 #000000
+color compose_security_sign #559a70 #000000
+color compose_security_both #7ac4cc #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #559a70 "^\\+.*"
+color body #000000 #ff3030 "^-.*"
+color body #000000 #ccac00 "^@@.*"
+
+# vim: ft=neomuttrc

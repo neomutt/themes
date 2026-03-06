@@ -1,0 +1,88 @@
+# Neobones Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Neobones Light
+#
+# Base palette
+# bg:  #e5ede6
+# fg:  #202e18
+# grey:#99ac9c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #202e18 #e5ede6
+color error         #a8334c #e5ede6
+color message       #286486 #e5ede6
+color indicator     #e5ede6 #803d1c
+color tree          #99ac9c #e5ede6
+
+########################################
+# Status Bar
+########################################
+
+color status        #202e18 #99ac9c
+
+########################################
+# Index View
+########################################
+
+color index         #202e18 #e5ede6
+color index_number  #99ac9c #e5ede6
+color index_author  #286486 #e5ede6
+color index_subject #202e18 #e5ede6
+color index_date    #944927 #e5ede6
+color index_flags   #94253e #e5ede6
+
+color index #a8334c #e5ede6 "~D"
+color index #803d1c #e5ede6 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #202e18 #e5ede6
+color header #286486 #e5ede6 "^From:"
+color header #286486 #e5ede6 "^To:"
+color header #944927 #e5ede6 "^Subject:"
+color header #944927 #e5ede6 "^Date:"
+color header #2b747c #e5ede6 "^Reply-To:"
+color header #2b747c #e5ede6 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #202e18 #e5ede6 ".*"
+color quoted0       #3f5a22 #e5ede6
+color quoted1       #2b747c #e5ede6
+color signature     #99ac9c #e5ede6
+color body #1d5573 #e5ede6 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #e5ede6 #944927
+
+########################################
+# Compose
+########################################
+
+color compose_header #286486 #e5ede6
+color compose_security_encrypt #94253e #e5ede6
+color compose_security_sign #3f5a22 #e5ede6
+color compose_security_both #2b747c #e5ede6
+
+########################################
+# Diff / Patch
+########################################
+
+color body #e5ede6 #3f5a22 "^\\+.*"
+color body #e5ede6 #a8334c "^-.*"
+color body #e5ede6 #944927 "^@@.*"
+
+# vim: ft=neomuttrc

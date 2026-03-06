@@ -1,0 +1,88 @@
+# Tomorrow Night Eighties – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tomorrow Night Eighties
+#
+# Base palette
+# bg:  #2d2d2d
+# fg:  #cccccc
+# grey:#595959
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cccccc #2d2d2d
+color error         #f2777a #2d2d2d
+color message       #6699cc #2d2d2d
+color indicator     #2d2d2d #ffcc66
+color tree          #595959 #2d2d2d
+
+########################################
+# Status Bar
+########################################
+
+color status        #cccccc #595959
+
+########################################
+# Index View
+########################################
+
+color index         #cccccc #2d2d2d
+color index_number  #595959 #2d2d2d
+color index_author  #6699cc #2d2d2d
+color index_subject #cccccc #2d2d2d
+color index_date    #ffcc66 #2d2d2d
+color index_flags   #f2777a #2d2d2d
+
+color index #f2777a #2d2d2d "~D"
+color index #ffcc66 #2d2d2d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cccccc #2d2d2d
+color header #6699cc #2d2d2d "^From:"
+color header #6699cc #2d2d2d "^To:"
+color header #ffcc66 #2d2d2d "^Subject:"
+color header #ffcc66 #2d2d2d "^Date:"
+color header #66cccc #2d2d2d "^Reply-To:"
+color header #66cccc #2d2d2d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cccccc #2d2d2d ".*"
+color quoted0       #99cc99 #2d2d2d
+color quoted1       #66cccc #2d2d2d
+color signature     #595959 #2d2d2d
+color body #6699cc #2d2d2d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #2d2d2d #ffcc66
+
+########################################
+# Compose
+########################################
+
+color compose_header #6699cc #2d2d2d
+color compose_security_encrypt #f2777a #2d2d2d
+color compose_security_sign #99cc99 #2d2d2d
+color compose_security_both #66cccc #2d2d2d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #2d2d2d #99cc99 "^\\+.*"
+color body #2d2d2d #f2777a "^-.*"
+color body #2d2d2d #ffcc66 "^@@.*"
+
+# vim: ft=neomuttrc

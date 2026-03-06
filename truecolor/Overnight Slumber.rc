@@ -1,0 +1,88 @@
+# Overnight Slumber – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Overnight Slumber
+#
+# Base palette
+# bg:  #0e1729
+# fg:  #ced2d6
+# grey:#575656
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ced2d6 #0e1729
+color error         #ffa7c4 #0e1729
+color message       #8dabe1 #0e1729
+color indicator     #0e1729 #ffcb8b
+color tree          #575656 #0e1729
+
+########################################
+# Status Bar
+########################################
+
+color status        #ced2d6 #575656
+
+########################################
+# Index View
+########################################
+
+color index         #ced2d6 #0e1729
+color index_number  #575656 #0e1729
+color index_author  #8dabe1 #0e1729
+color index_subject #ced2d6 #0e1729
+color index_date    #ffcb8b #0e1729
+color index_flags   #ffa7c4 #0e1729
+
+color index #ffa7c4 #0e1729 "~D"
+color index #ffcb8b #0e1729 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ced2d6 #0e1729
+color header #8dabe1 #0e1729 "^From:"
+color header #8dabe1 #0e1729 "^To:"
+color header #ffcb8b #0e1729 "^Subject:"
+color header #ffcb8b #0e1729 "^Date:"
+color header #ffa7c4 #0e1729 "^Reply-To:"
+color header #ffa7c4 #0e1729 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ced2d6 #0e1729 ".*"
+color quoted0       #85cc95 #0e1729
+color quoted1       #ffa7c4 #0e1729
+color signature     #575656 #0e1729
+color body #8dabe1 #0e1729 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0e1729 #ffcb8b
+
+########################################
+# Compose
+########################################
+
+color compose_header #8dabe1 #0e1729
+color compose_security_encrypt #ffa7c4 #0e1729
+color compose_security_sign #85cc95 #0e1729
+color compose_security_both #ffa7c4 #0e1729
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0e1729 #85cc95 "^\\+.*"
+color body #0e1729 #ffa7c4 "^-.*"
+color body #0e1729 #ffcb8b "^@@.*"
+
+# vim: ft=neomuttrc

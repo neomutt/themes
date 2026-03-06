@@ -1,0 +1,88 @@
+# Abernathy – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Abernathy
+#
+# Base palette
+# bg:  #111416
+# fg:  #eeeeec
+# grey:#404040
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #eeeeec #111416
+color error         #cd0000 #111416
+color message       #1093f5 #111416
+color indicator     #111416 #ffff00
+color tree          #404040 #111416
+
+########################################
+# Status Bar
+########################################
+
+color status        #eeeeec #404040
+
+########################################
+# Index View
+########################################
+
+color index         #eeeeec #111416
+color index_number  #404040 #111416
+color index_author  #1093f5 #111416
+color index_subject #eeeeec #111416
+color index_date    #cdcd00 #111416
+color index_flags   #ff0000 #111416
+
+color index #cd0000 #111416 "~D"
+color index #ffff00 #111416 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #eeeeec #111416
+color header #1093f5 #111416 "^From:"
+color header #1093f5 #111416 "^To:"
+color header #cdcd00 #111416 "^Subject:"
+color header #cdcd00 #111416 "^Date:"
+color header #00ffff #111416 "^Reply-To:"
+color header #00ffff #111416 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #eeeeec #111416 ".*"
+color quoted0       #00ff00 #111416
+color quoted1       #00ffff #111416
+color signature     #404040 #111416
+color body #11b5f6 #111416 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #111416 #cdcd00
+
+########################################
+# Compose
+########################################
+
+color compose_header #1093f5 #111416
+color compose_security_encrypt #ff0000 #111416
+color compose_security_sign #00ff00 #111416
+color compose_security_both #00ffff #111416
+
+########################################
+# Diff / Patch
+########################################
+
+color body #111416 #00ff00 "^\\+.*"
+color body #111416 #cd0000 "^-.*"
+color body #111416 #cdcd00 "^@@.*"
+
+# vim: ft=neomuttrc

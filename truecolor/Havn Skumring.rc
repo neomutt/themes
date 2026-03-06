@@ -1,0 +1,88 @@
+# Havn Skumring – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Havn Skumring
+#
+# Base palette
+# bg:  #111522
+# fg:  #d6dbeb
+# grey:#38425c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d6dbeb #111522
+color error         #ea563e #111522
+color message       #596cf7 #111522
+color indicator     #111522 #eac58c
+color tree          #38425c #111522
+
+########################################
+# Status Bar
+########################################
+
+color status        #d6dbeb #38425c
+
+########################################
+# Index View
+########################################
+
+color index         #d6dbeb #111522
+color index_number  #38425c #111522
+color index_author  #596cf7 #111522
+color index_subject #d6dbeb #111522
+color index_date    #f8b330 #111522
+color index_flags   #d17264 #111522
+
+color index #ea563e #111522 "~D"
+color index #eac58c #111522 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d6dbeb #111522
+color header #596cf7 #111522 "^From:"
+color header #596cf7 #111522 "^To:"
+color header #f8b330 #111522 "^Subject:"
+color header #f8b330 #111522 "^Date:"
+color header #d17ab6 #111522 "^Reply-To:"
+color header #d17ab6 #111522 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d6dbeb #111522 ".*"
+color quoted0       #8c9e8f #111522
+color quoted1       #d17ab6 #111522
+color signature     #38425c #111522
+color body #5186cb #111522 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #111522 #f8b330
+
+########################################
+# Compose
+########################################
+
+color compose_header #596cf7 #111522
+color compose_security_encrypt #d17264 #111522
+color compose_security_sign #8c9e8f #111522
+color compose_security_both #d17ab6 #111522
+
+########################################
+# Diff / Patch
+########################################
+
+color body #111522 #8c9e8f "^\\+.*"
+color body #111522 #ea563e "^-.*"
+color body #111522 #f8b330 "^@@.*"
+
+# vim: ft=neomuttrc

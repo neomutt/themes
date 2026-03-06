@@ -1,0 +1,88 @@
+# Red Sands – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Red Sands
+#
+# Base palette
+# bg:  #7a251e
+# fg:  #d7c9a7
+# grey:#6e6e6e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d7c9a7 #7a251e
+color error         #ff3f00 #7a251e
+color message       #0072ff #7a251e
+color indicator     #7a251e #e7b000
+color tree          #6e6e6e #7a251e
+
+########################################
+# Status Bar
+########################################
+
+color status        #d7c9a7 #6e6e6e
+
+########################################
+# Index View
+########################################
+
+color index         #d7c9a7 #7a251e
+color index_number  #6e6e6e #7a251e
+color index_author  #0072ff #7a251e
+color index_subject #d7c9a7 #7a251e
+color index_date    #e7b000 #7a251e
+color index_flags   #d41a1a #7a251e
+
+color index #ff3f00 #7a251e "~D"
+color index #e7b000 #7a251e "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d7c9a7 #7a251e
+color header #0072ff #7a251e "^From:"
+color header #0072ff #7a251e "^To:"
+color header #e7b000 #7a251e "^Subject:"
+color header #e7b000 #7a251e "^Date:"
+color header #55ffff #7a251e "^Reply-To:"
+color header #55ffff #7a251e "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d7c9a7 #7a251e ".*"
+color quoted0       #00bb00 #7a251e
+color quoted1       #55ffff #7a251e
+color signature     #6e6e6e #7a251e
+color body #0072ae #7a251e "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #7a251e #e7b000
+
+########################################
+# Compose
+########################################
+
+color compose_header #0072ff #7a251e
+color compose_security_encrypt #d41a1a #7a251e
+color compose_security_sign #00bb00 #7a251e
+color compose_security_both #55ffff #7a251e
+
+########################################
+# Diff / Patch
+########################################
+
+color body #7a251e #00bb00 "^\\+.*"
+color body #7a251e #ff3f00 "^-.*"
+color body #7a251e #e7b000 "^@@.*"
+
+# vim: ft=neomuttrc

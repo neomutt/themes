@@ -1,0 +1,88 @@
+# Blue Berry Pie – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Blue Berry Pie
+#
+# Base palette
+# bg:  #1c0c28
+# fg:  #babab9
+# grey:#463c5d
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #babab9 #1c0c28
+color error         #99246e #1c0c28
+color message       #90a5bd #1c0c28
+color indicator     #1c0c28 #7a3188
+color tree          #463c5d #1c0c28
+
+########################################
+# Status Bar
+########################################
+
+color status        #babab9 #463c5d
+
+########################################
+# Index View
+########################################
+
+color index         #babab9 #1c0c28
+color index_number  #463c5d #1c0c28
+color index_author  #90a5bd #1c0c28
+color index_subject #babab9 #1c0c28
+color index_date    #eab9a8 #1c0c28
+color index_flags   #c87272 #1c0c28
+
+color index #99246e #1c0c28 "~D"
+color index #7a3188 #1c0c28 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #babab9 #1c0c28
+color header #90a5bd #1c0c28 "^From:"
+color header #90a5bd #1c0c28 "^To:"
+color header #eab9a8 #1c0c28 "^Subject:"
+color header #eab9a8 #1c0c28 "^Date:"
+color header #5e6071 #1c0c28 "^Reply-To:"
+color header #5e6071 #1c0c28 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #babab9 #1c0c28 ".*"
+color quoted0       #0a6c7e #1c0c28
+color quoted1       #5e6071 #1c0c28
+color signature     #463c5d #1c0c28
+color body #5f3d63 #1c0c28 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1c0c28 #eab9a8
+
+########################################
+# Compose
+########################################
+
+color compose_header #90a5bd #1c0c28
+color compose_security_encrypt #c87272 #1c0c28
+color compose_security_sign #0a6c7e #1c0c28
+color compose_security_both #5e6071 #1c0c28
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1c0c28 #0a6c7e "^\\+.*"
+color body #1c0c28 #99246e "^-.*"
+color body #1c0c28 #eab9a8 "^@@.*"
+
+# vim: ft=neomuttrc

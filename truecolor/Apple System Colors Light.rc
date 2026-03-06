@@ -1,0 +1,88 @@
+# Apple System Colors Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Apple System Colors Light
+#
+# Base palette
+# bg:  #feffff
+# fg:  #000000
+# grey:#464646
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #000000 #feffff
+color error         #cc372e #feffff
+color message       #0869cb #feffff
+color indicator     #feffff #e5bc00
+color tree          #464646 #feffff
+
+########################################
+# Status Bar
+########################################
+
+color status        #000000 #464646
+
+########################################
+# Index View
+########################################
+
+color index         #000000 #feffff
+color index_number  #464646 #feffff
+color index_author  #0869cb #feffff
+color index_subject #000000 #feffff
+color index_date    #cdac08 #feffff
+color index_flags   #ff453a #feffff
+
+color index #cc372e #feffff "~D"
+color index #e5bc00 #feffff "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #000000 #feffff
+color header #0869cb #feffff "^From:"
+color header #0869cb #feffff "^To:"
+color header #cdac08 #feffff "^Subject:"
+color header #cdac08 #feffff "^Date:"
+color header #69c9f2 #feffff "^Reply-To:"
+color header #69c9f2 #feffff "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #000000 #feffff ".*"
+color quoted0       #32d74b #feffff
+color quoted1       #69c9f2 #feffff
+color signature     #464646 #feffff
+color body #0a84ff #feffff "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #feffff #cdac08
+
+########################################
+# Compose
+########################################
+
+color compose_header #0869cb #feffff
+color compose_security_encrypt #ff453a #feffff
+color compose_security_sign #32d74b #feffff
+color compose_security_both #69c9f2 #feffff
+
+########################################
+# Diff / Patch
+########################################
+
+color body #feffff #32d74b "^\\+.*"
+color body #feffff #cc372e "^-.*"
+color body #feffff #cdac08 "^@@.*"
+
+# vim: ft=neomuttrc

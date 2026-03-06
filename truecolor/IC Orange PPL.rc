@@ -1,0 +1,88 @@
+# IC Orange PPL – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: IC Orange PPL
+#
+# Base palette
+# bg:  #262626
+# fg:  #ffcb83
+# grey:#6a4f2a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffcb83 #262626
+color error         #c13900 #262626
+color message       #bd6d00 #262626
+color indicator     #262626 #ffe36e
+color tree          #6a4f2a #262626
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffcb83 #6a4f2a
+
+########################################
+# Index View
+########################################
+
+color index         #ffcb83 #262626
+color index_number  #6a4f2a #262626
+color index_author  #bd6d00 #262626
+color index_subject #ffcb83 #262626
+color index_date    #caaf00 #262626
+color index_flags   #ff8c68 #262626
+
+color index #c13900 #262626 "~D"
+color index #ffe36e #262626 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffcb83 #262626
+color header #bd6d00 #262626 "^From:"
+color header #bd6d00 #262626 "^To:"
+color header #caaf00 #262626 "^Subject:"
+color header #caaf00 #262626 "^Date:"
+color header #c69752 #262626 "^Reply-To:"
+color header #c69752 #262626 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffcb83 #262626 ".*"
+color quoted0       #f6ff40 #262626
+color quoted1       #c69752 #262626
+color signature     #6a4f2a #262626
+color body #ffbe55 #262626 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #262626 #caaf00
+
+########################################
+# Compose
+########################################
+
+color compose_header #bd6d00 #262626
+color compose_security_encrypt #ff8c68 #262626
+color compose_security_sign #f6ff40 #262626
+color compose_security_both #c69752 #262626
+
+########################################
+# Diff / Patch
+########################################
+
+color body #262626 #f6ff40 "^\\+.*"
+color body #262626 #c13900 "^-.*"
+color body #262626 #caaf00 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Gruvbox Light Hard – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Gruvbox Light Hard
+#
+# Base palette
+# bg:  #f9f5d7
+# fg:  #3c3836
+# grey:#928374
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #3c3836 #f9f5d7
+color error         #cc241d #f9f5d7
+color message       #458588 #f9f5d7
+color indicator     #f9f5d7 #b57614
+color tree          #928374 #f9f5d7
+
+########################################
+# Status Bar
+########################################
+
+color status        #3c3836 #928374
+
+########################################
+# Index View
+########################################
+
+color index         #3c3836 #f9f5d7
+color index_number  #928374 #f9f5d7
+color index_author  #458588 #f9f5d7
+color index_subject #3c3836 #f9f5d7
+color index_date    #d79921 #f9f5d7
+color index_flags   #9d0006 #f9f5d7
+
+color index #cc241d #f9f5d7 "~D"
+color index #b57614 #f9f5d7 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #3c3836 #f9f5d7
+color header #458588 #f9f5d7 "^From:"
+color header #458588 #f9f5d7 "^To:"
+color header #d79921 #f9f5d7 "^Subject:"
+color header #d79921 #f9f5d7 "^Date:"
+color header #427b58 #f9f5d7 "^Reply-To:"
+color header #427b58 #f9f5d7 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #3c3836 #f9f5d7 ".*"
+color quoted0       #79740e #f9f5d7
+color quoted1       #427b58 #f9f5d7
+color signature     #928374 #f9f5d7
+color body #076678 #f9f5d7 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f9f5d7 #d79921
+
+########################################
+# Compose
+########################################
+
+color compose_header #458588 #f9f5d7
+color compose_security_encrypt #9d0006 #f9f5d7
+color compose_security_sign #79740e #f9f5d7
+color compose_security_both #427b58 #f9f5d7
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f9f5d7 #79740e "^\\+.*"
+color body #f9f5d7 #cc241d "^-.*"
+color body #f9f5d7 #d79921 "^@@.*"
+
+# vim: ft=neomuttrc

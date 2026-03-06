@@ -1,0 +1,88 @@
+# Belafonte Night – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Belafonte Night
+#
+# Base palette
+# bg:  #20111b
+# fg:  #968c83
+# grey:#5e5252
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #968c83 #20111b
+color error         #be100e #20111b
+color message       #426a79 #20111b
+color indicator     #20111b #eaa549
+color tree          #5e5252 #20111b
+
+########################################
+# Status Bar
+########################################
+
+color status        #968c83 #5e5252
+
+########################################
+# Index View
+########################################
+
+color index         #968c83 #20111b
+color index_number  #5e5252 #20111b
+color index_author  #426a79 #20111b
+color index_subject #968c83 #20111b
+color index_date    #eaa549 #20111b
+color index_flags   #be100e #20111b
+
+color index #be100e #20111b "~D"
+color index #eaa549 #20111b "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #968c83 #20111b
+color header #426a79 #20111b "^From:"
+color header #426a79 #20111b "^To:"
+color header #eaa549 #20111b "^Subject:"
+color header #eaa549 #20111b "^Date:"
+color header #989a9c #20111b "^Reply-To:"
+color header #989a9c #20111b "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #968c83 #20111b ".*"
+color quoted0       #858162 #20111b
+color quoted1       #989a9c #20111b
+color signature     #5e5252 #20111b
+color body #426a79 #20111b "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #20111b #eaa549
+
+########################################
+# Compose
+########################################
+
+color compose_header #426a79 #20111b
+color compose_security_encrypt #be100e #20111b
+color compose_security_sign #858162 #20111b
+color compose_security_both #989a9c #20111b
+
+########################################
+# Diff / Patch
+########################################
+
+color body #20111b #858162 "^\\+.*"
+color body #20111b #be100e "^-.*"
+color body #20111b #eaa549 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Treehouse – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Treehouse
+#
+# Base palette
+# bg:  #191919
+# fg:  #786b53
+# grey:#504333
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #786b53 #191919
+color error         #b2270e #191919
+color message       #58859a #191919
+color indicator     #191919 #f2b732
+color tree          #504333 #191919
+
+########################################
+# Status Bar
+########################################
+
+color status        #786b53 #504333
+
+########################################
+# Index View
+########################################
+
+color index         #786b53 #191919
+color index_number  #504333 #191919
+color index_author  #58859a #191919
+color index_subject #786b53 #191919
+color index_date    #aa820c #191919
+color index_flags   #ed5d20 #191919
+
+color index #b2270e #191919 "~D"
+color index #f2b732 #191919 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #786b53 #191919
+color header #58859a #191919 "^From:"
+color header #58859a #191919 "^To:"
+color header #aa820c #191919 "^Subject:"
+color header #aa820c #191919 "^Date:"
+color header #f07d14 #191919 "^Reply-To:"
+color header #f07d14 #191919 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #786b53 #191919 ".*"
+color quoted0       #55f238 #191919
+color quoted1       #f07d14 #191919
+color signature     #504333 #191919
+color body #85cfed #191919 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #191919 #aa820c
+
+########################################
+# Compose
+########################################
+
+color compose_header #58859a #191919
+color compose_security_encrypt #ed5d20 #191919
+color compose_security_sign #55f238 #191919
+color compose_security_both #f07d14 #191919
+
+########################################
+# Diff / Patch
+########################################
+
+color body #191919 #55f238 "^\\+.*"
+color body #191919 #b2270e "^-.*"
+color body #191919 #aa820c "^@@.*"
+
+# vim: ft=neomuttrc

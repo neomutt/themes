@@ -1,0 +1,88 @@
+# Kanagawa Dragon – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kanagawa Dragon
+#
+# Base palette
+# bg:  #181616
+# fg:  #c5c9c5
+# grey:#a6a69c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c5c9c5 #181616
+color error         #c4746e #181616
+color message       #8ba4b0 #181616
+color indicator     #181616 #e6c384
+color tree          #a6a69c #181616
+
+########################################
+# Status Bar
+########################################
+
+color status        #c5c9c5 #a6a69c
+
+########################################
+# Index View
+########################################
+
+color index         #c5c9c5 #181616
+color index_number  #a6a69c #181616
+color index_author  #8ba4b0 #181616
+color index_subject #c5c9c5 #181616
+color index_date    #c4b28a #181616
+color index_flags   #e46876 #181616
+
+color index #c4746e #181616 "~D"
+color index #e6c384 #181616 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c5c9c5 #181616
+color header #8ba4b0 #181616 "^From:"
+color header #8ba4b0 #181616 "^To:"
+color header #c4b28a #181616 "^Subject:"
+color header #c4b28a #181616 "^Date:"
+color header #7aa89f #181616 "^Reply-To:"
+color header #7aa89f #181616 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c5c9c5 #181616 ".*"
+color quoted0       #87a987 #181616
+color quoted1       #7aa89f #181616
+color signature     #a6a69c #181616
+color body #7fb4ca #181616 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #181616 #c4b28a
+
+########################################
+# Compose
+########################################
+
+color compose_header #8ba4b0 #181616
+color compose_security_encrypt #e46876 #181616
+color compose_security_sign #87a987 #181616
+color compose_security_both #7aa89f #181616
+
+########################################
+# Diff / Patch
+########################################
+
+color body #181616 #87a987 "^\\+.*"
+color body #181616 #c4746e "^-.*"
+color body #181616 #c4b28a "^@@.*"
+
+# vim: ft=neomuttrc

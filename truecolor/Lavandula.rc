@@ -1,0 +1,88 @@
+# Lavandula – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Lavandula
+#
+# Base palette
+# bg:  #050014
+# fg:  #736e7d
+# grey:#443a53
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #736e7d #050014
+color error         #7d1625 #050014
+color message       #4f4a7f #050014
+color indicator     #050014 #e0c386
+color tree          #443a53 #050014
+
+########################################
+# Status Bar
+########################################
+
+color status        #736e7d #443a53
+
+########################################
+# Index View
+########################################
+
+color index         #736e7d #050014
+color index_number  #443a53 #050014
+color index_author  #4f4a7f #050014
+color index_subject #736e7d #050014
+color index_date    #7f6f49 #050014
+color index_flags   #e05167 #050014
+
+color index #7d1625 #050014 "~D"
+color index #e0c386 #050014 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #736e7d #050014
+color header #4f4a7f #050014 "^From:"
+color header #4f4a7f #050014 "^To:"
+color header #7f6f49 #050014 "^Subject:"
+color header #7f6f49 #050014 "^Date:"
+color header #9ad4e0 #050014 "^Reply-To:"
+color header #9ad4e0 #050014 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #736e7d #050014 ".*"
+color quoted0       #52e0c4 #050014
+color quoted1       #9ad4e0 #050014
+color signature     #443a53 #050014
+color body #8e87e0 #050014 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #050014 #7f6f49
+
+########################################
+# Compose
+########################################
+
+color compose_header #4f4a7f #050014
+color compose_security_encrypt #e05167 #050014
+color compose_security_sign #52e0c4 #050014
+color compose_security_both #9ad4e0 #050014
+
+########################################
+# Diff / Patch
+########################################
+
+color body #050014 #52e0c4 "^\\+.*"
+color body #050014 #7d1625 "^-.*"
+color body #050014 #7f6f49 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Banana Blueberry – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Banana Blueberry
+#
+# Base palette
+# bg:  #191323
+# fg:  #cccccc
+# grey:#495162
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cccccc #191323
+color error         #ff6b7f #191323
+color message       #22e8df #191323
+color indicator     #191323 #f9e46b
+color tree          #495162 #191323
+
+########################################
+# Status Bar
+########################################
+
+color status        #cccccc #495162
+
+########################################
+# Index View
+########################################
+
+color index         #cccccc #191323
+color index_number  #495162 #191323
+color index_author  #22e8df #191323
+color index_subject #cccccc #191323
+color index_date    #e6c62f #191323
+color index_flags   #fe9ea1 #191323
+
+color index #ff6b7f #191323 "~D"
+color index #f9e46b #191323 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cccccc #191323
+color header #22e8df #191323 "^From:"
+color header #22e8df #191323 "^To:"
+color header #e6c62f #191323 "^Subject:"
+color header #e6c62f #191323 "^Date:"
+color header #bcf3ff #191323 "^Reply-To:"
+color header #bcf3ff #191323 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cccccc #191323 ".*"
+color quoted0       #98c379 #191323
+color quoted1       #bcf3ff #191323
+color signature     #495162 #191323
+color body #91fff4 #191323 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #191323 #e6c62f
+
+########################################
+# Compose
+########################################
+
+color compose_header #22e8df #191323
+color compose_security_encrypt #fe9ea1 #191323
+color compose_security_sign #98c379 #191323
+color compose_security_both #bcf3ff #191323
+
+########################################
+# Diff / Patch
+########################################
+
+color body #191323 #98c379 "^\\+.*"
+color body #191323 #ff6b7f "^-.*"
+color body #191323 #e6c62f "^@@.*"
+
+# vim: ft=neomuttrc

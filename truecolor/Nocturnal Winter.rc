@@ -1,0 +1,88 @@
+# Nocturnal Winter – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Nocturnal Winter
+#
+# Base palette
+# bg:  #0d0d17
+# fg:  #e6e5e5
+# grey:#808080
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e6e5e5 #0d0d17
+color error         #f12d52 #0d0d17
+color message       #3182e0 #0d0d17
+color indicator     #0d0d17 #fffc67
+color tree          #808080 #0d0d17
+
+########################################
+# Status Bar
+########################################
+
+color status        #e6e5e5 #808080
+
+########################################
+# Index View
+########################################
+
+color index         #e6e5e5 #0d0d17
+color index_number  #808080 #0d0d17
+color index_author  #3182e0 #0d0d17
+color index_subject #e6e5e5 #0d0d17
+color index_date    #f5f17a #0d0d17
+color index_flags   #f16d86 #0d0d17
+
+color index #f12d52 #0d0d17 "~D"
+color index #fffc67 #0d0d17 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e6e5e5 #0d0d17
+color header #3182e0 #0d0d17 "^From:"
+color header #3182e0 #0d0d17 "^To:"
+color header #f5f17a #0d0d17 "^Subject:"
+color header #f5f17a #0d0d17 "^Date:"
+color header #0ae78d #0d0d17 "^Reply-To:"
+color header #0ae78d #0d0d17 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e6e5e5 #0d0d17 ".*"
+color quoted0       #0ae78d #0d0d17
+color quoted1       #0ae78d #0d0d17
+color signature     #808080 #0d0d17
+color body #6096ff #0d0d17 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0d0d17 #f5f17a
+
+########################################
+# Compose
+########################################
+
+color compose_header #3182e0 #0d0d17
+color compose_security_encrypt #f16d86 #0d0d17
+color compose_security_sign #0ae78d #0d0d17
+color compose_security_both #0ae78d #0d0d17
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0d0d17 #0ae78d "^\\+.*"
+color body #0d0d17 #f12d52 "^-.*"
+color body #0d0d17 #f5f17a "^@@.*"
+
+# vim: ft=neomuttrc

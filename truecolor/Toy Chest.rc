@@ -1,0 +1,88 @@
+# Toy Chest – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Toy Chest
+#
+# Base palette
+# bg:  #24364b
+# fg:  #31d07b
+# grey:#336889
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #31d07b #24364b
+color error         #be2d26 #24364b
+color message       #325d96 #24364b
+color indicator     #24364b #e7d84b
+color tree          #336889 #24364b
+
+########################################
+# Status Bar
+########################################
+
+color status        #31d07b #336889
+
+########################################
+# Index View
+########################################
+
+color index         #31d07b #24364b
+color index_number  #336889 #24364b
+color index_author  #325d96 #24364b
+color index_subject #31d07b #24364b
+color index_date    #db8e27 #24364b
+color index_flags   #dd5944 #24364b
+
+color index #be2d26 #24364b "~D"
+color index #e7d84b #24364b "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #31d07b #24364b
+color header #325d96 #24364b "^From:"
+color header #325d96 #24364b "^To:"
+color header #db8e27 #24364b "^Subject:"
+color header #db8e27 #24364b "^Date:"
+color header #42c3ae #24364b "^Reply-To:"
+color header #42c3ae #24364b "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #31d07b #24364b ".*"
+color quoted0       #31d07b #24364b
+color quoted1       #42c3ae #24364b
+color signature     #336889 #24364b
+color body #34a6da #24364b "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #24364b #db8e27
+
+########################################
+# Compose
+########################################
+
+color compose_header #325d96 #24364b
+color compose_security_encrypt #dd5944 #24364b
+color compose_security_sign #31d07b #24364b
+color compose_security_both #42c3ae #24364b
+
+########################################
+# Diff / Patch
+########################################
+
+color body #24364b #31d07b "^\\+.*"
+color body #24364b #be2d26 "^-.*"
+color body #24364b #db8e27 "^@@.*"
+
+# vim: ft=neomuttrc

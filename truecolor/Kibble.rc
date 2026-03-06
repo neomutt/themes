@@ -1,0 +1,88 @@
+# Kibble – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Kibble
+#
+# Base palette
+# bg:  #0e100a
+# fg:  #f7f7f7
+# grey:#5a5a5a
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f7f7f7 #0e100a
+color error         #c70031 #0e100a
+color message       #3449d1 #0e100a
+color indicator     #0e100a #f3f79e
+color tree          #5a5a5a #0e100a
+
+########################################
+# Status Bar
+########################################
+
+color status        #f7f7f7 #5a5a5a
+
+########################################
+# Index View
+########################################
+
+color index         #f7f7f7 #0e100a
+color index_number  #5a5a5a #0e100a
+color index_author  #3449d1 #0e100a
+color index_subject #f7f7f7 #0e100a
+color index_date    #d8e30e #0e100a
+color index_flags   #f01578 #0e100a
+
+color index #c70031 #0e100a "~D"
+color index #f3f79e #0e100a "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f7f7f7 #0e100a
+color header #3449d1 #0e100a "^From:"
+color header #3449d1 #0e100a "^To:"
+color header #d8e30e #0e100a "^Subject:"
+color header #d8e30e #0e100a "^Date:"
+color header #68f2e0 #0e100a "^Reply-To:"
+color header #68f2e0 #0e100a "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f7f7f7 #0e100a ".*"
+color quoted0       #6ce05c #0e100a
+color quoted1       #68f2e0 #0e100a
+color signature     #5a5a5a #0e100a
+color body #97a4f7 #0e100a "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0e100a #d8e30e
+
+########################################
+# Compose
+########################################
+
+color compose_header #3449d1 #0e100a
+color compose_security_encrypt #f01578 #0e100a
+color compose_security_sign #6ce05c #0e100a
+color compose_security_both #68f2e0 #0e100a
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0e100a #6ce05c "^\\+.*"
+color body #0e100a #c70031 "^-.*"
+color body #0e100a #d8e30e "^@@.*"
+
+# vim: ft=neomuttrc

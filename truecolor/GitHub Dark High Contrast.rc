@@ -1,0 +1,88 @@
+# GitHub Dark High Contrast – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: GitHub Dark High Contrast
+#
+# Base palette
+# bg:  #0a0c10
+# fg:  #f0f3f6
+# grey:#9ea7b3
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f0f3f6 #0a0c10
+color error         #ff9492 #0a0c10
+color message       #71b7ff #0a0c10
+color indicator     #0a0c10 #f7c843
+color tree          #9ea7b3 #0a0c10
+
+########################################
+# Status Bar
+########################################
+
+color status        #f0f3f6 #9ea7b3
+
+########################################
+# Index View
+########################################
+
+color index         #f0f3f6 #0a0c10
+color index_number  #9ea7b3 #0a0c10
+color index_author  #71b7ff #0a0c10
+color index_subject #f0f3f6 #0a0c10
+color index_date    #f0b72f #0a0c10
+color index_flags   #ffb1af #0a0c10
+
+color index #ff9492 #0a0c10 "~D"
+color index #f7c843 #0a0c10 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f0f3f6 #0a0c10
+color header #71b7ff #0a0c10 "^From:"
+color header #71b7ff #0a0c10 "^To:"
+color header #f0b72f #0a0c10 "^Subject:"
+color header #f0b72f #0a0c10 "^Date:"
+color header #56d4dd #0a0c10 "^Reply-To:"
+color header #56d4dd #0a0c10 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f0f3f6 #0a0c10 ".*"
+color quoted0       #4ae168 #0a0c10
+color quoted1       #56d4dd #0a0c10
+color signature     #9ea7b3 #0a0c10
+color body #91cbff #0a0c10 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0a0c10 #f0b72f
+
+########################################
+# Compose
+########################################
+
+color compose_header #71b7ff #0a0c10
+color compose_security_encrypt #ffb1af #0a0c10
+color compose_security_sign #4ae168 #0a0c10
+color compose_security_both #56d4dd #0a0c10
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0a0c10 #4ae168 "^\\+.*"
+color body #0a0c10 #ff9492 "^-.*"
+color body #0a0c10 #f0b72f "^@@.*"
+
+# vim: ft=neomuttrc

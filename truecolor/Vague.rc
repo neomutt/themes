@@ -1,0 +1,88 @@
+# Vague – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Vague
+#
+# Base palette
+# bg:  #141415
+# fg:  #cdcdcd
+# grey:#606079
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cdcdcd #141415
+color error         #d8647e #141415
+color message       #6e94b2 #141415
+color indicator     #141415 #f5cb96
+color tree          #606079 #141415
+
+########################################
+# Status Bar
+########################################
+
+color status        #cdcdcd #606079
+
+########################################
+# Index View
+########################################
+
+color index         #cdcdcd #141415
+color index_number  #606079 #141415
+color index_author  #6e94b2 #141415
+color index_subject #cdcdcd #141415
+color index_date    #f3be7c #141415
+color index_flags   #e08398 #141415
+
+color index #d8647e #141415 "~D"
+color index #f5cb96 #141415 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cdcdcd #141415
+color header #6e94b2 #141415 "^From:"
+color header #6e94b2 #141415 "^To:"
+color header #f3be7c #141415 "^Subject:"
+color header #f3be7c #141415 "^Date:"
+color header #bebeda #141415 "^Reply-To:"
+color header #bebeda #141415 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cdcdcd #141415 ".*"
+color quoted0       #99b782 #141415
+color quoted1       #bebeda #141415
+color signature     #606079 #141415
+color body #8ba9c1 #141415 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #141415 #f3be7c
+
+########################################
+# Compose
+########################################
+
+color compose_header #6e94b2 #141415
+color compose_security_encrypt #e08398 #141415
+color compose_security_sign #99b782 #141415
+color compose_security_both #bebeda #141415
+
+########################################
+# Diff / Patch
+########################################
+
+color body #141415 #99b782 "^\\+.*"
+color body #141415 #d8647e "^-.*"
+color body #141415 #f3be7c "^@@.*"
+
+# vim: ft=neomuttrc

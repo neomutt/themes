@@ -1,0 +1,88 @@
+# Havn Daggry – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Havn Daggry
+#
+# Base palette
+# bg:  #f8f9fb
+# fg:  #3b4a7a
+# grey:#1f2842
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #3b4a7a #f8f9fb
+color error         #985248 #f8f9fb
+color message       #3a577d #f8f9fb
+color indicator     #f8f9fb #f1a527
+color tree          #1f2842 #f8f9fb
+
+########################################
+# Status Bar
+########################################
+
+color status        #3b4a7a #1f2842
+
+########################################
+# Index View
+########################################
+
+color index         #3b4a7a #f8f9fb
+color index_number  #1f2842 #f8f9fb
+color index_author  #3a577d #f8f9fb
+color index_subject #3b4a7a #f8f9fb
+color index_date    #be6b00 #f8f9fb
+color index_flags   #cc4a35 #f8f9fb
+
+color index #985248 #f8f9fb "~D"
+color index #f1a527 #f8f9fb "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #3b4a7a #f8f9fb
+color header #3a577d #f8f9fb "^From:"
+color header #3a577d #f8f9fb "^To:"
+color header #be6b00 #f8f9fb "^Subject:"
+color header #be6b00 #f8f9fb "^Date:"
+color header #aa869d #f8f9fb "^Reply-To:"
+color header #aa869d #f8f9fb "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #3b4a7a #f8f9fb ".*"
+color quoted0       #719679 #f8f9fb
+color quoted1       #aa869d #f8f9fb
+color signature     #1f2842 #f8f9fb
+color body #6089c0 #f8f9fb "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f8f9fb #be6b00
+
+########################################
+# Compose
+########################################
+
+color compose_header #3a577d #f8f9fb
+color compose_security_encrypt #cc4a35 #f8f9fb
+color compose_security_sign #719679 #f8f9fb
+color compose_security_both #aa869d #f8f9fb
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f8f9fb #719679 "^\\+.*"
+color body #f8f9fb #985248 "^-.*"
+color body #f8f9fb #be6b00 "^@@.*"
+
+# vim: ft=neomuttrc

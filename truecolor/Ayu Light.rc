@@ -1,0 +1,88 @@
+# Ayu Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Ayu Light
+#
+# Base palette
+# bg:  #f8f9fa
+# fg:  #5c6166
+# grey:#686868
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #5c6166 #f8f9fa
+color error         #ea6c6d #f8f9fa
+color message       #3199e1 #f8f9fa
+color indicator     #f8f9fa #f2ae49
+color tree          #686868 #f8f9fa
+
+########################################
+# Status Bar
+########################################
+
+color status        #5c6166 #686868
+
+########################################
+# Index View
+########################################
+
+color index         #5c6166 #f8f9fa
+color index_number  #686868 #f8f9fa
+color index_author  #3199e1 #f8f9fa
+color index_subject #5c6166 #f8f9fa
+color index_date    #eca944 #f8f9fa
+color index_flags   #f07171 #f8f9fa
+
+color index #ea6c6d #f8f9fa "~D"
+color index #f2ae49 #f8f9fa "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #5c6166 #f8f9fa
+color header #3199e1 #f8f9fa "^From:"
+color header #3199e1 #f8f9fa "^To:"
+color header #eca944 #f8f9fa "^Subject:"
+color header #eca944 #f8f9fa "^Date:"
+color header #4cbf99 #f8f9fa "^Reply-To:"
+color header #4cbf99 #f8f9fa "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #5c6166 #f8f9fa ".*"
+color quoted0       #86b300 #f8f9fa
+color quoted1       #4cbf99 #f8f9fa
+color signature     #686868 #f8f9fa
+color body #399ee6 #f8f9fa "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f8f9fa #eca944
+
+########################################
+# Compose
+########################################
+
+color compose_header #3199e1 #f8f9fa
+color compose_security_encrypt #f07171 #f8f9fa
+color compose_security_sign #86b300 #f8f9fa
+color compose_security_both #4cbf99 #f8f9fa
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f8f9fa #86b300 "^\\+.*"
+color body #f8f9fa #ea6c6d "^-.*"
+color body #f8f9fa #eca944 "^@@.*"
+
+# vim: ft=neomuttrc

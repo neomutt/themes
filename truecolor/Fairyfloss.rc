@@ -1,0 +1,88 @@
+# Fairyfloss – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Fairyfloss
+#
+# Base palette
+# bg:  #5a5475
+# fg:  #f8f8f2
+# grey:#6090cb
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f8f8f2 #5a5475
+color error         #f92672 #5a5475
+color message       #c2ffdf #5a5475
+color indicator     #5a5475 #ffea00
+color tree          #6090cb #5a5475
+
+########################################
+# Status Bar
+########################################
+
+color status        #f8f8f2 #6090cb
+
+########################################
+# Index View
+########################################
+
+color index         #f8f8f2 #5a5475
+color index_number  #6090cb #5a5475
+color index_author  #c2ffdf #5a5475
+color index_subject #f8f8f2 #5a5475
+color index_date    #e6c000 #5a5475
+color index_flags   #ff857f #5a5475
+
+color index #f92672 #5a5475 "~D"
+color index #ffea00 #5a5475 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f8f8f2 #5a5475
+color header #c2ffdf #5a5475 "^From:"
+color header #c2ffdf #5a5475 "^To:"
+color header #e6c000 #5a5475 "^Subject:"
+color header #e6c000 #5a5475 "^Date:"
+color header #c5a3ff #5a5475 "^Reply-To:"
+color header #c5a3ff #5a5475 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f8f8f2 #5a5475 ".*"
+color quoted0       #c2ffdf #5a5475
+color quoted1       #c5a3ff #5a5475
+color signature     #6090cb #5a5475
+color body #c2ffdf #5a5475 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #5a5475 #e6c000
+
+########################################
+# Compose
+########################################
+
+color compose_header #c2ffdf #5a5475
+color compose_security_encrypt #ff857f #5a5475
+color compose_security_sign #c2ffdf #5a5475
+color compose_security_both #c5a3ff #5a5475
+
+########################################
+# Diff / Patch
+########################################
+
+color body #5a5475 #c2ffdf "^\\+.*"
+color body #5a5475 #f92672 "^-.*"
+color body #5a5475 #e6c000 "^@@.*"
+
+# vim: ft=neomuttrc

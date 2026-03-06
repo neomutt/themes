@@ -1,0 +1,88 @@
+# 12-bit Rainbow – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: 12-bit Rainbow
+#
+# Base palette
+# bg:  #040404
+# fg:  #feffff
+# grey:#685656
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #feffff #040404
+color error         #a03050 #040404
+color message       #3060b0 #040404
+color indicator     #040404 #e0d000
+color tree          #685656 #040404
+
+########################################
+# Status Bar
+########################################
+
+color status        #feffff #685656
+
+########################################
+# Index View
+########################################
+
+color index         #feffff #040404
+color index_number  #685656 #040404
+color index_author  #3060b0 #040404
+color index_subject #feffff #040404
+color index_date    #e09040 #040404
+color index_flags   #c06060 #040404
+
+color index #a03050 #040404 "~D"
+color index #e0d000 #040404 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #feffff #040404
+color header #3060b0 #040404 "^From:"
+color header #3060b0 #040404 "^To:"
+color header #e09040 #040404 "^Subject:"
+color header #e09040 #040404 "^Date:"
+color header #20b0c0 #040404 "^Reply-To:"
+color header #20b0c0 #040404 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #feffff #040404 ".*"
+color quoted0       #90d050 #040404
+color quoted1       #20b0c0 #040404
+color signature     #685656 #040404
+color body #00b0c0 #040404 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #040404 #e09040
+
+########################################
+# Compose
+########################################
+
+color compose_header #3060b0 #040404
+color compose_security_encrypt #c06060 #040404
+color compose_security_sign #90d050 #040404
+color compose_security_both #20b0c0 #040404
+
+########################################
+# Diff / Patch
+########################################
+
+color body #040404 #90d050 "^\\+.*"
+color body #040404 #a03050 "^-.*"
+color body #040404 #e09040 "^@@.*"
+
+# vim: ft=neomuttrc

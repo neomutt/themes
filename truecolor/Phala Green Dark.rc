@@ -1,0 +1,88 @@
+# Phala Green Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Phala Green Dark
+#
+# Base palette
+# bg:  #000000
+# fg:  #c1fc03
+# grey:#797979
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c1fc03 #000000
+color error         #ab1500 #000000
+color message       #0223c0 #000000
+color indicator     #000000 #eae700
+color tree          #797979 #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #c1fc03 #797979
+
+########################################
+# Index View
+########################################
+
+color index         #c1fc03 #000000
+color index_number  #797979 #000000
+color index_author  #0223c0 #000000
+color index_subject #c1fc03 #000000
+color index_date    #a9a700 #000000
+color index_flags   #ed2200 #000000
+
+color index #ab1500 #000000 "~D"
+color index #eae700 #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c1fc03 #000000
+color header #0223c0 #000000 "^From:"
+color header #0223c0 #000000 "^To:"
+color header #a9a700 #000000 "^Subject:"
+color header #a9a700 #000000 "^Date:"
+color header #00e8ea #000000 "^Reply-To:"
+color header #00e8ea #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c1fc03 #000000 ".*"
+color quoted0       #00db00 #000000
+color quoted1       #00e8ea #000000
+color signature     #797979 #000000
+color body #0433ff #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #a9a700
+
+########################################
+# Compose
+########################################
+
+color compose_header #0223c0 #000000
+color compose_security_encrypt #ed2200 #000000
+color compose_security_sign #00db00 #000000
+color compose_security_both #00e8ea #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #00db00 "^\\+.*"
+color body #000000 #ab1500 "^-.*"
+color body #000000 #a9a700 "^@@.*"
+
+# vim: ft=neomuttrc

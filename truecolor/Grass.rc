@@ -1,0 +1,88 @@
+# Grass – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Grass
+#
+# Base palette
+# bg:  #13773d
+# fg:  #fff0a5
+# grey:#959595
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #fff0a5 #13773d
+color error         #ff5959 #13773d
+color message       #0000a3 #13773d
+color indicator     #13773d #e7b000
+color tree          #959595 #13773d
+
+########################################
+# Status Bar
+########################################
+
+color status        #fff0a5 #959595
+
+########################################
+# Index View
+########################################
+
+color index         #fff0a5 #13773d
+color index_number  #959595 #13773d
+color index_author  #0000a3 #13773d
+color index_subject #fff0a5 #13773d
+color index_date    #e7b000 #13773d
+color index_flags   #ff5959 #13773d
+
+color index #ff5959 #13773d "~D"
+color index #e7b000 #13773d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #fff0a5 #13773d
+color header #0000a3 #13773d "^From:"
+color header #0000a3 #13773d "^To:"
+color header #e7b000 #13773d "^Subject:"
+color header #e7b000 #13773d "^Date:"
+color header #55ffff #13773d "^Reply-To:"
+color header #55ffff #13773d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #fff0a5 #13773d ".*"
+color quoted0       #00bb00 #13773d
+color quoted1       #55ffff #13773d
+color signature     #959595 #13773d
+color body #0000bb #13773d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #13773d #e7b000
+
+########################################
+# Compose
+########################################
+
+color compose_header #0000a3 #13773d
+color compose_security_encrypt #ff5959 #13773d
+color compose_security_sign #00bb00 #13773d
+color compose_security_both #55ffff #13773d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #13773d #00bb00 "^\\+.*"
+color body #13773d #ff5959 "^-.*"
+color body #13773d #e7b000 "^@@.*"
+
+# vim: ft=neomuttrc

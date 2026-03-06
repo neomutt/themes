@@ -1,0 +1,88 @@
+# Rose Pine Moon – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Rose Pine Moon
+#
+# Base palette
+# bg:  #232136
+# fg:  #e0def4
+# grey:#6e6a86
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e0def4 #232136
+color error         #eb6f92 #232136
+color message       #9ccfd8 #232136
+color indicator     #232136 #f6c177
+color tree          #6e6a86 #232136
+
+########################################
+# Status Bar
+########################################
+
+color status        #e0def4 #6e6a86
+
+########################################
+# Index View
+########################################
+
+color index         #e0def4 #232136
+color index_number  #6e6a86 #232136
+color index_author  #9ccfd8 #232136
+color index_subject #e0def4 #232136
+color index_date    #f6c177 #232136
+color index_flags   #eb6f92 #232136
+
+color index #eb6f92 #232136 "~D"
+color index #f6c177 #232136 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e0def4 #232136
+color header #9ccfd8 #232136 "^From:"
+color header #9ccfd8 #232136 "^To:"
+color header #f6c177 #232136 "^Subject:"
+color header #f6c177 #232136 "^Date:"
+color header #ea9a97 #232136 "^Reply-To:"
+color header #ea9a97 #232136 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e0def4 #232136 ".*"
+color quoted0       #3e8fb0 #232136
+color quoted1       #ea9a97 #232136
+color signature     #6e6a86 #232136
+color body #9ccfd8 #232136 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #232136 #f6c177
+
+########################################
+# Compose
+########################################
+
+color compose_header #9ccfd8 #232136
+color compose_security_encrypt #eb6f92 #232136
+color compose_security_sign #3e8fb0 #232136
+color compose_security_both #ea9a97 #232136
+
+########################################
+# Diff / Patch
+########################################
+
+color body #232136 #3e8fb0 "^\\+.*"
+color body #232136 #eb6f92 "^-.*"
+color body #232136 #f6c177 "^@@.*"
+
+# vim: ft=neomuttrc

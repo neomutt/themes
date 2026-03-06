@@ -1,0 +1,88 @@
+# Sublette – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Sublette
+#
+# Base palette
+# bg:  #202535
+# fg:  #ccced0
+# grey:#405570
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ccced0 #202535
+color error         #ee5577 #202535
+color message       #5588ff #202535
+color indicator     #202535 #ffff77
+color tree          #405570 #202535
+
+########################################
+# Status Bar
+########################################
+
+color status        #ccced0 #405570
+
+########################################
+# Index View
+########################################
+
+color index         #ccced0 #202535
+color index_number  #405570 #202535
+color index_author  #5588ff #202535
+color index_subject #ccced0 #202535
+color index_date    #ffdd88 #202535
+color index_flags   #ee6655 #202535
+
+color index #ee5577 #202535 "~D"
+color index #ffff77 #202535 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ccced0 #202535
+color header #5588ff #202535 "^From:"
+color header #5588ff #202535 "^To:"
+color header #ffdd88 #202535 "^Subject:"
+color header #ffdd88 #202535 "^Date:"
+color header #55ffbb #202535 "^Reply-To:"
+color header #55ffbb #202535 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ccced0 #202535 ".*"
+color quoted0       #99ee77 #202535
+color quoted1       #55ffbb #202535
+color signature     #405570 #202535
+color body #77bbff #202535 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #202535 #ffdd88
+
+########################################
+# Compose
+########################################
+
+color compose_header #5588ff #202535
+color compose_security_encrypt #ee6655 #202535
+color compose_security_sign #99ee77 #202535
+color compose_security_both #55ffbb #202535
+
+########################################
+# Diff / Patch
+########################################
+
+color body #202535 #99ee77 "^\\+.*"
+color body #202535 #ee5577 "^-.*"
+color body #202535 #ffdd88 "^@@.*"
+
+# vim: ft=neomuttrc

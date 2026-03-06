@@ -1,0 +1,88 @@
+# Monokai Pro Light Sun – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Monokai Pro Light Sun
+#
+# Base palette
+# bg:  #f8efe7
+# fg:  #2c232e
+# grey:#a59c9c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #2c232e #f8efe7
+color error         #ce4770 #f8efe7
+color message       #d4572b #f8efe7
+color indicator     #f8efe7 #b16803
+color tree          #a59c9c #f8efe7
+
+########################################
+# Status Bar
+########################################
+
+color status        #2c232e #a59c9c
+
+########################################
+# Index View
+########################################
+
+color index         #2c232e #f8efe7
+color index_number  #a59c9c #f8efe7
+color index_author  #d4572b #f8efe7
+color index_subject #2c232e #f8efe7
+color index_date    #b16803 #f8efe7
+color index_flags   #ce4770 #f8efe7
+
+color index #ce4770 #f8efe7 "~D"
+color index #b16803 #f8efe7 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #2c232e #f8efe7
+color header #d4572b #f8efe7 "^From:"
+color header #d4572b #f8efe7 "^To:"
+color header #b16803 #f8efe7 "^Subject:"
+color header #b16803 #f8efe7 "^Date:"
+color header #2473b6 #f8efe7 "^Reply-To:"
+color header #2473b6 #f8efe7 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #2c232e #f8efe7 ".*"
+color quoted0       #218871 #f8efe7
+color quoted1       #2473b6 #f8efe7
+color signature     #a59c9c #f8efe7
+color body #d4572b #f8efe7 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f8efe7 #b16803
+
+########################################
+# Compose
+########################################
+
+color compose_header #d4572b #f8efe7
+color compose_security_encrypt #ce4770 #f8efe7
+color compose_security_sign #218871 #f8efe7
+color compose_security_both #2473b6 #f8efe7
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f8efe7 #218871 "^\\+.*"
+color body #f8efe7 #ce4770 "^-.*"
+color body #f8efe7 #b16803 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Desert – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Desert
+#
+# Base palette
+# bg:  #333333
+# fg:  #ffffff
+# grey:#626262
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #333333
+color error         #ff2b2b #333333
+color message       #cd853f #333333
+color indicator     #333333 #ffff55
+color tree          #626262 #333333
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #626262
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #333333
+color index_number  #626262 #333333
+color index_author  #cd853f #333333
+color index_subject #ffffff #333333
+color index_date    #f0e68c #333333
+color index_flags   #ff5555 #333333
+
+color index #ff2b2b #333333 "~D"
+color index #ffff55 #333333 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #333333
+color header #cd853f #333333 "^From:"
+color header #cd853f #333333 "^To:"
+color header #f0e68c #333333 "^Subject:"
+color header #f0e68c #333333 "^Date:"
+color header #ffd700 #333333 "^Reply-To:"
+color header #ffd700 #333333 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #333333 ".*"
+color quoted0       #55ff55 #333333
+color quoted1       #ffd700 #333333
+color signature     #626262 #333333
+color body #87ceff #333333 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #333333 #f0e68c
+
+########################################
+# Compose
+########################################
+
+color compose_header #cd853f #333333
+color compose_security_encrypt #ff5555 #333333
+color compose_security_sign #55ff55 #333333
+color compose_security_both #ffd700 #333333
+
+########################################
+# Diff / Patch
+########################################
+
+color body #333333 #55ff55 "^\\+.*"
+color body #333333 #ff2b2b "^-.*"
+color body #333333 #f0e68c "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Tango Half Adapted – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Tango Half Adapted
+#
+# Base palette
+# bg:  #ffffff
+# fg:  #000000
+# grey:#797d76
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #000000 #ffffff
+color error         #ff0000 #ffffff
+color message       #008ef6 #ffffff
+color indicator     #ffffff #d9c600
+color tree          #797d76 #ffffff
+
+########################################
+# Status Bar
+########################################
+
+color status        #000000 #797d76
+
+########################################
+# Index View
+########################################
+
+color index         #000000 #ffffff
+color index_number  #797d76 #ffffff
+color index_author  #008ef6 #ffffff
+color index_subject #000000 #ffffff
+color index_date    #e2c000 #ffffff
+color index_flags   #ff0013 #ffffff
+
+color index #ff0000 #ffffff "~D"
+color index #d9c600 #ffffff "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #000000 #ffffff
+color header #008ef6 #ffffff "^From:"
+color header #008ef6 #ffffff "^To:"
+color header #e2c000 #ffffff "^Subject:"
+color header #e2c000 #ffffff "^Date:"
+color header #00d0d4 #ffffff "^Reply-To:"
+color header #00d0d4 #ffffff "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #000000 #ffffff ".*"
+color quoted0       #70dc00 #ffffff
+color quoted1       #00d0d4 #ffffff
+color signature     #797d76 #ffffff
+color body #76bfff #ffffff "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #ffffff #e2c000
+
+########################################
+# Compose
+########################################
+
+color compose_header #008ef6 #ffffff
+color compose_security_encrypt #ff0013 #ffffff
+color compose_security_sign #70dc00 #ffffff
+color compose_security_both #00d0d4 #ffffff
+
+########################################
+# Diff / Patch
+########################################
+
+color body #ffffff #70dc00 "^\\+.*"
+color body #ffffff #ff0000 "^-.*"
+color body #ffffff #e2c000 "^@@.*"
+
+# vim: ft=neomuttrc

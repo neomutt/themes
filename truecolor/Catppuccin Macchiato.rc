@@ -1,0 +1,88 @@
+# Catppuccin Macchiato – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Catppuccin Macchiato
+#
+# Base palette
+# bg:  #24273a
+# fg:  #cad3f5
+# grey:#5b6078
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #cad3f5 #24273a
+color error         #ed8796 #24273a
+color message       #8aadf4 #24273a
+color indicator     #24273a #e1c682
+color tree          #5b6078 #24273a
+
+########################################
+# Status Bar
+########################################
+
+color status        #cad3f5 #5b6078
+
+########################################
+# Index View
+########################################
+
+color index         #cad3f5 #24273a
+color index_number  #5b6078 #24273a
+color index_author  #8aadf4 #24273a
+color index_subject #cad3f5 #24273a
+color index_date    #eed49f #24273a
+color index_flags   #ec7486 #24273a
+
+color index #ed8796 #24273a "~D"
+color index #e1c682 #24273a "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #cad3f5 #24273a
+color header #8aadf4 #24273a "^From:"
+color header #8aadf4 #24273a "^To:"
+color header #eed49f #24273a "^Subject:"
+color header #eed49f #24273a "^Date:"
+color header #63cbc0 #24273a "^Reply-To:"
+color header #63cbc0 #24273a "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #cad3f5 #24273a ".*"
+color quoted0       #8ccf7f #24273a
+color quoted1       #63cbc0 #24273a
+color signature     #5b6078 #24273a
+color body #78a1f6 #24273a "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #24273a #eed49f
+
+########################################
+# Compose
+########################################
+
+color compose_header #8aadf4 #24273a
+color compose_security_encrypt #ec7486 #24273a
+color compose_security_sign #8ccf7f #24273a
+color compose_security_both #63cbc0 #24273a
+
+########################################
+# Diff / Patch
+########################################
+
+color body #24273a #8ccf7f "^\\+.*"
+color body #24273a #ed8796 "^-.*"
+color body #24273a #eed49f "^@@.*"
+
+# vim: ft=neomuttrc

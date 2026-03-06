@@ -1,0 +1,88 @@
+# Django – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Django
+#
+# Base palette
+# bg:  #0b2f20
+# fg:  #f8f8f8
+# grey:#585858
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #f8f8f8 #0b2f20
+color error         #fd6209 #0b2f20
+color message       #315d3f #0b2f20
+color indicator     #0b2f20 #ffff94
+color tree          #585858 #0b2f20
+
+########################################
+# Status Bar
+########################################
+
+color status        #f8f8f8 #585858
+
+########################################
+# Index View
+########################################
+
+color index         #f8f8f8 #0b2f20
+color index_number  #585858 #0b2f20
+color index_author  #315d3f #0b2f20
+color index_subject #f8f8f8 #0b2f20
+color index_date    #ffe862 #0b2f20
+color index_flags   #ff943b #0b2f20
+
+color index #fd6209 #0b2f20 "~D"
+color index #ffff94 #0b2f20 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #f8f8f8 #0b2f20
+color header #315d3f #0b2f20 "^From:"
+color header #315d3f #0b2f20 "^To:"
+color header #ffe862 #0b2f20 "^Subject:"
+color header #ffe862 #0b2f20 "^Date:"
+color header #cfffd1 #0b2f20 "^Reply-To:"
+color header #cfffd1 #0b2f20 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #f8f8f8 #0b2f20 ".*"
+color quoted0       #73da70 #0b2f20
+color quoted1       #cfffd1 #0b2f20
+color signature     #585858 #0b2f20
+color body #568264 #0b2f20 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0b2f20 #ffe862
+
+########################################
+# Compose
+########################################
+
+color compose_header #315d3f #0b2f20
+color compose_security_encrypt #ff943b #0b2f20
+color compose_security_sign #73da70 #0b2f20
+color compose_security_both #cfffd1 #0b2f20
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0b2f20 #73da70 "^\\+.*"
+color body #0b2f20 #fd6209 "^-.*"
+color body #0b2f20 #ffe862 "^@@.*"
+
+# vim: ft=neomuttrc

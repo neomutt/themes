@@ -1,0 +1,88 @@
+# Alien Blood – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Alien Blood
+#
+# Base palette
+# bg:  #0f1610
+# fg:  #637d75
+# grey:#3c4812
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #637d75 #0f1610
+color error         #7f2b27 #0f1610
+color message       #2f6a7f #0f1610
+color indicator     #0f1610 #bde000
+color tree          #3c4812 #0f1610
+
+########################################
+# Status Bar
+########################################
+
+color status        #637d75 #3c4812
+
+########################################
+# Index View
+########################################
+
+color index         #637d75 #0f1610
+color index_number  #3c4812 #0f1610
+color index_author  #2f6a7f #0f1610
+color index_subject #637d75 #0f1610
+color index_date    #717f24 #0f1610
+color index_flags   #e08009 #0f1610
+
+color index #7f2b27 #0f1610 "~D"
+color index #bde000 #0f1610 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #637d75 #0f1610
+color header #2f6a7f #0f1610 "^From:"
+color header #2f6a7f #0f1610 "^To:"
+color header #717f24 #0f1610 "^Subject:"
+color header #717f24 #0f1610 "^Date:"
+color header #00e0c4 #0f1610 "^Reply-To:"
+color header #00e0c4 #0f1610 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #637d75 #0f1610 ".*"
+color quoted0       #18e000 #0f1610
+color quoted1       #00e0c4 #0f1610
+color signature     #3c4812 #0f1610
+color body #00aae0 #0f1610 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0f1610 #717f24
+
+########################################
+# Compose
+########################################
+
+color compose_header #2f6a7f #0f1610
+color compose_security_encrypt #e08009 #0f1610
+color compose_security_sign #18e000 #0f1610
+color compose_security_both #00e0c4 #0f1610
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0f1610 #18e000 "^\\+.*"
+color body #0f1610 #7f2b27 "^-.*"
+color body #0f1610 #717f24 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Arcoiris – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Arcoiris
+#
+# Base palette
+# bg:  #201f1e
+# fg:  #eee4d9
+# grey:#777777
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #eee4d9 #201f1e
+color error         #da2700 #201f1e
+color message       #518bfc #201f1e
+color indicator     #201f1e #ffddaa
+color tree          #777777 #201f1e
+
+########################################
+# Status Bar
+########################################
+
+color status        #eee4d9 #777777
+
+########################################
+# Index View
+########################################
+
+color index         #eee4d9 #201f1e
+color index_number  #777777 #201f1e
+color index_author  #518bfc #201f1e
+color index_subject #eee4d9 #201f1e
+color index_date    #ffc656 #201f1e
+color index_flags   #ffb9b9 #201f1e
+
+color index #da2700 #201f1e "~D"
+color index #ffddaa #201f1e "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #eee4d9 #201f1e
+color header #518bfc #201f1e "^From:"
+color header #518bfc #201f1e "^To:"
+color header #ffc656 #201f1e "^Subject:"
+color header #ffc656 #201f1e "^Date:"
+color header #bcffc7 #201f1e "^Reply-To:"
+color header #bcffc7 #201f1e "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #eee4d9 #201f1e ".*"
+color quoted0       #e3f6aa #201f1e
+color quoted1       #bcffc7 #201f1e
+color signature     #777777 #201f1e
+color body #b3e8f3 #201f1e "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #201f1e #ffc656
+
+########################################
+# Compose
+########################################
+
+color compose_header #518bfc #201f1e
+color compose_security_encrypt #ffb9b9 #201f1e
+color compose_security_sign #e3f6aa #201f1e
+color compose_security_both #bcffc7 #201f1e
+
+########################################
+# Diff / Patch
+########################################
+
+color body #201f1e #e3f6aa "^\\+.*"
+color body #201f1e #da2700 "^-.*"
+color body #201f1e #ffc656 "^@@.*"
+
+# vim: ft=neomuttrc

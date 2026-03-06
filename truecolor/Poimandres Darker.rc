@@ -1,0 +1,88 @@
+# Poimandres Darker – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Poimandres Darker
+#
+# Base palette
+# bg:  #16161e
+# fg:  #a6accd
+# grey:#a6accd
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #a6accd #16161e
+color error         #d0679d #16161e
+color message       #89ddff #16161e
+color indicator     #16161e #fffac2
+color tree          #a6accd #16161e
+
+########################################
+# Status Bar
+########################################
+
+color status        #a6accd #a6accd
+
+########################################
+# Index View
+########################################
+
+color index         #a6accd #16161e
+color index_number  #a6accd #16161e
+color index_author  #89ddff #16161e
+color index_subject #a6accd #16161e
+color index_date    #fffac2 #16161e
+color index_flags   #d0679d #16161e
+
+color index #d0679d #16161e "~D"
+color index #fffac2 #16161e "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #a6accd #16161e
+color header #89ddff #16161e "^From:"
+color header #89ddff #16161e "^To:"
+color header #fffac2 #16161e "^Subject:"
+color header #fffac2 #16161e "^Date:"
+color header #89ddff #16161e "^Reply-To:"
+color header #89ddff #16161e "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #a6accd #16161e ".*"
+color quoted0       #5de4c7 #16161e
+color quoted1       #89ddff #16161e
+color signature     #a6accd #16161e
+color body #add7ff #16161e "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #16161e #fffac2
+
+########################################
+# Compose
+########################################
+
+color compose_header #89ddff #16161e
+color compose_security_encrypt #d0679d #16161e
+color compose_security_sign #5de4c7 #16161e
+color compose_security_both #89ddff #16161e
+
+########################################
+# Diff / Patch
+########################################
+
+color body #16161e #5de4c7 "^\\+.*"
+color body #16161e #d0679d "^-.*"
+color body #16161e #fffac2 "^@@.*"
+
+# vim: ft=neomuttrc

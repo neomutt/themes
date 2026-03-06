@@ -1,0 +1,88 @@
+# Electron Highlighter – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Electron Highlighter
+#
+# Base palette
+# bg:  #23283d
+# fg:  #a5b6d4
+# grey:#4a6789
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #a5b6d4 #23283d
+color error         #ff6c8d #23283d
+color message       #77abff #23283d
+color indicator     #23283d #ffd7a9
+color tree          #4a6789 #23283d
+
+########################################
+# Status Bar
+########################################
+
+color status        #a5b6d4 #4a6789
+
+########################################
+# Index View
+########################################
+
+color index         #a5b6d4 #23283d
+color index_number  #4a6789 #23283d
+color index_author  #77abff #23283d
+color index_subject #a5b6d4 #23283d
+color index_date    #ffd7a9 #23283d
+color index_flags   #ff6c8d #23283d
+
+color index #ff6c8d #23283d "~D"
+color index #ffd7a9 #23283d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #a5b6d4 #23283d
+color header #77abff #23283d "^From:"
+color header #77abff #23283d "^To:"
+color header #ffd7a9 #23283d "^Subject:"
+color header #ffd7a9 #23283d "^Date:"
+color header #00fdff #23283d "^Reply-To:"
+color header #00fdff #23283d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #a5b6d4 #23283d ".*"
+color quoted0       #00ffc3 #23283d
+color quoted1       #00fdff #23283d
+color signature     #4a6789 #23283d
+color body #77abff #23283d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #23283d #ffd7a9
+
+########################################
+# Compose
+########################################
+
+color compose_header #77abff #23283d
+color compose_security_encrypt #ff6c8d #23283d
+color compose_security_sign #00ffc3 #23283d
+color compose_security_both #00fdff #23283d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #23283d #00ffc3 "^\\+.*"
+color body #23283d #ff6c8d "^-.*"
+color body #23283d #ffd7a9 "^@@.*"
+
+# vim: ft=neomuttrc

@@ -1,0 +1,88 @@
+# Hot Dog Stand (Mustard) – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Hot Dog Stand (Mustard)
+#
+# Base palette
+# bg:  #ffff54
+# fg:  #000000
+# grey:#000000
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #000000 #ffff54
+color error         #ea3323 #ffff54
+color message       #000000 #ffff54
+color indicator     #ffff54 #ea3323
+color tree          #000000 #ffff54
+
+########################################
+# Status Bar
+########################################
+
+color status        #000000 #000000
+
+########################################
+# Index View
+########################################
+
+color index         #000000 #ffff54
+color index_number  #000000 #ffff54
+color index_author  #000000 #ffff54
+color index_subject #000000 #ffff54
+color index_date    #ea3323 #ffff54
+color index_flags   #ea3323 #ffff54
+
+color index #ea3323 #ffff54 "~D"
+color index #ea3323 #ffff54 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #000000 #ffff54
+color header #000000 #ffff54 "^From:"
+color header #000000 #ffff54 "^To:"
+color header #ea3323 #ffff54 "^Subject:"
+color header #ea3323 #ffff54 "^Date:"
+color header #000000 #ffff54 "^Reply-To:"
+color header #000000 #ffff54 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #000000 #ffff54 ".*"
+color quoted0       #ea3323 #ffff54
+color quoted1       #000000 #ffff54
+color signature     #000000 #ffff54
+color body #000000 #ffff54 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #ffff54 #ea3323
+
+########################################
+# Compose
+########################################
+
+color compose_header #000000 #ffff54
+color compose_security_encrypt #ea3323 #ffff54
+color compose_security_sign #ea3323 #ffff54
+color compose_security_both #000000 #ffff54
+
+########################################
+# Diff / Patch
+########################################
+
+color body #ffff54 #ea3323 "^\\+.*"
+color body #ffff54 #ea3323 "^-.*"
+color body #ffff54 #ea3323 "^@@.*"
+
+# vim: ft=neomuttrc

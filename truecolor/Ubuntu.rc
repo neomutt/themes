@@ -1,0 +1,88 @@
+# Ubuntu – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Ubuntu
+#
+# Base palette
+# bg:  #300a24
+# fg:  #eeeeec
+# grey:#555753
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #eeeeec #300a24
+color error         #cc0000 #300a24
+color message       #3465a4 #300a24
+color indicator     #300a24 #fce94f
+color tree          #555753 #300a24
+
+########################################
+# Status Bar
+########################################
+
+color status        #eeeeec #555753
+
+########################################
+# Index View
+########################################
+
+color index         #eeeeec #300a24
+color index_number  #555753 #300a24
+color index_author  #3465a4 #300a24
+color index_subject #eeeeec #300a24
+color index_date    #c4a000 #300a24
+color index_flags   #ef2929 #300a24
+
+color index #cc0000 #300a24 "~D"
+color index #fce94f #300a24 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #eeeeec #300a24
+color header #3465a4 #300a24 "^From:"
+color header #3465a4 #300a24 "^To:"
+color header #c4a000 #300a24 "^Subject:"
+color header #c4a000 #300a24 "^Date:"
+color header #34e2e2 #300a24 "^Reply-To:"
+color header #34e2e2 #300a24 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #eeeeec #300a24 ".*"
+color quoted0       #8ae234 #300a24
+color quoted1       #34e2e2 #300a24
+color signature     #555753 #300a24
+color body #729fcf #300a24 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #300a24 #c4a000
+
+########################################
+# Compose
+########################################
+
+color compose_header #3465a4 #300a24
+color compose_security_encrypt #ef2929 #300a24
+color compose_security_sign #8ae234 #300a24
+color compose_security_both #34e2e2 #300a24
+
+########################################
+# Diff / Patch
+########################################
+
+color body #300a24 #8ae234 "^\\+.*"
+color body #300a24 #cc0000 "^-.*"
+color body #300a24 #c4a000 "^@@.*"
+
+# vim: ft=neomuttrc

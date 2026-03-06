@@ -1,0 +1,88 @@
+# Everforest Dark Hard – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Everforest Dark Hard
+#
+# Base palette
+# bg:  #1e2326
+# fg:  #d3c6aa
+# grey:#a6b0a0
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #d3c6aa #1e2326
+color error         #e67e80 #1e2326
+color message       #7fbbb3 #1e2326
+color indicator     #1e2326 #dfa000
+color tree          #a6b0a0 #1e2326
+
+########################################
+# Status Bar
+########################################
+
+color status        #d3c6aa #a6b0a0
+
+########################################
+# Index View
+########################################
+
+color index         #d3c6aa #1e2326
+color index_number  #a6b0a0 #1e2326
+color index_author  #7fbbb3 #1e2326
+color index_subject #d3c6aa #1e2326
+color index_date    #dbbc7f #1e2326
+color index_flags   #f85552 #1e2326
+
+color index #e67e80 #1e2326 "~D"
+color index #dfa000 #1e2326 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #d3c6aa #1e2326
+color header #7fbbb3 #1e2326 "^From:"
+color header #7fbbb3 #1e2326 "^To:"
+color header #dbbc7f #1e2326 "^Subject:"
+color header #dbbc7f #1e2326 "^Date:"
+color header #35a77c #1e2326 "^Reply-To:"
+color header #35a77c #1e2326 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #d3c6aa #1e2326 ".*"
+color quoted0       #8da101 #1e2326
+color quoted1       #35a77c #1e2326
+color signature     #a6b0a0 #1e2326
+color body #3a94c5 #1e2326 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1e2326 #dbbc7f
+
+########################################
+# Compose
+########################################
+
+color compose_header #7fbbb3 #1e2326
+color compose_security_encrypt #f85552 #1e2326
+color compose_security_sign #8da101 #1e2326
+color compose_security_both #35a77c #1e2326
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1e2326 #8da101 "^\\+.*"
+color body #1e2326 #e67e80 "^-.*"
+color body #1e2326 #dbbc7f "^@@.*"
+
+# vim: ft=neomuttrc

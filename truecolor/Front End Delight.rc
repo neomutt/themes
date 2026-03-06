@@ -1,0 +1,88 @@
+# Front End Delight – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Front End Delight
+#
+# Base palette
+# bg:  #1b1c1d
+# fg:  #adadad
+# grey:#5fac6d
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #adadad #1b1c1d
+color error         #f8511b #1b1c1d
+color message       #2c70b7 #1b1c1d
+color indicator     #1b1c1d #fdc325
+color tree          #5fac6d #1b1c1d
+
+########################################
+# Status Bar
+########################################
+
+color status        #adadad #5fac6d
+
+########################################
+# Index View
+########################################
+
+color index         #adadad #1b1c1d
+color index_number  #5fac6d #1b1c1d
+color index_author  #2c70b7 #1b1c1d
+color index_subject #adadad #1b1c1d
+color index_date    #fa771d #1b1c1d
+color index_flags   #f74319 #1b1c1d
+
+color index #f8511b #1b1c1d "~D"
+color index #fdc325 #1b1c1d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #adadad #1b1c1d
+color header #2c70b7 #1b1c1d "^From:"
+color header #2c70b7 #1b1c1d "^To:"
+color header #fa771d #1b1c1d "^Subject:"
+color header #fa771d #1b1c1d "^Date:"
+color header #4fbce6 #1b1c1d "^Reply-To:"
+color header #4fbce6 #1b1c1d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #adadad #1b1c1d ".*"
+color quoted0       #74ec4c #1b1c1d
+color quoted1       #4fbce6 #1b1c1d
+color signature     #5fac6d #1b1c1d
+color body #3393ca #1b1c1d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1b1c1d #fa771d
+
+########################################
+# Compose
+########################################
+
+color compose_header #2c70b7 #1b1c1d
+color compose_security_encrypt #f74319 #1b1c1d
+color compose_security_sign #74ec4c #1b1c1d
+color compose_security_both #4fbce6 #1b1c1d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1b1c1d #74ec4c "^\\+.*"
+color body #1b1c1d #f8511b "^-.*"
+color body #1b1c1d #fa771d "^@@.*"
+
+# vim: ft=neomuttrc

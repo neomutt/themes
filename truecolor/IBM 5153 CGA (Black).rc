@@ -1,0 +1,88 @@
+# IBM 5153 CGA (Black) – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: IBM 5153 CGA (Black)
+#
+# Base palette
+# bg:  #000000
+# fg:  #c4c4c4
+# grey:#4e4e4e
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #c4c4c4 #000000
+color error         #c40000 #000000
+color message       #0000c4 #000000
+color indicator     #000000 #f3f34e
+color tree          #4e4e4e #000000
+
+########################################
+# Status Bar
+########################################
+
+color status        #c4c4c4 #4e4e4e
+
+########################################
+# Index View
+########################################
+
+color index         #c4c4c4 #000000
+color index_number  #4e4e4e #000000
+color index_author  #0000c4 #000000
+color index_subject #c4c4c4 #000000
+color index_date    #c47e00 #000000
+color index_flags   #dc4e4e #000000
+
+color index #c40000 #000000 "~D"
+color index #f3f34e #000000 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #c4c4c4 #000000
+color header #0000c4 #000000 "^From:"
+color header #0000c4 #000000 "^To:"
+color header #c47e00 #000000 "^Subject:"
+color header #c47e00 #000000 "^Date:"
+color header #4ef3f3 #000000 "^Reply-To:"
+color header #4ef3f3 #000000 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #c4c4c4 #000000 ".*"
+color quoted0       #4edc4e #000000
+color quoted1       #4ef3f3 #000000
+color signature     #4e4e4e #000000
+color body #4e4edc #000000 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #000000 #c47e00
+
+########################################
+# Compose
+########################################
+
+color compose_header #0000c4 #000000
+color compose_security_encrypt #dc4e4e #000000
+color compose_security_sign #4edc4e #000000
+color compose_security_both #4ef3f3 #000000
+
+########################################
+# Diff / Patch
+########################################
+
+color body #000000 #4edc4e "^\\+.*"
+color body #000000 #c40000 "^-.*"
+color body #000000 #c47e00 "^@@.*"
+
+# vim: ft=neomuttrc

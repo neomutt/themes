@@ -1,0 +1,88 @@
+# Lovelace – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Lovelace
+#
+# Base palette
+# bg:  #1d1f28
+# fg:  #fdfdfd
+# grey:#4e5165
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #fdfdfd #1d1f28
+color error         #f37f97 #1d1f28
+color message       #8897f4 #1d1f28
+color indicator     #1d1f28 #ff8037
+color tree          #4e5165 #1d1f28
+
+########################################
+# Status Bar
+########################################
+
+color status        #fdfdfd #4e5165
+
+########################################
+# Index View
+########################################
+
+color index         #fdfdfd #1d1f28
+color index_number  #4e5165 #1d1f28
+color index_author  #8897f4 #1d1f28
+color index_subject #fdfdfd #1d1f28
+color index_date    #f2a272 #1d1f28
+color index_flags   #ff4971 #1d1f28
+
+color index #f37f97 #1d1f28 "~D"
+color index #ff8037 #1d1f28 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #fdfdfd #1d1f28
+color header #8897f4 #1d1f28 "^From:"
+color header #8897f4 #1d1f28 "^To:"
+color header #f2a272 #1d1f28 "^Subject:"
+color header #f2a272 #1d1f28 "^Date:"
+color header #3fdcee #1d1f28 "^Reply-To:"
+color header #3fdcee #1d1f28 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #fdfdfd #1d1f28 ".*"
+color quoted0       #18e3c8 #1d1f28
+color quoted1       #3fdcee #1d1f28
+color signature     #4e5165 #1d1f28
+color body #556fff #1d1f28 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1d1f28 #f2a272
+
+########################################
+# Compose
+########################################
+
+color compose_header #8897f4 #1d1f28
+color compose_security_encrypt #ff4971 #1d1f28
+color compose_security_sign #18e3c8 #1d1f28
+color compose_security_both #3fdcee #1d1f28
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1d1f28 #18e3c8 "^\\+.*"
+color body #1d1f28 #f37f97 "^-.*"
+color body #1d1f28 #f2a272 "^@@.*"
+
+# vim: ft=neomuttrc

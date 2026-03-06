@@ -1,0 +1,88 @@
+# Night Owlish Light – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Night Owlish Light
+#
+# Base palette
+# bg:  #ffffff
+# fg:  #403f53
+# grey:#7a8181
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #403f53 #ffffff
+color error         #d3423e #ffffff
+color message       #4876d6 #ffffff
+color indicator     #ffffff #dac26b
+color tree          #7a8181 #ffffff
+
+########################################
+# Status Bar
+########################################
+
+color status        #403f53 #7a8181
+
+########################################
+# Index View
+########################################
+
+color index         #403f53 #ffffff
+color index_number  #7a8181 #ffffff
+color index_author  #4876d6 #ffffff
+color index_subject #403f53 #ffffff
+color index_date    #daaa01 #ffffff
+color index_flags   #f76e6e #ffffff
+
+color index #d3423e #ffffff "~D"
+color index #dac26b #ffffff "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #403f53 #ffffff
+color header #4876d6 #ffffff "^From:"
+color header #4876d6 #ffffff "^To:"
+color header #daaa01 #ffffff "^Subject:"
+color header #daaa01 #ffffff "^Date:"
+color header #00c990 #ffffff "^Reply-To:"
+color header #00c990 #ffffff "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #403f53 #ffffff ".*"
+color quoted0       #49d0c5 #ffffff
+color quoted1       #00c990 #ffffff
+color signature     #7a8181 #ffffff
+color body #5ca7e4 #ffffff "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #ffffff #daaa01
+
+########################################
+# Compose
+########################################
+
+color compose_header #4876d6 #ffffff
+color compose_security_encrypt #f76e6e #ffffff
+color compose_security_sign #49d0c5 #ffffff
+color compose_security_both #00c990 #ffffff
+
+########################################
+# Diff / Patch
+########################################
+
+color body #ffffff #49d0c5 "^\\+.*"
+color body #ffffff #d3423e "^-.*"
+color body #ffffff #daaa01 "^@@.*"
+
+# vim: ft=neomuttrc

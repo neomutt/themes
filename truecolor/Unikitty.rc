@@ -1,0 +1,88 @@
+# Unikitty – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Unikitty
+#
+# Base palette
+# bg:  #ff8cd9
+# fg:  #0b0b0b
+# grey:#434343
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #0b0b0b #ff8cd9
+color error         #a80f20 #ff8cd9
+color message       #145fcd #ff8cd9
+color indicator     #ff8cd9 #ffef50
+color tree          #434343 #ff8cd9
+
+########################################
+# Status Bar
+########################################
+
+color status        #0b0b0b #434343
+
+########################################
+# Index View
+########################################
+
+color index         #0b0b0b #ff8cd9
+color index_number  #434343 #ff8cd9
+color index_author  #145fcd #ff8cd9
+color index_subject #0b0b0b #ff8cd9
+color index_date    #fff964 #ff8cd9
+color index_flags   #d91329 #ff8cd9
+
+color index #a80f20 #ff8cd9 "~D"
+color index #ffef50 #ff8cd9 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #0b0b0b #ff8cd9
+color header #145fcd #ff8cd9 "^From:"
+color header #145fcd #ff8cd9 "^To:"
+color header #fff964 #ff8cd9 "^Subject:"
+color header #fff964 #ff8cd9 "^Date:"
+color header #93ffef #ff8cd9 "^Reply-To:"
+color header #93ffef #ff8cd9 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #0b0b0b #ff8cd9 ".*"
+color quoted0       #d3ffaf #ff8cd9
+color quoted1       #93ffef #ff8cd9
+color signature     #434343 #ff8cd9
+color body #0075ea #ff8cd9 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #ff8cd9 #fff964
+
+########################################
+# Compose
+########################################
+
+color compose_header #145fcd #ff8cd9
+color compose_security_encrypt #d91329 #ff8cd9
+color compose_security_sign #d3ffaf #ff8cd9
+color compose_security_both #93ffef #ff8cd9
+
+########################################
+# Diff / Patch
+########################################
+
+color body #ff8cd9 #d3ffaf "^\\+.*"
+color body #ff8cd9 #a80f20 "^-.*"
+color body #ff8cd9 #fff964 "^@@.*"
+
+# vim: ft=neomuttrc

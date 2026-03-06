@@ -1,0 +1,88 @@
+# Terafox – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Terafox
+#
+# Base palette
+# bg:  #152528
+# fg:  #e6eaea
+# grey:#4e5157
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e6eaea #152528
+color error         #e85c51 #152528
+color message       #5a93aa #152528
+color indicator     #152528 #fdb292
+color tree          #4e5157 #152528
+
+########################################
+# Status Bar
+########################################
+
+color status        #e6eaea #4e5157
+
+########################################
+# Index View
+########################################
+
+color index         #e6eaea #152528
+color index_number  #4e5157 #152528
+color index_author  #5a93aa #152528
+color index_subject #e6eaea #152528
+color index_date    #fda47f #152528
+color index_flags   #eb746b #152528
+
+color index #e85c51 #152528 "~D"
+color index #fdb292 #152528 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e6eaea #152528
+color header #5a93aa #152528 "^From:"
+color header #5a93aa #152528 "^To:"
+color header #fda47f #152528 "^Subject:"
+color header #fda47f #152528 "^Date:"
+color header #afd4de #152528 "^Reply-To:"
+color header #afd4de #152528 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e6eaea #152528 ".*"
+color quoted0       #8eb2af #152528
+color quoted1       #afd4de #152528
+color signature     #4e5157 #152528
+color body #73a3b7 #152528 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #152528 #fda47f
+
+########################################
+# Compose
+########################################
+
+color compose_header #5a93aa #152528
+color compose_security_encrypt #eb746b #152528
+color compose_security_sign #8eb2af #152528
+color compose_security_both #afd4de #152528
+
+########################################
+# Diff / Patch
+########################################
+
+color body #152528 #8eb2af "^\\+.*"
+color body #152528 #e85c51 "^-.*"
+color body #152528 #fda47f "^@@.*"
+
+# vim: ft=neomuttrc

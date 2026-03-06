@@ -1,0 +1,88 @@
+# Borland – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Borland
+#
+# Base palette
+# bg:  #0000a4
+# fg:  #ffff4e
+# grey:#7c7c7c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffff4e #0000a4
+color error         #ff6c60 #0000a4
+color message       #96cbfe #0000a4
+color indicator     #0000a4 #ffffcc
+color tree          #7c7c7c #0000a4
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffff4e #7c7c7c
+
+########################################
+# Index View
+########################################
+
+color index         #ffff4e #0000a4
+color index_number  #7c7c7c #0000a4
+color index_author  #96cbfe #0000a4
+color index_subject #ffff4e #0000a4
+color index_date    #ffffb6 #0000a4
+color index_flags   #ffb6b0 #0000a4
+
+color index #ff6c60 #0000a4 "~D"
+color index #ffffcc #0000a4 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffff4e #0000a4
+color header #96cbfe #0000a4 "^From:"
+color header #96cbfe #0000a4 "^To:"
+color header #ffffb6 #0000a4 "^Subject:"
+color header #ffffb6 #0000a4 "^Date:"
+color header #dfdffe #0000a4 "^Reply-To:"
+color header #dfdffe #0000a4 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffff4e #0000a4 ".*"
+color quoted0       #ceffac #0000a4
+color quoted1       #dfdffe #0000a4
+color signature     #7c7c7c #0000a4
+color body #b5dcff #0000a4 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0000a4 #ffffb6
+
+########################################
+# Compose
+########################################
+
+color compose_header #96cbfe #0000a4
+color compose_security_encrypt #ffb6b0 #0000a4
+color compose_security_sign #ceffac #0000a4
+color compose_security_both #dfdffe #0000a4
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0000a4 #ceffac "^\\+.*"
+color body #0000a4 #ff6c60 "^-.*"
+color body #0000a4 #ffffb6 "^@@.*"
+
+# vim: ft=neomuttrc

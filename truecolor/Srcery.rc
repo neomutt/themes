@@ -1,0 +1,88 @@
+# Srcery – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Srcery
+#
+# Base palette
+# bg:  #1c1b19
+# fg:  #fce8c3
+# grey:#918175
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #fce8c3 #1c1b19
+color error         #ef2f27 #1c1b19
+color message       #2c78bf #1c1b19
+color indicator     #1c1b19 #fed06e
+color tree          #918175 #1c1b19
+
+########################################
+# Status Bar
+########################################
+
+color status        #fce8c3 #918175
+
+########################################
+# Index View
+########################################
+
+color index         #fce8c3 #1c1b19
+color index_number  #918175 #1c1b19
+color index_author  #2c78bf #1c1b19
+color index_subject #fce8c3 #1c1b19
+color index_date    #fbb829 #1c1b19
+color index_flags   #f75341 #1c1b19
+
+color index #ef2f27 #1c1b19 "~D"
+color index #fed06e #1c1b19 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #fce8c3 #1c1b19
+color header #2c78bf #1c1b19 "^From:"
+color header #2c78bf #1c1b19 "^To:"
+color header #fbb829 #1c1b19 "^Subject:"
+color header #fbb829 #1c1b19 "^Date:"
+color header #2be4d0 #1c1b19 "^Reply-To:"
+color header #2be4d0 #1c1b19 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #fce8c3 #1c1b19 ".*"
+color quoted0       #98bc37 #1c1b19
+color quoted1       #2be4d0 #1c1b19
+color signature     #918175 #1c1b19
+color body #68a8e4 #1c1b19 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #1c1b19 #fbb829
+
+########################################
+# Compose
+########################################
+
+color compose_header #2c78bf #1c1b19
+color compose_security_encrypt #f75341 #1c1b19
+color compose_security_sign #98bc37 #1c1b19
+color compose_security_both #2be4d0 #1c1b19
+
+########################################
+# Diff / Patch
+########################################
+
+color body #1c1b19 #98bc37 "^\\+.*"
+color body #1c1b19 #ef2f27 "^-.*"
+color body #1c1b19 #fbb829 "^@@.*"
+
+# vim: ft=neomuttrc

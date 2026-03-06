@@ -1,0 +1,88 @@
+# Spacedust – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Spacedust
+#
+# Base palette
+# bg:  #0a1e24
+# fg:  #ecf0c1
+# grey:#684c31
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ecf0c1 #0a1e24
+color error         #e35b00 #0a1e24
+color message       #0f548b #0a1e24
+color indicator     #0a1e24 #ffc878
+color tree          #684c31 #0a1e24
+
+########################################
+# Status Bar
+########################################
+
+color status        #ecf0c1 #684c31
+
+########################################
+# Index View
+########################################
+
+color index         #ecf0c1 #0a1e24
+color index_number  #684c31 #0a1e24
+color index_author  #0f548b #0a1e24
+color index_subject #ecf0c1 #0a1e24
+color index_date    #e3cd7b #0a1e24
+color index_flags   #ff8a3a #0a1e24
+
+color index #e35b00 #0a1e24 "~D"
+color index #ffc878 #0a1e24 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ecf0c1 #0a1e24
+color header #0f548b #0a1e24 "^From:"
+color header #0f548b #0a1e24 "^To:"
+color header #e3cd7b #0a1e24 "^Subject:"
+color header #e3cd7b #0a1e24 "^Date:"
+color header #83a7b4 #0a1e24 "^Reply-To:"
+color header #83a7b4 #0a1e24 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ecf0c1 #0a1e24 ".*"
+color quoted0       #aecab8 #0a1e24
+color quoted1       #83a7b4 #0a1e24
+color signature     #684c31 #0a1e24
+color body #67a0ce #0a1e24 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0a1e24 #e3cd7b
+
+########################################
+# Compose
+########################################
+
+color compose_header #0f548b #0a1e24
+color compose_security_encrypt #ff8a3a #0a1e24
+color compose_security_sign #aecab8 #0a1e24
+color compose_security_both #83a7b4 #0a1e24
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0a1e24 #aecab8 "^\\+.*"
+color body #0a1e24 #e35b00 "^-.*"
+color body #0a1e24 #e3cd7b "^@@.*"
+
+# vim: ft=neomuttrc

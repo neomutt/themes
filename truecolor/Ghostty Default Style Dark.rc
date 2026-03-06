@@ -1,0 +1,88 @@
+# Ghostty Default Style Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Ghostty Default Style Dark
+#
+# Base palette
+# bg:  #282c34
+# fg:  #ffffff
+# grey:#666666
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #282c34
+color error         #cc6566 #282c34
+color message       #82a2be #282c34
+color indicator     #282c34 #e7c547
+color tree          #666666 #282c34
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #666666
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #282c34
+color index_number  #666666 #282c34
+color index_author  #82a2be #282c34
+color index_subject #ffffff #282c34
+color index_date    #f0c674 #282c34
+color index_flags   #d54e53 #282c34
+
+color index #cc6566 #282c34 "~D"
+color index #e7c547 #282c34 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #282c34
+color header #82a2be #282c34 "^From:"
+color header #82a2be #282c34 "^To:"
+color header #f0c674 #282c34 "^Subject:"
+color header #f0c674 #282c34 "^Date:"
+color header #70c0b1 #282c34 "^Reply-To:"
+color header #70c0b1 #282c34 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #282c34 ".*"
+color quoted0       #b9ca4b #282c34
+color quoted1       #70c0b1 #282c34
+color signature     #666666 #282c34
+color body #7aa6da #282c34 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #282c34 #f0c674
+
+########################################
+# Compose
+########################################
+
+color compose_header #82a2be #282c34
+color compose_security_encrypt #d54e53 #282c34
+color compose_security_sign #b9ca4b #282c34
+color compose_security_both #70c0b1 #282c34
+
+########################################
+# Diff / Patch
+########################################
+
+color body #282c34 #b9ca4b "^\\+.*"
+color body #282c34 #cc6566 "^-.*"
+color body #282c34 #f0c674 "^@@.*"
+
+# vim: ft=neomuttrc

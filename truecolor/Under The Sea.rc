@@ -1,0 +1,88 @@
+# Under The Sea – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Under The Sea
+#
+# Base palette
+# bg:  #011116
+# fg:  #ffffff
+# grey:#384451
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ffffff #011116
+color error         #b2302d #011116
+color message       #459a86 #011116
+color indicator     #011116 #8ed4fd
+color tree          #384451 #011116
+
+########################################
+# Status Bar
+########################################
+
+color status        #ffffff #384451
+
+########################################
+# Index View
+########################################
+
+color index         #ffffff #011116
+color index_number  #384451 #011116
+color index_author  #459a86 #011116
+color index_subject #ffffff #011116
+color index_date    #59819c #011116
+color index_flags   #ff4242 #011116
+
+color index #b2302d #011116 "~D"
+color index #8ed4fd #011116 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ffffff #011116
+color header #459a86 #011116 "^From:"
+color header #459a86 #011116 "^To:"
+color header #59819c #011116 "^Subject:"
+color header #59819c #011116 "^Date:"
+color header #98d028 #011116 "^Reply-To:"
+color header #98d028 #011116 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ffffff #011116 ".*"
+color quoted0       #2aea5e #011116
+color quoted1       #98d028 #011116
+color signature     #384451 #011116
+color body #61d5ba #011116 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #011116 #59819c
+
+########################################
+# Compose
+########################################
+
+color compose_header #459a86 #011116
+color compose_security_encrypt #ff4242 #011116
+color compose_security_sign #2aea5e #011116
+color compose_security_both #98d028 #011116
+
+########################################
+# Diff / Patch
+########################################
+
+color body #011116 #2aea5e "^\\+.*"
+color body #011116 #b2302d "^-.*"
+color body #011116 #59819c "^@@.*"
+
+# vim: ft=neomuttrc

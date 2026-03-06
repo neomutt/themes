@@ -1,0 +1,88 @@
+# Django Reborn Again – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Django Reborn Again
+#
+# Base palette
+# bg:  #051f14
+# fg:  #dadedc
+# grey:#4c4c4c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #dadedc #051f14
+color error         #fd6209 #051f14
+color message       #245032 #051f14
+color indicator     #051f14 #ffff94
+color tree          #4c4c4c #051f14
+
+########################################
+# Status Bar
+########################################
+
+color status        #dadedc #4c4c4c
+
+########################################
+# Index View
+########################################
+
+color index         #dadedc #051f14
+color index_number  #4c4c4c #051f14
+color index_author  #245032 #051f14
+color index_subject #dadedc #051f14
+color index_date    #ffe862 #051f14
+color index_flags   #ff943b #051f14
+
+color index #fd6209 #051f14 "~D"
+color index #ffff94 #051f14 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #dadedc #051f14
+color header #245032 #051f14 "^From:"
+color header #245032 #051f14 "^To:"
+color header #ffe862 #051f14 "^Subject:"
+color header #ffe862 #051f14 "^Date:"
+color header #cfffd1 #051f14 "^Reply-To:"
+color header #cfffd1 #051f14 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #dadedc #051f14 ".*"
+color quoted0       #73da70 #051f14
+color quoted1       #cfffd1 #051f14
+color signature     #4c4c4c #051f14
+color body #568264 #051f14 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #051f14 #ffe862
+
+########################################
+# Compose
+########################################
+
+color compose_header #245032 #051f14
+color compose_security_encrypt #ff943b #051f14
+color compose_security_sign #73da70 #051f14
+color compose_security_both #cfffd1 #051f14
+
+########################################
+# Diff / Patch
+########################################
+
+color body #051f14 #73da70 "^\\+.*"
+color body #051f14 #fd6209 "^-.*"
+color body #051f14 #ffe862 "^@@.*"
+
+# vim: ft=neomuttrc
