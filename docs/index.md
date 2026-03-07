@@ -13,23 +13,23 @@ keywords: [neomutt, email, theme, color]
 
 <div class="feature-grid">
 
-<div class="feature-card">
+<a href="preview.html" class="feature-card">
   <img src="_static/hero-terminal.png" alt="Live preview">
   <h3>Live Preview</h3>
   <p>See exactly how each theme will look in your terminal before you install it.</p>
-</div>
+</a>
 
-<div class="feature-card">
+<a href="terminal.html" class="feature-card">
   <img src="_static/palette-icon.png" alt="Colour palette">
-  <h3>200+ Themes</h3>
+  <h3>400+ Themes</h3>
   <p>A curated collection of TrueColor and 256-colour palettes sourced from popular terminal emulators.</p>
-</div>
+</a>
 
-<div class="feature-card">
+<a href="creating.html" class="feature-card">
   <img src="_static/setup-icon.png" alt="Easy setup">
-  <h3>Easy Setup</h3>
-  <p>Download a single <code>.rc</code> file and <code>source</code> it in your <code>neomuttrc</code> — done!</p>
-</div>
+  <h3>Create Your Own</h3>
+  <p>Learn the colour system and build a custom theme from scratch.</p>
+</a>
 
 </div>
 
@@ -40,6 +40,7 @@ hidden: true
 ---
 preview.md
 terminal.md
+creating.md
 ```
 
 <hr class="section-divider">

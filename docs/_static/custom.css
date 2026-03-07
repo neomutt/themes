@@ -82,6 +82,12 @@ html[data-theme=dark] {
   box-shadow: 0 6px 18px rgba(0, 84, 97, 0.18);
 }
 
+a.feature-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .feature-card img {
   width: 80px;
   height: 80px;
