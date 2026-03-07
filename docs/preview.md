@@ -65,8 +65,12 @@ Pick a theme from the dropdown or click a favourite to see a live preview of Neo
 
 <script>
 function setTheme(theme) {
+  var picker = document.getElementById('theme-picker');
+  var options = Array.from(picker.options).map(function(o) { return o.value; });
+  if (options.indexOf(theme) === -1) return;
   document.querySelector('.term-window').setAttribute('data-theme', theme);
-  document.getElementById('theme-picker').value = theme;
+  picker.value = theme;
+  history.replaceState(null, '', '#' + theme);
 }
 document.getElementById('theme-picker').addEventListener('change', function() {
   setTheme(this.value);
@@ -76,4 +80,6 @@ document.querySelectorAll('.fav-btn').forEach(function(btn) {
     setTheme(this.getAttribute('data-theme'));
   });
 });
+var hash = window.location.hash.replace('#', '');
+if (hash) setTheme(hash);
 </script>
