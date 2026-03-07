@@ -6,6 +6,8 @@ keywords: [neomutt, email, terminal, theme, preview]
 
 # Theme List
 
+<img src="_static/icon-terminal-at.png" alt="" class="page-icon">
+
 Browse the full catalogue of NeoMutt colour themes below.
 Each row shows the theme name, download links for **TrueColor** and **256-colour** palette files, and a swatch preview of the foreground, background, cursor, selection, and 16 ANSI colours.
 

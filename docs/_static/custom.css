@@ -28,6 +28,7 @@ html[data-theme=light] {
   --pst-color-primary-highlight: #018790;
   --pst-color-link: #018790;
   --pst-color-link-hover: #005461;
+  --pst-color-background: #e0f7f8;
 }
 
 /* ── Brand colours — dark mode ──────────────────────────────── */
@@ -36,6 +37,16 @@ html[data-theme=dark] {
   --pst-color-primary-highlight: #018790;
   --pst-color-link: #00B7B5;
   --pst-color-link-hover: #018790;
+  --pst-color-background: #0d1e22;
+}
+
+/* ── Page icon decoration ───────────────────────────────────── */
+.page-icon {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  max-width: 120px;
+  height: auto;
+  opacity: 0.85;
 }
 
 /* ── Hero banner ────────────────────────────────────────────── */
@@ -72,6 +83,7 @@ html[data-theme=dark] {
 .feature-card {
   border: 1px solid #018790;
   border-radius: 10px;
+  background: #fff;
   padding: 1.5rem;
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;

@@ -6,6 +6,8 @@ keywords: [neomutt, email, theme, color, create, customize]
 
 # Creating a Theme
 
+<img src="_static/icon-paper-plane.png" alt="" class="page-icon">
+
 Want to build your own NeoMutt colour scheme?
 This guide walks you through the colour system, the configuration syntax, and the anatomy of a theme file.
 

@@ -27,13 +27,15 @@ templates_path = ['_templates']
 html_theme = 'sphinx_book_theme'
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
-html_logo = "_static/mutt-48x48.png"
+html_logo = "_static/logo.png"
+html_title = "NeoMutt Themes"
 html_favicon = "_static/favicon.png"
 
 html_theme_options = {
     "max_navbar_depth": 2,
     "pygments_light_style": "gruvbox-light",
     "pygments_dark_style": "gruvbox-dark",
+    "use_download_button": False,
 }
 
 # -- Options for EPUB output

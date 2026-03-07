@@ -14,19 +14,19 @@ keywords: [neomutt, email, theme, color]
 <div class="feature-grid">
 
 <a href="preview.html" class="feature-card">
-  <img src="_static/hero-terminal.png" alt="Live preview">
+  <img src="_static/icon-terminal-mail.png" alt="Live preview">
   <h3>Live Preview</h3>
   <p>See exactly how each theme will look in your terminal before you install it.</p>
 </a>
 
 <a href="terminal.html" class="feature-card">
-  <img src="_static/palette-icon.png" alt="Colour palette">
+  <img src="_static/icon-terminal-at.png" alt="Theme list">
   <h3>400+ Themes</h3>
   <p>A curated collection of TrueColor and 256-colour palettes sourced from popular terminal emulators.</p>
 </a>
 
 <a href="creating.html" class="feature-card">
-  <img src="_static/setup-icon.png" alt="Easy setup">
+  <img src="_static/icon-paper-plane.png" alt="Create a theme">
   <h3>Create Your Own</h3>
   <p>Learn the colour system and build a custom theme from scratch.</p>
 </a>

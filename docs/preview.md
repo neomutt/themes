@@ -6,6 +6,8 @@ keywords: [neomutt, email, theme, color, preview]
 
 # Live Preview
 
+<img src="_static/icon-terminal-mail.png" alt="" class="page-icon">
+
 Pick a theme from the dropdown or click a favourite to see a live preview of NeoMutt's Compose screen.
 
 <label for="theme-picker">Theme:</label>
