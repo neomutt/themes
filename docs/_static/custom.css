@@ -1,4 +1,9 @@
-/* Wider content panel */
+/* ═══════════════════════════════════════════════════════════════
+   NeoMutt Themes — Custom Stylesheet
+   Palette: #005461  #018790  #00B7B5  #F4F4F4
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Wider content panel ────────────────────────────────────── */
 .bd-article-container {
   max-width: 100% !important;
 }
@@ -11,81 +16,207 @@
   max-width: 100% !important;
 }
 
-/* Shrink the right (secondary) sidebar so the article gets more space */
 .bd-sidebar-secondary {
   max-width: 250px !important;
   min-width: 0 !important;
   flex: 0 0 250px !important;
 }
 
-/* Subtle green accent — light mode */
+/* ── Brand colours — light mode ─────────────────────────────── */
 html[data-theme=light] {
-  --pst-color-primary: #3a7a4a;
-  --pst-color-primary-highlight: #2e6239;
-  --pst-color-link: #3a7a4a;
-  --pst-color-link-hover: #2e6239;
+  --pst-color-primary: #005461;
+  --pst-color-primary-highlight: #018790;
+  --pst-color-link: #018790;
+  --pst-color-link-hover: #005461;
 }
 
-/* Subtle green accent — dark mode */
+/* ── Brand colours — dark mode ──────────────────────────────── */
 html[data-theme=dark] {
-  --pst-color-primary: #5aac6a;
-  --pst-color-primary-highlight: #6dc07d;
-  --pst-color-link: #5aac6a;
-  --pst-color-link-hover: #6dc07d;
+  --pst-color-primary: #00B7B5;
+  --pst-color-primary-highlight: #018790;
+  --pst-color-link: #00B7B5;
+  --pst-color-link-hover: #018790;
 }
 
+/* ── Hero banner ────────────────────────────────────────────── */
+.hero-banner {
+  background: linear-gradient(135deg, #005461 0%, #018790 50%, #00B7B5 100%);
+  color: #F4F4F4;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 84, 97, 0.3);
+}
+
+.hero-banner h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  color: #F4F4F4 !important;
+}
+
+.hero-banner p {
+  margin: 0;
+  font-size: 1.1rem;
+  opacity: 0.92;
+}
+
+/* ── Feature cards grid ─────────────────────────────────────── */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  border: 1px solid #018790;
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 84, 97, 0.18);
+}
+
+.feature-card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 0.75rem;
+  object-fit: contain;
+}
+
+.feature-card h3 {
+  color: #005461;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+html[data-theme=dark] .feature-card h3 {
+  color: #00B7B5;
+}
+
+.feature-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  opacity: 0.85;
+}
+
+html[data-theme=dark] .feature-card {
+  border-color: #00B7B5;
+}
+
+/* ── Section divider ────────────────────────────────────────── */
+.section-divider {
+  border: none;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #018790, transparent);
+  margin: 2rem 0;
+}
+
+/* ── Accent buttons (fav-btn) ───────────────────────────────── */
+.fav-btn {
+  background: #018790;
+  color: #F4F4F4;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4em 1em;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s, transform 0.15s;
+  margin: 0 0.25em;
+}
+
+.fav-btn:hover {
+  background: #005461;
+  transform: translateY(-1px);
+}
+
+html[data-theme=dark] .fav-btn {
+  background: #00B7B5;
+  color: #005461;
+}
+
+html[data-theme=dark] .fav-btn:hover {
+  background: #018790;
+  color: #F4F4F4;
+}
+
+/* ── Select dropdown ────────────────────────────────────────── */
+#theme-picker {
+  border: 2px solid #018790;
+  border-radius: 6px;
+  padding: 0.35em 0.75em;
+  font-size: 0.95rem;
+  background: #F4F4F4;
+  color: #005461;
+  cursor: pointer;
+}
+
+html[data-theme=dark] #theme-picker {
+  background: #1a2a2e;
+  color: #00B7B5;
+  border-color: #00B7B5;
+}
+
+/* ── Tables ─────────────────────────────────────────────────── */
 th {
   text-align: left;
-  background-color: #e8e8e8;
+  background-color: #005461;
+  color: #F4F4F4;
 }
 
 html[data-theme=dark] th {
-  background-color: #383838;
+  background-color: #018790;
+  color: #F4F4F4;
 }
 
 div.document table.docutils td {
-    padding: 0 0.5em 0 0.25em;
-    vertical-align: top;
+  padding: 0 0.5em 0 0.25em;
+  vertical-align: top;
 }
 
 div.document table.docutils th {
-    padding: 0 0.5em 0 0.25em;
-    vertical-align: top;
+  padding: 0 0.5em 0 0.25em;
+  vertical-align: top;
 }
 
-/* Terminal selection highlight — simulates a cursor bar in fake NeoMutt screenshots */
+/* ── Terminal highlight ─────────────────────────────────────── */
 html[data-theme=light] .highlight .hll {
-  background-color: #1d5276;
-  color: #f0f0f0;
+  background-color: #005461;
+  color: #F4F4F4;
   display: block;
 }
 
 html[data-theme=dark] .highlight .hll {
-  background-color: #2874a6;
-  color: #f0f0f0;
+  background-color: #018790;
+  color: #F4F4F4;
   display: block;
 }
 
-/* Zebra-stripe table rows — light mode */
+/* ── Zebra-stripe table rows ────────────────────────────────── */
 html[data-theme=light] table.preview tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #e8f4f5;
 }
 
-/* Zebra-stripe table rows — dark mode */
 html[data-theme=dark] table.preview tbody tr:nth-child(even) {
-  background-color: #2a2a2a;
+  background-color: #0a2a2e;
 }
 
+/* ── Terminal preview window ────────────────────────────────── */
 .term-window {
   display: inline-block;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  box-shadow: 0 8px 24px rgba(0, 84, 97, 0.35);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
 .term-titlebar {
-  background: #303030;
+  background: #005461;
   height: 28px;
   display: flex;
   align-items: center;
@@ -95,7 +226,7 @@ html[data-theme=dark] table.preview tbody tr:nth-child(even) {
 }
 
 .term-titlebar .title {
-  color: #bbb;
+  color: #F4F4F4;
   font-size: 12px;
   font-weight: bold;
 }
@@ -120,63 +251,65 @@ html[data-theme=dark] table.preview tbody tr:nth-child(even) {
   color: #fff;
   white-space: pre;
   line-height: 1.35;
-  /* width: 106ch; */
-  /* height: 25lh; */
 }
 
-/* Theme: Dracula */
+/* ── Theme: Dracula ─────────────────────────────────────────── */
 .term-window[data-theme="dracula"] .terminal          { background: #282a36; }
 .term-window[data-theme="dracula"] .terminal .status  { background-color: #44475a; color: #f8f8f2; }
 .term-window[data-theme="dracula"] .terminal .header  { background-color: #282a36; color: #bd93f9; }
 .term-window[data-theme="dracula"] .terminal .normal  { background-color: #282a36; color: #f8f8f2; }
 .term-window[data-theme="dracula"] .terminal .sign    { background-color: #282a36; color: #ff79c6; }
 
-/* Theme: Solarized */
+/* ── Theme: Solarized ───────────────────────────────────────── */
 .term-window[data-theme="solarized"] .terminal          { background: #002b36; }
 .term-window[data-theme="solarized"] .terminal .status  { background-color: #073642; color: #eee8d5; }
 .term-window[data-theme="solarized"] .terminal .header  { background-color: #002b36; color: #b58900; }
 .term-window[data-theme="solarized"] .terminal .normal  { background-color: #002b36; color: #839496; }
 .term-window[data-theme="solarized"] .terminal .sign    { background-color: #002b36; color: #dc322f; }
 
-/* Theme: Neon */
+/* ── Theme: Neon ────────────────────────────────────────────── */
 .term-window[data-theme="neon"] .terminal          { background: #0a0a1a; }
 .term-window[data-theme="neon"] .terminal .status  { background-color: #1a0a2e; color: #ff2d95; }
 .term-window[data-theme="neon"] .terminal .header  { background-color: #0a0a1a; color: #39ff14; }
 .term-window[data-theme="neon"] .terminal .normal  { background-color: #0a0a1a; color: #00e5ff; }
 .term-window[data-theme="neon"] .terminal .sign    { background-color: #0a0a1a; color: #ffea00; }
 
-/* Theme: Gruvbox */
+/* ── Theme: Gruvbox ─────────────────────────────────────────── */
 .term-window[data-theme="gruvbox"] .terminal          { background: #282828; }
 .term-window[data-theme="gruvbox"] .terminal .status  { background-color: #3c3836; color: #ebdbb2; }
 .term-window[data-theme="gruvbox"] .terminal .header  { background-color: #282828; color: #d79921; }
 .term-window[data-theme="gruvbox"] .terminal .normal  { background-color: #282828; color: #ebdbb2; }
 .term-window[data-theme="gruvbox"] .terminal .sign    { background-color: #282828; color: #b8bb26; }
 
-/* Theme: Nord */
+/* ── Theme: Nord ────────────────────────────────────────────── */
 .term-window[data-theme="nord"] .terminal          { background: #2e3440; }
 .term-window[data-theme="nord"] .terminal .status  { background-color: #3b4252; color: #eceff4; }
 .term-window[data-theme="nord"] .terminal .header  { background-color: #2e3440; color: #81a1c1; }
 .term-window[data-theme="nord"] .terminal .normal  { background-color: #2e3440; color: #d8dee9; }
 .term-window[data-theme="nord"] .terminal .sign    { background-color: #2e3440; color: #a3be8c; }
 
-/* Theme: Monokai */
+/* ── Theme: Monokai ─────────────────────────────────────────── */
 .term-window[data-theme="monokai"] .terminal          { background: #272822; }
 .term-window[data-theme="monokai"] .terminal .status  { background-color: #3e3d32; color: #f8f8f2; }
 .term-window[data-theme="monokai"] .terminal .header  { background-color: #272822; color: #e6db74; }
 .term-window[data-theme="monokai"] .terminal .normal  { background-color: #272822; color: #f8f8f2; }
 .term-window[data-theme="monokai"] .terminal .sign    { background-color: #272822; color: #f92672; }
 
-/* Theme: Catppuccin */
+/* ── Theme: Catppuccin ──────────────────────────────────────── */
 .term-window[data-theme="catppuccin"] .terminal          { background: #1e1e2e; }
 .term-window[data-theme="catppuccin"] .terminal .status  { background-color: #313244; color: #cdd6f4; }
 .term-window[data-theme="catppuccin"] .terminal .header  { background-color: #1e1e2e; color: #cba6f7; }
 .term-window[data-theme="catppuccin"] .terminal .normal  { background-color: #1e1e2e; color: #cdd6f4; }
 .term-window[data-theme="catppuccin"] .terminal .sign    { background-color: #1e1e2e; color: #f38ba8; }
 
-/* Theme: Tokyo Night */
+/* ── Theme: Tokyo Night ─────────────────────────────────────── */
 .term-window[data-theme="tokyonight"] .terminal          { background: #1a1b26; }
 .term-window[data-theme="tokyonight"] .terminal .status  { background-color: #24283b; color: #c0caf5; }
 .term-window[data-theme="tokyonight"] .terminal .header  { background-color: #1a1b26; color: #7aa2f7; }
 .term-window[data-theme="tokyonight"] .terminal .normal  { background-color: #1a1b26; color: #a9b1d6; }
 .term-window[data-theme="tokyonight"] .terminal .sign    { background-color: #1a1b26; color: #f7768e; }
 
+/* ── Footer accent ──────────────────────────────────────────── */
+.bd-footer {
+  border-top: 3px solid #018790 !important;
+}

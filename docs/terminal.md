@@ -6,6 +6,11 @@ keywords: [neomutt, email, terminal, theme, preview]
 
 # Theme List
 
+Browse the full catalogue of NeoMutt colour themes below.
+Each row shows the theme name, download links for **TrueColor** and **256-colour** palette files, and a swatch preview of the foreground, background, cursor, selection, and 16 ANSI colours.
+
+Click a **truecolor** or **palette** link to download the `.rc` file, then `source` it in your `neomuttrc`.
+
 <table class="preview" style="position: left; padding 0.5em; margin: 0;">
 <thead>
 <tr>
