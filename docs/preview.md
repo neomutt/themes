@@ -26,6 +26,7 @@ Pick a theme from the dropdown or click a favourite to see a live preview of Neo
 <button class="fav-btn" data-theme="dracula">Dracula</button>
 <button class="fav-btn" data-theme="solarized">Solarized</button>
 <button class="fav-btn" data-theme="neon">Neon</button>
+<button class="fav-btn" id="random-btn">🎲 Random</button>
 
 <div class="term-window" data-theme="dracula">
   <div class="term-titlebar">
@@ -79,6 +80,10 @@ document.querySelectorAll('.fav-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
     setTheme(this.getAttribute('data-theme'));
   });
+});
+document.getElementById('random-btn').addEventListener('click', function() {
+  var options = Array.from(document.getElementById('theme-picker').options).map(function(o) { return o.value; });
+  setTheme(options[Math.floor(Math.random() * options.length)]);
 });
 var hash = window.location.hash.replace('#', '');
 if (hash) setTheme(hash);
