@@ -26,7 +26,7 @@ Pick a theme from the dropdown or click a favourite to see a live preview of Neo
 <button class="fav-btn" data-theme="dracula">Dracula</button>
 <button class="fav-btn" data-theme="solarized">Solarized</button>
 <button class="fav-btn" data-theme="neon">Neon</button>
-<button class="fav-btn" id="random-btn">🎲 Random</button>
+<button class="fav-btn" id="random-btn"><i class="fa-solid fa-shuffle"></i></i> Random</button>
 
 <div class="term-window" data-theme="dracula">
   <div class="term-titlebar">

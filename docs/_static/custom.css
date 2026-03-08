@@ -346,7 +346,6 @@ svg.fa-heart {
   align-items: center;
   gap: 0.3em;
   padding: 0.3em 0.8em;
-  border: 1px solid #d0636f;
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 600;
@@ -356,17 +355,17 @@ svg.fa-heart {
   white-space: nowrap;
 }
 
-.sponsor-link:hover {
-  background: #c00040;
+html[data-theme=light] .sponsor-link:hover {
+  background: #d04060;
   color: #fff;
 }
 
-.sponsor-heart {
+html[data-theme=light] .sponsor-heart {
   color: #c00040;
   font-size: 1.1em;
 }
 
-.sponsor-link:hover .sponsor-heart {
+html[data-theme=light] .sponsor-link:hover .sponsor-heart {
   color: #fff;
 }
 

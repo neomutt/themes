@@ -40,27 +40,8 @@ html_theme_options = {
     "repository_url": "https://github.com/neomutt/themes",
     "use_repository_button": True,
     "use_sidenotes": True,
-    "article_header_end": ["sponsor.html"],
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/neomutt/neomutt",
-            "icon": "fa-brands fa-github",
-            "type": "fontawesome",
-        },
-        {
-            "name": "Thanks",
-            "url": "https://neomutt.org/sponsor",
-            "icon": "fa-solid fa-heart",
-            "type": "fontawesome",
-        },
-        {
-            "name": "Twitter",
-            "url": "https://twitter.com/NeoMutt_Org",
-            "icon": "fa-brands fa-twitter",
-            "type": "fontawesome",
-        },
-    ],
+    "show_prev_next": False,
+    "article_header_end": ["stars.html", "sponsor.html", "twitter.html", "article-header-buttons.html"],
 }
 
 # -- Options for EPUB output
