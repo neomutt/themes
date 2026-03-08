@@ -331,3 +331,11 @@ html[data-theme=dark] table.preview tbody tr:nth-child(even) {
 .bd-footer {
   border-top: 3px solid #018790 !important;
 }
+
+svg.fa-twitter {
+   color: #55acee;
+}
+
+svg.fa-heart {
+   color: #c00000;
+}

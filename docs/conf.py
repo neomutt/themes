@@ -14,6 +14,7 @@ version = '0.1.0'
 extensions = [
     'myst_parser',
     'sphinx_design',
+    'sphinx_copybutton',
 ]
 
 myst_enable_extensions = [
@@ -36,6 +37,9 @@ html_theme_options = {
     "pygments_light_style": "gruvbox-light",
     "pygments_dark_style": "gruvbox-dark",
     "use_download_button": False,
+    "repository_url": "https://github.com/neomutt/themes",
+    "use_repository_button": True,
+    "use_sidenotes": True,
     "icon_links": [
         {
             "name": "GitHub",
@@ -44,7 +48,7 @@ html_theme_options = {
             "type": "fontawesome",
         },
         {
-            "name": "Sponsor",
+            "name": "Thanks",
             "url": "https://neomutt.org/sponsor",
             "icon": "fa-solid fa-heart",
             "type": "fontawesome",
@@ -68,4 +72,3 @@ html_context = {
     "github_version": "main",
     "conf_py_path": "/docs/",
 }
-
