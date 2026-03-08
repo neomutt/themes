@@ -19,7 +19,7 @@ keywords: [neomutt, email, theme, color]
   <p>See exactly how each theme will look in your terminal before you install it.</p>
 </a>
 
-<a href="terminal.html" class="feature-card">
+<a href="themes.html" class="feature-card">
   <img src="_static/icon-terminal-at.png" alt="Theme list">
   <h3>400+ Themes</h3>
   <p>A curated collection of TrueColor and 256-colour palettes sourced from popular terminal emulators.</p>
@@ -39,7 +39,7 @@ maxdepth: 2
 hidden: true
 ---
 preview.md
-terminal.md
+themes.md
 creating.md
 ```
 
@@ -48,7 +48,7 @@ creating.md
 ## How to Install a Theme
 
 1. Try the **[Live Preview](preview.md)** to see themes in action.
-2. Visit the **[Theme List](terminal.md)** and find a theme you like.
+2. Visit the **[Theme List](themes.md)** and find a theme you like.
 3. Click the **truecolor** or **palette** link to download the `.rc` file.
 4. Save it to your NeoMutt config directory (e.g. `~/.config/neomutt/`).
 5. Add a single line to your `neomuttrc`:
