@@ -40,7 +40,7 @@ html_theme_options = {
     "repository_url": "https://github.com/neomutt/themes",
     "use_repository_button": True,
     "use_sidenotes": True,
-    "navbar_end": ["navbar-icon-links", "sponsor.html"],
+    "article_header_end": ["sponsor.html"],
     "icon_links": [
         {
             "name": "GitHub",
