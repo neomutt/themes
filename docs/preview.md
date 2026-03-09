@@ -13,6 +13,12 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 <label for="theme-picker">Theme:</label>
 <select id="theme-picker" autofocus></select>
 
+<label>Favourites:</label>
+<button class="fav-btn" data-theme="ayu">Ayu</button>
+<button class="fav-btn" data-theme="dracula">Dracula</button>
+<button class="fav-btn" data-theme="neon">Neon</button>
+<button class="fav-btn" data-theme="solarized-dark-patched">Solarized</button>
+<button class="fav-btn" data-theme="zenburn">Zenburn</button>
 <button class="fav-btn" id="random-btn"><i class="fa-solid fa-shuffle"></i> Random</button>
 
 ## Index Dialog
@@ -151,6 +157,12 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 
   picker.addEventListener('change', function() {
     setTheme(this.value);
+  });
+
+  document.querySelectorAll('.fav-btn[data-theme]').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      setTheme(this.getAttribute('data-theme'));
+    });
   });
 
   document.getElementById('random-btn').addEventListener('click', function() {
