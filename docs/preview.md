@@ -121,6 +121,7 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 </pre>
 </div>
 
+<script src="/_static/theme-data.js"></script>
 <script>
 (function() {
   if (typeof themes === "undefined") return;

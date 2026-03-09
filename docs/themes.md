@@ -16,6 +16,7 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
 
 <div id="theme-grid" class="theme-grid"></div>
 
+<script src="/_static/theme-data.js"></script>
 <script>
 (function() {
   if (typeof themes === "undefined") return;
