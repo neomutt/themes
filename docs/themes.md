@@ -10,7 +10,7 @@ keywords: [neomutt, email, terminal, theme, preview]
 
 Browse the full catalogue of NeoMutt colour themes below.
 Each row shows the theme name, download links for **TrueColor** and **256-colour** palette files, and a swatch preview.
-The first four swatches are **special colours** (foreground, background, cursor, and selection), followed by the **16 ANSI palette colours** (black through white, normal and bright).
+The first bar shows the four **special colours** (foreground, background, cursor, and selection), followed by the **16 ANSI palette colours** (black through white, normal and bright).
 
 Click a **truecolor** or **palette** link to download the `.rc` file, then `source` it in your `neomuttrc`.
 
@@ -42,18 +42,27 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
   pool.style.right = "0";
   spacer.appendChild(pool);
 
-  // Pre-build gradient strings once
-  var gradients = new Array(themes.length);
+  // Pre-build gradient strings once (special + palette, separated)
+  var specialGrads = new Array(themes.length);
+  var paletteGrads = new Array(themes.length);
   for (var t = 0; t < themes.length; t++) {
-    var stops = [];
     var p = themes[t].p;
-    for (var i = 0; i < 20; i++) {
+    var sStops = [];
+    for (var i = 0; i < 4; i++) {
       var col = "#" + p.substr(i * 6, 6);
-      var lo = (i * 5).toFixed(1) + "%";
-      var hi = ((i + 1) * 5).toFixed(1) + "%";
-      stops.push(col + " " + lo + "," + col + " " + hi);
+      var lo = (i * 25).toFixed(1) + "%";
+      var hi = ((i + 1) * 25).toFixed(1) + "%";
+      sStops.push(col + " " + lo + "," + col + " " + hi);
     }
-    gradients[t] = "linear-gradient(to right," + stops.join(",") + ")";
+    specialGrads[t] = "linear-gradient(to right," + sStops.join(",") + ")";
+    var cStops = [];
+    for (var i = 0; i < 16; i++) {
+      var col = "#" + p.substr((i + 4) * 6, 6);
+      var lo = (i * 6.25).toFixed(2) + "%";
+      var hi = ((i + 1) * 6.25).toFixed(2) + "%";
+      cStops.push(col + " " + lo + "," + col + " " + hi);
+    }
+    paletteGrads[t] = "linear-gradient(to right," + cStops.join(",") + ")";
   }
 
   var lastStart = -1, lastEnd = -1;
@@ -80,7 +89,9 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
       html += '<a download href="/truecolor/' + enc + '.rc">truecolor</a>';
       html += '<a download href="/palette/' + enc + '.rc">palette</a>';
       html += '</span>';
-      html += '<span class="palette-bar" style="background:' + gradients[i] + '"></span>';
+      html += '<span class="palette-special" style="background:' + specialGrads[i] + '"></span>';
+      html += '<span class="palette-sep"></span>';
+      html += '<span class="palette-ansi" style="background:' + paletteGrads[i] + '"></span>';
       html += '</div>';
     }
     pool.innerHTML = html;

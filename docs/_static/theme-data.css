@@ -26,16 +26,17 @@ html[data-theme=dark] .theme-row:hover {
 }
 
 .theme-name {
-  min-width: 200px;
+  min-width: 250px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-weight: 500;
+  font-weight: 1000;
+  font-size: 1.2em;
 }
 
 .theme-links {
   display: flex;
-  gap: 6px;
+  gap: 8px;
   font-size: 0.85em;
   white-space: nowrap;
 }
@@ -49,11 +50,39 @@ html[data-theme=dark] .theme-row:hover {
   opacity: 1;
 }
 
-/* ── Colour swatch bar ───────────────────────────────────────── */
-.palette-bar {
-  flex: 1 1 0;
-  min-width: 200px;
+html[data-theme=light] .theme-links a:hover {
+  background: #000;
+  color: #fff;
+}
+
+html[data-theme=dark] .theme-links a:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ── Colour swatch bars ──────────────────────────────────────── */
+.palette-special,
+.palette-ansi {
   height: 16px;
   border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.palette-special {
+  width: 80px;
+}
+
+.palette-ansi {
+  flex: 1 1 0;
+  min-width: 160px;
+  max-width: 320px;
+}
+
+.palette-sep {
+  width: 1px;
+  height: 12px;
+  background: #888;
+  opacity: 0.4;
+  flex-shrink: 0;
 }
 
