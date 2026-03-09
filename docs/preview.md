@@ -8,25 +8,12 @@ keywords: [neomutt, email, theme, color, preview]
 
 <img src="_static/icon-terminal-mail.png" alt="" class="page-icon">
 
-Pick a theme from the dropdown or click a favourite to see a live preview of NeoMutt's Compose screen.
+Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Compose screens.
 
 <label for="theme-picker">Theme:</label>
-<select id="theme-picker" autofocus>
-  <option value="dracula" selected>Dracula</option>
-  <option value="solarized">Solarized</option>
-  <option value="neon">Neon</option>
-  <option value="gruvbox">Gruvbox</option>
-  <option value="nord">Nord</option>
-  <option value="monokai">Monokai</option>
-  <option value="catppuccin">Catppuccin</option>
-  <option value="tokyonight">Tokyo Night</option>
-</select>
+<select id="theme-picker" autofocus></select>
 
-<label>Favourites:</label>
-<button class="fav-btn" data-theme="dracula">Dracula</button>
-<button class="fav-btn" data-theme="solarized">Solarized</button>
-<button class="fav-btn" data-theme="neon">Neon</button>
-<button class="fav-btn" id="random-btn"><i class="fa-solid fa-shuffle"></i></i> Random</button>
+<button class="fav-btn" id="random-btn"><i class="fa-solid fa-shuffle"></i> Random</button>
 
 ## Index Dialog
 
@@ -129,26 +116,49 @@ Pick a theme from the dropdown or click a favourite to see a live preview of Neo
 </div>
 
 <script>
-function setTheme(theme) {
-  var picker = document.getElementById('theme-picker');
-  var options = Array.from(picker.options).map(function(o) { return o.value; });
-  if (options.indexOf(theme) === -1) return;
-  document.querySelector('.term-window').setAttribute('data-theme', theme);
-  picker.value = theme;
-  history.replaceState(null, '', '#' + theme);
-}
-document.getElementById('theme-picker').addEventListener('change', function() {
-  setTheme(this.value);
-});
-document.querySelectorAll('.fav-btn').forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    setTheme(this.getAttribute('data-theme'));
+(function() {
+  if (typeof themes === "undefined") return;
+
+  // Generate CSS variables for each theme (shared with themes page)
+  var cssVars = "";
+  themes.forEach(function(theme) {
+    cssVars += '[data-theme="' + theme.w + '"] {';
+    theme.s.forEach(function(s, i) { cssVars += "--s" + i + ":#" + s + ";"; });
+    theme.c.forEach(function(c, i) { cssVars += "--c" + i + ":#" + c + ";"; });
+    cssVars += "}\n";
   });
-});
-document.getElementById('random-btn').addEventListener('click', function() {
-  var options = Array.from(document.getElementById('theme-picker').options).map(function(o) { return o.value; });
-  setTheme(options[Math.floor(Math.random() * options.length)]);
-});
-var hash = window.location.hash.replace('#', '');
-if (hash) setTheme(hash);
+  var styleEl = document.createElement("style");
+  styleEl.textContent = cssVars;
+  document.head.appendChild(styleEl);
+
+  // Populate the dropdown from theme data
+  var picker = document.getElementById('theme-picker');
+  themes.forEach(function(theme) {
+    var opt = document.createElement('option');
+    opt.value = theme.w;
+    opt.textContent = theme.d;
+    picker.appendChild(opt);
+  });
+
+  function setTheme(slug) {
+    if (!picker.querySelector('option[value="' + slug + '"]')) return;
+    document.querySelectorAll('.term-window').forEach(function(el) {
+      el.setAttribute('data-theme', slug);
+    });
+    picker.value = slug;
+    history.replaceState(null, '', '#' + slug);
+  }
+
+  picker.addEventListener('change', function() {
+    setTheme(this.value);
+  });
+
+  document.getElementById('random-btn').addEventListener('click', function() {
+    var opts = Array.from(picker.options);
+    setTheme(opts[Math.floor(Math.random() * opts.length)].value);
+  });
+
+  var hash = window.location.hash.replace('#', '');
+  if (hash) setTheme(hash);
+})();
 </script>

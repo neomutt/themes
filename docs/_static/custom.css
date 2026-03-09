@@ -351,67 +351,18 @@ html[data-theme=dark] .sponsor-link:hover .sponsor-heart {
     }
 }
 
-/* ── Theme: Dracula ─────────────────────────────────────────── */
-.term-window[data-theme="dracula"] .terminal          { background: #282a36; }
-.term-window[data-theme="dracula"] .terminal .status  { background-color: #44475a; color: #f8f8f2; }
-.term-window[data-theme="dracula"] .terminal .header  { background-color: #282a36; color: #bd93f9; }
-.term-window[data-theme="dracula"] .terminal .normal  { background-color: #282a36; color: #f8f8f2; }
-.term-window[data-theme="dracula"] .terminal .sign    { background-color: #282a36; color: #ff79c6; }
+/* ── Preview terminal – uses CSS variables set by theme-data.js ── */
+.term-window .terminal          { background: var(--s1); }
+.term-window .terminal .status  { background-color: var(--s3); color: var(--s0); }
+.term-window .terminal .header  { background-color: var(--s1); color: var(--c4); }
+.term-window .terminal .normal  { background-color: var(--s1); color: var(--s0); }
+.term-window .terminal .sign    { background-color: var(--s1); color: var(--c5); }
 
-.term-window[data-theme="dracula"] .terminal .sb_background { background-color: #44475a;                 }
-.term-window[data-theme="dracula"] .terminal .sb_divider    { background-color: #44475a;                 }
-.term-window[data-theme="dracula"] .terminal .sb_flagged    {                            color: #ff8080; }
-.term-window[data-theme="dracula"] .terminal .sb_highlight  { background-color: #606060;                 }
-.term-window[data-theme="dracula"] .terminal .sb_indicator  { background-color: #24278a;                 }
-.term-window[data-theme="dracula"] .terminal .sb_new        {                            color: #ffff5a; }
-.term-window[data-theme="dracula"] .terminal .sb_ordinary   {                            color: #808080; }
-
-/* ── Theme: Solarized ───────────────────────────────────────── */
-.term-window[data-theme="solarized"] .terminal          { background: #002b36; }
-.term-window[data-theme="solarized"] .terminal .status  { background-color: #073642; color: #eee8d5; }
-.term-window[data-theme="solarized"] .terminal .header  { background-color: #002b36; color: #b58900; }
-.term-window[data-theme="solarized"] .terminal .normal  { background-color: #002b36; color: #839496; }
-.term-window[data-theme="solarized"] .terminal .sign    { background-color: #002b36; color: #dc322f; }
-
-/* ── Theme: Neon ────────────────────────────────────────────── */
-.term-window[data-theme="neon"] .terminal          { background: #0a0a1a; }
-.term-window[data-theme="neon"] .terminal .status  { background-color: #1a0a2e; color: #ff2d95; }
-.term-window[data-theme="neon"] .terminal .header  { background-color: #0a0a1a; color: #39ff14; }
-.term-window[data-theme="neon"] .terminal .normal  { background-color: #0a0a1a; color: #00e5ff; }
-.term-window[data-theme="neon"] .terminal .sign    { background-color: #0a0a1a; color: #ffea00; }
-
-/* ── Theme: Gruvbox ─────────────────────────────────────────── */
-.term-window[data-theme="gruvbox"] .terminal          { background: #282828; }
-.term-window[data-theme="gruvbox"] .terminal .status  { background-color: #3c3836; color: #ebdbb2; }
-.term-window[data-theme="gruvbox"] .terminal .header  { background-color: #282828; color: #d79921; }
-.term-window[data-theme="gruvbox"] .terminal .normal  { background-color: #282828; color: #ebdbb2; }
-.term-window[data-theme="gruvbox"] .terminal .sign    { background-color: #282828; color: #b8bb26; }
-
-/* ── Theme: Nord ────────────────────────────────────────────── */
-.term-window[data-theme="nord"] .terminal          { background: #2e3440; }
-.term-window[data-theme="nord"] .terminal .status  { background-color: #3b4252; color: #eceff4; }
-.term-window[data-theme="nord"] .terminal .header  { background-color: #2e3440; color: #81a1c1; }
-.term-window[data-theme="nord"] .terminal .normal  { background-color: #2e3440; color: #d8dee9; }
-.term-window[data-theme="nord"] .terminal .sign    { background-color: #2e3440; color: #a3be8c; }
-
-/* ── Theme: Monokai ─────────────────────────────────────────── */
-.term-window[data-theme="monokai"] .terminal          { background: #272822; }
-.term-window[data-theme="monokai"] .terminal .status  { background-color: #3e3d32; color: #f8f8f2; }
-.term-window[data-theme="monokai"] .terminal .header  { background-color: #272822; color: #e6db74; }
-.term-window[data-theme="monokai"] .terminal .normal  { background-color: #272822; color: #f8f8f2; }
-.term-window[data-theme="monokai"] .terminal .sign    { background-color: #272822; color: #f92672; }
-
-/* ── Theme: Catppuccin ──────────────────────────────────────── */
-.term-window[data-theme="catppuccin"] .terminal          { background: #1e1e2e; }
-.term-window[data-theme="catppuccin"] .terminal .status  { background-color: #313244; color: #cdd6f4; }
-.term-window[data-theme="catppuccin"] .terminal .header  { background-color: #1e1e2e; color: #cba6f7; }
-.term-window[data-theme="catppuccin"] .terminal .normal  { background-color: #1e1e2e; color: #cdd6f4; }
-.term-window[data-theme="catppuccin"] .terminal .sign    { background-color: #1e1e2e; color: #f38ba8; }
-
-/* ── Theme: Tokyo Night ─────────────────────────────────────── */
-.term-window[data-theme="tokyonight"] .terminal          { background: #1a1b26; }
-.term-window[data-theme="tokyonight"] .terminal .status  { background-color: #24283b; color: #c0caf5; }
-.term-window[data-theme="tokyonight"] .terminal .header  { background-color: #1a1b26; color: #7aa2f7; }
-.term-window[data-theme="tokyonight"] .terminal .normal  { background-color: #1a1b26; color: #a9b1d6; }
-.term-window[data-theme="tokyonight"] .terminal .sign    { background-color: #1a1b26; color: #f7768e; }
+.term-window .terminal .sb_background { background-color: var(--s3);              }
+.term-window .terminal .sb_divider    { background-color: var(--s3);              }
+.term-window .terminal .sb_flagged    {                           color: var(--c9); }
+.term-window .terminal .sb_highlight  { background-color: var(--c8);              }
+.term-window .terminal .sb_indicator  { background-color: var(--c4);              }
+.term-window .terminal .sb_new        {                           color: var(--c3); }
+.term-window .terminal .sb_ordinary   {                           color: var(--c8); }
 
