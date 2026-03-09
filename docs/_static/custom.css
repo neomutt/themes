@@ -287,6 +287,16 @@ html[data-theme=dark] table.preview tbody tr:nth-child(even) {
 .term-window[data-theme="dracula"] .terminal .normal  { background-color: #282a36; color: #f8f8f2; }
 .term-window[data-theme="dracula"] .terminal .sign    { background-color: #282a36; color: #ff79c6; }
 
+.term-window[data-theme="dracula"] .terminal .sign    { background-color: #282a36; color: #ff79c6; }
+
+.term-window[data-theme="dracula"] .terminal .sb_background { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_divider    { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_flagged    { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_highlight  { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_indicator  { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_new        { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_ordinary   { background-color: #282a36; color: #ff79c6; }
+
 /* ── Theme: Solarized ───────────────────────────────────────── */
 .term-window[data-theme="solarized"] .terminal          { background: #002b36; }
 .term-window[data-theme="solarized"] .terminal .status  { background-color: #073642; color: #eee8d5; }
@@ -394,4 +404,10 @@ html[data-theme=dark] .sponsor-link:hover {
 
 html[data-theme=dark] .sponsor-link:hover .sponsor-heart {
   color: #fff;
+}
+
+@media (max-width: 1500px) {
+    .margin {
+        display: none;
+    }
 }
