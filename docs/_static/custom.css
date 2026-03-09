@@ -292,15 +292,13 @@ html[data-theme=dark] table.preview tbody tr:nth-child(even) {
 .term-window[data-theme="dracula"] .terminal .normal  { background-color: #282a36; color: #f8f8f2; }
 .term-window[data-theme="dracula"] .terminal .sign    { background-color: #282a36; color: #ff79c6; }
 
-.term-window[data-theme="dracula"] .terminal .sign    { background-color: #282a36; color: #ff79c6; }
-
-.term-window[data-theme="dracula"] .terminal .sb_background { background-color: #282a36; color: #ff79c6; }
-.term-window[data-theme="dracula"] .terminal .sb_divider    { background-color: #282a36; color: #ff79c6; }
-.term-window[data-theme="dracula"] .terminal .sb_flagged    { background-color: #282a36; color: #ff79c6; }
-.term-window[data-theme="dracula"] .terminal .sb_highlight  { background-color: #282a36; color: #ff79c6; }
-.term-window[data-theme="dracula"] .terminal .sb_indicator  { background-color: #282a36; color: #ff79c6; }
-.term-window[data-theme="dracula"] .terminal .sb_new        { background-color: #282a36; color: #ff79c6; }
-.term-window[data-theme="dracula"] .terminal .sb_ordinary   { background-color: #282a36; color: #ff79c6; }
+.term-window[data-theme="dracula"] .terminal .sb_background { background-color: #44475a;                 }
+.term-window[data-theme="dracula"] .terminal .sb_divider    { background-color: #44475a;                 }
+.term-window[data-theme="dracula"] .terminal .sb_flagged    {                            color: #ff8080; }
+.term-window[data-theme="dracula"] .terminal .sb_highlight  { background-color: #606060;                 }
+.term-window[data-theme="dracula"] .terminal .sb_indicator  { background-color: #24278a;                 }
+.term-window[data-theme="dracula"] .terminal .sb_new        {                            color: #ffff5a; }
+.term-window[data-theme="dracula"] .terminal .sb_ordinary   {                            color: #808080; }
 
 /* ── Theme: Solarized ───────────────────────────────────────── */
 .term-window[data-theme="solarized"] .terminal          { background: #002b36; }

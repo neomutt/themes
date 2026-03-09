@@ -49,31 +49,31 @@ Pick a theme from the dropdown or click a favourite to see a live preview of Neo
     <span class="title">Index</span>
   </div>
   <pre class="terminal">
-<span class="sb_background sb_flagged">Inbox [2]        63</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background sb_ordinary">Fruit           146</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background sb_ordinary">  Apple         379</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_indicator sb_new">  Banana      3/131</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background sb_new">  Cherry      2/168</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_highlight sb_new">  Damson       2/62</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background sb_ordinary">  Endive        103</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background sb_ordinary">  Fig            66</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background sb_ordinary">  Guava         138</span><span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
-<span class="sb_background">                    <span class="sb_divider"> </span><span class="index">                                                                                                    </span>
+<span class="sb_background sb_flagged">Inbox [2]        63</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background sb_ordinary">Fruit           146</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background sb_ordinary">  Apple         379</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_indicator sb_new">  Banana      3/131</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background sb_new">  Cherry      2/168</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_highlight sb_new">  Damson       2/62</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background sb_ordinary">  Endive        103</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background sb_ordinary">  Fig            66</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background sb_ordinary">  Guava         138</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
 </pre>
 </div>
 
