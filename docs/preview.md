@@ -125,6 +125,16 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 (function() {
   if (typeof themes === "undefined") return;
 
+  // Unpack "p" into s (4 special) and c (16 ANSI) arrays
+  function unpack(theme) {
+    if (!theme._u) {
+      theme.s = []; theme.c = [];
+      for (var i = 0; i < 120; i += 6)
+        (i < 24 ? theme.s : theme.c).push(theme.p.substr(i, 6));
+      theme._u = true;
+    }
+  }
+
   // Build a lookup map for O(1) theme access
   var themeMap = {};
   themes.forEach(function(theme) { themeMap[theme.w] = theme; });
@@ -141,6 +151,7 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
   function setTheme(slug) {
     var theme = themeMap[slug];
     if (!theme) return;
+    unpack(theme);
     document.querySelectorAll('.term-window').forEach(function(el) {
       theme.s.forEach(function(s, i) { el.style.setProperty('--s' + i, '#' + s); });
       theme.c.forEach(function(c, i) { el.style.setProperty('--c' + i, '#' + c); });

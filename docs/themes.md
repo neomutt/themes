@@ -30,13 +30,14 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
     html += '<a download href="/truecolor/' + enc + '.rc">truecolor</a>';
     html += '<a download href="/palette/' + enc + '.rc">palette</a>';
     html += '</span>';
+    // Build gradient from packed colour string (20 colours × 6 hex chars)
     var stops = [];
-    var colors = theme.s.concat(theme.c);
-    var n = colors.length;
+    var n = 20;
     for (var i = 0; i < n; i++) {
+      var col = '#' + theme.p.substr(i * 6, 6);
       var lo = (i / n * 100).toFixed(1) + '%';
       var hi = ((i + 1) / n * 100).toFixed(1) + '%';
-      stops.push('#' + colors[i] + ' ' + lo + ',#' + colors[i] + ' ' + hi);
+      stops.push(col + ' ' + lo + ',' + col + ' ' + hi);
     }
     html += '<span class="palette-bar" style="background:linear-gradient(to right,' + stops.join(',') + ')"></span>';
     html += '</div>';
