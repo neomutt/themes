@@ -48,26 +48,11 @@ html[data-theme=dark] .theme-row:hover {
   opacity: 1;
 }
 
-/* ── Colour swatches ────────────────────────────────────────── */
-.palette {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 1px;
-  align-items: center;
-}
-
-.palette-sep {
-  width: 1px;
-  height: 12px;
-  margin: 0 10px;
-  background: #888;
-  opacity: 0.4;
-}
-
-.swatch {
-  width: 16px;
+/* ── Colour swatch bar ───────────────────────────────────────── */
+.palette-bar {
+  flex: 1 1 0;
+  min-width: 200px;
   height: 16px;
   border-radius: 2px;
-  flex-shrink: 0;
 }
 

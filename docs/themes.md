@@ -29,15 +29,17 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
     html += '<a href="/preview/#' + theme.w + '">preview</a>';
     html += '<a download href="/truecolor/' + enc + '.rc">truecolor</a>';
     html += '<a download href="/palette/' + enc + '.rc">palette</a>';
-    html += '</span><span class="palette">';
-    for (var i = 0; i < 4; i++) {
-      html += '<span class="swatch" style="background:#' + theme.s[i] + '"></span>';
+    html += '</span>';
+    var stops = [];
+    var colors = theme.s.concat(theme.c);
+    var n = colors.length;
+    for (var i = 0; i < n; i++) {
+      var lo = (i / n * 100).toFixed(1) + '%';
+      var hi = ((i + 1) / n * 100).toFixed(1) + '%';
+      stops.push('#' + colors[i] + ' ' + lo + ',#' + colors[i] + ' ' + hi);
     }
-    html += '<span class="palette-sep"></span>';
-    for (var i = 0; i < 16; i++) {
-      html += '<span class="swatch" style="background:#' + theme.c[i] + '"></span>';
-    }
-    html += '</span></div>';
+    html += '<span class="palette-bar" style="background:linear-gradient(to right,' + stops.join(',') + ')"></span>';
+    html += '</div>';
   });
   document.getElementById("theme-grid").innerHTML = html;
 })();
