@@ -1,9 +1,12 @@
 /* ── Theme grid layout ───────────────────────────────────────── */
 .theme-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
-  gap: 6px;
   font-size: 13px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+html[data-theme=dark] .theme-grid {
+  border-color: #333;
 }
 
 .theme-row {
@@ -11,9 +14,7 @@
   align-items: center;
   gap: 8px;
   padding: 4px 6px;
-  border-radius: 4px;
-  content-visibility: auto;
-  contain-intrinsic-size: auto 24px;
+  box-sizing: border-box;
 }
 
 html[data-theme=light] .theme-row:hover {
