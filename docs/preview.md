@@ -21,55 +21,6 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 <button class="fav-btn" data-theme="zenburn">Zenburn</button>
 <button class="fav-btn" id="random-btn"><i class="fa-solid fa-shuffle"></i> Random</button>
 
-## Index Dialog
-
-```{margin}
-##### Colours Used
-- `sidebar_background`
-- `sidebar_divider`
-- `sidebar_flagged`
-- `sidebar_highlight`
-- `sidebar_indicator`
-- `sidebar_new`
-- `sidebar_ordinary`
-```
-
-<div class="term-window" data-theme="dracula">
-  <div class="term-titlebar">
-    <span class="blob red"></span>
-    <span class="blob yellow"></span>
-    <span class="blob green"></span>
-    <span class="title">Index</span>
-  </div>
-  <pre class="terminal">
-<span class="sb_background sb_flagged">Inbox [2]        63</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background sb_ordinary">Fruit           146</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background sb_ordinary">  Apple         379</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_indicator sb_new">  Banana      3/131</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background sb_new">  Cherry      2/168</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_highlight sb_new">  Damson       2/62</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background sb_ordinary">  Endive        103</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background sb_ordinary">  Fig            66</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background sb_ordinary">  Guava         138</span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                X</span>
-</pre>
-</div>
-
 ## Compose Dialog
 
 ```{margin}
@@ -118,6 +69,55 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 <span class="normal">                                                                                                    </span>
 <span class="status">-- NeoMutt: Compose  [Approx. msg size: 4.1K   Atts: 2]---------------------------------------------</span>
 <span class="normal">                                                                                                    </span>
+</pre>
+</div>
+
+## Index Dialog
+
+```{margin}
+##### Colours Used
+- `sidebar_background`
+- `sidebar_divider`
+- `sidebar_flagged`
+- `sidebar_highlight`
+- `sidebar_indicator`
+- `sidebar_new`
+- `sidebar_ordinary`
+```
+
+<div class="term-window" data-theme="dracula">
+  <div class="term-titlebar">
+    <span class="blob red"></span>
+    <span class="blob yellow"></span>
+    <span class="blob green"></span>
+    <span class="title">Index</span>
+  </div>
+  <pre class="terminal">
+<span class="sb_background sb_flagged">Inbox [2]        63</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background sb_ordinary">Fruit           146</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background sb_ordinary">  Apple         379</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_indicator sb_new">  Banana      3/131</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background sb_new">  Cherry      2/168</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_highlight sb_new">  Damson       2/62</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background sb_ordinary">  Endive        103</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background sb_ordinary">  Fig            66</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background sb_ordinary">  Guava         138</span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
+<span class="sb_background">                   </span><span class="sb_divider"> </span><span class="index">                                                                                </span>
 </pre>
 </div>
 
