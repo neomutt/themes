@@ -201,15 +201,6 @@ html[data-theme=dark] th {
   color: #F4F4F4;
 }
 
-div.document table.docutils td {
-  padding: 0 0.5em 0 0.25em;
-  vertical-align: top;
-}
-
-div.document table.docutils th {
-  padding: 0 0.5em 0 0.25em;
-  vertical-align: top;
-}
 
 /* ── Terminal highlight ─────────────────────────────────────── */
 html[data-theme=light] .highlight .hll {
@@ -224,14 +215,6 @@ html[data-theme=dark] .highlight .hll {
   display: block;
 }
 
-/* ── Zebra-stripe table rows ────────────────────────────────── */
-html[data-theme=light] table.preview tbody tr:nth-child(even) {
-  background-color: #e8f4f5;
-}
-
-html[data-theme=dark] table.preview tbody tr:nth-child(even) {
-  background-color: #0a2a2e;
-}
 
 /* ── Terminal preview window ────────────────────────────────── */
 .term-window {
