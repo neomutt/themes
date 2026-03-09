@@ -21,6 +21,8 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 <button class="fav-btn" data-theme="zenburn">Zenburn</button>
 <button class="fav-btn" id="random-btn"><i class="fa-solid fa-shuffle"></i> Random</button>
 
+<div id="theme-summary" class="theme-summary"></div>
+
 ## Compose Dialog
 
 ```{margin}
@@ -149,6 +151,19 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
     picker.appendChild(opt);
   });
 
+  function buildGradient(p, start, count) {
+    var stops = [];
+    for (var i = 0; i < count; i++) {
+      var col = '#' + p.substr((start + i) * 6, 6);
+      var lo = (i / count * 100).toFixed(1) + '%';
+      var hi = ((i + 1) / count * 100).toFixed(1) + '%';
+      stops.push(col + ' ' + lo + ',' + col + ' ' + hi);
+    }
+    return 'linear-gradient(to right,' + stops.join(',') + ')';
+  }
+
+  var summary = document.getElementById('theme-summary');
+
   function setTheme(slug) {
     var theme = themeMap[slug];
     if (!theme) return;
@@ -159,6 +174,17 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
     });
     picker.value = slug;
     history.replaceState(null, '', '#' + slug);
+
+    var enc = encodeURIComponent(theme.d);
+    summary.innerHTML =
+      '<span class="theme-summary-name">' + theme.d + '</span>' +
+      '<span class="theme-summary-links">' +
+        '<a download href="/truecolor/' + enc + '.rc">truecolor</a>' +
+        '<a download href="/palette/' + enc + '.rc">palette</a>' +
+      '</span>' +
+      '<span class="palette-special" style="background:' + buildGradient(theme.p, 0, 4) + '"></span>' +
+      '<span class="palette-sep"></span>' +
+      '<span class="palette-ansi" style="background:' + buildGradient(theme.p, 4, 16) + '"></span>';
   }
 
   picker.addEventListener('change', function() {

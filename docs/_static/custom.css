@@ -349,3 +349,39 @@ html[data-theme=dark] .sponsor-link:hover .sponsor-heart {
 .term-window .terminal .sb_new        {                           color: var(--c3); }
 .term-window .terminal .sb_ordinary   {                           color: var(--c8); }
 
+/* ── Theme summary panel (preview page) ─────────────────────── */
+.theme-summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+  border: 1px solid #018790;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+html[data-theme=dark] .theme-summary {
+  border-color: #00B7B5;
+}
+
+.theme-summary-name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.theme-summary-links {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.theme-summary-links a {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.theme-summary-links a:hover {
+  opacity: 1;
+}
+
