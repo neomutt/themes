@@ -1,0 +1,89 @@
+/* ── Theme grid layout ───────────────────────────────────────── */
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+}
+
+.theme-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+html[data-theme=light] .theme-row:hover {
+  background: #e0f0f2;
+}
+
+html[data-theme=dark] .theme-row:hover {
+  background: #0e2a30;
+}
+
+.theme-name {
+  min-width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.theme-links {
+  display: flex;
+  gap: 6px;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
+
+.theme-links a {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.theme-links a:hover {
+  opacity: 1;
+}
+
+/* ── Colour swatches ────────────────────────────────────────── */
+.palette {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1px;
+  align-items: center;
+}
+
+.palette-sep {
+  width: 6px;
+}
+
+.swatch {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* Swatches reference the theme CSS variables */
+.special-0 { background-color: var(--s0); }
+.special-1 { background-color: var(--s1); }
+.special-2 { background-color: var(--s2); }
+.special-3 { background-color: var(--s3); }
+.color-0   { background-color: var(--c0); }
+.color-1   { background-color: var(--c1); }
+.color-2   { background-color: var(--c2); }
+.color-3   { background-color: var(--c3); }
+.color-4   { background-color: var(--c4); }
+.color-5   { background-color: var(--c5); }
+.color-6   { background-color: var(--c6); }
+.color-7   { background-color: var(--c7); }
+.color-8   { background-color: var(--c8); }
+.color-9   { background-color: var(--c9); }
+.color-10  { background-color: var(--c10); }
+.color-11  { background-color: var(--c11); }
+.color-12  { background-color: var(--c12); }
+.color-13  { background-color: var(--c13); }
+.color-14  { background-color: var(--c14); }
+.color-15  { background-color: var(--c15); }
