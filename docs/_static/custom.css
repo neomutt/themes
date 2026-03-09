@@ -280,6 +280,11 @@ html[data-theme=dark] table.preview tbody tr:nth-child(even) {
   line-height: 1.35;
 }
 
+.terminal span {
+  display: inline-block;
+  line-height: inherit;
+}
+
 /* ── Theme: Dracula ─────────────────────────────────────────── */
 .term-window[data-theme="dracula"] .terminal          { background: #282a36; }
 .term-window[data-theme="dracula"] .terminal .status  { background-color: #44475a; color: #f8f8f2; }
