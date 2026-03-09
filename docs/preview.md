@@ -178,6 +178,6 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 
   // Apply initial theme from hash or default to first
   var hash = window.location.hash.replace('#', '');
-  setTheme(hash || themes[0].w);
+  setTheme(hash || 'dracula');
 })();
 </script>
