@@ -125,17 +125,9 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 (function() {
   if (typeof themes === "undefined") return;
 
-  // Generate CSS variables for each theme (shared with themes page)
-  var cssVars = "";
-  themes.forEach(function(theme) {
-    cssVars += '[data-theme="' + theme.w + '"] {';
-    theme.s.forEach(function(s, i) { cssVars += "--s" + i + ":#" + s + ";"; });
-    theme.c.forEach(function(c, i) { cssVars += "--c" + i + ":#" + c + ";"; });
-    cssVars += "}\n";
-  });
-  var styleEl = document.createElement("style");
-  styleEl.textContent = cssVars;
-  document.head.appendChild(styleEl);
+  // Build a lookup map for O(1) theme access
+  var themeMap = {};
+  themes.forEach(function(theme) { themeMap[theme.w] = theme; });
 
   // Populate the dropdown from theme data
   var picker = document.getElementById('theme-picker');
@@ -147,9 +139,11 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
   });
 
   function setTheme(slug) {
-    if (!picker.querySelector('option[value="' + slug + '"]')) return;
+    var theme = themeMap[slug];
+    if (!theme) return;
     document.querySelectorAll('.term-window').forEach(function(el) {
-      el.setAttribute('data-theme', slug);
+      theme.s.forEach(function(s, i) { el.style.setProperty('--s' + i, '#' + s); });
+      theme.c.forEach(function(c, i) { el.style.setProperty('--c' + i, '#' + c); });
     });
     picker.value = slug;
     history.replaceState(null, '', '#' + slug);
@@ -170,7 +164,8 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
     setTheme(opts[Math.floor(Math.random() * opts.length)].value);
   });
 
+  // Apply initial theme from hash or default to first
   var hash = window.location.hash.replace('#', '');
-  if (hash) setTheme(hash);
+  setTheme(hash || themes[0].w);
 })();
 </script>

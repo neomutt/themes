@@ -20,64 +20,25 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
 (function() {
   if (typeof themes === "undefined") return;
 
-  // Generate CSS variables for each theme
-  var cssVars = "";
+  var html = "";
   themes.forEach(function(theme) {
-    cssVars += '[data-theme="' + theme.w + '"] {';
-    theme.s.forEach(function(s, i) { cssVars += "--s" + i + ":#" + s + ";"; });
-    theme.c.forEach(function(c, i) { cssVars += "--c" + i + ":#" + c + ";"; });
-    cssVars += "}\n";
-  });
-  var styleEl = document.createElement("style");
-  styleEl.textContent = cssVars;
-  document.head.appendChild(styleEl);
-
-  // Build the grid
-  var grid = document.getElementById("theme-grid");
-  themes.forEach(function(theme) {
-    var row = document.createElement("div");
-    row.className = "theme-row";
-    row.setAttribute("data-theme", theme.w);
-
-    // Theme name
-    var name = document.createElement("span");
-    name.className = "theme-name";
-    name.textContent = theme.d;
-    name.title = theme.d;
-    row.appendChild(name);
-
-    // Download links
-    var links = document.createElement("span");
-    links.className = "theme-links";
     var enc = encodeURIComponent(theme.d);
-    links.innerHTML =
-      '<a href="/preview/#' + theme.w + '">preview</a>' +
-      '<a download href="/truecolor/' + enc + '.rc">truecolor</a>' +
-      '<a download href="/palette/' + enc + '.rc">palette</a>';
-    row.appendChild(links);
-
-    // Colour swatches
-    var palette = document.createElement("span");
-    palette.className = "palette";
-
+    html += '<div class="theme-row">';
+    html += '<span class="theme-name" title="' + theme.d + '">' + theme.d + '</span>';
+    html += '<span class="theme-links">';
+    html += '<a href="/preview/#' + theme.w + '">preview</a>';
+    html += '<a download href="/truecolor/' + enc + '.rc">truecolor</a>';
+    html += '<a download href="/palette/' + enc + '.rc">palette</a>';
+    html += '</span><span class="palette">';
     for (var i = 0; i < 4; i++) {
-      var sw = document.createElement("span");
-      sw.className = "swatch special-" + i;
-      palette.appendChild(sw);
+      html += '<span class="swatch" style="background:#' + theme.s[i] + '"></span>';
     }
-
-    var sep = document.createElement("span");
-    sep.className = "palette-sep";
-    palette.appendChild(sep);
-
+    html += '<span class="palette-sep"></span>';
     for (var i = 0; i < 16; i++) {
-      var sw = document.createElement("span");
-      sw.className = "swatch color-" + i;
-      palette.appendChild(sw);
+      html += '<span class="swatch" style="background:#' + theme.c[i] + '"></span>';
     }
-
-    row.appendChild(palette);
-    grid.appendChild(row);
+    html += '</span></div>';
   });
+  document.getElementById("theme-grid").innerHTML = html;
 })();
 </script>
