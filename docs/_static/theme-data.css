@@ -1,9 +1,8 @@
 /* ── Theme grid layout ───────────────────────────────────────── */
 .theme-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
   gap: 6px;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
 }
 
@@ -24,7 +23,7 @@ html[data-theme=dark] .theme-row:hover {
 }
 
 .theme-name {
-  min-width: 160px;
+  min-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -56,7 +55,11 @@ html[data-theme=dark] .theme-row:hover {
 }
 
 .palette-sep {
-  width: 6px;
+  width: 1px;
+  height: 12px;
+  margin: 0 10px;
+  background: #888;
+  opacity: 0.4;
 }
 
 .swatch {

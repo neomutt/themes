@@ -9,7 +9,8 @@ keywords: [neomutt, email, terminal, theme, preview]
 <img src="_static/icon-terminal-at.png" alt="" class="page-icon">
 
 Browse the full catalogue of NeoMutt colour themes below.
-Each row shows the theme name, download links for **TrueColor** and **256-colour** palette files, and a swatch preview of the foreground, background, cursor, selection, and 16 ANSI colours.
+Each row shows the theme name, download links for **TrueColor** and **256-colour** palette files, and a swatch preview.
+The first four swatches are **special colours** (foreground, background, cursor, and selection), followed by the **16 ANSI palette colours** (black through white, normal and bright).
 
 Click a **truecolor** or **palette** link to download the `.rc` file, then `source` it in your `neomuttrc`.
 
@@ -50,6 +51,7 @@ Click a **truecolor** or **palette** link to download the `.rc` file, then `sour
     links.className = "theme-links";
     var enc = encodeURIComponent(theme.d);
     links.innerHTML =
+      '<a href="/preview/#' + theme.w + '">preview</a>' +
       '<a download href="/truecolor/' + enc + '.rc">truecolor</a>' +
       '<a download href="/palette/' + enc + '.rc">palette</a>';
     row.appendChild(links);
