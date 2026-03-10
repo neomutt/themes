@@ -334,6 +334,23 @@ html[data-theme=dark] .sponsor-link:hover .sponsor-heart {
     }
 }
 
+/* ── Index page screenshot – Dayfox (light) / Zenburn (dark) ──── */
+html[data-theme=light] .index-preview {
+  --s0: #3d2b5a; --s1: #f6f2ee; --s2: #3d2b5a; --s3: #e7d2be;
+  --c0: #352c24; --c1: #a5222f; --c2: #396847; --c3: #ac5402;
+  --c4: #2848a9; --c5: #6e33ce; --c6: #287980; --c7: #bfb6ae;
+  --c8: #534c45; --c9: #b3434e; --c10: #577f63; --c11: #b86e28;
+  --c12: #4863b6; --c13: #8452d5; --c14: #488d93; --c15: #f4ece6;
+}
+
+html[data-theme=dark] .index-preview {
+  --s0: #f0e4cf; --s1: #404040; --s2: #f3eadb; --s3: #746956;
+  --c0: #404040; --c1: #e3716e; --c2: #819b69; --c3: #b77e64;
+  --c4: #6099c0; --c5: #b279a7; --c6: #66a5ad; --c7: #f0e4cf;
+  --c8: #6f6768; --c9: #ec8685; --c10: #8bae68; --c11: #d68c67;
+  --c12: #61abda; --c13: #cf86c1; --c14: #65b8c1; --c15: #c0ab86;
+}
+
 /* ── Preview terminal – uses CSS variables set by theme-data.js ── */
 .term-window .terminal          { background: var(--s1); }
 .term-window .terminal .status  { background-color: var(--s3); color: var(--s0); }
