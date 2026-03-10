@@ -184,7 +184,7 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 
   function setTheme(slug) {
     var theme = themeMap[slug];
-    if (!theme) return;
+    if (!theme) return false;
     unpack(theme);
     document.querySelectorAll('.term-window').forEach(function(el) {
       theme.s.forEach(function(s, i) { el.style.setProperty('--s' + i, '#' + s); });
@@ -223,6 +223,6 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
 
   // Apply initial theme from hash or default to first
   var hash = window.location.hash.replace('#', '');
-  setTheme(hash || 'dracula');
+  if (!setTheme(hash)) setTheme('dracula');
 })();
 </script>
