@@ -43,7 +43,8 @@ html_theme_options = {
     "use_repository_button": True,
     "use_sidenotes": True,
     "show_prev_next": False,
-    "article_header_end": ["stars.html", "sponsor.html", "twitter.html", "article-header-buttons.html"],
+    # "article_header_start": ["breadcrumbs.html", "toggle-primary-sidebar.html", "devel.html"],
+    # "article_header_end": ["stars.html", "sponsor.html", "twitter.html", "article-header-buttons.html"],
 }
 
 # -- Options for EPUB output
