@@ -352,6 +352,7 @@ html[data-theme=dark] .sponsor-link:hover .sponsor-heart {
 /* ── Theme summary panel (preview page) ─────────────────────── */
 .theme-summary {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
   padding: 0.6rem 1rem;
@@ -370,18 +371,25 @@ html[data-theme=dark] .theme-summary {
   white-space: nowrap;
 }
 
-.theme-summary-links {
+.theme-summary-downloads {
+  width: 100%;
   display: flex;
+  align-items: center;
   gap: 8px;
   white-space: nowrap;
 }
 
-.theme-summary-links a {
+.theme-summary-downloads label {
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.theme-summary-downloads a {
   text-decoration: none;
   opacity: 0.75;
 }
 
-.theme-summary-links a:hover {
+.theme-summary-downloads a:hover {
   opacity: 1;
 }
 

@@ -178,13 +178,14 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
     var enc = encodeURIComponent(theme.d);
     summary.innerHTML =
       '<span class="theme-summary-name">' + theme.d + '</span>' +
-      '<span class="theme-summary-links">' +
-        '<a download href="/truecolor/' + enc + '.rc">truecolor</a>' +
-        '<a download href="/palette/' + enc + '.rc">palette</a>' +
-      '</span>' +
       '<span class="palette-special" style="background:' + buildGradient(theme.p, 0, 4) + '"></span>' +
       '<span class="palette-sep"></span>' +
-      '<span class="palette-ansi" style="background:' + buildGradient(theme.p, 4, 16) + '"></span>';
+      '<span class="palette-ansi" style="background:' + buildGradient(theme.p, 4, 16) + '"></span>' +
+      '<div class="theme-summary-downloads">' +
+        '<label>Downloads:</label>' +
+        '<a download href="/truecolor/' + enc + '.rc">truecolor</a>' +
+        '<a download href="/palette/' + enc + '.rc">palette</a>' +
+      '</div>';
   }
 
   picker.addEventListener('change', function() {
