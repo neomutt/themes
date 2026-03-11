@@ -366,18 +366,18 @@ html[data-theme=dark] .index-preview {
 .term-window .terminal .sb_new        {                              color: var(--c3); }
 .term-window .terminal .sb_ordinary   {                              color: var(--c8); }
 
-.term-window .terminal .indicator       { background-color: var(--c1);                   }
-.term-window .terminal .normal          { background-color: var(--c1); color: var(--c2); }
-.term-window .terminal .tree            {                              color: var(--c2); }
+/* .term-window .terminal .indicator       { background-color: var(--c1);                   } */
+/* .term-window .terminal .normal          { background-color: var(--c1); color: var(--c2); } */
+/* .term-window .terminal .tree            {                              color: var(--c2); } */
 
-.term-window .terminal .index           {                                                 }
-.term-window .terminal .index_collapsed {                               color: var(--c5); }
-.term-window .terminal .index_author    { background-color: var(--c10);                   }
-.term-window .terminal .index_date      { background-color: var(--c10);                   }
-.term-window .terminal .index_flags     { background-color: var(--c10);                   }
-.term-window .terminal .index_number    { background-color: var(--c10);                   }
-.term-window .terminal .index_size      { background-color: var(--c10);                   }
-.term-window .terminal .index_subject   { background-color: var(--c10);                   }
+/* .term-window .terminal .index           {                                                 } */
+/* .term-window .terminal .index_collapsed {                               color: var(--c5); } */
+/* .term-window .terminal .index_author    { background-color: var(--c10);                   } */
+/* .term-window .terminal .index_date      { background-color: var(--c10);                   } */
+/* .term-window .terminal .index_flags     { background-color: var(--c10);                   } */
+/* .term-window .terminal .index_number    { background-color: var(--c10);                   } */
+/* .term-window .terminal .index_size      { background-color: var(--c10);                   } */
+/* .term-window .terminal .index_subject   { background-color: var(--c10);                   } */
 
 /* ── Theme summary panel (preview page) ─────────────────────── */
 .theme-summary {
@@ -423,3 +423,27 @@ html[data-theme=dark] .theme-summary {
   opacity: 1;
 }
 
+.devel-warning {
+  padding: 0 0.5em 0 0.5em;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  background: #ffaf4d;
+  color: #000;
+  border: 1px solid black;
+}
+
+/* ── Article header toolbar — force horizontal flex layout ─── */
+.header-article-items__end, .header-article-items__start {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-article-items__end .header-article-item,
+.header-article-items__start .header-article-item {
+{
+  display: flex !important;
+  align-items: center;
+}

@@ -43,17 +43,19 @@ html_theme_options = {
     "use_repository_button": True,
     "use_sidenotes": True,
     "show_prev_next": False,
-    # "article_header_start": ["breadcrumbs.html", "toggle-primary-sidebar.html", "devel.html"],
-    # "article_header_end": ["stars.html", "sponsor.html", "twitter.html", "article-header-buttons.html"],
+    "article_header_start": ["toggle-primary-sidebar.html", "devel.html"],
+    "article_header_end": ["livesite.html", "stars.html", "sponsor.html", "twitter.html", "article-header-buttons.html"],
 }
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
+import os
 html_context = {
     "display_github": True,
     "github_user": "neomutt",
     "github_repo": "themes",
     "github_version": "main",
     "conf_py_path": "/docs/",
+    "is_local_build": "READTHEDOCS" not in os.environ,
 }
