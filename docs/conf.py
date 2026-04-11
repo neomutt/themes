@@ -18,6 +18,12 @@ extensions = [
 ]
 
 myst_enable_extensions = [
+    'attrs_inline',
+    'colon_fence',
+    'deflist',
+    'fieldlist',
+    'smartquotes',
+    'tasklist',
     'colon_fence',
 ]
 
@@ -35,12 +41,16 @@ html_title = "NeoMutt Themes"
 html_favicon = "_static/favicon.png"
 
 html_theme_options = {
-    "max_navbar_depth": 2,
+    "show_navbar_depth": 2,
+    "max_navbar_depth": 4,
     "pygments_light_style": "gruvbox-light",
     "pygments_dark_style": "gruvbox-dark",
     "use_download_button": False,
     "repository_url": "https://github.com/neomutt/themes",
+    "repository_branch": "main",
     "use_repository_button": True,
+    "use_edit_page_button": True,
+    "use_issues_button": True,
     "use_sidenotes": True,
     "show_prev_next": False,
     "article_header_start": ["toggle-primary-sidebar.html", "devel.html"],
