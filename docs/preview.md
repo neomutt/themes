@@ -192,6 +192,7 @@ Pick a theme from the dropdown to see a live preview of NeoMutt's Index and Comp
     });
     picker.value = slug;
     history.replaceState(null, '', '#' + slug);
+    return true;
 
     var enc = encodeURIComponent(theme.d);
     summary.innerHTML =
